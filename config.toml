@@ -20,9 +20,6 @@
 #- python-setuptools:
 #    macros:
 #      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
-#- python-wheel:
-#    macros:
-#      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
 #- python-pip:
 #    macros:
 #      %global _without_tests 1
