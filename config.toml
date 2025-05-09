@@ -26,7 +26,7 @@
 #- python-pip:
 #    macros:
 #      %global _without_tests 1
-#      %global _without_doc 1
+#      %global _without_man 1
 #- python-setuptools:
 #    macros:
 #      %global _without_tests 1
@@ -96,7 +96,7 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-pip]]
-withouts = ["tests", "doc"]
+withouts = ["tests", "man"]
 
 [[bconds.python-six]]
 withouts = ["tests"]
