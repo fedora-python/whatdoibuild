@@ -552,6 +552,21 @@ withouts = ["tests"]
 [[bconds."python-django4.2"]]
 withouts = ["tests"]
 
+[[bconds.python-pyproject-hooks]]
+withouts = ["tests"]
+
+[[bconds.python-Automat]]
+withouts = ["doc"]
+
+[[bconds.python-psutil]]
+withouts = ["xdist"]
+
+[[bconds.python-apkinspector]]
+withs = ["bootstrap"]
+
+[[bconds.python-androguard]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
