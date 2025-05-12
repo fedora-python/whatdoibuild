@@ -24,9 +24,6 @@
 #    macros:
 #      %global _without_tests 1
 #      %global _without_man 1
-#- python-setuptools:
-#    macros:
-#      %global _without_tests 1
 #- pyparsing:  # python BuildRequires systemtap-sdt-devel Requires pyparsing
 #    macros:
 #      %global _without_tests 1
@@ -84,7 +81,6 @@ metadata_expire = 60
 [bconds]
 [[bconds.python-setuptools]]
 withs = ["bootstrap"]
-withouts = ["tests"]
 
 [[bconds.python-packaging]]
 withs = ["bootstrap"]
