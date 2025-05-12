@@ -507,9 +507,6 @@ withouts = ["tests"]
 [[bconds.python-dask]]
 withs = ["bootstrap"]
 
-[[bconds.python-dask-expr]]
-withs = ["bootstrap"]
-
 [[bconds.python-build]]
 withouts = ["uv"]
 
