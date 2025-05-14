@@ -16,10 +16,10 @@ mrchem
 nextpnr
 nwchem
 poezio
-powerline
 python-pyside6
 pysubnettree
 python-aioesphomeapi
+python-aiolimiter
 python-aiosmtpd
 python-aiounittest
 python-apsw
@@ -37,7 +37,6 @@ python-beartype
 python-billiard
 python-blinker
 bluechi
-pycairo
 capstone
 python-capturer
 python-catkin_tools
@@ -68,6 +67,7 @@ python-dunamai
 python-et_xmlfile
 python3-exiv2
 python-giacpy
+pygobject3
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 h5py
