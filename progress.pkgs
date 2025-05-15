@@ -2,7 +2,6 @@ asv
 avogadro2-libs
 binwalk
 borgbackup
-cekit
 ceph
 chirp
 claws-mail
@@ -20,6 +19,7 @@ mrchem
 poezio
 python-pyside6
 pysubnettree
+ProDy
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
@@ -35,7 +35,7 @@ python-axolotl
 python-beancount
 python-beartype
 python-billiard
-python-biopython
+python-bioframe
 python-blinker
 bluechi
 capstone
@@ -90,10 +90,7 @@ python-libcst:docs-tests::::
 python-loguru
 python-lz4
 python-makefun
-python-markdown-callouts
 python-markups
-python-mkdocs-gen-files
-python-mkdocs-literate-nav
 python-msal
 python-msgspec
 python-notify2
@@ -145,7 +142,6 @@ python-timeout-decorator
 python-toolz
 python-tornado
 python-trio
-python-trml2pdf
 python-txaio
 python-typeguard
 python-typing-inspect
@@ -160,7 +156,6 @@ python-wordcloud
 python-yappi
 python-zict
 rpm-head-signing
-trelby
 ufw
 xpra
 zeek
