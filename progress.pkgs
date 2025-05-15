@@ -1,3 +1,4 @@
+arbor
 asv
 avogadro2-libs
 binwalk
@@ -87,6 +88,7 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
+python-missingno
 python-msal
 python-msgspec
 python-notify2
@@ -128,7 +130,6 @@ python-rpds-py
 python-rstcheck
 python-rx
 satyr
-python-seaborn
 signon-glib
 python-sqlalchemy1.4
 python-ssh-python
