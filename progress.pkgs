@@ -70,7 +70,6 @@ python-faker
 python-fsleyes-widgets
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
-gpaw
 python-gphoto2
 python-graph-tool
 h5py
@@ -90,7 +89,6 @@ python-makefun
 python-markups
 python-msal
 python-msgspec
-python-neurotune
 python-notify2
 python-numexpr
 onnx
@@ -102,7 +100,6 @@ petsc
 python-pipdeptree
 python-pkginfo2
 python-priority
-python-proton-vpn-network-manager
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -131,10 +128,10 @@ python-rpds-py
 python-rstcheck
 python-rx
 satyr
+python-seaborn
 signon-glib
 python-sqlalchemy1.4
 python-ssh-python
-python-statsmodels
 python-stdlibs
 subversion
 python-telnetlib3
