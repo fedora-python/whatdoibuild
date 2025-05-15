@@ -15,6 +15,7 @@ gnofract4d
 ikiwiki
 kmymoney
 libpeas
+linkchecker
 linode-cli
 mrchem
 poezio
@@ -63,10 +64,12 @@ python-django-configurations
 python-django-contrib-comments
 python-django-debreach
 python-django-filter
+python-dkimpy
 dlib
-python-dns:curio-doh-trio::::
 python-dunamai
+python-email-validator
 python-et_xmlfile
+python-etcd
 python3-exiv2
 python-faker
 python-fsleyes-widgets
@@ -81,10 +84,13 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
+freeipa
 python-janus
 python-jiter
 python-josepy
+python-kdcproxy
 python-libcst:docs-tests::::
+python-localzone
 python-loguru
 python-lz4
 python-makefun
@@ -131,6 +137,7 @@ python-rstcheck
 python-rx
 satyr
 signon-glib
+snallygaster
 python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
