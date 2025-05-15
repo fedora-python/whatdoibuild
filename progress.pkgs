@@ -1,4 +1,3 @@
-Macaulay2
 avogadro2-libs
 binwalk
 borgbackup
@@ -12,13 +11,10 @@ ephemeral-port-reserve
 git-filter-repo
 gnofract4d
 ikiwiki
-insight
 kmymoney
-lammps
 libpeas
 linode-cli
 mrchem
-nwchem
 poezio
 python-pyside6
 pysubnettree
@@ -40,7 +36,6 @@ python-beartype
 python-billiard
 python-blinker
 bluechi
-python-cairosvg
 capstone
 python-capturer
 python-catkin_tools
@@ -71,6 +66,7 @@ python-dunamai
 python-et_xmlfile
 python3-exiv2
 python-faker
+python-fsleyes-widgets
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
@@ -85,18 +81,15 @@ python-janus
 python-jiter
 python-josepy
 python-libcst:docs-tests::::
-libxc
 python-loguru
 python-lz4
 python-makefun
 python-markups
-python-matplotlib
 python-msal
 python-msgspec
 python-notify2
 python-numexpr
 onnx
-onnxruntime
 openmeeg
 python-paginate
 python-pamela
@@ -154,6 +147,7 @@ python-valkey
 vtk
 weasyprint
 python-webob
+python-wordcloud
 python-yappi
 python-zict
 rpm-head-signing
