@@ -1,3 +1,4 @@
+apx
 asv
 avogadro2-libs
 binwalk
@@ -36,6 +37,7 @@ python-beartype
 python-billiard
 python-blinker
 bluechi
+python-box
 capstone
 python-capturer
 python-catkin_tools
@@ -52,6 +54,7 @@ python-crick
 cvc5
 python-cvxopt
 python-dataclassy
+python-dateparser
 python-dbus-next
 dftd4
 python-diff-cover
@@ -81,6 +84,7 @@ python-inject
 python-injector
 python-invoke
 python-janus
+jc
 python-jiter
 python-josepy
 python-libcst:docs-tests::::
@@ -108,6 +112,7 @@ python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
 pyflakes
+python-pykwalify
 pylibacl
 python-pymdown-extensions
 python-pymeeus
@@ -118,12 +123,15 @@ pyserial-asyncio
 pysnmp
 python-pytesseract
 python-pytest-aiohttp
+python-pytest-golden
+python-pytest-param-files
 python-pyupgrade
 python-pyvlx
 python-reactivex
 python-recordclass
 python-redis
 python-remoto
+python-reportlab
 python-rosdep
 python-rpds-py
 python-rstcheck
