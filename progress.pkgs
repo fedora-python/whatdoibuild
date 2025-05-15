@@ -26,7 +26,6 @@ python-apsw
 python-astdoc
 python-astroid
 python-asyncssh
-python-authheaders
 python-autocommand
 python-autopage
 python-avocado
@@ -81,7 +80,6 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-freeipa-desktop-profile
 python-janus
 python-jiter
 python-josepy
@@ -152,7 +150,6 @@ vtk
 weasyprint
 python-webob
 python-wordcloud
-python-wtforms
 python-yappi
 python-zict
 rpm-head-signing
