@@ -19,7 +19,6 @@ mrchem
 poezio
 python-pyside6
 pysubnettree
-ProDy
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
@@ -35,7 +34,6 @@ python-axolotl
 python-beancount
 python-beartype
 python-billiard
-python-bioframe
 python-blinker
 bluechi
 capstone
