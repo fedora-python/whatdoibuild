@@ -1,4 +1,3 @@
-arbor
 asv
 avogadro2-libs
 binwalk
@@ -15,7 +14,6 @@ gnofract4d
 ikiwiki
 kmymoney
 libpeas
-linkchecker
 linode-cli
 mrchem
 poezio
@@ -28,6 +26,7 @@ python-apsw
 python-astdoc
 python-astroid
 python-asyncssh
+python-authheaders
 python-autocommand
 python-autopage
 python-avocado
@@ -64,10 +63,8 @@ python-django-configurations
 python-django-contrib-comments
 python-django-debreach
 python-django-filter
-python-dkimpy
 dlib
 python-dunamai
-python-email-validator
 python-et_xmlfile
 python-etcd
 python3-exiv2
@@ -84,13 +81,11 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-freeipa
+freeipa-desktop-profile
 python-janus
 python-jiter
 python-josepy
-python-kdcproxy
 python-libcst:docs-tests::::
-python-localzone
 python-loguru
 python-lz4
 python-makefun
@@ -137,7 +132,6 @@ python-rstcheck
 python-rx
 satyr
 signon-glib
-snallygaster
 python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
@@ -158,9 +152,11 @@ vtk
 weasyprint
 python-webob
 python-wordcloud
+python-wtforms
 python-yappi
 python-zict
 rpm-head-signing
 ufw
 xpra
 zeek
+python3-docs
