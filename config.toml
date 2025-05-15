@@ -563,6 +563,9 @@ withs = ["bootstrap"]
 [[bconds.python-androguard]]
 withs = ["bootstrap"]
 
+[[bconds.python-service-identity]]
+withouts = ["docs"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
