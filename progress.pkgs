@@ -21,7 +21,6 @@ poezio
 python-pyside6
 pysubnettree
 python-aioesphomeapi
-python-aioquic
 python-aiosmtpd
 python-aiounittest
 python-apsw
@@ -65,6 +64,7 @@ python-django-contrib-comments
 python-django-debreach
 python-django-filter
 dlib
+python-dns:curio-doh-trio::::
 python-dunamai
 python-et_xmlfile
 python3-exiv2
@@ -140,7 +140,6 @@ python-timeout-decorator
 python-toolz
 python-tornado
 python-trio
-python-trustme
 python-txaio
 python-typeguard
 python-typing-inspect
