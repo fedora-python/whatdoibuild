@@ -73,10 +73,10 @@ python-fsleyes-widgets
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
-python-graph-tool
 h5py
 python-hamcrest
 python-hl7
+python-igraph
 python-iniparse
 python-inject
 python-injector
