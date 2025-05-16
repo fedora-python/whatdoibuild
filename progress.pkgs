@@ -61,7 +61,6 @@ python-dill
 root
 python-django-configurations
 python-django-contrib-comments
-python-django-debreach
 python-django-filter
 dlib
 python-dunamai
@@ -76,7 +75,6 @@ python-gphoto2
 h5py
 python-hamcrest
 python-hl7
-python-igraph
 python-iniparse
 python-inject
 python-injector
@@ -94,12 +92,10 @@ python-msgspec
 python-notify2
 python-numexpr
 onnx
-openmeeg
 python-paginate
 python-pamela
 patool
 petsc
-python-pipdeptree
 python-pkginfo2
 python-priority
 python-pudb
@@ -116,7 +112,7 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-pysnmp
+python-pysnmp-mibs
 python-pytesseract
 python-pytest-aiohttp
 python-pyupgrade
@@ -132,7 +128,6 @@ python-rx
 satyr
 signon-glib
 python-sqlalchemy1.4
-python-ssh-python
 python-stdlibs
 subversion
 python-telnetlib3
