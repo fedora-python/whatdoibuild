@@ -9,6 +9,7 @@ diceware
 did
 ephemeral-port-reserve
 git-filter-repo
+gmsh
 gnofract4d
 ikiwiki
 kicad
@@ -16,7 +17,6 @@ kmymoney
 libpeas
 linode-cli
 mrchem
-netgen-mesher
 poezio
 python-pyside6
 pysubnettree
@@ -83,13 +83,10 @@ python-janus
 python-jiter
 python-josepy
 python-libcst:docs-tests::::
-libfreenect
-libopenshot
 python-loguru
 python-lz4
 python-makefun
 python-markups
-mlt
 python-msal
 python-msgspec
 python-notify2
@@ -144,7 +141,6 @@ python-typing-inspection
 python-uvloop
 uwsgi
 python-valkey
-python-vedo
 weasyprint
 python-webob
 python-wordcloud
