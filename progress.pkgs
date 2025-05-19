@@ -4,6 +4,7 @@ binwalk
 borgbackup
 ceph
 chirp
+llvm
 criu
 diceware
 did
@@ -86,7 +87,6 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
-python-mdit-py-plugins
 python-msal
 python-msgspec
 python-notify2
@@ -106,16 +106,19 @@ python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
 pyflakes
+python-pygtkspellcheck
 pylibacl
 python-pymdown-extensions
 python-pymeeus
 python-pyopencl
 python-pyopengl
+python-pypdf
 pyproj
 pyserial-asyncio
 python-pytesseract
 python-pyupgrade
 python-pyvlx
+python-rdflib
 python-reactivex
 python-recordclass
 python-redis
@@ -127,6 +130,7 @@ python-rstcheck
 python-rx
 satyr
 signon-glib
+python-sphinx-design
 python-sqlalchemy1.4
 python-stdlibs
 subversion
@@ -148,7 +152,6 @@ python-wordcloud
 python-yappi
 python-zict
 rpm-head-signing
-spectrographic
 ufw
 xpra
 zeek
