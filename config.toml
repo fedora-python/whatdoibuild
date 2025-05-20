@@ -411,7 +411,7 @@ withs = ["bootstrap"]
 withouts = ["docs", "tests"]
 
 [[bconds.python-executing]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-editables]]
 withouts = ["doc"]
