@@ -9,9 +9,7 @@ llvm
 criu
 diceware
 did
-dnfdragora
 ephemeral-port-reserve
-f3d
 git-filter-repo
 gmsh
 gnofract4d
@@ -23,16 +21,13 @@ linode-cli
 mrchem
 ocrmypdf
 poezio
-prunerepo
 python-pyside6
 pysubnettree
-YafaRay
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
 python-apsw
 python-astdoc
-python-asttokens
 python-asyncssh
 python-autocommand
 python-autopage
@@ -75,6 +70,7 @@ espresso
 python-et_xmlfile
 python-etcd
 python-exdir
+python-executing::bootstrap:::
 python3-exiv2
 python-fs
 python-fsleyes-widgets
@@ -139,7 +135,6 @@ python-rstcheck
 python-rx
 satyr
 signon-glib
-python-sphinx-autoapi
 python-sqlalchemy1.4
 python-stdlibs
 subversion
@@ -148,7 +143,6 @@ python-textual
 python-timeout-decorator
 python-toolz
 python-tornado
-tracer
 python-trio
 python-txaio
 python-typeguard
