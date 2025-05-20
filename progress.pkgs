@@ -77,6 +77,7 @@ python-etcd
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-fastrand
 python-fs
 python-fsleyes-widgets
 python-giacpy
