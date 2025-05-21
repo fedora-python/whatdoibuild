@@ -80,11 +80,9 @@ python-etcd
 python-eth-stdlib
 python-exdir
 python3-exiv2
-python-folium
 python-fs
 python-fsleyes-widgets
 python-giacpy
-gnuradio
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -109,7 +107,6 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
-openvdb
 python-packvers
 python-paginate
 python-pamela
