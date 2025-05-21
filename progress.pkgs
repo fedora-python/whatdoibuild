@@ -45,6 +45,7 @@ python-beartype
 python-billiard
 bluechi
 python-botocore
+python-branca
 python-pymongo
 capstone
 python-capturer
@@ -96,10 +97,6 @@ python-invoke
 python-ipyparallel
 python-jiter
 python-josepy
-python-jupyter-console
-python-jupyter-kernel-singular
-python-jupyter-kernel-test
-python-jupyter-polymake
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -108,7 +105,7 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
-python-nbconvert:check-doc::::
+python-nbsphinx
 python-notify2
 python-numexpr
 onnx
@@ -117,6 +114,7 @@ openvdb
 python-packvers
 python-paginate
 python-pamela
+python-pari-jupyter
 patool
 python-pendulum
 petsc
@@ -138,7 +136,6 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
-python-pytest-jupyter
 python-pyupgrade
 python-pyvlx
 python-rdflib
