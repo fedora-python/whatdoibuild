@@ -94,7 +94,6 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
-python-lazr-delegates
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -138,7 +137,6 @@ python-reactivex
 python-recordclass
 python-redis
 python-remoto
-python-roman
 python-rosdep
 rpmspectool
 python-rstcheck
@@ -166,10 +164,7 @@ weasyprint
 python-webob
 python-wordcloud
 python-yappi
-python-zc-lockfile
 python-zict
-python-zope-deprecation
-python-zope-i18nmessageid
 rpkg-util
 rpm-head-signing
 ufw
