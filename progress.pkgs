@@ -93,9 +93,10 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
+python-ipykernel:tests::::
 python-jiter
 python-josepy
-python-jupyter-client:tests::::
+python-jupyter-c-kernel
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -104,6 +105,7 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
+python-nbclient:check::::
 python-notify2
 python-numexpr
 onnx
