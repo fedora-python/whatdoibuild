@@ -93,10 +93,13 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-python-ipykernel:tests::::
+python-ipyparallel
 python-jiter
 python-josepy
-python-jupyter-c-kernel
+python-jupyter-console
+python-jupyter-kernel-singular
+python-jupyter-kernel-test
+python-jupyter-polymake
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -105,7 +108,7 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
-python-nbclient:check::::
+python-nbconvert:check-doc::::
 python-notify2
 python-numexpr
 onnx
@@ -135,6 +138,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
+python-pytest-jupyter
 python-pyupgrade
 python-pyvlx
 python-rdflib
