@@ -29,7 +29,6 @@ poezio
 pungi
 python-pyside6
 pysubnettree
-python-Levenshtein
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
@@ -53,7 +52,6 @@ python-catkin_tools
 python-cerberus
 pychromecast
 cjdns
-python-cleo
 python-cloudpickle
 python-cmd2
 python-colcon-parallel-executor
@@ -75,7 +73,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-ducc0
 python-dunamai
 espresso
 python-et_xmlfile
@@ -86,6 +83,7 @@ python3-exiv2
 python-fs
 python-fsleyes-widgets
 python-giacpy
+gnuradio
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -97,6 +95,7 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
+python-jupyter-client:tests::::
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -120,7 +119,6 @@ python-pkginfo2
 python-praw
 python-priority
 python-pudb
-python-pulp
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
@@ -137,7 +135,6 @@ pyserial-asyncio
 python-pytesseract
 python-pyupgrade
 python-pyvlx
-python-zmq
 python-rdflib
 python-reactivex
 python-recordclass
