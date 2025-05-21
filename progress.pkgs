@@ -32,6 +32,7 @@ pysubnettree
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
+python-animatplot
 python-apsw
 python-astdoc
 python-asyncssh
@@ -94,7 +95,6 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-python-ipyparallel
 python-jiter
 python-josepy
 python-libcst:docs-tests::::
@@ -102,10 +102,10 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
+python-metakernel
 python-mplcursors
 python-msal
 python-msgspec
-python-nbsphinx
 python-notify2
 python-numexpr
 onnx
@@ -114,7 +114,6 @@ openvdb
 python-packvers
 python-paginate
 python-pamela
-python-pari-jupyter
 patool
 python-pendulum
 petsc
@@ -171,6 +170,7 @@ python-webob
 python-wordcloud
 python-yappi
 python-zict
+pythran
 rpkg-util
 rpm-head-signing
 ufw
