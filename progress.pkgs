@@ -32,7 +32,6 @@ pysubnettree
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
-python-animatplot
 python-apsw
 python-astdoc
 python-asyncssh
@@ -46,7 +45,6 @@ python-beartype
 python-billiard
 bluechi
 python-botocore
-python-branca
 python-pymongo
 capstone
 python-capturer
@@ -82,6 +80,7 @@ python-etcd
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-folium
 python-fs
 python-fsleyes-widgets
 python-giacpy
@@ -102,12 +101,12 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
-python-metakernel
 python-mplcursors
 python-msal
 python-msgspec
 python-notify2
 python-numexpr
+python-octave-kernel
 onnx
 opencv
 openvdb
