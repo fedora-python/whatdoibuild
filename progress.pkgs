@@ -21,8 +21,10 @@ kernel
 kmymoney
 libpeas
 linode-cli
+mopidy
 mrchem
 ocrmypdf
+pcs
 poezio
 pungi
 python-pyside6
@@ -50,6 +52,7 @@ python-catkin_tools
 python-cerberus
 pychromecast
 cjdns
+python-cloudpickle
 python-cmd2
 python-colcon-parallel-executor
 python-colorful
@@ -77,7 +80,6 @@ python-etcd
 python-eth-stdlib
 python-exdir
 python3-exiv2
-python-fastrand
 python-fs
 python-fsleyes-widgets
 python-giacpy
@@ -92,6 +94,7 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
+python-lazr-delegates
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -135,6 +138,7 @@ python-reactivex
 python-recordclass
 python-redis
 python-remoto
+python-roman
 python-rosdep
 rpmspectool
 python-rstcheck
@@ -145,10 +149,10 @@ python-sqlalchemy1.4
 python-stdlibs
 subversion
 python-telnetlib3
+python-tenacity
 python-textual
 python-timeout-decorator
 python-toolz
-python-tornado
 python-trio
 python-txaio
 python-typeguard
@@ -162,7 +166,10 @@ weasyprint
 python-webob
 python-wordcloud
 python-yappi
+python-zc-lockfile
 python-zict
+python-zope-deprecation
+python-zope-i18nmessageid
 rpkg-util
 rpm-head-signing
 ufw
