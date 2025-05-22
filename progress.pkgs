@@ -9,6 +9,7 @@ chirp
 criu
 diceware
 did
+electrum
 ephemeral-port-reserve
 git-filter-repo
 gmsh
@@ -24,14 +25,11 @@ mopidy
 mrchem
 ocrmypdf
 pcs
-pg_activity
 poezio
 pungi
 python-pyside6
 pysubnettree
-python-a2wsgi
 python-aioesphomeapi
-python-aiohttp-socks
 python-aiosmtpd
 python-aiounittest
 python-apsw
@@ -77,7 +75,6 @@ dlib
 python-dunamai
 espresso
 python-et_xmlfile
-python-etcd
 python-eth-stdlib
 python-exdir
 python3-exiv2
@@ -95,6 +92,7 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
+samba
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -139,7 +137,6 @@ python-reactivex
 python-recordclass
 python-redis
 python-remoto
-python-respx
 python-rosdep
 python-rstcheck
 python-rx
