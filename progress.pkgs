@@ -9,7 +9,6 @@ chirp
 criu
 diceware
 did
-electrum
 ephemeral-port-reserve
 git-filter-repo
 gmsh
@@ -92,7 +91,6 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
-samba
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -140,7 +138,6 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-satyr
 signon-glib
 python-sqlalchemy1.4
 python-stdlibs
