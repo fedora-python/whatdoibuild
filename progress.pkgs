@@ -31,7 +31,6 @@ pysubnettree
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
-python-anyio
 python-apsw
 python-astdoc
 python-asyncssh
@@ -87,6 +86,7 @@ python-gphoto2
 python-h5netcdf
 python-hamcrest
 python-hl7
+python-httpx:tests::::
 python-iniparse
 python-inject
 python-injector
@@ -115,6 +115,7 @@ petsc
 python-pkginfo2
 python-praw
 python-priority
+python-psycopg3
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -141,6 +142,7 @@ python-rosdep
 python-rstcheck
 python-rx
 satyr
+python-selenium
 signon-glib
 python-sqlalchemy1.4
 python-stdlibs
@@ -149,8 +151,8 @@ python-telnetlib3
 python-tenacity
 python-textual
 python-timeout-decorator
+python-tiny-proxy:tests::::
 python-toolz
-python-trio-websocket
 python-txaio
 python-typeguard
 python-typing-inspect
@@ -158,6 +160,7 @@ python-uvloop
 uwsgi
 python-valkey
 python-warlock
+python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
