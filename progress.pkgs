@@ -13,6 +13,7 @@ ephemeral-port-reserve
 git-filter-repo
 gmsh
 gnofract4d
+hatch
 httpie
 ikiwiki
 jrnl
@@ -87,7 +88,6 @@ python-gphoto2
 python-h5netcdf
 python-hamcrest
 python-hl7
-python-httpx:tests::::
 python-iniparse
 python-inject
 python-injector
@@ -107,10 +107,12 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
+python-openneuro
 python-packvers
 python-paginate
 python-pamela
 patool
+python-pbs-installer
 python-pendulum
 petsc
 python-pgspecial
@@ -124,6 +126,7 @@ python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
 pyflakes
+pylast
 pylibacl
 python-pymdown-extensions
 python-pymeeus
@@ -132,6 +135,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
+python-pytest-httpx
 python-pytest-postgresql
 python-pyupgrade
 python-pyvlx
@@ -140,6 +144,7 @@ python-reactivex
 python-recordclass
 python-redis
 python-remoto
+python-requre
 python-rosdep
 python-rstcheck
 python-rx
@@ -147,6 +152,7 @@ satyr
 signon-glib
 python-socks
 python-sqlalchemy1.4
+python-starlette
 python-stdlibs
 subversion
 python-telnetlib3
