@@ -15,7 +15,6 @@ gmsh
 gnofract4d
 httpie
 ikiwiki
-joft
 jrnl
 kernel
 kmymoney
@@ -27,11 +26,13 @@ ocrmypdf
 pcs
 poezio
 pungi
+pyinstrument
 python-pyside6
 pysubnettree
 python-aioesphomeapi
 python-aiosmtpd
 python-aiounittest
+python-anyio
 python-apsw
 python-astdoc
 python-asyncssh
@@ -130,6 +131,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
+python-pytest-trio
 python-pyupgrade
 python-pyvlx
 python-rdflib
@@ -150,7 +152,6 @@ python-tenacity
 python-textual
 python-timeout-decorator
 python-toolz
-python-trio
 python-txaio
 python-typeguard
 python-typing-inspect
