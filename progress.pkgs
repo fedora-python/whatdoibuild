@@ -34,7 +34,6 @@ python-apsw
 python-astdoc
 python-asyncssh
 python-autocommand
-python-autopage
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -140,6 +139,7 @@ python-rosdep
 python-rstcheck
 python-rx
 satyr
+python-SecretStorage
 signon-glib
 python-sqlalchemy1.4
 python-stdlibs
