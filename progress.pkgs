@@ -10,11 +10,14 @@ criu
 diceware
 did
 ephemeral-port-reserve
+gajim
 git-filter-repo
 gmsh
 gnofract4d
 httpie
 ikiwiki
+python-jira
+jrnl
 kernel
 kmymoney
 libpeas
@@ -92,7 +95,8 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
-python-keyring
+python-keyrings-alt
+python-launchpadlib
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -109,7 +113,6 @@ opencv
 python-packvers
 python-paginate
 python-pamela
-python-pass-import
 patool
 python-pendulum
 petsc
@@ -166,6 +169,7 @@ python-yappi
 python-zict
 pythran
 rpm-head-signing
+python-twine
 ufw
 xpra
 yt-dlp
