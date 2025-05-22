@@ -23,6 +23,7 @@ linode-cli
 mopidy
 mrchem
 ocrmypdf
+osh
 pcs
 poezio
 pungi
@@ -112,10 +113,10 @@ python-pamela
 patool
 python-pendulum
 petsc
+python-pgspecial
 python-pkginfo2
 python-praw
 python-priority
-python-psycopg3
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -131,6 +132,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
+python-pytest-postgresql
 python-pyupgrade
 python-pyvlx
 python-rdflib
@@ -142,8 +144,8 @@ python-rosdep
 python-rstcheck
 python-rx
 satyr
-python-selenium
 signon-glib
+python-socks
 python-sqlalchemy1.4
 python-stdlibs
 subversion
@@ -151,7 +153,6 @@ python-telnetlib3
 python-tenacity
 python-textual
 python-timeout-decorator
-python-tiny-proxy:tests::::
 python-toolz
 python-txaio
 python-typeguard
