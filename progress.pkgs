@@ -26,7 +26,6 @@ ocrmypdf
 pcs
 poezio
 pungi
-pyinstrument
 python-pyside6
 pysubnettree
 python-aioesphomeapi
@@ -131,7 +130,6 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
-python-pytest-trio
 python-pyupgrade
 python-pyvlx
 python-rdflib
@@ -152,6 +150,7 @@ python-tenacity
 python-textual
 python-timeout-decorator
 python-toolz
+python-trio-websocket
 python-txaio
 python-typeguard
 python-typing-inspect
