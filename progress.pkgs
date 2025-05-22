@@ -6,12 +6,10 @@ binwalk
 borgbackup
 ceph
 chirp
-llvm
 criu
 diceware
 did
 ephemeral-port-reserve
-fedora-review
 git-filter-repo
 gmsh
 gnofract4d
@@ -139,7 +137,6 @@ python-recordclass
 python-redis
 python-remoto
 python-rosdep
-rpmspectool
 python-rstcheck
 python-rx
 satyr
@@ -156,7 +153,6 @@ python-trio
 python-txaio
 python-typeguard
 python-typing-inspect
-python-typing-inspection
 python-uvloop
 uwsgi
 python-valkey
@@ -167,10 +163,8 @@ python-wordcloud
 python-yappi
 python-zict
 pythran
-rpkg-util
 rpm-head-signing
 ufw
-variety
 xpra
 zeek
 python3-docs
