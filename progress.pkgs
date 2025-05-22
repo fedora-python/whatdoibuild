@@ -10,7 +10,6 @@ criu
 diceware
 did
 ephemeral-port-reserve
-fedpkg
 git-filter-repo
 gmsh
 gnofract4d
@@ -23,7 +22,6 @@ libpeas
 linode-cli
 mopidy
 mrchem
-obsctl
 ocrmypdf
 pcs
 poezio
