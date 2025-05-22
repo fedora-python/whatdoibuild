@@ -65,7 +65,6 @@ python-dbus-next
 dftd4
 python-diff-cover
 python-diff-match-patch
-python-dill
 root
 python-django-configurations
 python-django-contrib-comments
@@ -99,11 +98,13 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
+python-multiprocess
 python-notify2
 python-numexpr
 python-octave-kernel
 onnx
 opencv
+python-opytimizer
 python-packvers
 python-paginate
 python-pamela
@@ -113,6 +114,7 @@ petsc
 python-pkginfo2
 python-praw
 python-priority
+python-progressbar2
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -139,6 +141,7 @@ python-rosdep
 python-rstcheck
 python-rx
 signon-glib
+python-simframe
 python-sqlalchemy1.4
 python-stdlibs
 subversion
