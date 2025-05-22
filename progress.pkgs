@@ -10,6 +10,7 @@ criu
 diceware
 did
 ephemeral-port-reserve
+fedpkg
 git-filter-repo
 gmsh
 gnofract4d
@@ -22,8 +23,8 @@ libpeas
 linode-cli
 mopidy
 mrchem
+obsctl
 ocrmypdf
-osc
 pcs
 poezio
 pungi
@@ -137,7 +138,6 @@ python-recordclass
 python-redis
 python-remoto
 python-rosdep
-rpkg
 python-rstcheck
 python-rx
 signon-glib
@@ -166,7 +166,6 @@ python-zeep
 python-zict
 pythran
 rpm-head-signing
-tito
 ufw
 xpra
 yt-dlp
