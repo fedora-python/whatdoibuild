@@ -20,7 +20,6 @@ kernel
 kmymoney
 kvirc
 libpeas
-libreoffice
 linode-cli
 mopidy
 mrchem
@@ -59,7 +58,6 @@ python-confuse
 python-cramjam
 python-crcmod
 python-crick
-python-cvxopt
 python-dataclassy
 python-dateparser
 python-dbus-next
@@ -133,6 +131,7 @@ python-pyupgrade
 python-pyvlx
 python-rdflib
 python-reactivex
+python-readability-lxml
 python-recordclass
 python-redis
 python-remoto
@@ -147,7 +146,6 @@ subversion
 python-telnetlib3
 python-tenacity
 python-textual
-python-timeout-decorator
 python-toolz
 python-txaio
 python-typeguard
@@ -155,7 +153,6 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-warlock
 python-watchfiles
 weasyprint
 python-webob
