@@ -4,8 +4,6 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
-calamares
-cantor
 ceph
 chirp
 criu
@@ -13,7 +11,6 @@ diceware
 did
 ephemeral-port-reserve
 git-filter-repo
-glaxnimate
 gmsh
 gnofract4d
 httpie
@@ -27,12 +24,10 @@ libreoffice
 linode-cli
 mopidy
 mrchem
-nanovna-saver
 ocrmypdf
 pcs
 poezio
 pungi
-pymol
 pysubnettree
 python-aioesphomeapi
 python-aiosmtpd
@@ -96,14 +91,6 @@ python-injector
 python-invoke
 python-jiter
 python-josepy
-kf6-kcoreaddons
-kf6-kguiaddons
-kf6-kjobwidgets
-kf6-knotifications
-kf6-kstatusnotifieritem
-kf6-kunitconversion
-kf6-kwidgetsaddons
-kf6-kxmlgui
 python-libcst:docs-tests::::
 python-loguru
 python-lz4
@@ -142,7 +129,6 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
-python-pytest-qt
 python-pyupgrade
 python-pyvlx
 python-rdflib
