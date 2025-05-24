@@ -29,6 +29,7 @@ poezio
 pungi
 pysubnettree
 python-aioesphomeapi
+python-aiokafka
 python-aiosmtpd
 python-aiounittest
 python-apsw
@@ -55,7 +56,6 @@ python-cmd2
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-cramjam
 python-crcmod
 python-crick
 python-dataclassy
@@ -63,7 +63,6 @@ python-dateparser
 python-dbus-next
 dftd4
 python-diff-cover
-python-diff-match-patch
 root
 python-django-configurations
 python-django-contrib-comments
@@ -140,12 +139,14 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-snappy
 python-sqlalchemy1.4
 python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
 python-textual
+python-three_merge
 python-toolz
 python-txaio
 python-typeguard
