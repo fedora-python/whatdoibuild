@@ -11,7 +11,6 @@ diceware
 did
 ephemeral-port-reserve
 git-filter-repo
-gmsh
 gnofract4d
 httpie
 ikiwiki
@@ -60,8 +59,6 @@ python-crcmod
 python-crick
 python-dataclassy
 python-dateparser
-python-dbus-next
-dftd4
 python-diff-cover
 root
 python-django-configurations
@@ -69,14 +66,12 @@ python-django-contrib-comments
 python-django-filter
 dlib
 python-dunamai
-espresso
 python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
 python-fs
 python-fsleyes-widgets
-python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -86,7 +81,6 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-python-jiter
 python-josepy
 python-libcst:docs-tests::::
 python-loguru
@@ -111,6 +105,7 @@ petsc
 python-pkginfo2
 python-praw
 python-priority
+python-prometheus_client
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -139,14 +134,12 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-snappy
 python-sqlalchemy1.4
 python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
 python-textual
-python-three_merge
 python-toolz
 python-txaio
 python-typeguard
