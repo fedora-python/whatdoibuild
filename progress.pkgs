@@ -38,8 +38,6 @@ python-astdoc
 python-asyncssh
 python-autocommand
 python-avocado
-python-aw-client
-python-aw-qt
 python-awesomeversion
 python-axolotl
 python-beancount
@@ -56,7 +54,6 @@ python-catkin_tools
 python-cerberus
 pychromecast
 cjdns
-python-cloudpickle
 python-colcon-parallel-executor
 python-colorful
 python-confuse
@@ -143,6 +140,7 @@ python-rx
 python-scikit-image
 signon-glib
 python-simframe
+python-spyder-kernels
 python-sqlalchemy1.4
 python-stdlibs
 subversion
