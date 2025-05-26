@@ -37,7 +37,6 @@ python-autocommand
 python-avocado
 python-awesomeversion
 python-axolotl
-python-base58
 python-beancount
 python-beartype
 python-behave
@@ -86,10 +85,11 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
-python-more-executors
 python-mplcursors
 python-msal
 python-msgspec
+python-multiaddr
+python-multihash
 python-notify2
 python-numexpr
 python-octave-kernel
@@ -126,13 +126,13 @@ python-readability-lxml
 python-recordclass
 python-redis
 python-remoto
-python-retryz
 python-rosdep
 python-rstcheck
 python-rx
 python-scikit-image
 signon-glib
 python-simframe
+python-slip10
 python-sqlalchemy1.4
 python-stdlibs
 subversion
