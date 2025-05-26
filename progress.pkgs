@@ -1,5 +1,4 @@
 alot
-ansible-builder
 ansible-core
 asv
 avogadro2-libs
@@ -61,7 +60,6 @@ python-colcon-parallel-executor
 python-colorful
 python-confuse
 python-crcmod
-credslayer
 python-crick
 python-dataclassy
 python-dateparser
