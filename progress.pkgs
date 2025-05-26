@@ -81,7 +81,6 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-python-jenkins-job-builder
 python-josepy
 python-libcst:docs-tests::::
 python-loguru
@@ -131,7 +130,6 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-SALib
 python-scikit-image
 signon-glib
 python-simframe
