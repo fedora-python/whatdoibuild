@@ -57,7 +57,6 @@ python-crcmod
 python-crick
 python-dataclassy
 python-dateparser
-python-deepdiff:tests::::
 python-diff-cover
 root
 python-django-configurations
@@ -71,7 +70,6 @@ python-exdir
 python3-exiv2
 python-fs
 python-fsleyes-widgets
-python-fvs
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
