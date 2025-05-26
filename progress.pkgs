@@ -81,7 +81,7 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
-python-jenkins
+python-jenkins-job-builder
 python-josepy
 python-libcst:docs-tests::::
 python-loguru
@@ -99,7 +99,6 @@ opencv
 python-packvers
 python-paginate
 python-pamela
-python-pathos
 patool
 python-pendulum
 petsc
@@ -132,6 +131,7 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-SALib
 python-scikit-image
 signon-glib
 python-simframe
