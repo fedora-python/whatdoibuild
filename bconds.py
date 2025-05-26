@@ -252,6 +252,11 @@ def parse_args():
         default=False,
         help="Don't refresh the gitrepo of each existing component, just send new components scratchbuilds and downloads srpms."
     )
+    parser.add_argument(
+        'packages',
+        nargs='*',
+        help='Only fetch bconds for given package name(s).'
+    )
     return parser.parse_args()
 
 
@@ -261,6 +266,8 @@ if __name__ == '__main__':
     # build everything
     something_was_submitted = False
     for component_name, bcond_config in each_bcond_name_config():
+        if args.packages and component_name not in args.packages:
+            continue
         something_was_submitted |= scratchbuild_patched_if_needed(component_name, bcond_config, no_git_refresh=args.no_git_refresh)
 
     # download everything until there's nothing downloaded
@@ -271,6 +278,8 @@ if __name__ == '__main__':
         something_was_downloaded = False
         # while we were downloading, we could have finished Koji builds
         for pkg, bcond_configs in CONFIG['bconds'].items():
+            if args.packages and pkg not in args.packages:
+                continue
             for bcond_config in bcond_configs:
                 if 'buildrequires' not in bcond_config:
                     something_was_downloaded |= download_srpm_if_possible(bcond_config)
