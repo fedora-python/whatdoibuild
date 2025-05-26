@@ -344,9 +344,6 @@ withouts = ["tests", "plot_extra", "symfont_extra", "ufo_extra", "woff_extra", "
 [[bconds.conda]]
 withouts = ["tests"]
 
-[[bconds.conda-build]]
-withouts = ["tests"]
-
 [[bconds.python-conda-libmamba-solver]]
 withouts = ["tests"]
 
