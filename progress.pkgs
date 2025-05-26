@@ -34,11 +34,11 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-aiounittest
-python-apsw
 python-astdoc
 python-asyncssh
 python-autocommand
 python-avocado
+python-aw-core
 python-awesomeversion
 python-axolotl
 python-beancount
@@ -93,6 +93,7 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
+python-matrix-nio
 python-mechanize
 python-mplcursors
 python-msal
@@ -147,6 +148,7 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
+testcloud
 python-textual
 python-toolz
 python-towncrier
@@ -160,12 +162,15 @@ python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
+python-wtf-peewee
 python-yappi
+python-yfinance
 python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
 ufw
+vorta
 xpra
 yt-dlp
 zeek
