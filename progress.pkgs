@@ -37,8 +37,10 @@ python-autocommand
 python-avocado
 python-awesomeversion
 python-axolotl
+python-base58
 python-beancount
 python-beartype
+python-behave
 python-billiard
 bluechi
 python-botocore
@@ -73,7 +75,6 @@ python-fsleyes-widgets
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
-python-hamcrest
 python-hl7
 python-iniparse
 python-inject
@@ -85,6 +86,7 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
+python-more-executors
 python-mplcursors
 python-msal
 python-msgspec
@@ -124,6 +126,7 @@ python-readability-lxml
 python-recordclass
 python-redis
 python-remoto
+python-retryz
 python-rosdep
 python-rstcheck
 python-rx
@@ -137,6 +140,7 @@ python-telnetlib3
 python-tenacity
 python-textual
 python-toolz
+python-twisted
 python-txaio
 python-typeguard
 python-typing-inspect
