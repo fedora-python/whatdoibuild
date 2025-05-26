@@ -81,6 +81,7 @@ python-iniparse
 python-inject
 python-injector
 python-invoke
+python-jenkins
 python-josepy
 python-libcst:docs-tests::::
 python-loguru
@@ -90,7 +91,6 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
-python-multiprocess
 python-notify2
 python-numexpr
 python-octave-kernel
@@ -99,13 +99,13 @@ opencv
 python-packvers
 python-paginate
 python-pamela
+python-pathos
 patool
 python-pendulum
 petsc
 python-pkginfo2
 python-praw
 python-priority
-python-prometheus_client
 python-pudb
 python-pure-protobuf
 python-pycec
@@ -132,6 +132,7 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-scikit-image
 signon-glib
 python-simframe
 python-sqlalchemy1.4
@@ -154,7 +155,6 @@ python-wordcloud
 python-yappi
 python-zeep
 python-zict
-pythran
 rpm-head-signing
 ufw
 xpra
