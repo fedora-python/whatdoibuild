@@ -25,7 +25,6 @@ mrchem
 ocrmypdf
 pcs
 poezio
-pungi
 pysubnettree
 python-aioesphomeapi
 python-aiokafka
@@ -50,8 +49,8 @@ python-catkin_tools
 python-cerberus
 pychromecast
 cjdns
+python-cliff
 python-cloudpickle
-python-cmd2
 python-colcon-parallel-executor
 python-colorful
 python-confuse
