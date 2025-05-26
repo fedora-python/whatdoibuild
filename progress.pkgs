@@ -23,6 +23,7 @@ kmymoney
 kvirc
 libpeas
 linode-cli
+monkeytype
 mopidy
 mrchem
 ocrmypdf
@@ -73,6 +74,7 @@ python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-fixit
 python-flask-caching
 python-flask-session
 python-fs
@@ -81,13 +83,14 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
+python-hypothesmith:tests::::
 python-iniparse
 python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
 python-josepy
-python-libcst:docs-tests::::
+qtile
 python-loguru
 python-lz4
 python-makefun
