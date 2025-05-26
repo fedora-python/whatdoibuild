@@ -93,7 +93,6 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
-python-mccabe
 python-mechanize
 python-mplcursors
 python-msal
@@ -120,6 +119,7 @@ python-pydocstyle
 python-pyemd
 pyflakes
 pylibacl
+pylint
 python-pymdown-extensions
 python-pymeeus
 python-pyopencl
