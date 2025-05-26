@@ -18,7 +18,6 @@ python-howdoi
 httpie
 ikiwiki
 jrnl
-kernel
 kmymoney
 kvirc
 libpeas
@@ -94,7 +93,6 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
-python-msgspec
 python-notify2
 python-numexpr
 python-octave-kernel
@@ -140,7 +138,6 @@ python-rx
 python-scikit-image
 signon-glib
 python-simframe
-python-spyder-kernels
 python-sqlalchemy1.4
 python-stdlibs
 subversion
