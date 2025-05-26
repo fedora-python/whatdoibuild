@@ -49,6 +49,7 @@ python-capturer
 python-catkin_tools
 python-cerberus
 pychromecast
+python-cid
 cjdns
 python-cloudpickle
 python-colcon-parallel-executor
@@ -88,8 +89,6 @@ python-markups
 python-mplcursors
 python-msal
 python-msgspec
-python-multiaddr
-python-multihash
 python-notify2
 python-numexpr
 python-octave-kernel
@@ -132,7 +131,6 @@ python-rx
 python-scikit-image
 signon-glib
 python-simframe
-python-slip10
 python-sqlalchemy1.4
 python-stdlibs
 subversion
