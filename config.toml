@@ -255,7 +255,7 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-libcst]]
-withouts = ["tests", "docs"]
+withs = ["bootstrap"]
 
 [[bconds.python-databases]]
 withs = ["bootstrap"]
