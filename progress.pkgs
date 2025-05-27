@@ -13,7 +13,6 @@ diceware
 did
 ephemeral-port-reserve
 git-filter-repo
-gitlint
 gnofract4d
 python-howdoi
 httpie
@@ -46,6 +45,7 @@ python-behave
 python-billiard
 bluechi
 python-botocore
+python-bravado-core
 python-pymongo
 capstone
 python-capturer
@@ -57,7 +57,6 @@ cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-cookiecutter
 python-crcmod
 python-crick
 python-dataclassy
@@ -66,7 +65,6 @@ root
 python-django-configurations
 python-django-contrib-comments
 python-django-filter
-python-django-q
 dlib
 python-dunamai
 python-et_xmlfile
@@ -86,9 +84,8 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
-python-isoduration
-python-jinja2-time
 python-josepy
+python-jupyter-events
 qtile
 python-loguru
 python-lz4
