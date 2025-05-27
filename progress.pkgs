@@ -35,7 +35,6 @@ python-aiosmtpd
 python-aiounittest
 python-astdoc
 python-asyncssh
-python-autocommand
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -45,7 +44,6 @@ python-behave
 python-billiard
 bluechi
 python-botocore
-python-bravado-core
 python-pymongo
 capstone
 python-capturer
@@ -84,6 +82,7 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
+python-jaraco-text
 python-josepy
 python-jupyter-events
 qtile
