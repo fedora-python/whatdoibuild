@@ -13,8 +13,8 @@ diceware
 did
 ephemeral-port-reserve
 git-filter-repo
+gitlint
 gnofract4d
-home-assistant-cli
 python-howdoi
 httpie
 ikiwiki
@@ -34,7 +34,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-aiounittest
-python-arrow
 python-astdoc
 python-asyncssh
 python-autocommand
@@ -58,6 +57,7 @@ cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-cookiecutter
 python-crcmod
 python-crick
 python-dataclassy
@@ -66,6 +66,7 @@ root
 python-django-configurations
 python-django-contrib-comments
 python-django-filter
+python-django-q
 dlib
 python-dunamai
 python-et_xmlfile
@@ -85,6 +86,8 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
+python-isoduration
+python-jinja2-time
 python-josepy
 qtile
 python-loguru
@@ -157,7 +160,6 @@ python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
-python-xword-dl
 python-yappi
 python-zeep
 python-zict
