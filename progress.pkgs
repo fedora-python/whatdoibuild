@@ -57,7 +57,6 @@ python-colorful
 python-confuse
 python-crcmod
 python-crick
-python-cssutils
 python-dataclassy
 python-diff-cover
 root
@@ -78,6 +77,8 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
+python-importlib-metadata
+python-importlib-resources
 python-iniparse
 python-inject
 python-injector
@@ -161,7 +162,6 @@ python-wordcloud
 python-yappi
 python-zeep
 python-zict
-python-zipp
 rebase-helper
 rpm-head-signing
 ufw
