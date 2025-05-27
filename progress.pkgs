@@ -29,7 +29,6 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-python-CacheControl
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
@@ -58,6 +57,7 @@ python-colorful
 python-confuse
 python-crcmod
 python-crick
+python-cssutils
 python-dataclassy
 python-diff-cover
 root
@@ -84,7 +84,6 @@ python-injector
 python-invoke
 python-ipfshttpclient
 python-irc
-python-jaraco-test
 python-josepy
 python-jupyter-events
 qtile
@@ -107,6 +106,7 @@ patool
 petsc
 python-pika
 python-pkginfo2
+poetry
 python-praw
 python-priority
 python-pudb
@@ -161,6 +161,7 @@ python-wordcloud
 python-yappi
 python-zeep
 python-zict
+python-zipp
 rebase-helper
 rpm-head-signing
 ufw
