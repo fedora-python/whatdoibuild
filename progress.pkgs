@@ -29,6 +29,7 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-CacheControl
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
@@ -50,7 +51,6 @@ python-capturer
 python-carbon
 python-catkin_tools
 python-cerberus
-python-cheroot
 pychromecast
 cjdns
 python-colcon-parallel-executor
@@ -83,7 +83,8 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
-python-jaraco-collections
+python-irc
+python-jaraco-test
 python-josepy
 python-jupyter-events
 qtile
