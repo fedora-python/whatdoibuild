@@ -14,6 +14,7 @@ did
 ephemeral-port-reserve
 git-filter-repo
 gnofract4d
+home-assistant-cli
 python-howdoi
 httpie
 ikiwiki
@@ -33,6 +34,7 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-aiounittest
+python-arrow
 python-astdoc
 python-asyncssh
 python-autocommand
@@ -59,7 +61,6 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
-python-dateparser
 python-diff-cover
 root
 python-django-configurations
@@ -156,6 +157,7 @@ python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
+python-xword-dl
 python-yappi
 python-zeep
 python-zict
