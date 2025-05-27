@@ -1,3 +1,4 @@
+RBTools
 alot
 ansible-core
 asv
@@ -64,6 +65,7 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-docstring-to-markdown
 python-dunamai
 python-et_xmlfile
 python-eth-stdlib
@@ -77,8 +79,6 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-importlib-metadata
-python-importlib-resources
 python-iniparse
 python-inject
 python-injector
@@ -96,6 +96,7 @@ python-mechanize
 python-mplcursors
 python-msal
 python-notify2
+python-numcodecs
 python-numexpr
 python-octave-kernel
 onnx
@@ -113,6 +114,7 @@ python-priority
 python-pudb
 python-pure-protobuf
 python-pycec
+python-pycountry
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
@@ -155,15 +157,19 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
+visidata
 python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
+python-yapf
 python-yappi
 python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
+rst2pdf
+salt
 ufw
 xpra
 yt-dlp
