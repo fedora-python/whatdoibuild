@@ -30,6 +30,7 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-PyMuPDF
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
@@ -65,7 +66,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-docstring-to-markdown
 python-dunamai
 python-et_xmlfile
 python-eth-stdlib
@@ -96,7 +96,6 @@ python-mechanize
 python-mplcursors
 python-msal
 python-notify2
-python-numcodecs
 python-numexpr
 python-octave-kernel
 onnx
@@ -114,7 +113,6 @@ python-priority
 python-pudb
 python-pure-protobuf
 python-pycec
-python-pycountry
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
@@ -130,6 +128,7 @@ pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
 python-pyupgrade
+python-pyvat
 python-pyvlx
 python-rdflib
 python-reactivex
@@ -162,14 +161,11 @@ python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
-python-yapf
 python-yappi
 python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
-rst2pdf
-salt
 ufw
 xpra
 yt-dlp
