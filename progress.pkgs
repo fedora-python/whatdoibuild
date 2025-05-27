@@ -1,4 +1,3 @@
-RBTools
 alot
 ansible-core
 asv
@@ -30,7 +29,6 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-python-PyMuPDF
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
@@ -71,6 +69,7 @@ python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-ezdxf
 python-flask-caching
 python-flask-session
 python-fs
@@ -128,7 +127,6 @@ pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
 python-pyupgrade
-python-pyvat
 python-pyvlx
 python-rdflib
 python-reactivex
