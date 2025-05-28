@@ -69,7 +69,6 @@ python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
-python-ezdxf
 python-flask-caching
 python-flask-session
 python-fs
