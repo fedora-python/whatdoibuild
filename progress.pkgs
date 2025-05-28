@@ -34,11 +34,9 @@ python-aiokafka
 python-aiosmtpd
 python-astdoc
 python-asyncssh
-python-automaton
 python-avocado
 python-awesomeversion
 python-axolotl
-python-bashate
 python-beancount
 python-beartype
 python-behave
@@ -59,7 +57,6 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
-python-debtcollector
 python-diff-cover
 root
 python-django-configurations
@@ -68,6 +65,7 @@ python-django-filter
 dlib
 python-dunamai
 python-et_xmlfile
+python-etcd3gw
 python-eth-stdlib
 python-exdir
 python3-exiv2
@@ -75,7 +73,6 @@ python-flask-caching
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-futurist
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -96,12 +93,12 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
-python-murano-pkg-check
 python-notify2
 python-numexpr
 python-octave-kernel
 onnx
 opencv
+python-oslo-config:::repo_bootstrap::
 python-packvers
 python-paginate
 python-pamela
@@ -131,14 +128,13 @@ python-pytest-twisted
 python-pyupgrade
 python-pyvlx
 python-rdflib
-rdopkg
 python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
-python-renderspec
 python-rosdep
 python-rq
+python-rsd-lib
 python-rstcheck
 python-rx
 python-scikit-image
@@ -147,7 +143,6 @@ python-simframe
 python-sqlalchemy1.4
 python-stdlibs
 subversion
-python-sushy
 python-telnetlib3
 python-tenacity
 python-textual
@@ -159,7 +154,6 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-virtualbmc
 visidata
 python-watchfiles
 weasyprint
