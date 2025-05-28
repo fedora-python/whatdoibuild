@@ -29,15 +29,11 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-python-aioeafm
 python-aioesphomeapi
-python-aioflo
 python-aiokafka
-python-aionotion
 python-aiosmtpd
 python-aiounittest
 python-astdoc
-python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -76,7 +72,6 @@ python-flask-caching
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-ftfy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -97,7 +92,6 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
-python-netmiko
 python-notify2
 python-numexpr
 python-octave-kernel
@@ -110,7 +104,6 @@ patool
 petsc
 python-pika
 python-pkginfo2
-python-poetry-plugin-export
 python-praw
 python-priority
 python-pudb
@@ -126,13 +119,10 @@ python-pymdown-extensions
 python-pymeeus
 python-pyopencl
 python-pyopengl
-python-pyopenuv
 pyproj
-python-pyrad
 pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
-python-pytile
 python-pyupgrade
 python-pyvlx
 python-rdflib
@@ -153,7 +143,6 @@ subversion
 python-telnetlib3
 python-tenacity
 python-textual
-python-toml-cli
 python-toolz
 python-towncrier
 python-txaio
