@@ -5,9 +5,11 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
+calypso
 ceph
 chirp
 copr-backend
+copr-rpmbuild
 criu
 diceware
 did
@@ -76,7 +78,6 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-iniparse
 python-inject
 python-injector
 python-invoke
@@ -162,6 +163,7 @@ python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
+translate-toolkit
 ufw
 xpra
 yt-dlp
