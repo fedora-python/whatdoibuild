@@ -31,8 +31,8 @@ poezio
 pysubnettree
 python-aioesphomeapi
 python-aiokafka
-python-aioresponses
 python-aiosmtpd
+python-aiounifi
 python-astdoc
 python-asyncssh
 python-avocado
@@ -52,7 +52,6 @@ python-catkin_tools
 python-cerberus
 pychromecast
 cjdns
-python-codecov
 python-colcon-parallel-executor
 python-colorful
 python-confuse
@@ -86,6 +85,7 @@ python-ipfshttpclient
 python-irc
 python-josepy
 python-jupyter-events
+python-ldappool
 qtile
 python-loguru
 python-lz4
@@ -99,6 +99,7 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
+python-opnsense
 python-packvers
 python-paginate
 python-pamela
@@ -110,15 +111,19 @@ python-praw
 python-priority
 python-pudb
 python-pure-protobuf
+python-pyairnow
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
+python-pydepsdev
 python-pydocstyle
 python-pyemd
 pyflakes
+python-pyghmi
 pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pymod2pkg
 python-pyopencl
 python-pyopengl
 pyproj
@@ -132,6 +137,7 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
+python-reno
 python-rosdep
 python-rq
 python-rstcheck
@@ -141,12 +147,12 @@ signon-glib
 python-simframe
 python-sqlalchemy1.4
 python-stdlibs
-python-stestr
 subversion
 python-telnetlib3
 python-tenacity
 python-textual
 python-toolz
+python-tosca-parser
 python-towncrier
 python-txaio
 python-typeguard
@@ -160,6 +166,7 @@ weasyprint
 python-webob
 python-wordcloud
 python-yappi
+python-yaql
 python-zeep
 python-zict
 rebase-helper
