@@ -54,6 +54,7 @@ cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-cotyledon
 python-crcmod
 python-crick
 python-dataclassy
@@ -65,7 +66,6 @@ python-django-filter
 dlib
 python-dunamai
 python-et_xmlfile
-python-etcd3gw
 python-eth-stdlib
 python-exdir
 python3-exiv2
@@ -98,7 +98,7 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
-python-oslo-config:::repo_bootstrap::
+python-oslo-utils
 python-packvers
 python-paginate
 python-pamela
@@ -134,7 +134,6 @@ python-recordclass
 python-remoto
 python-rosdep
 python-rq
-python-rsd-lib
 python-rstcheck
 python-rx
 python-scikit-image
