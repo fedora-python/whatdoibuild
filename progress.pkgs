@@ -50,7 +50,6 @@ python-carbon
 python-catkin_tools
 python-cerberus
 pychromecast
-python-cinderclient
 cjdns
 python-colcon-parallel-executor
 python-colorful
@@ -73,7 +72,6 @@ python-flask-caching
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-gnocchiclient
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -99,7 +97,7 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
-python-openstacksdk
+python-osc-lib
 python-packvers
 python-paginate
 python-pamela
