@@ -32,8 +32,8 @@ pysubnettree
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
-python-aiounittest
 python-astdoc
+python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -57,6 +57,7 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
+python-ddt
 python-diff-cover
 root
 python-django-configurations
@@ -89,6 +90,7 @@ python-loguru
 python-lz4
 python-makefun
 python-markups
+python-matrix-common
 python-mechanize
 python-mplcursors
 python-msal
@@ -145,6 +147,7 @@ python-tenacity
 python-textual
 python-toolz
 python-towncrier
+python-twilio
 python-txaio
 python-typeguard
 python-typing-inspect
