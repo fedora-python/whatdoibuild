@@ -5,11 +5,9 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
-calypso
 ceph
 chirp
 copr-backend
-copr-rpmbuild
 criu
 diceware
 did
@@ -35,7 +33,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -43,7 +40,6 @@ python-beancount
 python-beartype
 python-behave
 python-billiard
-bluechi
 python-botocore
 python-pymongo
 capstone
@@ -163,7 +159,6 @@ python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
-translate-toolkit
 ufw
 xpra
 yt-dlp
