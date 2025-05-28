@@ -33,7 +33,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -54,7 +53,6 @@ cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-cotyledon
 python-crcmod
 python-crick
 python-dataclassy
@@ -85,6 +83,7 @@ python-ipfshttpclient
 python-irc
 python-josepy
 python-jupyter-events
+python-keystoneauth1
 qtile
 python-loguru
 python-lz4
@@ -98,7 +97,8 @@ python-numexpr
 python-octave-kernel
 onnx
 opencv
-python-oslo-utils
+python-oslo-concurrency
+python-oslo-serialization
 python-packvers
 python-paginate
 python-pamela
