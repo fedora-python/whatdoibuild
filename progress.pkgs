@@ -33,6 +33,7 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
+python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
