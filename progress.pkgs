@@ -31,7 +31,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-astroML
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -47,16 +46,13 @@ python-capturer
 python-carbon
 python-catkin_tools
 python-cerberus
-python-chaospy
 pychromecast
 cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-contextualbandits
 python-crcmod
 python-crick
-python-cro
 python-dataclassy
 python-diff-cover
 root
@@ -64,9 +60,7 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-duecredit
 python-dunamai
-python-elephant
 python-envisage
 python-et_xmlfile
 python-eth-stdlib
@@ -76,6 +70,7 @@ python-fasjson-client
 python-flask-session
 python-fs
 python-fsleyes-widgets
+python-gatspy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -104,7 +99,7 @@ python-osc-lib
 python-packvers
 python-paginate
 python-pamela
-python-paperwork-backend
+paperwork
 patool
 petsc
 python-pika
@@ -122,7 +117,6 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pynn
 python-pyopencl
 python-pyopengl
 python-pypet
@@ -142,11 +136,8 @@ python-rq
 python-rstcheck
 python-rx
 python-scikit-image
-python-scikit-uplift
 signon-glib
 python-simframe
-python-sklearn-genetic
-python-sklearn-genetic-opt
 python-sqlalchemy1.4
 python-stdlibs
 subversion
