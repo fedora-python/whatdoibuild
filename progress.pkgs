@@ -27,7 +27,6 @@ mrchem
 ocrmypdf
 pcs
 poezio
-pyplane
 pysubnettree
 python-aioesphomeapi
 python-aiokafka
@@ -41,6 +40,7 @@ python-beancount
 python-beartype
 python-behave
 python-billiard
+python-blosc2
 python-botocore
 python-boutdata
 python-brian2
@@ -70,7 +70,6 @@ python-eth-stdlib
 python-exdir
 python3-exiv2
 python-fasjson-client
-python-flask-compress
 python-flask-session
 python-fs
 python-fsleyes-widgets
@@ -85,7 +84,7 @@ python-ipfshttpclient
 python-irc
 python-josepy
 python-jupyter-events
-python-lfpykit
+python-lfpy
 qtile
 python-loguru
 python-lz4
@@ -94,9 +93,8 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
-python-ndindex
+python-netpyne
 python-notify2
-python-numpoly
 python-octave-kernel
 onnx
 opencv
@@ -108,7 +106,6 @@ patool
 petsc
 python-pika
 python-pkginfo2
-libpoly
 python-praw
 python-priority
 python-pudb
@@ -147,10 +144,10 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
-python-texext
 python-textual
 python-toolz
 python-towncrier
+python-transforms3d
 python-txaio
 python-typeguard
 python-typing-inspect
@@ -165,7 +162,6 @@ python-wordcloud
 python-yappi
 python-zeep
 python-zict
-python-zoidberg
 rebase-helper
 rpm-head-signing
 ufw
