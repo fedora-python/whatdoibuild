@@ -32,7 +32,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-astroquery
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -101,7 +100,6 @@ python-paginate
 python-pamela
 patool
 petsc
-python-photutils
 python-pika
 python-pkginfo2
 python-praw
@@ -111,7 +109,6 @@ python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
-python-pydoctor
 python-pyemd
 pyflakes
 pylibacl
