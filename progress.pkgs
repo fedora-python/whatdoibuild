@@ -40,7 +40,6 @@ python-beancount
 python-beartype
 python-behave
 python-billiard
-python-blosc2
 python-botocore
 python-boutdata
 python-brian2
@@ -84,7 +83,6 @@ python-ipfshttpclient
 python-irc
 python-josepy
 python-jupyter-events
-python-lfpy
 qtile
 python-loguru
 python-lz4
@@ -93,7 +91,6 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
-python-netpyne
 python-notify2
 python-octave-kernel
 onnx
@@ -142,12 +139,12 @@ python-simframe
 python-sqlalchemy1.4
 python-stdlibs
 subversion
+python-tables
 python-telnetlib3
 python-tenacity
 python-textual
 python-toolz
 python-towncrier
-python-transforms3d
 python-txaio
 python-typeguard
 python-typing-inspect
