@@ -11,7 +11,6 @@ copr-backend
 criu
 diceware
 did
-ephemeral-port-reserve
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -33,7 +32,6 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-asyncssh
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -42,6 +40,7 @@ python-beartype
 python-behave
 python-billiard
 python-botocore
+python-bravado
 python-pymongo
 capstone
 python-capturer
