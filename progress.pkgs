@@ -90,7 +90,6 @@ python-mechanize
 python-mplcursors
 python-msal
 python-notify2
-python-numexpr
 python-octave-kernel
 onnx
 opencv
@@ -138,6 +137,7 @@ python-simframe
 python-sqlalchemy1.4
 python-stdlibs
 subversion
+sympy
 python-telnetlib3
 python-tenacity
 python-textual
