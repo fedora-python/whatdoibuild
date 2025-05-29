@@ -1,4 +1,3 @@
-alot
 ansible-core
 asv
 avogadro2-libs
@@ -32,6 +31,7 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
+python-astroML
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -41,20 +41,22 @@ python-behave
 python-billiard
 python-botocore
 python-boutdata
-python-brian2
 python-pymongo
 capstone
 python-capturer
 python-carbon
 python-catkin_tools
 python-cerberus
+python-chaospy
 pychromecast
 cjdns
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-contextualbandits
 python-crcmod
 python-crick
+python-cro
 python-dataclassy
 python-diff-cover
 root
@@ -62,7 +64,9 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-duecredit
 python-dunamai
+python-elephant
 python-envisage
 python-et_xmlfile
 python-eth-stdlib
@@ -76,6 +80,7 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
+python-imbalanced-learn
 python-inject
 python-injector
 python-invoke
@@ -90,6 +95,7 @@ python-markups
 python-mechanize
 python-mplcursors
 python-msal
+python-neatdend
 python-notify2
 python-octave-kernel
 onnx
@@ -98,6 +104,7 @@ python-osc-lib
 python-packvers
 python-paginate
 python-pamela
+python-paperwork-backend
 patool
 petsc
 python-pika
@@ -115,8 +122,10 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynn
 python-pyopencl
 python-pyopengl
+python-pypet
 pyproj
 pyserial-asyncio
 python-pytesseract
@@ -133,9 +142,11 @@ python-rq
 python-rstcheck
 python-rx
 python-scikit-image
-python-scikit-learn
+python-scikit-uplift
 signon-glib
 python-simframe
+python-sklearn-genetic
+python-sklearn-genetic-opt
 python-sqlalchemy1.4
 python-stdlibs
 subversion
