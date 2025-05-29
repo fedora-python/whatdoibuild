@@ -563,6 +563,15 @@ withs = ["bootstrap"]
 [[bconds.python-service-identity]]
 withouts = ["docs"]
 
+[[bconds.mkdocs-material]]
+withs = ["bootstrap"]
+
+[[bconds.python-mkdocs-material-extensions]]
+withouts = ["tests"]
+
+[[bconds.python-zope-testing]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
