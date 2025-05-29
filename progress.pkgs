@@ -64,6 +64,7 @@ python-django-contrib-comments
 python-django-filter
 dlib
 python-dunamai
+python-envisage
 python-et_xmlfile
 python-eth-stdlib
 python-exdir
@@ -81,11 +82,11 @@ python-injector
 python-invoke
 python-ipfshttpclient
 python-irc
+python-joblib
 python-josepy
 python-jupyter-events
 qtile
 python-loguru
-python-lz4
 python-makefun
 python-markups
 python-mechanize
@@ -121,6 +122,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytesseract
+python-pytest-astropy
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
@@ -139,7 +141,6 @@ python-simframe
 python-sqlalchemy1.4
 python-stdlibs
 subversion
-python-tables
 python-telnetlib3
 python-tenacity
 python-textual
