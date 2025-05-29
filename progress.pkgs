@@ -32,9 +32,7 @@ python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
-python-astroplan
-python-astropy-healpix
-python-astroscrappy
+python-astroquery
 python-avocado
 python-awesomeversion
 python-axolotl
@@ -81,7 +79,6 @@ python-h5netcdf
 python-hl7
 python-inject
 python-injector
-python-intern
 python-invoke
 python-ipfshttpclient
 python-irc
@@ -89,7 +86,6 @@ python-josepy
 python-jupyter-events
 qtile
 python-loguru
-python-lunr
 python-makefun
 python-markups
 python-mechanize
@@ -115,6 +111,7 @@ python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
+python-pydoctor
 python-pyemd
 pyflakes
 pylibacl
@@ -124,13 +121,11 @@ python-pymeeus
 python-pyopencl
 python-pyopengl
 pyproj
-python-pyregion
 pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
-python-pyvo
 python-rdflib
 python-reactivex
 python-readability-lxml
