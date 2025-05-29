@@ -40,7 +40,6 @@ python-beartype
 python-behave
 python-billiard
 python-botocore
-python-bravado
 python-pymongo
 capstone
 python-capturer
@@ -66,6 +65,7 @@ python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-fasjson-client
 python-flask-caching
 python-flask-session
 python-fs
