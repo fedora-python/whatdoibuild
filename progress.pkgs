@@ -22,6 +22,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
+nbdkit
 ocrmypdf
 pcs
 poezio
@@ -32,6 +33,7 @@ python-aiosmtpd
 python-astdoc
 python-avocado
 python-awesomeversion
+python-awsiotsdk
 python-axolotl
 python-beancount
 python-beartype
@@ -43,10 +45,13 @@ python-capturer
 python-carbon
 python-catkin_tools
 python-cerberus
+python-chalice
 pychromecast
 cjdns
 python-colcon-parallel-executor
 python-colorful
+conda:tests::::
+python-conda-package-streaming::bootstrap:::
 python-confuse
 python-crcmod
 python-crick
@@ -112,7 +117,6 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pynamodb
 python-pyopencl
 python-pyopengl
 python-pypet
@@ -131,7 +135,6 @@ python-rosdep
 python-rq
 python-rstcheck
 python-rx
-python-s3transfer
 python-scikit-image
 signon-glib
 python-simframe
@@ -149,16 +152,19 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
+python-vcrpy
 visidata
 python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
+python-xdfile
 python-yappi
 python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
+syslog-ng
 ufw
 xpra
 yt-dlp
