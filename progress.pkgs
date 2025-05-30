@@ -35,7 +35,18 @@ python-astdoc
 python-avocado
 python-awesomeversion
 python-axolotl
-python-azure-devtools
+python-azure-loganalytics
+python-azure-mgmt-advisor
+python-azure-mgmt-billing
+python-azure-mgmt-botservice
+python-azure-mgmt-consumption
+python-azure-mgmt-databoxedge
+python-azure-mgmt-datamigration
+python-azure-mgmt-devtestlabs
+python-azure-mgmt-dns
+python-azure-mgmt-managedservices
+python-azure-mgmt-maps
+python-azure-mgmt-marketplaceordering
 python-beancount
 python-beartype
 python-billiard
@@ -51,7 +62,6 @@ pychromecast
 cjdns
 python-colcon-parallel-executor
 python-colorful
-python-conda-package-handling
 python-confuse
 python-crcmod
 python-crick
@@ -71,9 +81,9 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
+python-gitlab
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
-python-gql
 python-h5netcdf
 python-hl7
 python-imbalanced-learn
@@ -127,8 +137,8 @@ pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
 python-pyupgrade
+python-pyvirtualize
 python-pyvlx
-python-pyvmomi
 python-rdflib
 python-reactivex
 python-readability-lxml
@@ -155,6 +165,7 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
+python-vconnector
 visidata
 python-watchfiles
 weasyprint
@@ -165,7 +176,6 @@ python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
-syslog-ng
 ufw
 xpra
 yt-dlp
