@@ -77,7 +77,7 @@ python-invoke
 python-ipfshttpclient
 python-irc
 python-josepy
-python-jupyter-events
+python-jupyter-server:tests::::
 qtile
 python-loguru
 python-makefun
