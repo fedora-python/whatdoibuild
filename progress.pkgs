@@ -4,7 +4,6 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
-centpkg
 chirp
 copr-backend
 criu
@@ -23,10 +22,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
-nbdkit
-oci-cli
 ocrmypdf
-pagure-exporter
 pcs
 poezio
 pysubnettree
@@ -110,7 +106,6 @@ python-praw
 python-priority
 python-pudb
 python-pure-protobuf
-python-pvc
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
@@ -154,9 +149,7 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vevents
 visidata
-python-vpoller
 python-watchfiles
 weasyprint
 python-webob
