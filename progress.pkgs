@@ -4,7 +4,6 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
-ceph
 chirp
 copr-backend
 criu
@@ -14,6 +13,7 @@ git-filter-repo
 gnofract4d
 python-howdoi
 httpie
+hypershell
 ikiwiki
 jrnl
 kmymoney
@@ -66,11 +66,9 @@ python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
-python-fasjson-client
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-gatspy
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -99,7 +97,6 @@ python-osc-lib
 python-packvers
 python-paginate
 python-pamela
-paperwork
 patool
 petsc
 python-pika
