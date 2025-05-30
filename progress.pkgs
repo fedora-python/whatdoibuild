@@ -9,7 +9,6 @@ copr-backend
 criu
 diceware
 did
-quodlibet
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -65,10 +64,10 @@ python-envisage
 python-eth-stdlib
 python-exdir
 python3-exiv2
+python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-gerritlib
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
@@ -84,6 +83,7 @@ qtile
 python-loguru
 python-makefun
 python-markups
+Mayavi
 python-mechanize
 python-mplcursors
 python-msal
@@ -94,7 +94,7 @@ python-octave-kernel
 onnx
 opencv
 python-osc-lib
-python-oslo-context
+python-oslo-log
 python-packvers
 python-paginate
 python-pamela
@@ -114,17 +114,14 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pymochad
 python-pyopencl
 python-pyopengl
 python-pypet
 pyproj
-python-pyriemann
+python-pyqt-feedback-flow
 pyserial-asyncio
 python-pytesseract
-python-pytest-flake8-path
 python-pytest-twisted
-python-pytest-xvfb
 python-pyupgrade
 python-pyvlx
 python-rdflib
