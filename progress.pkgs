@@ -77,7 +77,8 @@ python-invoke
 python-ipfshttpclient
 python-irc
 python-josepy
-python-jupyter-server:tests::::
+python-jupyter-lsp
+python-jupyterlab-server
 qtile
 python-loguru
 python-makefun
@@ -87,6 +88,7 @@ python-mplcursors
 python-msal
 python-neatdend
 python-niaarmts
+python-notebook-shim
 python-notify2
 python-octave-kernel
 onnx
