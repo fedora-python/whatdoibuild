@@ -22,7 +22,6 @@ linode-cli
 monkeytype
 mopidy
 mrchem
-nyx
 ocrmypdf
 pcs
 poezio
@@ -59,7 +58,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-doit
 python-dunamai
 python-envisage
 python-eth-stdlib
@@ -89,6 +87,7 @@ python-mplcursors
 python-msal
 python-neatdend
 python-niaarmts
+python-nibabel
 python-notify2
 python-octave-kernel
 onnx
@@ -107,20 +106,19 @@ python-pudb
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
-python-pydicom
 python-pydocstyle
 python-pyemd
 pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynetdicom
 python-pyopencl
 python-pyopengl
 python-pypet
 pyproj
 pyserial-asyncio
 python-pytesseract
-python-pytest-flakes
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
