@@ -27,14 +27,15 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-Mastodon
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
 python-astdoc
 python-avocado
 python-awesomeversion
-python-awsiotsdk
 python-axolotl
+python-azure-devtools
 python-beancount
 python-beartype
 python-billiard
@@ -50,8 +51,7 @@ pychromecast
 cjdns
 python-colcon-parallel-executor
 python-colorful
-conda:tests::::
-python-conda-package-streaming::bootstrap:::
+python-conda-package-handling
 python-confuse
 python-crcmod
 python-crick
@@ -73,6 +73,7 @@ python-fs
 python-fsleyes-widgets
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
+python-gql
 python-h5netcdf
 python-hl7
 python-imbalanced-learn
@@ -93,6 +94,7 @@ python-msal
 python-neatdend
 python-niaarmts
 python-notify2
+python-oci
 python-octave-kernel
 onnx
 opencv
@@ -126,6 +128,7 @@ python-pytesseract
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
+python-pyvmomi
 python-rdflib
 python-reactivex
 python-readability-lxml
@@ -152,13 +155,11 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vcrpy
 visidata
 python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
-python-xdfile
 python-yappi
 python-zeep
 python-zict
