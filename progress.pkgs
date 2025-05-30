@@ -22,10 +22,8 @@ linode-cli
 monkeytype
 mopidy
 mrchem
-mycli
 ocrmypdf
 pcs
-pgcli
 poezio
 pysubnettree
 python-aioesphomeapi
@@ -53,7 +51,6 @@ python-colorful
 python-confuse
 python-crcmod
 python-crick
-python-csvkit
 python-dataclassy
 python-diff-cover
 root
@@ -61,7 +58,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-docx
 python-dunamai
 python-envisage
 python-eth-stdlib
@@ -91,7 +87,6 @@ python-mplcursors
 python-msal
 python-neatdend
 python-niaarmts
-python-niaclass
 python-notify2
 python-octave-kernel
 onnx
@@ -138,7 +133,6 @@ python-rx
 python-scikit-image
 signon-glib
 python-simframe
-python-sklearn-nature-inspired-algorithms
 python-sqlalchemy1.4
 python-stdlibs
 subversion
