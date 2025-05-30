@@ -36,7 +36,6 @@ python-axolotl
 python-beancount
 python-beartype
 python-billiard
-python-botocore
 python-boutdata
 python-pymongo
 capstone
@@ -53,7 +52,6 @@ python-crcmod
 python-crick
 python-dataclassy
 python-diff-cover
-python-dipy
 root
 python-django-configurations
 python-django-contrib-comments
@@ -114,6 +112,7 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynamodb
 python-pyopencl
 python-pyopengl
 python-pypet
@@ -132,6 +131,7 @@ python-rosdep
 python-rq
 python-rstcheck
 python-rx
+python-s3transfer
 python-scikit-image
 signon-glib
 python-simframe
