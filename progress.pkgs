@@ -64,7 +64,6 @@ python-envisage
 python-eth-stdlib
 python-exdir
 python3-exiv2
-python-fiona
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -73,7 +72,6 @@ python-googleapis-common-protos::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-huggingface-hub
 python-imbalanced-learn
 python-inject
 python-injector
