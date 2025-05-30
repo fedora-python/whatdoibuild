@@ -13,7 +13,6 @@ git-filter-repo
 gnofract4d
 python-howdoi
 httpie
-hypershell
 ikiwiki
 jrnl
 kmymoney
@@ -27,6 +26,7 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-agate-excel
 python-aioesphomeapi
 python-aiokafka
 python-aiosmtpd
@@ -62,7 +62,6 @@ python-django-filter
 dlib
 python-dunamai
 python-envisage
-python-et_xmlfile
 python-eth-stdlib
 python-exdir
 python3-exiv2
@@ -89,6 +88,7 @@ python-mechanize
 python-mplcursors
 python-msal
 python-neatdend
+python-niapy
 python-notify2
 python-octave-kernel
 onnx
@@ -159,6 +159,7 @@ python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
+sherlock-project
 ufw
 xpra
 yt-dlp
