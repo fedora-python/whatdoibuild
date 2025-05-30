@@ -118,7 +118,6 @@ python-pyopencl
 python-pyopengl
 python-pypet
 pyproj
-python-pyqt-feedback-flow
 pyserial-asyncio
 python-pytesseract
 python-pytest-twisted
