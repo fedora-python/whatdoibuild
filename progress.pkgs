@@ -69,9 +69,11 @@ python-fs
 python-fsleyes-widgets
 python-googleapis-common-protos::bootstrap:::
 python-gphoto2
+python-gradunwarp
 python-h5netcdf
 python-hl7
 python-imbalanced-learn
+python-indexed_gzip
 python-inject
 python-injector
 python-invoke
@@ -83,11 +85,13 @@ python-loguru
 python-makefun
 python-markups
 python-mechanize
+python-medimages4tests
 python-mplcursors
 python-msal
 python-neatdend
 python-niaarmts
-python-nibabel
+python-nipy
+python-nitime
 python-notify2
 python-octave-kernel
 onnx
@@ -142,6 +146,7 @@ python-tenacity
 python-textual
 python-toolz
 python-towncrier
+python-trx-python
 python-txaio
 python-typeguard
 python-typing-inspect
