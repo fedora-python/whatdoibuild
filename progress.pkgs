@@ -114,6 +114,7 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynwb
 python-pyopencl
 python-pyopengl
 python-pypet
@@ -157,7 +158,6 @@ weasyprint
 python-webob
 python-wordcloud
 python-yappi
-python-zarr
 python-zeep
 python-zict
 rebase-helper
