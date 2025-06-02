@@ -89,7 +89,6 @@ python-mplcursors
 python-msal
 python-neatdend
 python-niaarmts
-python-notify2
 python-octave-kernel
 onnx
 opencv
@@ -114,10 +113,8 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pynwb
 python-pyopencl
 python-pyopengl
-python-pypet
 pyproj
 pyserial-asyncio
 python-pytesseract
@@ -158,7 +155,6 @@ weasyprint
 python-webob
 python-wordcloud
 python-yappi
-python-zeep
 python-zict
 rebase-helper
 rpm-head-signing
