@@ -101,10 +101,12 @@ def packages_built(new_deps, *, excluded_components=()):
     return components
 
 
-def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter, loop_detector):
+def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter, loop_detector, missing_packages):
     """
     Given a collection of (binary) packages_to_check, and dicts of all_components and components_done,
     returns True if ALL packages_to_check are considered "done" (i.e. installable).
+
+    missing_packages maps component names to sets of missing package names.
     """
     relevant_components = ReverseLookupDict()
     for pkg in packages_to_check:
@@ -147,6 +149,9 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
                     log(f'      ✗ {required_package.name} (older EVR available)')
                 else:
                     log(f'      ✗ {required_package.name}')
+
+                missing_packages[component].add(required_package.name)
+
                 all_available = False
                 count_component = True
         if count_component:
@@ -191,6 +196,25 @@ def report_blocking_components(loop_detector):
     for loop in sorted(loops, key=lambda t: -len(t)):
         log('    • ' + ' → '.join(loop))
 
+
+def get_component_status_info(component, missing_packages, components):
+    """Generate status information for a component explaining why it's blocked."""
+    if component in components:
+        if component in missing_packages:
+            missing_deps = missing_packages[component]
+            if missing_deps:
+                missing_deps_str = ", ".join(sorted(missing_deps)[:3])
+                if len(missing_deps) > 3:
+                    missing_deps_str += "..."
+                return f" (blocked by: {missing_deps_str})"
+            else:
+                return " (blocked for unknown reason)"  # This should never happen, but keep it for debugging
+        else:
+            return " (ready)"  # This should never happen, but keep it for debugging
+    else:
+        return f" (build failed)"
+
+
 if __name__ == '__main__':
     # this is spaghetti code that will be split into functions later:
     from resolve_buildroot import resolve_buildrequires_of, resolve_requires
@@ -208,6 +232,8 @@ if __name__ == '__main__':
         'combinations': collections.Counter(),
     }
     loop_detector = {}
+
+    missing_packages = collections.defaultdict(set)  # requiring_component -> missing packages
 
     for component in components:
         if len(sys.argv) > 1 and component not in sys.argv[1:]:
@@ -228,6 +254,7 @@ if __name__ == '__main__':
                 components_done=components_done,
                 blocker_counter=blocker_counter,
                 loop_detector=loop_detector,
+                missing_packages=missing_packages,
             )
 
         if ready_to_rebuild:
@@ -255,6 +282,7 @@ if __name__ == '__main__':
                         components_done=components_done,
                         blocker_counter=blocker_counter,
                         loop_detector=loop_detector,
+                        missing_packages=missing_packages,
                     )
                     if ready_to_rebuild:
                         if os.environ.get('PRINT_ALL') or component not in components_done:
@@ -264,11 +292,13 @@ if __name__ == '__main__':
 
     log('\nThe 50 most commonly needed components are:')
     for component, count in blocker_counter['general'].most_common(50):
-        log(f'{count:>5} {component}')
+        status_info = get_component_status_info(component, missing_packages, components)
+        log(f'{count:>5} {component:<35} {status_info}')
 
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in blocker_counter['single'].most_common(20):
-        log(f'{count:>5} {component}')
+        status_info = get_component_status_info(component, missing_packages, components)
+        log(f'{count:>5} {component:<35} {status_info}')
 
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
     for components, count in blocker_counter['combinations'].most_common(20):
