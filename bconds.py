@@ -49,7 +49,7 @@ def srpm_path(directory):
     candidates = list(directory.glob('*.src.rpm'))
     if not candidates:
         return None
-    if count := len(candidates) > 1:
+    if (count := len(candidates)) > 1:
         raise RuntimeError(f'Found {count} SRPMs in {directory}.')
     return candidates[0]
 
