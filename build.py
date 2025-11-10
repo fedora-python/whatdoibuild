@@ -2,62 +2,161 @@ import pathlib
 import sys
 
 from bconds import reverse_id_lookup, build_reverse_id_lookup
-from gitrepo import clone_into, refresh_gitrepo, patch_spec, refresh_or_clone
+from gitrepo import patch_spec, refresh_or_clone
 from utils import CONFIG, run
 
 
 PATCHDIR = pathlib.Path('patches_dir')
 FEDPKG_CACHEDIR = pathlib.Path(CONFIG['cache_dir']['fedpkg'])
+SPEC_EXTENSION = '.spec'
 
-if __name__ == '__main__':
-    try:
-        if len(sys.argv) != 2:
-            sys.exit('This requires one argument.')
-        component_name = sys.argv[1]
 
-        bootstrap = None
-        if ':' in component_name:
-            build_reverse_id_lookup()
-            bootstrap = reverse_id_lookup[component_name]
-            component_name, *_ = component_name.partition(':')
+def parse_component_argument(component_arg):
+    """
+    Parse component name and optional bcond configuration from argument.
+    
+    Args:
+        component_arg: Either a plain component name or bcond identifier
+    
+    Returns:
+        Tuple of (component_name, bootstrap_config or None)
+    """
+    if ':' not in component_arg:
+        return component_arg, None
+    
+    build_reverse_id_lookup()
+    bootstrap = reverse_id_lookup[component_arg]
+    component_name = component_arg.partition(':')[0]
+    return component_name, bootstrap
 
-        repopath = FEDPKG_CACHEDIR / component_name
-        refresh_or_clone(repopath, component_name, prune_existing=True)
 
-        specpath = repopath / f'{component_name}.spec'
+def get_patch_path(component_name):
+    """Get the path to a component's patch file."""
+    return PATCHDIR / f'{component_name}.patch'
 
-        # Find any patches from previous bootstrap builds
-        patch = PATCHDIR / f'{component_name}.patch'
-        if patch.exists():
-            if bootstrap:
-                raise NotImplementedError('Double bootstrap is not yet supported')
-            with patch.open('r') as patchfile:
-                run('patch', '-R', '-p1', stdin=patchfile, cwd=repopath)
-            patch.unlink()
 
+def get_spec_path(repopath, component_name):
+    """Get the path to a component's spec file."""
+    return repopath / f'{component_name}{SPEC_EXTENSION}'
+
+
+def revert_existing_patch(repopath, patch_path):
+    """
+    Revert an existing patch if it exists.
+    
+    Args:
+        repopath: Path to the repository
+        patch_path: Path to the patch file
+    
+    Raises:
+        NotImplementedError: If trying to apply double bootstrap
+    """
+    if not patch_path.exists():
+        return
+    
+    with patch_path.open('r') as patchfile:
+        run('patch', '-R', '-p1', stdin=patchfile, cwd=repopath)
+    patch_path.unlink()
+
+
+def prepare_bootstrap_build(repopath, component_name, specpath, bootstrap):
+    """
+    Prepare a bootstrap build by patching spec and saving diff.
+    
+    Args:
+        repopath: Path to the repository
+        component_name: Name of the component
+        specpath: Path to the spec file
+        bootstrap: Bootstrap configuration
+    
+    Returns:
+        str: Commit message for bootstrap build
+    """
+    message = CONFIG['distgit']['bootstrap_commit_message']
+    patch_spec(specpath, bootstrap)
+    diff = run('git', '-C', repopath, 'diff').stdout
+    patch_path = get_patch_path(component_name)
+    patch_path.write_text(diff)
+    return message
+
+
+def commit_and_push_changes(repopath, component_name, specpath, message):
+    """
+    Bump spec, commit changes, and push to remote.
+    
+    Args:
+        repopath: Path to the repository
+        component_name: Name of the component
+        specpath: Path to the spec file
+        message: Commit message
+    """
+    run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
+    run('git', '-C', repopath, 'commit', '--allow-empty', 
+        f'{component_name}{SPEC_EXTENSION}', '-m', message, 
+        '--author', CONFIG['distgit']['author'])
+    # raise NotImplementedError('no pushing yet')
+    run('git', '-C', repopath, 'push')
+
+
+def submit_koji_build(repopath):
+    """
+    Submit a Koji build for the component.
+    
+    Args:
+        repopath: Path to the repository
+    """
+    run('fedpkg', 'build', '--fail-fast', '--nowait', 
+        '--target', CONFIG['koji']['target'], cwd=repopath)  # '--background'
+
+
+def build_component(component_arg):
+    """
+    Build a component with optional bootstrap configuration.
+    
+    Args:
+        component_arg: Component name or bcond identifier (name:config)
+    
+    Raises:
+        NotImplementedError: If double bootstrap is attempted
+    """
+    component_name, bootstrap = parse_component_argument(component_arg)
+    repopath = FEDPKG_CACHEDIR / component_name
+    
+    refresh_or_clone(repopath, component_name, prune_existing=True)
+    
+    specpath = get_spec_path(repopath, component_name)
+    patch_path = get_patch_path(component_name)
+    
+    # Handle existing patches from previous builds
+    if patch_path.exists():
         if bootstrap:
-            message = CONFIG['distgit']['bootstrap_commit_message']
-            patch_spec(specpath, bootstrap)
-            diff = run('git', '-C', repopath, 'diff').stdout
-            patch.write_text(diff)
-        else:
-            message = CONFIG['distgit']['commit_message']
+            raise NotImplementedError('Double bootstrap is not yet supported')
+        revert_existing_patch(repopath, patch_path)
+    
+    if bootstrap:
+        message = prepare_bootstrap_build(repopath, component_name, specpath, bootstrap)
+    else:
+        message = CONFIG['distgit']['commit_message']
+    
+    # Bump and commit only if we haven't already, XXX ability to force this
+    head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
+    if bootstrap:  # or head_commit_msg != message:
+        commit_and_push_changes(repopath, component_name, specpath, message)
+    
+    submit_koji_build(repopath)
 
-        # Bump and commit only if we haven't already, XXX ability to force this
-        head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
-        if bootstrap:  # or head_commit_msg != message:
-            run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
-            run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', CONFIG['distgit']['author'])
 
-            #raise NotImplementedError('no pushing yet')
-            run('git', '-C', repopath, 'push')
-        run('fedpkg', 'build', '--fail-fast', '--nowait', '--target', CONFIG['koji']['target'], cwd=repopath)  # '--background'
-
-        # XXX prune this directory because we don't want no thousands clones?
-        # maybe we are not gonna need this?
+def main():
+    """Main entry point for building components."""
+    if len(sys.argv) != 2:
+        sys.exit('Usage: build.py <component_name|bcond_identifier>')
+    
+    try:
+        build_component(sys.argv[1])
     except Exception:
         print(sys.argv[1])
         raise
 
-    # XXX prune this directory because we don't want no thousands clones?
-    # maybe we are not gonna need this?
+
+if __name__ == '__main__':
+    main()
