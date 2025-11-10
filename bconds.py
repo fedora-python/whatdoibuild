@@ -135,39 +135,82 @@ def handle_existing_koji_id(repopath, *, was_updated):
                 return koji_task_id
 
 
-def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', target='', no_git_refresh=False):
+def check_existing_artifacts(repopath, was_updated, bcond_config):
     """
-    This will:
-     1. clone/fetch the given component_name package from Fedora to fedpkg_cache_dir
-        in case the repo existed and HEAD was not updated, this ends early if:
-          - a SRPM exists
-          - a previously stored Koji task ID is present and not canceled or failed
-          (both information is added to the provided bcond_config)
-     2. change the specfile to apply the given bcond/macro config
-     3. scratchbuild the package in Koji (in a given target if specified)
-     4. cleanup the generated SRPM
-     5. write the Koji ID to KOJI_ID_FILENAME in the repo directory and to bcond_config
-     6. return True if something was submitted to Koji
+    Check if we can reuse existing SRPM or Koji task.
+    
+    Args:
+        repopath: Path to the repository
+        was_updated: Whether the repository was just updated
+        bcond_config: Configuration dict to update with found artifacts
+    
+    Returns:
+        bool: True if existing artifact found and can be reused (no rebuild needed)
     """
-    repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
-
-    news = refresh_or_clone(repopath, component_name, no_git_refresh=no_git_refresh, branch=branch)
-
-    if srpm := handle_existing_srpm(repopath, was_updated=news):
+    if srpm := handle_existing_srpm(repopath, was_updated=was_updated):
         bcond_config['srpm'] = srpm
-        return False
-
-    if koji_id := handle_existing_koji_id(repopath, was_updated=news):
+        return True
+    
+    if koji_id := handle_existing_koji_id(repopath, was_updated=was_updated):
         bcond_config['koji_task_id'] = koji_id
-        return False
+        return True
+    
+    return False
 
+
+def prepare_spec_for_build(component_name, repopath, bcond_config):
+    """
+    Prepare the spec file by applying bcond patches and optionally bumping release.
+    
+    Args:
+        component_name: Name of the component
+        repopath: Path to the repository
+        bcond_config: Configuration with bcond settings
+    
+    Returns:
+        Path to the prepared spec file
+    """
     specpath = repopath / f'{component_name}.spec'
     patch_spec(specpath, bcond_config)
+    
     if 'bootstrap' in bcond_config.get('withs', ()):
         # bump the release not to create an older EVR with ~bootstrap
         # this is useful if we build the testing SRPMs in copr
         run('rpmdev-bumpspec', '--rightmost', specpath)
+    
+    return specpath
 
+
+def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', target='', no_git_refresh=False):
+    """
+    Clone/refresh a component repository and submit a Koji scratchbuild if needed.
+    
+    This function:
+     1. Clones/fetches the component package from Fedora to fedpkg_cache_dir
+     2. Checks for existing SRPM or Koji task (returns early if found)
+     3. Prepares the specfile with bcond/macro patches
+     4. Submits a scratchbuild to Koji
+     5. Updates bcond_config with the Koji task ID
+    
+    Args:
+        component_name: Name of the component to build
+        bcond_config: Configuration dict with bcond settings and build cache identifier
+        branch: Git branch to use (defaults to config value)
+        target: Koji target to build for (optional)
+        no_git_refresh: Skip git refresh if True
+    
+    Returns:
+        bool: True if a scratchbuild was submitted, False if reusing existing artifact
+    """
+    repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
+    
+    was_updated = refresh_or_clone(repopath, component_name, no_git_refresh=no_git_refresh, branch=branch)
+    
+    if check_existing_artifacts(repopath, was_updated, bcond_config):
+        return False
+    
+    prepare_spec_for_build(component_name, repopath, bcond_config)
+    
     bcond_config['koji_task_id'] = submit_scratchbuild(repopath, target=target)
     return True
 
