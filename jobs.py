@@ -110,6 +110,76 @@ def packages_built(new_deps, *, excluded_components=()):
     )
 
 
+def _group_packages_by_component(packages_to_check, all_components):
+    """
+    Group packages by their source component.
+    
+    Args:
+        packages_to_check: Collection of binary packages to check
+        all_components: ReverseLookupDict mapping components to packages
+    
+    Returns:
+        ReverseLookupDict with component names as keys and lists of packages as values
+    """
+    relevant_components = ReverseLookupDict()
+    for pkg in packages_to_check:
+        relevant_components[all_components.key(pkg)].append(pkg)
+    relevant_components.default_factory = None
+    return relevant_components
+
+
+def _is_package_available(required_package, done_packages):
+    """
+    Check if a required package is available in the list of done packages.
+    
+    The done packages are from a different repo and might have different EVR.
+    We compare by name or by virtual provides.
+    
+    Args:
+        required_package: The package we need
+        done_packages: List of packages that have been built
+    
+    Returns:
+        Tuple of (is_available, has_older_version)
+    """
+    has_older = False
+    for done_package in done_packages:
+        # The done packages are from different repo and might have different EVR
+        # Hence, we only compare the names
+        # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
+        # For koji rebuilds, this will be always true anyway
+        if done_package.name == required_package.name:
+            # if not done_package.evr_lt(required_package):
+            if True:
+                return True, False
+            else:
+                has_older = True
+        else:
+            # Check the virtual provides - maybe one of them matches what we look for
+            for provide in done_package.provides:
+                if provide.name == required_package.name:
+                    return True, False
+    
+    return False, has_older
+
+
+def _update_blocker_statistics(blocking_components, blocker_counter, loop_detector, component):
+    """
+    Update blocker statistics based on which components are blocking.
+    
+    Args:
+        blocking_components: Set of component names that are blocking
+        blocker_counter: Dict with 'general', 'single', and 'combinations' counters
+        loop_detector: Dict mapping components to their blocking components
+        component: The component being checked
+    """
+    if len(blocking_components) == 1:
+        blocker_counter['single'][next(iter(blocking_components))] += 1
+    elif 1 < len(blocking_components) < 10:  # this is an arbitrarily chosen number to avoid cruft
+        blocker_counter['combinations'][tuple(sorted(blocking_components))] += 1
+    loop_detector[component] = sorted(blocking_components)
+
+
 def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter, loop_detector, missing_packages):
     """
     Given a collection of (binary) packages_to_check, and dicts of all_components and components_done,
@@ -117,60 +187,41 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
 
     missing_packages maps component names to sets of missing package names.
     """
-    relevant_components = ReverseLookupDict()
-    for pkg in packages_to_check:
-        relevant_components[all_components.key(pkg)].append(pkg)
-    relevant_components.default_factory = None
+    relevant_components = _group_packages_by_component(packages_to_check, all_components)
 
     log(f'  • {component}: {len(packages_to_check)} packages / {len(relevant_components)} '
         f'components relevant to our problem')
+    
     all_available = True
     blocking_components = set()
+    
     for relevant_component, required_packages in relevant_components.items():
         log(f'    • {relevant_component}')
-        count_component = False
+        component_is_blocking = False
+        
         for required_package in required_packages:
-            has_older = False
-            for done_package in components_done.get(relevant_component, ()):
-                found = False
-                # The done packages are from different repo and might have different EVR
-                # Hence, we only compare the names
-                # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
-                # For koji rebuilds, this will be always true anyway
-                if done_package.name == required_package.name:
-                    # if not done_package.evr_lt(required_package):
-                    if True:
-                        log(f'      ✔ {required_package.name}')
-                        break
-                    else:
-                        has_older = True
-                else:
-                    # Check the virtual provides - maybe one of them matches what we look for
-                    for provide in done_package.provides:
-                        if provide.name == required_package.name:
-                            log(f'      ✔ {required_package.name}')
-                            found = True
-                            break
-                    if found:
-                        break
+            is_available, has_older = _is_package_available(
+                required_package,
+                components_done.get(relevant_component, ())
+            )
+            
+            if is_available:
+                log(f'      ✔ {required_package.name}')
             else:
                 if has_older:
                     log(f'      ✗ {required_package.name} (older EVR available)')
                 else:
                     log(f'      ✗ {required_package.name}')
-
+                
                 missing_packages[component].add(required_package.name)
-
                 all_available = False
-                count_component = True
-        if count_component:
+                component_is_blocking = True
+        
+        if component_is_blocking:
             blocker_counter['general'][relevant_component] += 1
             blocking_components.add(relevant_component)
-    if len(blocking_components) == 1:
-        blocker_counter['single'][next(iter(blocking_components))] += 1
-    elif 1 < len(blocking_components) < 10:  # this is an arbitrarily chosen number to avoid cruft
-        blocker_counter['combinations'][tuple(sorted(blocking_components))] += 1
-    loop_detector[component] = sorted(blocking_components)
+    
+    _update_blocker_statistics(blocking_components, blocker_counter, loop_detector, component)
     return all_available
 
 
