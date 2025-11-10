@@ -9,6 +9,13 @@ from gitrepo import clone_into, refresh_gitrepo, patch_spec, refresh_or_clone
 from utils import CONFIG, log, run
 
 KOJI_ID_FILENAME = 'koji.id'
+SRPM_EXTENSION = '.src.rpm'
+SPEC_EXTENSION = '.spec'
+
+KOJI_STATE_CLOSED = 'closed'
+KOJI_FAILED_STATES = ('canceled', 'failed')
+
+KOJI_ARTIFACT_RETENTION_DAYS = 7
 
 reverse_id_lookup = {}
 
@@ -46,7 +53,7 @@ def srpm_path(directory):
     Returns None if not there.
     Raises RuntimeError when multiple SRPMs are found.
     """
-    candidates = list(directory.glob('*.src.rpm'))
+    candidates = list(directory.glob(f'*{SRPM_EXTENSION}'))
     if not candidates:
         return None
     if (count := len(candidates)) > 1:
@@ -89,16 +96,13 @@ def koji_status(koji_id):
 
 def koji_id_is_older_than_week(koji_id_path):
     """
-    Returns True if koji_id file was created earlier than a week ago.
-    We assume this is a treshold time after which Koji artifacts are deleted,
+    Returns True if koji_id file was created earlier than the retention period.
+    We assume this is a threshold time after which Koji artifacts are deleted,
     and we need to remove koji_id to retrigger the scratchbuild.
-    If koji_id was created within the last week, return False.
     """
     koji_id_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(koji_id_path))
-    one_week_ago = datetime.datetime.now() - datetime.timedelta(weeks=1)
-    if koji_id_mtime < one_week_ago:
-        return True
-    return False
+    retention_cutoff = datetime.datetime.now() - datetime.timedelta(days=KOJI_ARTIFACT_RETENTION_DAYS)
+    return koji_id_mtime < retention_cutoff
 
 
 def handle_existing_srpm(repopath, *, was_updated):
@@ -120,13 +124,13 @@ def handle_existing_koji_id(repopath, *, was_updated):
         else:
             koji_task_id = koji_id_path.read_text()
             status = koji_status(koji_task_id)
-            if status in ('canceled', 'failed'):
+            if status in KOJI_FAILED_STATES:
                 log(f'   • Koji task {koji_task_id} is {status}; '
                     f'removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
                 return None
-            elif status == 'closed' and koji_id_is_older_than_week(koji_id_path):
-                log(f'   • Koji task {koji_task_id} is older than one week, '
+            elif status == KOJI_STATE_CLOSED and koji_id_is_older_than_week(koji_id_path):
+                log(f'   • Koji task {koji_task_id} is older than {KOJI_ARTIFACT_RETENTION_DAYS} days, '
                     f'there may be nothing to download; removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
             else:
@@ -170,7 +174,7 @@ def prepare_spec_for_build(component_name, repopath, bcond_config):
     Returns:
         Path to the prepared spec file
     """
-    specpath = repopath / f'{component_name}.spec'
+    specpath = repopath / f'{component_name}{SPEC_EXTENSION}'
     patch_spec(specpath, bcond_config)
     
     if 'bootstrap' in bcond_config.get('withs', ()):
@@ -225,7 +229,7 @@ def download_srpm_if_possible(bcond_config):
     """
     if ('srpm' in bcond_config or
             'koji_task_id' not in bcond_config or
-            koji_status(bcond_config['koji_task_id']) != 'closed'):
+            koji_status(bcond_config['koji_task_id']) != KOJI_STATE_CLOSED):
         return False
     log(' • Downloading SRPM from Koji...', end=' ')
     repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
@@ -234,8 +238,8 @@ def download_srpm_if_possible(bcond_config):
     if (l := len(koji_output)) != 1:
         raise RuntimeError(f'Cannot parse koji download-task output, expected 1 line, got: {l}')
     srpm_filename = koji_output[0].split(' ')[-1]
-    if not srpm_filename.endswith('.src.rpm'):
-        raise RuntimeError(f'Cannot parse koji download-task output, expected a *.src.rpm filename, got: {srpm_filename}')
+    if not srpm_filename.endswith(SRPM_EXTENSION):
+        raise RuntimeError(f'Cannot parse koji download-task output, expected a *{SRPM_EXTENSION} filename, got: {srpm_filename}')
     srpm = repopath / srpm_filename
     if not srpm.exists():
         raise RuntimeError(f'Downloaded SRPM does not exist: {srpm}')
