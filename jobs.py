@@ -180,9 +180,10 @@ def _update_blocker_statistics(blocking_components, blocker_counter, loop_detect
     loop_detector[component] = sorted(blocking_components)
 
 
-def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter, loop_detector, missing_packages):
+def are_all_done(*, component, packages_to_check, all_components, components_done, blocker_counter, loop_detector, missing_packages):
     """
-    Given a collection of (binary) packages_to_check, and dicts of all_components and components_done,
+    Given a component name and a collection of (binary) packages_to_check,
+    along with dicts of all_components and components_done,
     returns True if ALL packages_to_check are considered "done" (i.e. installable).
 
     missing_packages maps component names to sets of missing package names.
@@ -275,93 +276,215 @@ def get_component_status_info(component, missing_packages, components):
         return f" (build failed)"
 
 
-if __name__ == '__main__':
-    # this is spaghetti code that will be split into functions later:
-    from resolve_buildroot import resolve_buildrequires_of, resolve_requires
-    from bconds import bcond_cache_identifier, extract_buildrequires_if_possible
-
-    components = packages_to_rebuild(tuple(CONFIG['deps']['old']), excluded_components=tuple(CONFIG['components']['excluded']))
+def initialize_component_data():
+    """
+    Load and prepare all component data needed for rebuild analysis.
+    
+    Returns:
+        Tuple of (components, components_done, binary_rpms, blocker_counter, loop_detector, missing_packages)
+    """
+    components = packages_to_rebuild(
+        tuple(CONFIG['deps']['old']),
+        excluded_components=tuple(CONFIG['components']['excluded'])
+    )
     for component in CONFIG['components']['extra']:
         components[component] = []
-    components_done = packages_built(tuple(CONFIG['deps']['new']), excluded_components=tuple(CONFIG['components']['excluded']))
+    
+    components_done = packages_built(
+        tuple(CONFIG['deps']['new']),
+        excluded_components=tuple(CONFIG['components']['excluded'])
+    )
+    
     binary_rpms = components.all_values()
-
+    
     blocker_counter = {
         'general': collections.Counter(),
         'single': collections.Counter(),
         'combinations': collections.Counter(),
     }
     loop_detector = {}
-
     missing_packages = collections.defaultdict(set)  # requiring_component -> missing packages
+    
+    return components, components_done, binary_rpms, blocker_counter, loop_detector, missing_packages
 
-    for component in components:
-        if len(sys.argv) > 1 and component not in sys.argv[1:]:
-            continue
 
-        try:
-            component_buildroot = resolve_buildrequires_of(component)
-        except ValueError as e:
-            log(f'\n  ✗ {e}')
-            number_of_resolved = None
-            ready_to_rebuild = False
-        else:
-            number_of_resolved = len(component_buildroot)
+def check_regular_build(component, binary_rpms, components, components_done, blocker_counter, loop_detector, missing_packages):
+    """
+    Check if a component's regular (non-bconded) build is ready.
+    
+    Returns:
+        Tuple of (ready_to_rebuild, number_of_resolved)
+        - ready_to_rebuild: bool indicating if component can be rebuilt
+        - number_of_resolved: int count of resolved packages, or None if resolution failed
+    """
+    from resolve_buildroot import resolve_buildrequires_of
+    
+    try:
+        component_buildroot = resolve_buildrequires_of(component)
+    except ValueError as e:
+        log(f'\n  ✗ {e}')
+        return False, None
+    
+    number_of_resolved = len(component_buildroot)
+    ready_to_rebuild = are_all_done(
+        component=component,
+        packages_to_check=set(component_buildroot) & binary_rpms,
+        all_components=components,
+        components_done=components_done,
+        blocker_counter=blocker_counter,
+        loop_detector=loop_detector,
+        missing_packages=missing_packages,
+    )
+    
+    return ready_to_rebuild, number_of_resolved
 
-            ready_to_rebuild = are_all_done(
-                packages_to_check=set(component_buildroot) & binary_rpms,
-                all_components=components,
-                components_done=components_done,
-                blocker_counter=blocker_counter,
-                loop_detector=loop_detector,
-                missing_packages=missing_packages,
-            )
 
+def check_bcond_build(component, bcond_config, number_of_resolved, binary_rpms, components, components_done, blocker_counter, loop_detector, missing_packages):
+    """
+    Check if a component's bcond build is ready.
+    
+    Returns:
+        bool indicating if the bcond build can be rebuilt
+    """
+    from resolve_buildroot import resolve_requires
+    from bconds import extract_buildrequires_if_possible
+    
+    if 'buildrequires' not in bcond_config:
+        extract_buildrequires_if_possible(bcond_config)
+    
+    if 'buildrequires' not in bcond_config:
+        log(f' • {bcond_config["id"]} bcond SRPM not present yet, skipping')
+        return False
+    
+    try:
+        component_buildroot = resolve_requires(tuple(sorted(bcond_config['buildrequires'])))
+    except ValueError as e:
+        log(f'\n  ✗ {e}')
+        return False
+    
+    if number_of_resolved == len(component_buildroot):
+        # XXX when this happens, the bcond might be bogus
+        # figure out a way to present that information
+        pass
+    
+    ready_to_rebuild = are_all_done(
+        component=component,
+        packages_to_check=set(component_buildroot) & binary_rpms,
+        all_components=components,
+        components_done=components_done,
+        blocker_counter=blocker_counter,
+        loop_detector=loop_detector,
+        missing_packages=missing_packages,
+    )
+    
+    return ready_to_rebuild
+
+
+def check_bcond_builds(component, number_of_resolved, binary_rpms, components, components_done, blocker_counter, loop_detector, missing_packages):
+    """
+    Check all bcond builds for a component that isn't ready for regular build.
+    
+    Prints any bcond build identifiers that are ready to rebuild.
+    """
+    from bconds import bcond_cache_identifier
+    
+    if component not in CONFIG['bconds']:
+        return
+    
+    for bcond_config in CONFIG['bconds'][component]:
+        bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
+        log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
+        
+        ready_to_rebuild = check_bcond_build(
+            component, bcond_config, number_of_resolved,
+            binary_rpms, components, components_done,
+            blocker_counter, loop_detector, missing_packages
+        )
+        
         if ready_to_rebuild:
-            if os.environ.get('PRINT_ALL') or component not in components_done:
-                print(component)
-        elif component in CONFIG['bconds']:
-            for bcond_config in CONFIG['bconds'][component]:
-                bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
-                log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
-                if 'buildrequires' not in bcond_config:
-                    extract_buildrequires_if_possible(bcond_config)
-                if 'buildrequires' in bcond_config:
-                    try:
-                        component_buildroot = resolve_requires(tuple(sorted(bcond_config['buildrequires'])))
-                    except ValueError as e:
-                        log(f'\n  ✗ {e}')
-                        continue
-                    if number_of_resolved == len(component_buildroot):
-                        # XXX when this happens, the bcond might be bogus
-                        # figure out a way to present that information
-                        pass
-                    ready_to_rebuild = are_all_done(
-                        packages_to_check=set(component_buildroot) & binary_rpms,
-                        all_components=components,
-                        components_done=components_done,
-                        blocker_counter=blocker_counter,
-                        loop_detector=loop_detector,
-                        missing_packages=missing_packages,
-                    )
-                    if ready_to_rebuild:
-                        if os.environ.get('PRINT_ALL') or component not in components_done:
-                            print(bcond_config['id'])
-                else:
-                    log(f' • {bcond_config["id"]} bcond SRPM not present yet, skipping')
+            if should_print_component(component, components_done):
+                print(bcond_config['id'])
 
+
+def should_print_component(component, components_done):
+    """
+    Determine if a component should be printed based on PRINT_ALL env var.
+    
+    Returns:
+        bool indicating if component should be printed
+    """
+    return os.environ.get('PRINT_ALL') or component not in components_done
+
+
+def process_component(component, binary_rpms, components, components_done, blocker_counter, loop_detector, missing_packages):
+    """
+    Process a single component: check regular build and bcond builds if needed.
+    
+    Prints the component or bcond identifier if ready to rebuild.
+    """
+    ready_to_rebuild, number_of_resolved = check_regular_build(
+        component, binary_rpms, components, components_done,
+        blocker_counter, loop_detector, missing_packages
+    )
+    
+    if ready_to_rebuild:
+        if should_print_component(component, components_done):
+            print(component)
+    else:
+        check_bcond_builds(
+            component, number_of_resolved, binary_rpms,
+            components, components_done, blocker_counter,
+            loop_detector, missing_packages
+        )
+
+
+def generate_reports(blocker_counter, loop_detector, missing_packages, components):
+    """
+    Generate and print all summary reports.
+    """
     log('\nThe 50 most commonly needed components are:')
     for component, count in blocker_counter['general'].most_common(50):
         status_info = get_component_status_info(component, missing_packages, components)
         log(f'{count:>5} {component:<35} {status_info}')
-
+    
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in blocker_counter['single'].most_common(20):
         status_info = get_component_status_info(component, missing_packages, components)
         log(f'{count:>5} {component:<35} {status_info}')
-
+    
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
-    for components, count in blocker_counter['combinations'].most_common(20):
-        log(f'{count:>5} {", ".join(components)}')
-
+    for components_tuple, count in blocker_counter['combinations'].most_common(20):
+        log(f'{count:>5} {", ".join(components_tuple)}')
+    
     report_blocking_components(loop_detector)
+
+
+def main():
+    """
+    Main entry point for rebuild analysis.
+    
+    Analyzes which components are ready to rebuild based on dependency resolution.
+    Prints ready components to stdout and detailed reports to stderr.
+    """
+    components, components_done, binary_rpms, blocker_counter, loop_detector, missing_packages = initialize_component_data()
+    
+    # Filter components based on command line arguments
+    components_to_process = components
+    if len(sys.argv) > 1:
+        components_to_process = {
+            comp: components[comp]
+            for comp in components
+            if comp in sys.argv[1:]
+        }
+    
+    for component in components_to_process:
+        process_component(
+            component, binary_rpms, components, components_done,
+            blocker_counter, loop_detector, missing_packages
+        )
+    
+    generate_reports(blocker_counter, loop_detector, missing_packages, components)
+
+
+if __name__ == '__main__':
+    main()
