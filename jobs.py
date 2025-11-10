@@ -37,6 +37,35 @@ class ReverseLookupDict(collections.defaultdict):
         return {value for lst in self.values() for value in lst}
 
 
+def _query_packages_by_deps(sack_getter, deps, excluded_components):
+    """
+    Common logic for querying packages by dependencies.
+    
+    Args:
+        sack_getter: Function that returns a DNF sack (e.g., rawhide_sack or target_sack)
+        deps: Hashable collection of string-dependencies to query
+        excluded_components: Hashable collection of component names to exclude
+    
+    Returns:
+        ReverseLookupDict with component names as keys and lists of hawkey.Packages as values
+    """
+    sack = sack_getter()
+    results = sack.query().filter(requires=deps, arch__neq='src', latest=1)
+    if CONFIG['architectures']['repoquery'] in MULTILIB:
+        results = results.filter(arch__neq=MULTILIB[CONFIG['architectures']['repoquery']])
+    components = ReverseLookupDict()
+    anticount = 0
+    for result in results:
+        if result.source_name not in excluded_components:
+            components[result.source_name].append(result)
+        else:
+            anticount += 1
+    # no longer create lists on access to avoid mistakes:
+    components.default_factory = None
+    log(f'found {len(components)} components ({len(results)-anticount} binary packages).')
+    return components
+
+
 @functools.lru_cache(maxsize=1)
 def packages_to_rebuild(old_deps, *, excluded_components=()):
     """
@@ -53,22 +82,12 @@ def packages_to_rebuild(old_deps, *, excluded_components=()):
     the dict will also contain packages that already successfully rebuilt
     (in our side tag or copr, etc.).
     """
-    sack = rawhide_sack()
     log('• Querying all packages to rebuild...', end=' ')
-    results = sack.query().filter(requires=old_deps, arch__neq='src', latest=1)
-    if CONFIG['architectures']['repoquery'] in MULTILIB:
-        results = results.filter(arch__neq=MULTILIB[CONFIG['architectures']['repoquery']])
-    components = ReverseLookupDict()
-    anticount = 0
-    for result in results:
-        if result.source_name not in excluded_components:
-            components[result.source_name].append(result)
-        else:
-            anticount += 1
-    # no longer create lists on access to avoid mistakes:
-    components.default_factory = None
-    log(f'found {len(components)} components ({len(results)-anticount} binary packages).')
-    return components
+    return _query_packages_by_deps(
+        rawhide_sack,
+        old_deps,
+        excluded_components,
+    )
 
 
 @functools.lru_cache(maxsize=1)
@@ -83,22 +102,12 @@ def packages_built(new_deps, *, excluded_components=()):
     Excluded_components is an optional hashable collection of component names
     to exclude from the results.
     """
-    sack = target_sack()
     log('• Querying all successfully rebuilt packages...', end=' ')
-    results = sack.query().filter(requires=new_deps, arch__neq='src', latest=1)
-    if CONFIG['architectures']['repoquery'] in MULTILIB:
-        results = results.filter(arch__neq=MULTILIB[CONFIG['architectures']['repoquery']])
-    components = ReverseLookupDict()
-    anticount = 0
-    for result in results:
-        if result.source_name not in excluded_components:
-            components[result.source_name].append(result)
-        else:
-            anticount += 1
-    # no longer create lists on access to avoid mistakes:
-    components.default_factory = None
-    log(f'found {len(components)} components ({len(results)-anticount} binary packages).')
-    return components
+    return _query_packages_by_deps(
+        target_sack,
+        new_deps,
+        excluded_components,
+    )
 
 
 def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter, loop_detector, missing_packages):
