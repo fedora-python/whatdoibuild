@@ -37,7 +37,7 @@ def test_mandatory_packages_in_groups_contains_limited_number_of_packages():
 # XXX this test has data copied from simple specfiles, but it can change
 @pytest.mark.parametrize('package_name, expected', [
     ('fedora-obsolete-packages', ()),
-    ('fedora-repos', ('gnupg', 'sed')),
+    ('fedora-repos', ('gnupg', 'rpm', 'sed')),
     ('fedora-release', ('redhat-rpm-config > 121-1', 'systemd-rpm-macros')),
     ('redhat-rpm-config', ('perl-generators',)),
 ])
