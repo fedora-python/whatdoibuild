@@ -5,6 +5,7 @@ import dnf
 from utils import CONFIG, log
 
 MULTILIB = {'x86_64': 'i686'} # architectures to exclude in certain queries
+ARCH = CONFIG['architectures']['repoquery']
 
 @functools.cache
 def _base(repo_key):
@@ -15,10 +16,10 @@ def _base(repo_key):
     """
     base = dnf.Base()
     dnf_conf = base.conf
-    dnf_conf.arch = CONFIG['architectures']['repoquery']
+    dnf_conf.arch = ARCH
     dnf_conf.cachedir = CONFIG['cache_dir']['dnf']
     dnf_conf.substitutions['releasever'] = 'rawhide'
-    dnf_conf.substitutions['basearch'] = CONFIG['architectures']['repoquery']
+    dnf_conf.substitutions['basearch'] = ARCH
     for repo in CONFIG['repos'][repo_key]:
         base.repos.add_new_repo(conf=dnf_conf, skip_if_unavailable=False, **repo)
     log(f'• Filling the DNF {repo_key} sack to/from {CONFIG["cache_dir"]["dnf"]}...', end=' ')
