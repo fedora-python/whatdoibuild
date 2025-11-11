@@ -5,7 +5,7 @@ import os
 import pathlib
 import sys
 
-from gitrepo import clone_into, refresh_gitrepo, patch_spec, refresh_or_clone
+from gitrepo import patch_spec, refresh_or_clone
 from utils import CONFIG, log, run
 
 KOJI_ID_FILENAME = 'koji.id'

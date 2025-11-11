@@ -1,7 +1,6 @@
 """Tests for utils module."""
 
 from unittest.mock import Mock
-import pytest
 
 from utils import name_or_str, stringify
 

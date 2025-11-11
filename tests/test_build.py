@@ -1,8 +1,7 @@
 """Tests for build module."""
 
 import pathlib
-import pytest
-from unittest.mock import Mock, patch
+from unittest.mock import patch
 
 from build import parse_component_argument, get_patch_path, get_spec_path
 

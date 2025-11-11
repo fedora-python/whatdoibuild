@@ -1,9 +1,7 @@
 """Tests for bconds module."""
 
 import datetime
-import pathlib
-from unittest.mock import Mock, patch
-import pytest
+from unittest.mock import patch
 
 from bconds import bcond_cache_identifier, koji_id_is_older_than_week
 
