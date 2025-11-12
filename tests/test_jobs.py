@@ -107,8 +107,9 @@ class TestGetComponentStatusInfo:
         """Should show blocked status with missing packages."""
         missing_packages = {'comp1': {'pkg1', 'pkg2', 'pkg3'}}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '(blocked by:' in status
         # Should show first 3 packages
         assert any(pkg in status for pkg in ['pkg1', 'pkg2', 'pkg3'])
@@ -117,8 +118,9 @@ class TestGetComponentStatusInfo:
         """Should truncate and add ... for many missing packages."""
         missing_packages = {'comp1': {f'pkg{i}' for i in range(10)}}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '(blocked by:' in status
         assert '...' in status
     
@@ -126,32 +128,45 @@ class TestGetComponentStatusInfo:
         """Should show unknown reason if in missing_packages but empty."""
         missing_packages = {'comp1': set()}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '(blocked for unknown reason)' in status
     
     def test_component_ready(self):
         """Should show ready status if in components but not in missing_packages."""
         missing_packages = {}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '(ready)' in status
     
     def test_component_build_failed(self):
         """Should show build failed if not in components."""
         missing_packages = {}
         components = {}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '(build failed)' in status
     
+    def test_component_unresolvable(self):
+        """Should show can't resolve dependencies if in unresolvable_components."""
+        missing_packages = {}
+        components = {'comp1': ['some_pkg']}
+        unresolvable_components = {'comp1'}
+
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
+        assert "(can't resolve dependencies)" in status
+
     def test_blocked_with_few_packages(self):
         """Should show all packages if 3 or fewer."""
         missing_packages = {'comp1': {'pkg1', 'pkg2'}}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert 'pkg1' in status
         assert 'pkg2' in status
         assert '...' not in status
@@ -160,15 +175,17 @@ class TestGetComponentStatusInfo:
         """Should show all 3 packages without truncation."""
         missing_packages = {'comp1': {'pkg1', 'pkg2', 'pkg3'}}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '...' not in status
     
     def test_blocked_with_four_packages(self):
         """Should truncate at 4 packages."""
         missing_packages = {'comp1': {'pkg1', 'pkg2', 'pkg3', 'pkg4'}}
         components = {'comp1': ['some_pkg']}
+        unresolvable_components = set()
         
-        status = get_component_status_info('comp1', missing_packages, components)
+        status = get_component_status_info('comp1', missing_packages, components, unresolvable_components)
         assert '...' in status
 

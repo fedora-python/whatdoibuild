@@ -50,6 +50,7 @@ class RebuildContext:
         blocker_counter: Statistics about blocking components
         loop_detector: Map of components to their blocking components
         missing_packages: Map of components to their missing package names
+        unresolvable_components: Set of components whose dependencies cannot be resolved
     """
     components: ReverseLookupDict
     components_done: ReverseLookupDict
@@ -61,6 +62,7 @@ class RebuildContext:
     })
     loop_detector: dict = field(default_factory=dict)
     missing_packages: dict = field(default_factory=lambda: collections.defaultdict(set))
+    unresolvable_components: set = field(default_factory=set)
 
 
 def _query_packages_by_deps(sack_getter, deps, excluded_components):
@@ -289,9 +291,11 @@ def report_blocking_components(loop_detector):
         log('    • ' + ' → '.join(loop))
 
 
-def get_component_status_info(component, missing_packages, components):
+def get_component_status_info(component, missing_packages, components, unresolvable_components):
     """Generate status information for a component explaining why it's blocked."""
-    if component in components:
+    if component in unresolvable_components:
+        return " (can't resolve dependencies)"
+    elif component in components:
         if component in missing_packages:
             missing_deps = missing_packages[component]
             if missing_deps:
@@ -354,6 +358,7 @@ def check_regular_build(component, ctx):
         component_buildroot = resolve_buildrequires_of(component)
     except ValueError as e:
         log(f'\n  ✗ {e}')
+        ctx.unresolvable_components.add(component)
         return False, None
     
     number_of_resolved = len(component_buildroot)
@@ -393,6 +398,7 @@ def check_bcond_build(component, bcond_config, number_of_resolved, ctx):
         component_buildroot = resolve_requires(tuple(sorted(bcond_config['buildrequires'])))
     except ValueError as e:
         log(f'\n  ✗ {e}')
+        ctx.unresolvable_components.add(component)
         return False
     
     if number_of_resolved == len(component_buildroot):
@@ -474,12 +480,12 @@ def generate_reports(ctx):
     """
     log('\nThe 50 most commonly needed components are:')
     for component, count in ctx.blocker_counter['general'].most_common(50):
-        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components)
+        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components, ctx.unresolvable_components)
         log(f'{count:>5} {component:<35} {status_info}')
     
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in ctx.blocker_counter['single'].most_common(20):
-        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components)
+        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components, ctx.unresolvable_components)
         log(f'{count:>5} {component:<35} {status_info}')
     
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
