@@ -573,10 +573,18 @@ def generate_reports(ctx):
 def main():
     """
     Main entry point for rebuild analysis.
-    
+
     Analyzes which components are ready to rebuild based on dependency resolution.
     Prints ready components to stdout and detailed reports to stderr.
     """
+    # Load cached bcond data by default unless --no-cache flag provided
+    if '--no-cache' not in sys.argv:
+        from bconds import read_bconds_cache_if_exists
+        read_bconds_cache_if_exists()
+    else:
+        # Remove flag from argv so component filtering still works
+        sys.argv = [arg for arg in sys.argv if arg != '--no-cache']
+
     ctx = initialize_component_data()
     
     # Filter components based on command line arguments

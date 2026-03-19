@@ -1,0 +1,3766 @@
+{
+  "bconds": {
+    "python-setuptools": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-setuptools::bootstrap:::",
+        "srpm_filename": "python-setuptools-80.10.2-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-rpm-generators >= 12-8",
+          "unzip"
+        ]
+      }
+    ],
+    "python-packaging": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-packaging::bootstrap:::",
+        "srpm_filename": "python-packaging-26.0-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-flit-core",
+          "unzip"
+        ]
+      }
+    ],
+    "python-pip": [
+      {
+        "withouts": [
+          "tests",
+          "man"
+        ],
+        "id": "python-pip:man-tests::::",
+        "srpm_filename": "python-pip-26.0.1-3.fc45.src.rpm",
+        "buildrequires": [
+          "bash-completion",
+          "ca-certificates",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-flit-core",
+          "python3-rpm-generators >= 11-8"
+        ]
+      }
+    ],
+    "python-six": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-six:tests::::",
+        "srpm_filename": "python-six-1.17.0-9.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-tomli-w": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-tomli-w:check::::",
+        "srpm_filename": "python-tomli-w-1.2.0-8.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-setuptools_scm": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-setuptools_scm:tests::::",
+        "srpm_filename": "python-setuptools_scm-9.2.2-6.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 20",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 61"
+        ]
+      }
+    ],
+    "python-py": [
+      {
+        "withouts": [
+          "docs",
+          "tests"
+        ],
+        "id": "python-py:docs-tests::::",
+        "srpm_filename": "python-py-1.11.0-20.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools-scm)",
+          "python3dist(setuptools-scm[toml])"
+        ]
+      }
+    ],
+    "python-chardet": [
+      {
+        "withouts": [
+          "doc"
+        ],
+        "id": "python-chardet:doc::::",
+        "srpm_filename": "python-chardet-6.0.0.post1-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-pbr": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pbr:tests:bootstrap:::",
+        "srpm_filename": "python-pbr-7.0.3-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 64"
+        ]
+      }
+    ],
+    "python-extras": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-extras::bootstrap:::",
+        "srpm_filename": "python-extras-1.0.0-43.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-testtools": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-testtools::bootstrap:::",
+        "srpm_filename": "python-testtools-2.8.5-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-attrs": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-attrs:tests::::",
+        "srpm_filename": "python-attrs-25.4.0-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-fancy-pypi-readme) >= 23.2",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-pluggy": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pluggy:tests::::",
+        "srpm_filename": "python-pluggy-1.6.0-5.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 65",
+          "python3dist(setuptools-scm) >= 8",
+          "python3dist(setuptools-scm[toml]) >= 8"
+        ]
+      }
+    ],
+    "python-sortedcontainers": [
+      {
+        "withouts": [
+          "docs",
+          "tests"
+        ],
+        "id": "python-sortedcontainers:docs-tests::::",
+        "srpm_filename": "python-sortedcontainers-2.4.0-26.fc45.src.rpm",
+        "buildrequires": [
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-hypothesis": [
+      {
+        "withouts": [
+          "doc",
+          "tests"
+        ],
+        "id": "python-hypothesis:doc-tests::::",
+        "srpm_filename": "python-hypothesis-6.151.9-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(sortedcontainers) < 3~~ with python3dist(sortedcontainers) >= 2.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "pyproject-rpm-macros >= 0-43",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 78.1",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-hypothesmith": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-hypothesmith:tests::::",
+        "srpm_filename": "python-hypothesmith-0.3.3-14.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hypothesis) >= 6.93",
+          "python3dist(hypothesis[lark]) >= 6.93",
+          "python3dist(libcst) >= 1.0.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-pygments": [
+      {
+        "withouts": [
+          "docs",
+          "tests"
+        ],
+        "id": "python-pygments:docs-tests::::",
+        "srpm_filename": "python-pygments-2.19.1-10.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-filelock": [
+      {
+        "withouts": [
+          "docs",
+          "tests"
+        ],
+        "id": "python-filelock:docs-tests::::",
+        "srpm_filename": "python-filelock-3.20.3-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs) >= 0.5",
+          "python3dist(hatchling) >= 1.27",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-elementpath": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-elementpath:tests::::",
+        "srpm_filename": "python-elementpath-4.8.0-8.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-iniconfig": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-iniconfig:tests::::",
+        "srpm_filename": "python-iniconfig-2.3.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 8"
+        ]
+      }
+    ],
+    "Cython": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "Cython:tests::::",
+        "srpm_filename": "Cython-3.2.4-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-more-itertools": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-more-itertools:tests::::",
+        "srpm_filename": "python-more-itertools-10.5.0-9.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-fixtures": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-fixtures::bootstrap:::",
+        "srpm_filename": "python-fixtures-4.2.2-8.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pbr) > 5.7.0",
+          "python3dist(pbr) >= 5.7",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 36.6"
+        ]
+      }
+    ],
+    "python-wcwidth": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-wcwidth:tests::::",
+        "srpm_filename": "python-wcwidth-0.6.0-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "pytest": [
+      {
+        "withouts": [
+          "timeout",
+          "tests",
+          "docs"
+        ],
+        "id": "pytest:docs-tests-timeout::::",
+        "srpm_filename": "pytest-8.4.2-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(pluggy) < 2~~ with python3dist(pluggy) >= 1.5)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "pyproject-rpm-macros >= 0-51",
+          "python3-devel",
+          "python3dist(iniconfig) >= 1",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 20",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments) >= 2.7.2",
+          "python3dist(setuptools) >= 61",
+          "python3dist(setuptools-scm) >= 6.2.3",
+          "python3dist(setuptools-scm[toml]) >= 6.2.3"
+        ]
+      }
+    ],
+    "python-virtualenv": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-virtualenv::bootstrap:::",
+        "srpm_filename": "python-virtualenv-21.1.0-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(distlib) < 1~~ with python3dist(distlib) >= 0.3.7)",
+          "(python3dist(filelock) < 4~~ with python3dist(filelock) >= 3.12.2)",
+          "(python3dist(platformdirs) < 5~~ with python3dist(platformdirs) >= 3.9.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python-pip-wheel >= 25.1",
+          "python-setuptools-wheel >= 70.1",
+          "python3-devel",
+          "python3dist(hatch-vcs) >= 0.4",
+          "python3dist(hatchling) >= 1.27",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(python-discovery) >= 1"
+        ]
+      }
+    ],
+    "babel": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "babel::bootstrap:::",
+        "srpm_filename": "babel-2.18.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-jinja2": [
+      {
+        "withouts": [
+          "docs",
+          "asyncio_tests"
+        ],
+        "id": "python-jinja2:asyncio_tests-docs::::",
+        "srpm_filename": "python-jinja2-3.1.6-7.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(babel) >= 2.7",
+          "python3dist(flit-core) < 4~~",
+          "python3dist(markupsafe) >= 2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-sphinx_rtd_theme": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-sphinx_rtd_theme::bootstrap:::",
+        "srpm_filename": "python-sphinx_rtd_theme-3.1.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(docutils) < 0.23~~ with python3dist(docutils) > 0.18.0)",
+          "(python3dist(sphinx) < 10~~ with python3dist(sphinx) >= 6)",
+          "(python3dist(sphinxcontrib-jquery) < 5~~ with python3dist(sphinxcontrib-jquery) >= 4)",
+          "font(fontawesome)",
+          "font(lato)",
+          "font(robotoslab)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-sphinx-basic-ng": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-sphinx-basic-ng::bootstrap:::",
+        "srpm_filename": "python-sphinx-basic-ng-1.0.0-0.19.beta2.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(sphinx) >= 4"
+        ]
+      }
+    ],
+    "python-urllib3": [
+      {
+        "withouts": [
+          "tests",
+          "extradeps"
+        ],
+        "id": "python-urllib3:extradeps-tests::::",
+        "srpm_filename": "python-urllib3-2.6.3-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(hatch-vcs) < 0.6~~ with python3dist(hatch-vcs) >= 0.4)",
+          "(python3dist(hatchling) < 2~~ with python3dist(hatchling) >= 1.27)",
+          "(python3dist(setuptools-scm) < 10~~ with python3dist(setuptools-scm) >= 8)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "ca-certificates",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(idna)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-requests": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-requests:tests::::",
+        "srpm_filename": "python-requests-2.32.5-6.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(pysocks) < 1.5.7 or python3dist(pysocks) > 1.5.7) with python3dist(pysocks) >= 1.5.6)",
+          "(python3dist(chardet) < 7~~ with python3dist(chardet) >= 3.0.2)",
+          "(python3dist(charset-normalizer) < 4~~ with python3dist(charset-normalizer) >= 2)",
+          "(python3dist(idna) < 4~~ with python3dist(idna) >= 2.5)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "(python3dist(urllib3) < 3~~ with python3dist(urllib3) >= 1.21.1)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-sphinx": [
+      {
+        "withouts": [
+          "tests",
+          "sphinxcontrib"
+        ],
+        "id": "python-sphinx:sphinxcontrib-tests::::",
+        "srpm_filename": "python-sphinx-9.1.0-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(docutils) < 0.23~~ with python3dist(docutils) >= 0.21)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(alabaster) >= 0.7.14",
+          "python3dist(babel) >= 2.13",
+          "python3dist(flit-core) >= 3.12",
+          "python3dist(imagesize) >= 1.3",
+          "python3dist(jinja2) >= 3.1",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 23",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments) >= 2.17",
+          "python3dist(requests) >= 2.30",
+          "python3dist(roman-numerals) >= 1",
+          "python3dist(snowballstemmer) >= 2.2"
+        ]
+      }
+    ],
+    "python-jedi": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-jedi:tests::::",
+        "srpm_filename": "python-jedi-0.19.2-12.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(parso) < 0.9~~ with python3dist(parso) >= 0.8.4)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-dateutil": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-dateutil:tests::::",
+        "srpm_filename": "python-dateutil-2.9.0.post0-8.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools-scm)",
+          "python3dist(six) >= 1.5",
+          "python3dist(sphinx)",
+          "python3dist(sphinx-rtd-theme)",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-jsonschema": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-jsonschema:tests::::",
+        "srpm_filename": "python-jsonschema-4.26.0-1.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(attrs) >= 22.2",
+          "python3dist(hatch-fancy-pypi-readme)",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(jsonschema-specifications) >= 2023.3.6",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(referencing) >= 0.28.4",
+          "python3dist(rpds-py) >= 0.25",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-sphinxcontrib-websupport": [
+      {
+        "withouts": [
+          "optional_tests"
+        ],
+        "id": "python-sphinxcontrib-websupport:optional_tests::::",
+        "srpm_filename": "python-sphinxcontrib-websupport-1.2.7-18.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(flit-core) >= 3.7",
+          "python3dist(jinja2)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(sphinx) >= 5",
+          "python3dist(sphinxcontrib-serializinghtml)",
+          "python3dist(sqlalchemy)",
+          "python3dist(tox) >= 2.4",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(whoosh)"
+        ]
+      }
+    ],
+    "python-soupsieve": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-soupsieve:tests::::",
+        "srpm_filename": "python-soupsieve-2.8.3-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(hatchling) >= 0.21.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-pytest-asyncio": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pytest-asyncio:tests::::",
+        "srpm_filename": "python-pytest-asyncio-1.1.0-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(pytest) < 9~~ with python3dist(pytest) >= 8.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 6.2",
+          "python3dist(setuptools-scm[toml]) >= 6.2"
+        ]
+      }
+    ],
+    "python-pytest-cov": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pytest-cov:tests::::",
+        "srpm_filename": "python-pytest-cov-7.0.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(coverage) >= 7.10.6",
+          "python3dist(coverage[toml]) >= 7.10.6",
+          "python3dist(hatch-fancy-pypi-readme)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pluggy) >= 1.2",
+          "python3dist(pytest) >= 7"
+        ]
+      }
+    ],
+    "python-flit-core": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-flit-core:tests::::",
+        "srpm_filename": "python-flit-core-3.12.0-11.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-async-timeout": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-async-timeout:tests::::",
+        "srpm_filename": "python-async-timeout-5.0.1-8.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 45",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-jupyter-client": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-jupyter-client:tests::::",
+        "srpm_filename": "python-jupyter-client-8.8.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 1.5",
+          "python3dist(jupyter-core) >= 5.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(python-dateutil) >= 2.8.2",
+          "python3dist(pyzmq) >= 25",
+          "python3dist(tornado) >= 6.4.1",
+          "python3dist(traitlets) >= 5.3"
+        ]
+      }
+    ],
+    "python-jupyter-server": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-jupyter-server:tests::::",
+        "srpm_filename": "python-jupyter-server-2.17.0-4.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(jupyter-core) < 5~~ or python3dist(jupyter-core) >= 5.1) with python3dist(jupyter-core) >= 4.12)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(anyio) >= 3.1",
+          "python3dist(argon2-cffi) >= 21.1",
+          "python3dist(hatch-jupyter-builder) >= 0.8.1",
+          "python3dist(hatchling) >= 1.11",
+          "python3dist(jinja2) >= 3.0.3",
+          "python3dist(jupyter-client) >= 7.4.4",
+          "python3dist(jupyter-events) >= 0.11",
+          "python3dist(jupyter-server-terminals) >= 0.4.4",
+          "python3dist(nbconvert) >= 6.4.4",
+          "python3dist(nbformat) >= 5.3",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 22",
+          "python3dist(pip) >= 19",
+          "python3dist(prometheus-client) >= 0.9",
+          "python3dist(pyzmq) >= 24",
+          "python3dist(send2trash) >= 1.8.2",
+          "python3dist(terminado) >= 0.8.3",
+          "python3dist(tornado) >= 6.2",
+          "python3dist(traitlets) >= 5.6",
+          "python3dist(websocket-client) >= 1.7"
+        ]
+      }
+    ],
+    "ipython": [
+      {
+        "withouts": [
+          "check",
+          "doc"
+        ],
+        "id": "ipython:check-doc::::",
+        "srpm_filename": "ipython-9.11.0-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(prompt-toolkit) < 3.1~~ with python3dist(prompt-toolkit) >= 3.0.41)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-sphinx",
+          "python3dist(decorator) >= 5.1",
+          "python3dist(ipython-pygments-lexers) >= 1",
+          "python3dist(jedi) >= 0.18.2",
+          "python3dist(matplotlib-inline) >= 0.1.6",
+          "python3dist(packaging)",
+          "python3dist(pexpect) > 4.6.0",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments) >= 2.14",
+          "python3dist(setuptools) >= 80",
+          "python3dist(stack-data) >= 0.6",
+          "python3dist(traitlets) >= 5.13"
+        ]
+      }
+    ],
+    "python-ipykernel": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-ipykernel:tests::::",
+        "srpm_filename": "python-ipykernel-6.29.3-18.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(jupyter-core) < 5~~ or python3dist(jupyter-core) >= 5.1) with python3dist(jupyter-core) >= 4.12)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(comm) >= 0.1.1",
+          "python3dist(hatchling) >= 1.4",
+          "python3dist(ipython) >= 7.23.1",
+          "python3dist(jupyter-client) >= 6",
+          "python3dist(jupyter-client) >= 6.1.12",
+          "python3dist(matplotlib-inline) >= 0.1",
+          "python3dist(nest-asyncio)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(psutil)",
+          "python3dist(pyzmq) >= 24",
+          "python3dist(tornado) >= 6.1",
+          "python3dist(traitlets) >= 5.4"
+        ]
+      }
+    ],
+    "pybind11": [
+      {
+        "withouts": [
+          "optional_tests"
+        ],
+        "id": "pybind11:optional_tests::::",
+        "srpm_filename": "pybind11-3.0-5.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "cmake",
+          "cmake(Catch2)",
+          "cmake(Eigen3)",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(build)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(scikit-build-core) >= 0.11.2"
+        ]
+      }
+    ],
+    "python-nbconvert": [
+      {
+        "withouts": [
+          "check",
+          "doc"
+        ],
+        "id": "python-nbconvert:check-doc::::",
+        "srpm_filename": "python-nbconvert-7.16.4-14.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(bleach) < 5 or python3dist(bleach) > 5)",
+          "(python3dist(mistune) < 4~~ with python3dist(mistune) >= 2.0.3)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(beautifulsoup4)",
+          "python3dist(defusedxml)",
+          "python3dist(hatchling) >= 1.5",
+          "python3dist(jinja2) >= 3",
+          "python3dist(jupyter-core) >= 4.7",
+          "python3dist(jupyterlab-pygments)",
+          "python3dist(markupsafe) >= 2",
+          "python3dist(nbclient) >= 0.5",
+          "python3dist(nbformat) >= 5.7",
+          "python3dist(packaging)",
+          "python3dist(pandocfilters) >= 1.4.1",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments) >= 2.4.1",
+          "python3dist(tinycss2)",
+          "python3dist(traitlets) >= 5.1"
+        ]
+      }
+    ],
+    "python-nbclient": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-nbclient:check::::",
+        "srpm_filename": "python-nbclient-0.10.2-14.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(jupyter-core) < 5~~ or python3dist(jupyter-core) >= 5.1) with python3dist(jupyter-core) >= 4.12)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 1.10",
+          "python3dist(jupyter-client) >= 6.1.12",
+          "python3dist(nbformat) >= 5.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(traitlets) >= 5.4"
+        ]
+      }
+    ],
+    "python-pyquery": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pyquery:tests::::",
+        "srpm_filename": "python-pyquery-2.0.1-8.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-cssselect",
+          "python3-devel",
+          "python3-lxml >= 2.1",
+          "python3-requests",
+          "python3dist(cssselect) >= 1.2",
+          "python3dist(lxml) >= 2.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-cherrypy": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-cherrypy:tests::::",
+        "srpm_filename": "python-cherrypy-18.10.0-14.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cheroot) >= 8.2.1",
+          "python3dist(jaraco-collections)",
+          "python3dist(more-itertools)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(portend) >= 2.1.1",
+          "python3dist(setuptools) >= 45",
+          "python3dist(setuptools-scm)",
+          "python3dist(setuptools-scm) >= 7",
+          "python3dist(setuptools-scm[toml]) >= 7",
+          "python3dist(zc-lockfile)"
+        ]
+      }
+    ],
+    "freeipa-healthcheck": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "freeipa-healthcheck:tests::::",
+        "srpm_filename": "freeipa-healthcheck-0.19-5.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-lib389",
+          "python3-libsss_nss_idmap",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8",
+          "systemd-devel"
+        ]
+      }
+    ],
+    "python-Traits": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-Traits::bootstrap:::",
+        "srpm_filename": "python-Traits-7.0.2-5.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-Cython",
+          "python3-devel",
+          "python3-numpy",
+          "python3-setuptools",
+          "python3-sphinx",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(wheel)",
+          "xorg-x11-server-Xvfb"
+        ]
+      }
+    ],
+    "python-pcodedmp": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-pcodedmp::bootstrap:::",
+        "srpm_filename": "python-pcodedmp-1.2.6-30.fc45.1.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pypandoc",
+          "python3dist(oletools) >= 0.54",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-libcst": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-libcst::bootstrap:::",
+        "srpm_filename": "python-libcst-1.8.0-8.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(crate(annotate-snippets/default) >= 0.11.5 with crate(annotate-snippets/default) < 0.12.0~)",
+          "(crate(difference/default) >= 2.0.0 with crate(difference/default) < 3.0.0~)",
+          "(crate(itertools/default) >= 0.13.0 with crate(itertools/default) < 0.14.0~)",
+          "(crate(memchr/default) >= 2.7.4 with crate(memchr/default) < 3.0.0~)",
+          "(crate(paste/default) >= 1.0.15 with crate(paste/default) < 2.0.0~)",
+          "(crate(peg/default) >= 0.8.5 with crate(peg/default) < 0.9.0~)",
+          "(crate(pyo3/default) >= 0.25.0 with crate(pyo3/default) < 0.26.0~)",
+          "(crate(pyo3/extension-module) >= 0.25.0 with crate(pyo3/extension-module) < 0.26.0~)",
+          "(crate(quote/default) >= 1.0.0 with crate(quote/default) < 2.0.0~)",
+          "(crate(rayon/default) >= 1.10.0 with crate(rayon/default) < 2.0.0~)",
+          "(crate(regex/default) >= 1.11.1 with crate(regex/default) < 2.0.0~)",
+          "(crate(syn/default) >= 2.0.0 with crate(syn/default) < 3.0.0~)",
+          "(crate(thiserror/default) >= 2.0.12 with crate(thiserror/default) < 3.0.0~)",
+          "(crate(trybuild/default) >= 1.0.0 with crate(trybuild/default) < 2.0.0~)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "cargo-rpm-macros >= 24",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyyaml) >= 5.2",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(setuptools-rust)",
+          "python3dist(setuptools-scm)",
+          "python3dist(wheel)",
+          "rust >= 1.31",
+          "rust >= 1.70"
+        ]
+      }
+    ],
+    "scipy": [
+      {
+        "withouts": [
+          "pythran"
+        ],
+        "id": "scipy:pythran::::",
+        "srpm_filename": "scipy-1.16.2-3.fc45.src.rpm",
+        "buildrequires": [
+          "flexiblas-devel",
+          "gcc-c++",
+          "gcc-gfortran",
+          "pybind11-devel",
+          "pyproject-rpm-macros >= 1.15",
+          "python3-devel",
+          "python3-numpy-f2py"
+        ]
+      }
+    ],
+    "python-fasteners": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-fasteners:tests::::",
+        "srpm_filename": "python-fasteners-0.20-5.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(wheel)",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-zope-event": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "withouts": [
+          "docs"
+        ],
+        "id": "python-zope-event:docs:bootstrap:::",
+        "srpm_filename": "python-zope-event-6.0-2.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 75.8.2",
+          "python3dist(setuptools) >= 78.1.1",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-zope-interface": [
+      {
+        "withouts": [
+          "docs"
+        ],
+        "id": "python-zope-interface:docs::::",
+        "srpm_filename": "python-zope-interface-8.2-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(coverage)",
+          "python3dist(coverage[toml])",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(wheel)",
+          "python3dist(zope-event)",
+          "python3dist(zope-testing)"
+        ]
+      }
+    ],
+    "python-tqdm": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-tqdm:tests::::",
+        "srpm_filename": "python-tqdm-4.67.3-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-setuptools_scm+toml",
+          "python3-wheel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 42",
+          "python3dist(setuptools-scm) >= 3.4",
+          "python3dist(setuptools-scm[toml]) >= 3.4"
+        ]
+      }
+    ],
+    "python-cryptography": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-cryptography:tests::::",
+        "srpm_filename": "python-cryptography-46.0.5-2.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(setuptools) < 74 or python3dist(setuptools) > 74) with (python3dist(setuptools) < 74.1 or python3dist(setuptools) > 74.1) with (python3dist(setuptools) < 74.1.1 or python3dist(setuptools) > 74.1.1) with (python3dist(setuptools) < 74.1.2 or python3dist(setuptools) > 74.1.2))",
+          "(crate(asn1) >= 0.22.0 with crate(asn1) < 0.23.0~)",
+          "(crate(base64/default) >= 0.22.0 with crate(base64/default) < 0.23.0~)",
+          "(crate(cc/default) >= 1.2.37 with crate(cc/default) < 2.0.0~)",
+          "(crate(cfg-if/default) >= 1.0.0 with crate(cfg-if/default) < 2.0.0~)",
+          "(crate(foreign-types-shared/default) >= 0.1.0 with crate(foreign-types-shared/default) < 0.2.0~)",
+          "(crate(foreign-types/default) >= 0.3.0 with crate(foreign-types/default) < 0.4.0~)",
+          "(crate(once_cell/default) >= 1.0.0 with crate(once_cell/default) < 2.0.0~)",
+          "(crate(openssl-sys/default) >= 0.9.110 with crate(openssl-sys/default) < 0.10.0~)",
+          "(crate(openssl/default) >= 0.10.74 with crate(openssl/default) < 0.11.0~)",
+          "(crate(pem) >= 3.0.0 with crate(pem) < 4.0.0~)",
+          "(crate(pyo3-build-config/default) >= 0.26.0 with crate(pyo3-build-config/default) < 0.27.0~)",
+          "(crate(pyo3/abi3) >= 0.26.0 with crate(pyo3/abi3) < 0.27.0~)",
+          "(crate(pyo3/default) >= 0.26.0 with crate(pyo3/default) < 0.27.0~)",
+          "(crate(self_cell/default) >= 1.0.0 with crate(self_cell/default) < 2.0.0~)",
+          "(python3dist(maturin) < 2~~ with python3dist(maturin) >= 1.9.4)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "gnupg2",
+          "openssl-devel",
+          "pyproject-rpm-macros",
+          "python3-cffi >= 1.12",
+          "python3-devel",
+          "python3-setuptools",
+          "python3-setuptools-rust >= 0.11.4",
+          "python3dist(cffi) >= 2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "rust >= 1.74.0",
+          "rust-packaging"
+        ]
+      }
+    ],
+    "python-decopatch": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-decopatch:tests::::",
+        "srpm_filename": "python-decopatch-1.4.10-30.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(makefun) >= 1.5",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools-scm)"
+        ]
+      }
+    ],
+    "python-geopandas": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-geopandas::bootstrap:::",
+        "srpm_filename": "python-geopandas-1.1.3-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(numpy) >= 1.24",
+          "python3dist(packaging)",
+          "python3dist(pandas) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(pyogrio) >= 0.7.2",
+          "python3dist(pyproj) >= 3.5",
+          "python3dist(setuptools) >= 61",
+          "python3dist(shapely) >= 2"
+        ]
+      }
+    ],
+    "python-astropy": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-astropy:check::::",
+        "srpm_filename": "python-astropy-7.2.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(cython) < 4~~ with python3dist(cython) >= 3)",
+          "(python3dist(extension-helpers) < 2~~ with python3dist(extension-helpers) >= 1.4)",
+          "(python3dist(numpy) < 3~~ with python3dist(numpy) >= 2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "expat-devel",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(astropy-iers-data) >= 0.2025.10.27.0.39.10",
+          "python3dist(configobj)",
+          "python3dist(h5py)",
+          "python3dist(hypothesis)",
+          "python3dist(matplotlib)",
+          "python3dist(numpy) >= 1.24",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 22",
+          "python3dist(pip) >= 19",
+          "python3dist(ply)",
+          "python3dist(pyerfa) >= 2.0.1.1",
+          "python3dist(pytest)",
+          "python3dist(pyyaml) >= 6",
+          "python3dist(scikit-image)",
+          "python3dist(scipy)",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 8",
+          "python3dist(tox)",
+          "wcslib-devel >= 8.4"
+        ]
+      }
+    ],
+    "python-pyerfa": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pyerfa:tests::::",
+        "srpm_filename": "python-pyerfa-2.0.1.5-8.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "erfa-devel",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(jinja2) >= 2.10.3",
+          "python3dist(numpy) >= 1.19.3",
+          "python3dist(numpy) >= 2~rc1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pip) >= 19.3.1",
+          "python3dist(pytest)",
+          "python3dist(pytest-doctestplus) >= 0.7",
+          "python3dist(setuptools) >= 30.3",
+          "python3dist(setuptools) >= 61.2",
+          "python3dist(setuptools-scm) >= 6.2",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-aiohttp": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-aiohttp:tests::::",
+        "srpm_filename": "python-aiohttp-3.13.3-5.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(multidict) < 7~~ with python3dist(multidict) >= 4.5)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "(python3dist(yarl) < 2~~ with python3dist(yarl) >= 1.17)",
+          "gcc",
+          "llhttp-devel >= 9.3.0",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(aiohappyeyeballs) >= 2.5",
+          "python3dist(aiosignal) >= 1.4",
+          "python3dist(attrs) >= 17.3",
+          "python3dist(cython) >= 3.1.1",
+          "python3dist(frozenlist) >= 1.1.1",
+          "python3dist(multidict)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pkgconfig)",
+          "python3dist(propcache) >= 0.2",
+          "python3dist(setuptools) >= 67"
+        ]
+      }
+    ],
+    "python-azure-core": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-azure-core:tests::::",
+        "srpm_filename": "python-azure-core-1.38.0-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(requests) >= 2.21",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(typing-extensions) >= 4.6"
+        ]
+      }
+    ],
+    "python-subprocess-tee": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-subprocess-tee:tests::::",
+        "srpm_filename": "python-subprocess-tee-0.4.1-28.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 61",
+          "python3dist(setuptools-scm) >= 7",
+          "python3dist(setuptools-scm[toml]) >= 7"
+        ]
+      }
+    ],
+    "python-typeguard": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-typeguard::bootstrap:::",
+        "srpm_filename": "python-typeguard-4.4.4-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(mypy) >= 1.2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest) >= 7",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 6.4",
+          "python3dist(setuptools-scm[toml]) >= 6.4",
+          "python3dist(typing-extensions) >= 4.14",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-tox": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-tox::bootstrap:::",
+        "srpm_filename": "python-tox-4.35.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "pyproject-rpm-macros >= 1.16",
+          "python3-devel",
+          "python3dist(cachetools)",
+          "python3dist(chardet) >= 5.2",
+          "python3dist(colorama) >= 0.4.6",
+          "python3dist(filelock)",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling) >= 1.13",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(platformdirs)",
+          "python3dist(pluggy) >= 1.5",
+          "python3dist(pyproject-api)",
+          "python3dist(virtualenv) >= 20.29"
+        ]
+      }
+    ],
+    "python-fsspec": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-fsspec::bootstrap:::",
+        "srpm_filename": "python-fsspec-2026.2.0-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "((python3dist(aiohttp) < 4~a0 or python3dist(aiohttp) > 4~a0) with (python3dist(aiohttp) < 4~a1 or python3dist(aiohttp) > 4~a1))",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "fuse",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cloudpickle)",
+          "python3dist(fusepy)",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling) >= 1.27",
+          "python3dist(jinja2)",
+          "python3dist(libarchive-c)",
+          "python3dist(lz4)",
+          "python3dist(numpy)",
+          "python3dist(packaging)",
+          "python3dist(paramiko)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyarrow) >= 1",
+          "python3dist(pygit2)",
+          "python3dist(pytest)",
+          "python3dist(pytest-asyncio)",
+          "python3dist(pytest-mock)",
+          "python3dist(pytest-rerunfailures)",
+          "python3dist(python-snappy)",
+          "python3dist(requests)",
+          "python3dist(smbprotocol)",
+          "python3dist(tqdm)",
+          "python3dist(zstandard)"
+        ]
+      }
+    ],
+    "python-pyface": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-pyface::bootstrap:::",
+        "srpm_filename": "python-pyface-8.0.0-19.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "/usr/bin/xvfb-run",
+          "glibc-langpack-en",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-devel >= 3.9",
+          "python3-pillow-qt",
+          "python3-pyqt6",
+          "python3dist(numpy)",
+          "python3dist(packaging)",
+          "python3dist(pillow)",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments)",
+          "python3dist(pyqt5)",
+          "python3dist(pyqt6)",
+          "python3dist(setuptools) >= 61",
+          "python3dist(traits) >= 6.2",
+          "python3dist(wheel)",
+          "python3dist(wxpython) >= 4"
+        ]
+      }
+    ],
+    "python-contourpy": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-contourpy::bootstrap:::",
+        "srpm_filename": "python-contourpy-1.3.3-5.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "((python3dist(pybind11) < 2.13.3 or python3dist(pybind11) > 2.13.3) with python3dist(pybind11) >= 2.13.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "pyproject-rpm-macros >= 1.15.1",
+          "python3-devel",
+          "python3dist(meson) >= 1.2",
+          "python3dist(meson-python) >= 0.13.1",
+          "python3dist(numpy) >= 1.25",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pytest-cov)",
+          "python3dist(pytest-rerunfailures)",
+          "python3dist(pytest-xdist)",
+          "python3dist(wurlitzer)"
+        ]
+      }
+    ],
+    "python-msrest": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-msrest:tests::::",
+        "srpm_filename": "python-msrest-0.7.1-20.20221014git2d8fd04.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(requests) >= 2.16 with python3dist(requests) < 3)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(aiodns)",
+          "python3dist(aiohttp) >= 3",
+          "python3dist(azure-core) >= 1.24",
+          "python3dist(certifi) >= 2017.4.17",
+          "python3dist(isodate) >= 0.6",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(requests-oauthlib) >= 0.5",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-oletools": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-oletools::bootstrap:::",
+        "srpm_filename": "python-oletools-0.56.2-26.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "python3-colorclass",
+          "python3-cryptography",
+          "python3-devel",
+          "python3-easygui",
+          "python3-msoffcrypto",
+          "python3-olefile",
+          "python3-prettytable",
+          "python3-pymilter",
+          "python3-pyparsing",
+          "python3-setuptools"
+        ]
+      }
+    ],
+    "python-google-api-core": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-google-api-core:tests::::",
+        "srpm_filename": "python-google-api-core-2.27.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(google-auth) < 3~~ with python3dist(google-auth) >= 2.14.1)",
+          "(python3dist(google-auth) < 3~~ with python3dist(google-auth) >= 2.35)",
+          "(python3dist(google-auth[aiohttp]) < 3~~ with python3dist(google-auth[aiohttp]) >= 2.35)",
+          "(python3dist(googleapis-common-protos) < 2~~ with python3dist(googleapis-common-protos) >= 1.56.2)",
+          "(python3dist(grpcio-gcp) < 1~~ with python3dist(grpcio-gcp) >= 0.2.2)",
+          "(python3dist(requests) < 3~~ with python3dist(requests) >= 2.18)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(grpcio)",
+          "python3dist(grpcio-status)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(proto-plus)",
+          "python3dist(protobuf)",
+          "python3dist(setuptools)",
+          "tomcli"
+        ]
+      }
+    ],
+    "fonttools": [
+      {
+        "withouts": [
+          "tests",
+          "plot_extra",
+          "symfont_extra",
+          "ufo_extra",
+          "woff_extra",
+          "graphite_extra",
+          "interpolatable_extra"
+        ],
+        "id": "fonttools:graphite_extra-interpolatable_extra-plot_extra-symfont_extra-tests-ufo_extra-woff_extra::::",
+        "srpm_filename": "fonttools-4.62.1-1.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(lxml) >= 4",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(uharfbuzz) >= 0.45",
+          "python3dist(unicodedata2) >= 17"
+        ]
+      }
+    ],
+    "conda": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "conda:tests::::",
+        "srpm_filename": "conda-26.1.1-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(requests) < 3~~ with python3dist(requests) >= 2.28)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pkgconfig(bash-completion)",
+          "pyproject-rpm-macros",
+          "python-conda-sphinx-theme",
+          "python-unversioned-command",
+          "python3-boltons",
+          "python3-boto3",
+          "python3-conda-libmamba-solver",
+          "python3-devel",
+          "python3-flask",
+          "python3-jsonpatch",
+          "python3-libmambapy",
+          "python3-pexpect",
+          "python3-pytest-mock",
+          "python3-pytest-rerunfailures",
+          "python3-pytest-split",
+          "python3-pytest-timeout",
+          "python3-pytest-xprocess",
+          "python3-responses",
+          "python3dist(archspec) >= 0.2.3",
+          "python3dist(boltons) >= 23",
+          "python3dist(charset-normalizer)",
+          "python3dist(conda-libmamba-solver) >= 25.4",
+          "python3dist(conda-package-handling) >= 2.2",
+          "python3dist(distro) >= 1.5",
+          "python3dist(frozendict) >= 2.4.2",
+          "python3dist(hatch-vcs) >= 0.2",
+          "python3dist(hatchling) >= 1.12.2",
+          "python3dist(jsonpatch) >= 1.32",
+          "python3dist(menuinst) >= 2",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 23",
+          "python3dist(pip) >= 19",
+          "python3dist(platformdirs) >= 3.10",
+          "python3dist(pluggy) >= 1",
+          "python3dist(pycosat) >= 0.6.3",
+          "python3dist(ruamel-yaml) >= 0.11.14",
+          "python3dist(setuptools) >= 60",
+          "python3dist(tqdm) >= 4",
+          "python3dist(zstandard) >= 0.15",
+          "sed"
+        ]
+      }
+    ],
+    "python-conda-libmamba-solver": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-conda-libmamba-solver:tests::::",
+        "srpm_filename": "python-conda-libmamba-solver-25.11.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-conda-index": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-conda-index::bootstrap:::",
+        "srpm_filename": "python-conda-index-0.10.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-conda-build",
+          "python3-devel",
+          "python3-myst-parser",
+          "python3-sphinx-click",
+          "python3dist(click) >= 8",
+          "python3dist(conda-package-streaming) >= 0.7",
+          "python3dist(filelock)",
+          "python3dist(hatch-vcs) >= 0.2",
+          "python3dist(hatchling) >= 1.12.2",
+          "python3dist(jinja2)",
+          "python3dist(msgpack)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(ruamel-yaml)",
+          "python3dist(zstandard)"
+        ]
+      }
+    ],
+    "python-conda-package-streaming": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-conda-package-streaming::bootstrap:::",
+        "srpm_filename": "python-conda-package-streaming-0.11.0-9.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(boto3)",
+          "python3dist(bottle)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest) >= 7",
+          "python3dist(pytest-mock)",
+          "python3dist(requests)",
+          "python3dist(zstandard) >= 0.15"
+        ]
+      }
+    ],
+    "python-googleapis-common-protos": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-googleapis-common-protos::bootstrap:::",
+        "srpm_filename": "python-googleapis-common-protos-1.63.0-15.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "((python3dist(protobuf) < 3.20 or python3dist(protobuf) > 3.20) with (python3dist(protobuf) < 3.20.1 or python3dist(protobuf) > 3.20.1) with (python3dist(protobuf) < 4.21.1 or python3dist(protobuf) > 4.21.1) with (python3dist(protobuf) < 4.21.2 or python3dist(protobuf) > 4.21.2) with (python3dist(protobuf) < 4.21.3 or python3dist(protobuf) > 4.21.3) with (python3dist(protobuf) < 4.21.4 or python3dist(protobuf) > 4.21.4) with (python3dist(protobuf) < 4.21.5 or python3dist(protobuf) > 4.21.5) with python3dist(protobuf) < 6~~dev0 with python3dist(protobuf) >= 3.19.5)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-proto-plus": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-proto-plus:tests::::",
+        "srpm_filename": "python-proto-plus-1.22.3-13.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(protobuf) < 5~~dev0 with python3dist(protobuf) >= 3.19)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(google-api-core) >= 1.31.5",
+          "python3dist(google-api-core[grpc]) >= 1.31.5",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-dns": [
+      {
+        "withouts": [
+          "trio",
+          "curio",
+          "doh"
+        ],
+        "id": "python-dns:curio-doh-trio::::",
+        "srpm_filename": "python-dns-2.8.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(aioquic) >= 1.2",
+          "python3dist(cryptography) >= 45",
+          "python3dist(hatchling) >= 1.21",
+          "python3dist(idna) >= 3.10",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-beautifulsoup4": [
+      {
+        "withouts": [
+          "soupsieve",
+          "tests"
+        ],
+        "id": "python-beautifulsoup4:soupsieve-tests::::",
+        "srpm_filename": "python-beautifulsoup4-4.14.3-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-setuptools",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(typing-extensions) >= 4"
+        ]
+      }
+    ],
+    "python-lxml": [
+      {
+        "withouts": [
+          "extras"
+        ],
+        "id": "python-lxml:extras::::",
+        "srpm_filename": "python-lxml-6.0.2-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "libxml2-devel",
+          "libxslt-devel",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cython)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-constantly": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-constantly::bootstrap:::",
+        "srpm_filename": "python-constantly-23.10.4-14.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 68.2",
+          "python3dist(sphinx-rtd-theme)",
+          "python3dist(versioneer) = 0.29",
+          "python3dist(versioneer[toml]) = 0.29"
+        ]
+      }
+    ],
+    "python-pysocks": [
+      {
+        "replacements": {
+          "with_python3_tests": "0"
+        },
+        "id": "python-pysocks:::with_python3_tests::",
+        "srpm_filename": "python-pysocks-1.7.1-32.fc45.src.rpm",
+        "buildrequires": [
+          "python3-devel",
+          "python3-setuptools"
+        ]
+      }
+    ],
+    "ara": [
+      {
+        "replacements": {
+          "with_docs": "0"
+        },
+        "id": "ara:::with_docs::",
+        "srpm_filename": "ara-1.7.4-3.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(dynaconf) < 3.1.3 or python3dist(dynaconf) > 3.1.3) with python3dist(dynaconf) < 4~~ with python3dist(dynaconf) >= 3)",
+          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
+          "(python3dist(django) < 5.3~~ with python3dist(django) >= 4.2)",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-factory-boy",
+          "python3-faker",
+          "python3dist(cliff)",
+          "python3dist(django-cors-headers)",
+          "python3dist(django-filter)",
+          "python3dist(django-health-check)",
+          "python3dist(djangorestframework) >= 3.9.1",
+          "python3dist(packaging)",
+          "python3dist(pbr)",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments)",
+          "python3dist(requests) >= 2.14.2",
+          "python3dist(ruamel-yaml)",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(tzlocal) >= 4",
+          "python3dist(whitenoise)"
+        ]
+      }
+    ],
+    "python-httpretty": [
+      {
+        "replacements": {
+          "run_tests": "0"
+        },
+        "id": "python-httpretty:::run_tests::",
+        "srpm_filename": "python-httpretty-1.1.4-38.fc45.src.rpm",
+        "buildrequires": [
+          "python3-devel",
+          "python3-pip",
+          "python3-setuptools",
+          "python3-wheel"
+        ]
+      }
+    ],
+    "python-ruamel-yaml": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-ruamel-yaml::bootstrap:::",
+        "srpm_filename": "python-ruamel-yaml-0.19.1-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)"
+        ]
+      }
+    ],
+    "python-rq": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-rq:tests::::",
+        "srpm_filename": "python-rq-2.6.1-1.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(redis) < 6 or python3dist(redis) > 6) with python3dist(redis) >= 3.5)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(click) >= 5",
+          "python3dist(croniter)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-markdown-it-py": [
+      {
+        "withouts": [
+          "plugins"
+        ],
+        "id": "python-markdown-it-py:plugins::::",
+        "srpm_filename": "python-markdown-it-py-4.0.0-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.4)",
+          "(python3dist(linkify-it-py) < 3~~ with python3dist(linkify-it-py) >= 1)",
+          "(python3dist(mdurl) >= 0.1 with python3dist(mdurl) < 1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pytest-regressions)",
+          "python3dist(requests)"
+        ]
+      }
+    ],
+    "python-factory-boy": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-factory-boy:tests::::",
+        "srpm_filename": "python-factory-boy-3.3.3-6.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(faker) >= 0.7",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-tox-current-env": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-tox-current-env::bootstrap:::",
+        "srpm_filename": "python-tox-current-env-0.0.16-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(tox) >= 3.28",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-pikepdf": [
+      {
+        "withouts": [
+          "docs",
+          "tests"
+        ],
+        "id": "python-pikepdf:docs-tests::::",
+        "srpm_filename": "python-pikepdf-10.2.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(deprecated)",
+          "python3dist(lxml) >= 4.8",
+          "python3dist(packaging)",
+          "python3dist(pillow) >= 10.0.1",
+          "python3dist(pip) >= 19",
+          "python3dist(pybind11) >= 3",
+          "python3dist(setuptools) >= 77.0.3",
+          "qpdf-devel >= 11.5.0",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-executing": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-executing::bootstrap:::",
+        "srpm_filename": "python-executing-2.2.1-5.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools-scm)",
+          "python3dist(setuptools-scm[toml])",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-editables": [
+      {
+        "withouts": [
+          "doc"
+        ],
+        "id": "python-editables:doc::::",
+        "srpm_filename": "python-editables-0.5-16.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(flit-core) >= 3.3",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)"
+        ]
+      }
+    ],
+    "python-jsonschema-specifications": [
+      {
+        "replacements": {
+          "with_doc": "0"
+        },
+        "id": "python-jsonschema-specifications:::with_doc::",
+        "srpm_filename": "python-jsonschema-specifications-2024.10.1-7.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(referencing) >= 0.31"
+        ]
+      }
+    ],
+    "python-openstackclient": [
+      {
+        "replacements": {
+          "with_doc": "0"
+        },
+        "id": "python-openstackclient:::with_doc::",
+        "srpm_filename": "python-openstackclient-7.1.2-10.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(coverage) < 4.4 or python3dist(coverage) > 4.4) with python3dist(coverage) >= 4)",
+          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-babel",
+          "python3-devel",
+          "python3-osc-lib-tests",
+          "python3dist(cliff) >= 3.5",
+          "python3dist(cryptography) >= 2.7",
+          "python3dist(ddt) >= 1.0.1",
+          "python3dist(fixtures) >= 3",
+          "python3dist(iso8601) >= 0.1.11",
+          "python3dist(openstacksdk) >= 3.3",
+          "python3dist(osc-lib) >= 2.3",
+          "python3dist(oslo-i18n) >= 3.15.3",
+          "python3dist(oslotest) >= 3.2",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(python-cinderclient) >= 3.3",
+          "python3dist(python-keystoneclient) >= 3.22",
+          "python3dist(requests) >= 2.14.2",
+          "python3dist(requests) >= 2.27",
+          "python3dist(requests-mock) >= 1.2",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(stestr) >= 1",
+          "python3dist(stevedore) >= 2.0.1",
+          "python3dist(testtools) >= 2.2",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(wrapt) >= 1.7"
+        ]
+      }
+    ],
+    "python-oslo-config": [
+      {
+        "replacements": {
+          "repo_bootstrap": "1"
+        },
+        "id": "python-oslo-config:::repo_bootstrap::",
+        "srpm_filename": "python-oslo-config-9.6.0-8.fc45.src.rpm",
+        "buildrequires": [
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(debtcollector) >= 1.2",
+          "python3dist(netaddr) >= 0.7.18",
+          "python3dist(oslo-i18n) >= 3.15.3",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(pyyaml) >= 5.1",
+          "python3dist(requests) >= 2.18",
+          "python3dist(rfc3986) >= 1.2",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(stevedore) >= 1.20"
+        ]
+      }
+    ],
+    "python-neutronclient": [
+      {
+        "replacements": {
+          "with_doc": "0"
+        },
+        "id": "python-neutronclient:::with_doc::",
+        "srpm_filename": "python-neutronclient-11.3.1-6.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(coverage) < 4.4 or python3dist(coverage) > 4.4) with python3dist(coverage) >= 4)",
+          "((python3dist(oslo-serialization) < 2.19.1 or python3dist(oslo-serialization) > 2.19.1) with python3dist(oslo-serialization) >= 2.18)",
+          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-osc-lib-tests",
+          "python3dist(cliff) >= 3.4",
+          "python3dist(debtcollector) >= 1.2",
+          "python3dist(fixtures) >= 3",
+          "python3dist(iso8601) >= 0.1.11",
+          "python3dist(keystoneauth1) >= 3.8",
+          "python3dist(netaddr) >= 0.7.18",
+          "python3dist(openstacksdk) >= 1.5",
+          "python3dist(os-client-config) >= 1.28",
+          "python3dist(osc-lib) >= 1.12",
+          "python3dist(oslo-i18n) >= 3.15.3",
+          "python3dist(oslo-log) >= 3.36",
+          "python3dist(oslo-utils) >= 3.33",
+          "python3dist(oslotest) >= 3.2",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(python-keystoneclient) >= 3.8",
+          "python3dist(python-openstackclient) >= 3.12",
+          "python3dist(python-subunit) >= 1",
+          "python3dist(requests) >= 2.14.2",
+          "python3dist(requests-mock) >= 1.2",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(stestr) >= 2",
+          "python3dist(testscenarios) >= 0.4",
+          "python3dist(testtools) >= 2.2",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16"
+        ]
+      }
+    ],
+    "python-glanceclient": [
+      {
+        "replacements": {
+          "with_doc": "0"
+        },
+        "id": "python-glanceclient:::with_doc::",
+        "srpm_filename": "python-glanceclient-4.7.0-6.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(coverage) < 4.4 or python3dist(coverage) > 4.4) with python3dist(coverage) >= 4)",
+          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(ddt) >= 1.2.1",
+          "python3dist(fixtures) >= 3",
+          "python3dist(keystoneauth1) >= 3.6.2",
+          "python3dist(oslo-i18n) >= 3.15.3",
+          "python3dist(oslo-utils) >= 3.33",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(prettytable) >= 0.7.1",
+          "python3dist(pyopenssl) >= 17.1",
+          "python3dist(requests) >= 2.14.2",
+          "python3dist(requests-mock) >= 1.2",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(stestr) >= 2",
+          "python3dist(testscenarios) >= 0.4",
+          "python3dist(testtools) >= 2.2",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(warlock) >= 1.2",
+          "python3dist(wrapt) >= 1.7"
+        ]
+      }
+    ],
+    "python-domdf-python-tools": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-domdf-python-tools:tests::::",
+        "srpm_filename": "python-domdf-python-tools-3.9.0-9.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(setuptools) < 61~~ or python3dist(setuptools) >= 62) with python3dist(setuptools) >= 40.6)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(natsort) >= 7.0.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(typing-extensions) >= 3.7.4.1",
+          "python3dist(wheel) >= 0.34.2"
+        ]
+      }
+    ],
+    "python-tiny-proxy": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-tiny-proxy:tests::::",
+        "srpm_filename": "python-tiny-proxy-0.2.1-13.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(anyio) < 5~~ with python3dist(anyio) >= 3.6.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-werkzeug": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-werkzeug:tests::::",
+        "srpm_filename": "python-werkzeug-3.1.6-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(flit-core) < 4~~",
+          "python3dist(markupsafe) >= 2.1.1",
+          "python3dist(packaging)",
+          "python3dist(pallets-sphinx-themes)",
+          "python3dist(pip) >= 19",
+          "python3dist(sphinx)",
+          "python3dist(sphinxcontrib-log-cabinet)"
+        ]
+      }
+    ],
+    "python-netaddr": [
+      {
+        "withouts": [
+          "docs"
+        ],
+        "id": "python-netaddr:docs::::",
+        "srpm_filename": "python-netaddr-1.3.0-11.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)"
+        ]
+      }
+    ],
+    "python-dirty-equals": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-dirty-equals::bootstrap:::",
+        "srpm_filename": "python-dirty-equals-0.11-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 25",
+          "python3dist(pip) >= 19",
+          "python3dist(pydantic) >= 2.10.6",
+          "python3dist(pytest) >= 8.3.5"
+        ]
+      }
+    ],
+    "python-snakemake-interface-storage-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-storage-plugins::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-storage-plugins-4.3.3-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(humanfriendly) < 11~~ with python3dist(humanfriendly) >= 10)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(poetry-core)",
+          "python3dist(reretry) >= 0.11.8",
+          "python3dist(snakemake-interface-common) >= 1.12",
+          "python3dist(throttler) >= 1.2.2",
+          "python3dist(wrapt) >= 1.15"
+        ]
+      }
+    ],
+    "python-snakemake-interface-executor-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-executor-plugins::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-executor-plugins-9.4.0-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(argparse-dataclass) >= 2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(poetry-core)",
+          "python3dist(snakemake-interface-common) >= 1.19",
+          "python3dist(throttler) >= 1.2.2"
+        ]
+      }
+    ],
+    "python-snakemake-interface-report-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-report-plugins::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-report-plugins-1.3.0-4.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(snakemake-interface-common) < 2~~ with python3dist(snakemake-interface-common) >= 1.16)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(poetry-core)"
+        ]
+      }
+    ],
+    "snakemake": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "snakemake::bootstrap:::",
+        "srpm_filename": "snakemake-9.16.3-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(conda-inject) < 2~~ with python3dist(conda-inject) >= 1.3.1)",
+          "(python3dist(dpath) < 3~~ with python3dist(dpath) >= 2.1.6)",
+          "(python3dist(jinja2) < 4~~ with python3dist(jinja2) >= 3)",
+          "(python3dist(pulp) < 3.4~~ with python3dist(pulp) >= 2.3.1)",
+          "(python3dist(requests) < 3~~ with python3dist(requests) >= 2.8.1)",
+          "(python3dist(smart-open) < 8~~ with python3dist(smart-open) >= 4)",
+          "(python3dist(snakemake-interface-common) < 2~~ with python3dist(snakemake-interface-common) >= 1.20.1)",
+          "(python3dist(snakemake-interface-executor-plugins) < 10~~ with python3dist(snakemake-interface-executor-plugins) >= 9.3.2)",
+          "(python3dist(snakemake-interface-logger-plugins) < 3~~ with python3dist(snakemake-interface-logger-plugins) >= 1.1)",
+          "(python3dist(snakemake-interface-report-plugins) < 2~~ with python3dist(snakemake-interface-report-plugins) >= 1.2)",
+          "(python3dist(snakemake-interface-scheduler-plugins) < 3~~ with python3dist(snakemake-interface-scheduler-plugins) >= 2)",
+          "(python3dist(snakemake-interface-storage-plugins) < 5~~ with python3dist(snakemake-interface-storage-plugins) >= 4.3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "(python3dist(yte) < 2~~ with python3dist(yte) >= 1.5.5)",
+          "R-core",
+          "help2man",
+          "pyproject-rpm-macros",
+          "python-unversioned-command",
+          "python3-devel",
+          "python3dist(appdirs)",
+          "python3dist(configargparse)",
+          "python3dist(connection-pool) >= 0.0.3",
+          "python3dist(docutils)",
+          "python3dist(flask)",
+          "python3dist(gitpython)",
+          "python3dist(google-cloud-storage)",
+          "python3dist(humanfriendly)",
+          "python3dist(immutables)",
+          "python3dist(jsonschema)",
+          "python3dist(nbformat)",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24",
+          "python3dist(pip) >= 19",
+          "python3dist(psutil)",
+          "python3dist(pygments)",
+          "python3dist(pyyaml)",
+          "python3dist(referencing)",
+          "python3dist(reretry)",
+          "python3dist(setuptools) >= 64",
+          "python3dist(setuptools-scm) >= 8",
+          "python3dist(tabulate)",
+          "python3dist(throttler)",
+          "python3dist(wrapt)",
+          "vim-filesystem"
+        ]
+      }
+    ],
+    "python-sphinx-theme-builder": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-sphinx-theme-builder::bootstrap:::",
+        "srpm_filename": "python-sphinx-theme-builder-0.3.2-4.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "help2man",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(diagnostic) >= 2",
+          "python3dist(nodeenv)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyproject-metadata) >= 0.10",
+          "python3dist(rich)",
+          "python3dist(setuptools)"
+        ]
+      }
+    ],
+    "python-httpx": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-httpx:tests::::",
+        "srpm_filename": "python-httpx-0.28.1-12.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(click) >= 8 with python3dist(click) < 9)",
+          "(python3dist(h2) < 5~~ with python3dist(h2) >= 3)",
+          "(python3dist(httpcore) >= 1 with python3dist(httpcore) < 2)",
+          "(python3dist(pygments) >= 2 with python3dist(pygments) < 3)",
+          "(python3dist(socksio) >= 1 with python3dist(socksio) < 2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "help2man",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(anyio)",
+          "python3dist(brotli)",
+          "python3dist(certifi)",
+          "python3dist(hatch-fancy-pypi-readme)",
+          "python3dist(hatchling)",
+          "python3dist(idna)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(rich) >= 10"
+        ]
+      }
+    ],
+    "python-oslo-i18n": [
+      {
+        "replacements": {
+          "with_doc": "0"
+        },
+        "id": "python-oslo-i18n:::with_doc::",
+        "srpm_filename": "python-oslo-i18n-6.7.2-1.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-babel",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pbr) >= 6.1.1",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-pymssql": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pymssql:tests::::",
+        "srpm_filename": "python-pymssql-2.3.13-1.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "freetds-devel",
+          "gcc",
+          "krb5-devel",
+          "openssl-devel",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cython)",
+          "python3dist(cython) >= 3.1",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24.2",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) > 80.0",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(setuptools-scm) >= 8",
+          "python3dist(setuptools-scm[toml]) >= 8",
+          "python3dist(tomli)",
+          "python3dist(wheel) >= 0.36.2",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-authlib": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-authlib:tests::::",
+        "srpm_filename": "python-authlib-1.5.2-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cryptography)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-oslotest": [
+      {
+        "withs": [
+          "repo_bootstrap"
+        ],
+        "id": "python-oslotest::repo_bootstrap:::",
+        "srpm_filename": "python-oslotest-5.0.0-12.fc45.src.rpm",
+        "buildrequires": [
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(fixtures) >= 3",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pip) >= 19",
+          "python3dist(python-subunit) >= 1",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(testtools) >= 2.2"
+        ]
+      }
+    ],
+    "python-gunicorn": [
+      {
+        "withouts": [
+          "extras"
+        ],
+        "id": "python-gunicorn:extras::::",
+        "srpm_filename": "python-gunicorn-23.0.0-7.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest) >= 7.2",
+          "python3dist(setuptools) >= 61.2",
+          "python3dist(setuptools) >= 68",
+          "python3dist(sphinx)",
+          "python3dist(sphinx-rtd-theme)"
+        ]
+      }
+    ],
+    "python-execnet": [
+      {
+        "withouts": [
+          "optional_test_deps"
+        ],
+        "id": "python-execnet:optional_test_deps::::",
+        "srpm_filename": "python-execnet-2.1.2-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "/usr/bin/ps",
+          "/usr/bin/sphinx-build-3",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling) >= 1.26",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pytest-timeout)",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16"
+        ]
+      }
+    ],
+    "python-threadpoolctl": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-threadpoolctl:check::::",
+        "srpm_filename": "python-threadpoolctl-3.5.0-12.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-tabulate": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-tabulate::bootstrap:::",
+        "srpm_filename": "python-tabulate-0.10.0-7.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(numpy)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(prettytable)",
+          "python3dist(pytest)",
+          "python3dist(setuptools) >= 77.0.3",
+          "python3dist(setuptools-scm) >= 3.4.3",
+          "python3dist(setuptools-scm[toml]) >= 3.4.3",
+          "python3dist(texttable)",
+          "python3dist(wcwidth)"
+        ]
+      }
+    ],
+    "python-repoze-sphinx-autointerface": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-repoze-sphinx-autointerface:tests::::",
+        "srpm_filename": "python-repoze-sphinx-autointerface-1.0.0-12.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(sphinx) >= 4",
+          "python3dist(zope-interface)"
+        ]
+      }
+    ],
+    "python-zope-exceptions": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-zope-exceptions:tests::::",
+        "srpm_filename": "python-zope-exceptions-6.0-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 78.1.1",
+          "python3dist(wheel)",
+          "python3dist(zope-interface)"
+        ]
+      }
+    ],
+    "python-deepdiff": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-deepdiff:tests::::",
+        "srpm_filename": "python-deepdiff-8.6.1-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.9)",
+          "(python3dist(orderly-set) < 6~~ with python3dist(orderly-set) >= 5.4.1)",
+          "(python3dist(pyyaml) >= 6 with python3dist(pyyaml) < 6.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(click) >= 8.1",
+          "python3dist(orjson)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-sentry-sdk": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-sentry-sdk:tests::::",
+        "srpm_filename": "python-sentry-sdk-2.48.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "protobuf-compiler",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(certifi)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(urllib3) >= 1.26.11"
+        ]
+      }
+    ],
+    "python-dask": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-dask::bootstrap:::",
+        "srpm_filename": "python-dask-2026.1.2-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(aiohttp)",
+          "python3dist(bottleneck)",
+          "python3dist(click) >= 8.1",
+          "python3dist(cloudpickle) >= 3",
+          "python3dist(crick)",
+          "python3dist(fastavro)",
+          "python3dist(fsspec) >= 2021.9",
+          "python3dist(graphviz)",
+          "python3dist(h5py)",
+          "python3dist(ipython)",
+          "python3dist(jsonschema)",
+          "python3dist(matplotlib)",
+          "python3dist(numpy) >= 1.24",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 20",
+          "python3dist(pandas)",
+          "python3dist(pandas) >= 2",
+          "python3dist(pandas[test])",
+          "python3dist(partd) >= 1.4",
+          "python3dist(pip) >= 19",
+          "python3dist(psutil)",
+          "python3dist(pyarrow) >= 16",
+          "python3dist(pytest)",
+          "python3dist(pytest-mock)",
+          "python3dist(pytest-rerunfailures)",
+          "python3dist(pytest-timeout)",
+          "python3dist(pytest-xdist)",
+          "python3dist(python-snappy)",
+          "python3dist(pyyaml) >= 5.3.1",
+          "python3dist(requests)",
+          "python3dist(setuptools) >= 80",
+          "python3dist(setuptools-scm) >= 9",
+          "python3dist(sqlalchemy)",
+          "python3dist(tables)",
+          "python3dist(toolz) >= 0.12",
+          "python3dist(zarr)"
+        ]
+      }
+    ],
+    "python-build": [
+      {
+        "withouts": [
+          "extras"
+        ],
+        "id": "python-build:extras::::",
+        "srpm_filename": "python-build-1.4.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "pyproject-rpm-macros >= 0-41",
+          "python3-devel",
+          "python3dist(filelock) >= 3",
+          "python3dist(flit-core) >= 3.11",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24",
+          "python3dist(pip) >= 19",
+          "python3dist(pyproject-hooks)",
+          "python3dist(pytest) >= 6.2.4",
+          "python3dist(pytest-cov) >= 2.12",
+          "python3dist(pytest-mock) >= 2",
+          "python3dist(pytest-rerunfailures) >= 9.1",
+          "python3dist(pytest-xdist) >= 1.34",
+          "python3dist(setuptools) >= 67.8",
+          "python3dist(setuptools-scm) >= 6",
+          "python3dist(uv) >= 0.1.18",
+          "python3dist(virtualenv) >= 20.0.35",
+          "python3dist(wheel) >= 0.36"
+        ]
+      }
+    ],
+    "meson": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "meson:check::::",
+        "srpm_filename": "meson-1.10.2-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 42",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-gmpy2": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-gmpy2:tests::::",
+        "srpm_filename": "python-gmpy2-2.3.0-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "gmp-devel",
+          "libmpc-devel",
+          "make",
+          "pkgconfig(mpfr)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-docs",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 6",
+          "python3dist(setuptools-scm[toml]) >= 6",
+          "python3dist(sphinx)",
+          "python3dist(sphinx) >= 4",
+          "python3dist(sphinx-rtd-theme) >= 1"
+        ]
+      }
+    ],
+    "python-humanfriendly": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-humanfriendly::bootstrap:::",
+        "srpm_filename": "python-humanfriendly-10.0-20.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "python3-devel",
+          "python3-setuptools",
+          "python3-sphinx"
+        ]
+      }
+    ],
+    "python-cascadio": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-cascadio::bootstrap:::",
+        "srpm_filename": "python-cascadio-0.0.17-6.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "cmake(OpenCASCADE)",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pybind11)",
+          "python3dist(scikit-build-core) >= 0.9",
+          "rapidjson-static"
+        ]
+      }
+    ],
+    "python-pint": [
+      {
+        "withouts": [
+          "xarray"
+        ],
+        "id": "python-pint:xarray::::",
+        "srpm_filename": "python-pint-0.25.2-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(flexcache) >= 0.3",
+          "python3dist(flexparser) >= 0.4",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(matplotlib)",
+          "python3dist(numpy) >= 1.23",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(platformdirs) >= 2.1",
+          "python3dist(pytest)",
+          "python3dist(pytest-benchmark)",
+          "python3dist(pytest-mpl)",
+          "python3dist(pytest-subtests)",
+          "python3dist(typing-extensions) >= 4",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-astropy-iers-data": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-astropy-iers-data:tests::::",
+        "srpm_filename": "python-astropy-iers-data-0.2026.3.2.0.47.4-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling) >= 1.5",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-pymongo": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-pymongo::bootstrap:::",
+        "srpm_filename": "python-pymongo-4.13.2-4.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "(python3dist(dnspython) < 3~~ with python3dist(dnspython) >= 1.16)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(cryptography) >= 2.5",
+          "python3dist(hatch-requirements-txt) >= 0.4.1",
+          "python3dist(hatchling) > 1.24.0",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyopenssl) >= 17.2",
+          "python3dist(pytest) >= 8.2",
+          "python3dist(pytest-asyncio) >= 0.23",
+          "python3dist(python-snappy)",
+          "python3dist(requests) < 3~~",
+          "python3dist(service-identity) >= 18.1",
+          "python3dist(setuptools) >= 65",
+          "python3dist(zstandard)"
+        ]
+      }
+    ],
+    "python-pyogrio": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-pyogrio::bootstrap:::",
+        "srpm_filename": "python-pyogrio-0.12.1-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "gdal-devel >= 2.4.0",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(certifi)",
+          "python3dist(cython) >= 3.1",
+          "python3dist(numpy)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyarrow)",
+          "python3dist(pytest)",
+          "python3dist(setuptools)",
+          "python3dist(versioneer) >= 0.28",
+          "python3dist(versioneer[toml]) >= 0.28"
+        ]
+      }
+    ],
+    "python-pydantic-core": [
+      {
+        "withouts": [
+          "inline_snapshot_tests"
+        ],
+        "id": "python-pydantic-core:inline_snapshot_tests::::",
+        "srpm_filename": "python-pydantic-core-2.41.5-3.fc45.src.rpm",
+        "buildrequires": [
+          "(crate(ahash/default) >= 0.8.12 with crate(ahash/default) < 0.9.0~)",
+          "(crate(base64/default) >= 0.22.1 with crate(base64/default) < 0.23.0~)",
+          "(crate(enum_dispatch/default) >= 0.3.13 with crate(enum_dispatch/default) < 0.4.0~)",
+          "(crate(hex/default) >= 0.4.3 with crate(hex/default) < 0.5.0~)",
+          "(crate(idna/default) >= 1.1.0 with crate(idna/default) < 2.0.0~)",
+          "(crate(jiter/default) >= 0.11.1 with crate(jiter/default) < 0.12.0~)",
+          "(crate(jiter/python) >= 0.11.1 with crate(jiter/python) < 0.12.0~)",
+          "(crate(num-bigint/default) >= 0.4.6 with crate(num-bigint/default) < 0.5.0~)",
+          "(crate(num-traits/default) >= 0.2.19 with crate(num-traits/default) < 0.3.0~)",
+          "(crate(percent-encoding/default) >= 2.3.2 with crate(percent-encoding/default) < 3.0.0~)",
+          "(crate(pyo3-build-config/default) >= 0.26.0 with crate(pyo3-build-config/default) < 0.27.0~)",
+          "(crate(pyo3/default) >= 0.26.0 with crate(pyo3/default) < 0.27.0~)",
+          "(crate(pyo3/num-bigint) >= 0.26.0 with crate(pyo3/num-bigint) < 0.27.0~)",
+          "(crate(pyo3/py-clone) >= 0.26.0 with crate(pyo3/py-clone) < 0.27.0~)",
+          "(crate(regex/default) >= 1.12.2 with crate(regex/default) < 2.0.0~)",
+          "(crate(serde/default) >= 1.0.219 with crate(serde/default) < 2.0.0~)",
+          "(crate(serde/derive) >= 1.0.219 with crate(serde/derive) < 2.0.0~)",
+          "(crate(serde_json/arbitrary_precision) >= 1.0.145 with crate(serde_json/arbitrary_precision) < 2.0.0~)",
+          "(crate(serde_json/default) >= 1.0.145 with crate(serde_json/default) < 2.0.0~)",
+          "(crate(smallvec/default) >= 1.15.1 with crate(smallvec/default) < 2.0.0~)",
+          "(crate(speedate/default) >= 0.17.0 with crate(speedate/default) < 0.18.0~)",
+          "(crate(strum/default) >= 0.27.0 with crate(strum/default) < 0.28.0~)",
+          "(crate(strum/derive) >= 0.27.0 with crate(strum/derive) < 0.28.0~)",
+          "(crate(strum_macros/default) >= 0.27.0 with crate(strum_macros/default) < 0.28.0~)",
+          "(crate(url/default) >= 2.5.4 with crate(url/default) < 3.0.0~)",
+          "(crate(uuid/default) >= 1.18.1 with crate(uuid/default) < 2.0.0~)",
+          "(crate(version_check/default) >= 0.9.5 with crate(version_check/default) < 0.10.0~)",
+          "(python3dist(maturin) < 2~~ with python3dist(maturin) >= 1.9.4)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "cargo-rpm-macros >= 24",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(dirty-equals)",
+          "python3dist(hypothesis)",
+          "python3dist(maturin)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pytest-mock)",
+          "python3dist(python-dateutil)",
+          "python3dist(typing-extensions) >= 4.14.1",
+          "python3dist(typing-inspection) >= 0.4.1",
+          "rust >= 1.75",
+          "tomcli"
+        ]
+      }
+    ],
+    "python-django5": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-django5:tests::::",
+        "srpm_filename": "python-django5-5.2.11-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "bash-completion",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-asgiref",
+          "python3-devel",
+          "python3dist(asgiref) >= 3.8.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyenchant)",
+          "python3dist(setuptools) >= 77.0.3",
+          "python3dist(sphinx) >= 4.5",
+          "python3dist(sphinxcontrib-spelling)",
+          "python3dist(sqlparse) >= 0.3.1"
+        ]
+      }
+    ],
+    "python-pyproject-hooks": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pyproject-hooks:tests::::",
+        "srpm_filename": "python-pyproject-hooks-1.2.0-10.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-Automat": [
+      {
+        "withouts": [
+          "doc"
+        ],
+        "id": "python-Automat:doc::::",
+        "srpm_filename": "python-Automat-24.8.1-9.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(coverage)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(setuptools) >= 35.0.2",
+          "python3dist(setuptools-scm)",
+          "python3dist(tox)",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(wheel) >= 0.29"
+        ]
+      }
+    ],
+    "python-psutil": [
+      {
+        "withouts": [
+          "xdist"
+        ],
+        "id": "python-psutil:xdist::::",
+        "srpm_filename": "python-psutil-7.2.2-4.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "make",
+          "procps-ng",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 43",
+          "sed"
+        ]
+      }
+    ],
+    "python-apkinspector": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-apkinspector::bootstrap:::",
+        "srpm_filename": "python-apkinspector-1.3.2-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-sphinx_lv2_theme",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(poetry-core)",
+          "python3dist(sphinx)"
+        ]
+      }
+    ],
+    "python-androguard": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-androguard::bootstrap:::",
+        "srpm_filename": "python-androguard-3.4.0a1-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pyperclip",
+          "python3-qt5",
+          "python3dist(asn1crypto) >= 0.24",
+          "python3dist(click) >= 7",
+          "python3dist(colorama) >= 0.4.1",
+          "python3dist(ipython) >= 5",
+          "python3dist(lxml) >= 4.3",
+          "python3dist(matplotlib) >= 3.0.2",
+          "python3dist(networkx) >= 2.2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pydot) >= 1.4.1",
+          "python3dist(pygments) >= 2.3.1",
+          "python3dist(setuptools)",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-service-identity": [
+      {
+        "withouts": [
+          "docs"
+        ],
+        "id": "python-service-identity:docs::::",
+        "srpm_filename": "python-service-identity-24.2.0-9.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(attrs) >= 19.1",
+          "python3dist(cryptography)",
+          "python3dist(hatch-vcs)",
+          "python3dist(hatchling)",
+          "python3dist(idna)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyasn1)",
+          "python3dist(pyasn1-modules)",
+          "python3dist(pytest)"
+        ]
+      }
+    ],
+    "mkdocs-material": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "mkdocs-material::bootstrap:::",
+        "srpm_filename": "mkdocs-material-9.7.1-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(babel) >= 2.10",
+          "python3dist(backrefs) >= 5.7^post1",
+          "python3dist(colorama) >= 0.4",
+          "python3dist(hatch-nodejs-version) >= 0.3",
+          "python3dist(hatch-requirements-txt)",
+          "python3dist(hatchling)",
+          "python3dist(jinja2) >= 3.1",
+          "python3dist(markdown) >= 3.2",
+          "python3dist(mkdocs) >= 1.6",
+          "python3dist(mkdocs-material-extensions) >= 1.3",
+          "python3dist(packaging)",
+          "python3dist(paginate) >= 0.5",
+          "python3dist(pip) >= 19",
+          "python3dist(pygments) >= 2.16",
+          "python3dist(pymdown-extensions) >= 10.2",
+          "python3dist(requests) >= 2.30",
+          "python3dist(trove-classifiers) >= 2023.10.18",
+          "sed"
+        ]
+      }
+    ],
+    "python-mkdocs-material-extensions": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-mkdocs-material-extensions:tests::::",
+        "srpm_filename": "python-mkdocs-material-extensions-1.3.1-11.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 0.21.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-zope-testing": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-zope-testing:tests::::",
+        "srpm_filename": "python-zope-testing-6.1-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(setuptools) < 81~~ with python3dist(setuptools) >= 78.1.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-xnat": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-xnat:tests::::",
+        "srpm_filename": "python-xnat-0.7.2-13.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "git-core",
+          "help2man",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(click)",
+          "python3dist(click-option-group)",
+          "python3dist(hatchling)",
+          "python3dist(importlib-metadata)",
+          "python3dist(isodate)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(progressbar2)",
+          "python3dist(pydicom)",
+          "python3dist(python-dateutil)",
+          "python3dist(pyyaml)",
+          "python3dist(requests)",
+          "python3dist(versioningit)"
+        ]
+      }
+    ],
+    "python-tablib": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-tablib::bootstrap:::",
+        "srpm_filename": "python-tablib-3.8.0-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(odfpy)",
+          "python3dist(openpyxl) >= 2.6",
+          "python3dist(packaging)",
+          "python3dist(pandas)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pyyaml)",
+          "python3dist(setuptools) >= 58",
+          "python3dist(setuptools-scm) >= 6.2",
+          "python3dist(setuptools-scm[toml]) >= 6.2",
+          "python3dist(tabulate)",
+          "python3dist(xlrd)",
+          "python3dist(xlwt)"
+        ]
+      }
+    ],
+    "python-pathspec": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-pathspec:tests::::",
+        "srpm_filename": "python-pathspec-1.0.4-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 5~~ with python3dist(flit-core) >= 3.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-hatch-vcs": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-hatch-vcs::bootstrap:::",
+        "srpm_filename": "python-hatch-vcs-0.5.0-8.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 1.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools-scm) >= 8.2"
+        ]
+      }
+    ],
+    "python-cobalt": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-cobalt::bootstrap:::",
+        "srpm_filename": "python-cobalt-9.0.1-9.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(iso8601) >= 0.1",
+          "python3dist(lxml) >= 3.4.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)",
+          "python3dist(setuptools-scm) >= 6.2",
+          "python3dist(setuptools-scm[toml]) >= 6.2",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-trove-classifiers": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-trove-classifiers:tests::::",
+        "srpm_filename": "python-trove-classifiers-2026.1.14.14-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 61"
+        ]
+      }
+    ],
+    "python-snakemake-interface-common": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-common::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-common-1.23.0-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(argparse-dataclass) >= 2",
+          "python3dist(configargparse) >= 1.7",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(setuptools) >= 42",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
+    "python-snakemake-interface-scheduler-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-scheduler-plugins::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-scheduler-plugins-2.0.2-4.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(snakemake-interface-common) < 2~~ with python3dist(snakemake-interface-common) >= 1.20.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
+        ]
+      }
+    ],
+    "python-snakemake-interface-logger-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-snakemake-interface-logger-plugins::bootstrap:::",
+        "srpm_filename": "python-snakemake-interface-logger-plugins-2.0.0-5.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(snakemake-interface-common) >= 1.17.4"
+        ]
+      }
+    ],
+    "python-azure-mgmt-core": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-azure-mgmt-core:tests::::",
+        "srpm_filename": "python-azure-mgmt-core-1.6.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(azure-core) >= 1.32",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-networkx": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-networkx::bootstrap:::",
+        "srpm_filename": "python-networkx-3.6.1-4.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77.0.3"
+        ]
+      }
+    ],
+    "python-paste-deploy": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-paste-deploy:tests::::",
+        "srpm_filename": "python-paste-deploy-3.1.0-13.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 41"
+        ]
+      }
+    ],
+    "python-llm": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-llm:tests::::",
+        "srpm_filename": "python-llm-0.28-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-furo",
+          "python3-myst-parser",
+          "python3-sphinx-copybutton",
+          "python3-sphinx-markdown-builder",
+          "python3dist(click)",
+          "python3dist(click-default-group) >= 1.2.2",
+          "python3dist(condense-json) >= 0.1.3",
+          "python3dist(openai) >= 1.55.3",
+          "python3dist(packaging)",
+          "python3dist(pip)",
+          "python3dist(pip) >= 19",
+          "python3dist(pluggy)",
+          "python3dist(puremagic)",
+          "python3dist(pydantic) >= 2",
+          "python3dist(python-ulid)",
+          "python3dist(pyyaml)",
+          "python3dist(setuptools)",
+          "python3dist(sqlite-migrate) >= 0.1~a2",
+          "python3dist(sqlite-utils) >= 3.37"
+        ]
+      }
+    ],
+    "python-rjsmin": [
+      {
+        "withouts": [
+          "docs"
+        ],
+        "id": "python-rjsmin:docs::::",
+        "srpm_filename": "python-rjsmin-1.2.5-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools)"
+        ]
+      }
+    ],
+    "python-webtest": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-webtest:tests::::",
+        "srpm_filename": "python-webtest-3.0.7-2.fc45.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(beautifulsoup4)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(waitress) >= 3.0.2",
+          "python3dist(webob) >= 1.2"
+        ]
+      }
+    ],
+    "python-menuinst": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-menuinst::bootstrap:::",
+        "srpm_filename": "python-menuinst-2.4.2-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python-unversioned-command",
+          "python3-devel",
+          "python3-pydantic",
+          "python3-pytest",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 45",
+          "python3dist(setuptools-scm) >= 6.2",
+          "python3dist(setuptools-scm[toml]) >= 6.2"
+        ]
+      }
+    ]
+  }
+}
