@@ -420,6 +420,12 @@ def parse_args():
         help="Don't refresh the gitrepo of each existing component, just send new components scratchbuilds and downloads srpms."
     )
     parser.add_argument(
+        '--trust-cache',
+        action='store_true',
+        default=False,
+        help="Trust cached BuildRequires data and skip builds for packages already in cache."
+    )
+    parser.add_argument(
         'packages',
         nargs='*',
         help='Only fetch bconds for given package name(s).'
@@ -430,11 +436,19 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
+    read_bconds_cache_if_exists()
+
     # build everything
     something_was_submitted = False
     for component_name, bcond_config in each_bcond_name_config():
         if args.packages and component_name not in args.packages:
             continue
+
+        # If trusting cache and buildrequires already exists, skip build
+        if args.trust_cache and 'buildrequires' in bcond_config:
+            log(f'• {component_name} ({bcond_config["id"]}): Using cached BuildRequires, skipping build')
+            continue
+
         something_was_submitted |= scratchbuild_patched_if_needed(component_name, bcond_config, no_git_refresh=args.no_git_refresh)
 
     # download everything until there's nothing downloaded
