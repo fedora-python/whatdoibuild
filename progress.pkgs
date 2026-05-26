@@ -85,7 +85,6 @@ python-markdown-callouts
 python-markdown-exec
 python-mathics-scanner
 Mayavi
-python-mcp
 python-memray
 python-meshio
 python-mkapi
@@ -158,4 +157,5 @@ supervisor
 thefuck
 ubertooth
 variety
+virtme-ng
 yt-dlp
