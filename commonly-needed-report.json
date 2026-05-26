@@ -5,21 +5,13 @@
       "count": 57
     },
     {
-      "component": "python-sqlmodel",
-      "count": 25,
-      "blocked_by": [
-        "python-fastapi"
-      ]
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3",
-        "python-sqlmodel"
+        "python-snakemake-storage-plugin-s3"
       ]
     },
     {
@@ -109,10 +101,6 @@
       "count": 7
     },
     {
-      "component": "python-hexbytes",
-      "count": 7
-    },
-    {
       "component": "python-niapy",
       "count": 6,
       "blocked_by": [
@@ -134,18 +122,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-fastapi",
-      "count": 6,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-pydantic-extra-types",
-        "python-rich-toolkit",
-        "python-rignore",
-        "python-sqlmodel"
-      ]
-    },
-    {
       "component": "python-beartype",
       "count": 6
     },
@@ -156,10 +132,6 @@
         "conda",
         "libmamba"
       ]
-    },
-    {
-      "component": "python-rlp",
-      "count": 6
     },
     {
       "component": "python-PyGithub",
@@ -189,10 +161,6 @@
       "count": 5
     },
     {
-      "component": "python-tldextract",
-      "count": 5
-    },
-    {
       "component": "python-trimesh",
       "count": 5,
       "blocked_by": [
@@ -204,14 +172,6 @@
         "python-shapely",
         "usd"
       ]
-    },
-    {
-      "component": "python-eth-keys",
-      "count": 5
-    },
-    {
-      "component": "python-eth-abi",
-      "count": 5
     },
     {
       "component": "python-geopandas",
@@ -231,10 +191,6 @@
       ]
     },
     {
-      "component": "python-rich-toolkit",
-      "count": 4
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -248,25 +204,6 @@
       "blocked_by": [
         "python-decopatch",
         "python-pytest-cases"
-      ]
-    },
-    {
-      "component": "python-py_ecc",
-      "count": 4
-    },
-    {
-      "component": "python-sse-starlette",
-      "count": 4,
-      "blocked_by": [
-        "python-fastapi"
-      ]
-    },
-    {
-      "component": "python-xnat",
-      "count": 4,
-      "blocked_by": [
-        "python-xnat",
-        "python-xnat4tests"
       ]
     },
     {
@@ -287,14 +224,6 @@
       "count": 3
     },
     {
-      "component": "python-rignore",
-      "count": 3
-    },
-    {
-      "component": "python-ufo2ft",
-      "count": 3
-    },
-    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -304,12 +233,97 @@
     {
       "component": "python-lazr-delegates",
       "count": 3
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 3
+    },
+    {
+      "component": "python-astropy-healpix",
+      "count": 3,
+      "blocked_by": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "pythran",
+      "count": 3
+    },
+    {
+      "component": "python-zict",
+      "count": 3
+    },
+    {
+      "component": "python-futurist",
+      "count": 3,
+      "blocked_by": [
+        "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-httpx-sse",
+      "count": 3
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "myst-nb",
+      "count": 3
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-azure-mgmt-storage",
+      "count": 2,
+      "blocked_by": [
+        "python-msrest"
+      ]
+    },
+    {
+      "component": "python-nifti-mrs",
+      "count": 2,
+      "blocked_by": [
+        "python-fslpy"
+      ]
+    },
+    {
+      "component": "usd",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-msrest",
       "count": 45
+    },
+    {
+      "component": "snakemake",
+      "count": 19,
+      "blocked_by": [
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3"
+      ]
     },
     {
       "component": "python-torch",
@@ -348,16 +362,8 @@
       ]
     },
     {
-      "component": "python-fastapi",
-      "count": 3,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-pydantic-extra-types",
-        "python-rich-toolkit",
-        "python-rignore",
-        "python-sqlmodel"
-      ]
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "pythran",
@@ -367,8 +373,7 @@
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
-        "pylint",
-        "python-rope"
+        "pylint"
       ]
     },
     {
@@ -386,10 +391,6 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 3
-    },
-    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
@@ -401,7 +402,7 @@
       ]
     },
     {
-      "component": "python-oci",
+      "component": "python-sshtunnel",
       "count": 2
     },
     {
@@ -432,28 +433,21 @@
       ]
     },
     {
-      "component": "python-oracledb",
-      "count": 2,
-      "blocked_by": [
-        "python-oci"
-      ]
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
         "python-eventlet"
       ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 2,
+      "blocked_by": [
+        "python-trimesh"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-sqlmodel",
-        "snakemake"
-      ],
-      "count": 19
-    },
     {
       "components": [
         "python-msrest",
@@ -501,22 +495,8 @@
     },
     {
       "components": [
-        "python-glyphsLib",
-        "python-ufo2ft"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-celery",
         "python-kombu"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-hexbytes",
-        "python-rlp"
       ],
       "count": 2
     },
@@ -580,28 +560,48 @@
     },
     {
       "components": [
-        "fastapi-cloud-cli",
-        "fastapi-new",
-        "python-fastapi",
-        "python-rich-toolkit",
-        "python-rignore"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-rich-toolkit",
-        "python-rignore"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-beartype",
         "python-extractcode",
         "python-ftfy",
         "python-spdx-tools",
         "scancode-toolkit"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-PyGithub",
+        "python-keep"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-extensions",
+        "python-django-mailman3"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-yamlloader",
+        "pywbem"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-lazr-config",
+        "python-lazr-delegates"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3",
+        "python-readme-renderer"
       ],
       "count": 1
     }
