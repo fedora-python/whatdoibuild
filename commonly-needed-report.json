@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic",
-      "count": 105
-    },
-    {
       "component": "python-msrest",
       "count": 57
     },
@@ -12,15 +8,13 @@
       "component": "python-sqlmodel",
       "count": 25,
       "blocked_by": [
-        "python-fastapi",
-        "python-pydantic"
+        "python-fastapi"
       ]
     },
     {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-pydantic",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
@@ -45,13 +39,6 @@
       ]
     },
     {
-      "component": "python-eth-utils",
-      "count": 14,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "pyproj",
       "count": 13
     },
@@ -71,13 +58,6 @@
       "count": 11,
       "blocked_by": [
         "python-peachpy"
-      ]
-    },
-    {
-      "component": "python-pydantic-settings",
-      "count": 11,
-      "blocked_by": [
-        "python-pydantic"
       ]
     },
     {
@@ -114,13 +94,6 @@
       ]
     },
     {
-      "component": "python-inline-snapshot",
-      "count": 8,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-plaster-pastedeploy",
       "count": 7
     },
@@ -136,22 +109,8 @@
       "count": 7
     },
     {
-      "component": "python-menuinst",
-      "count": 7,
-      "blocked_by": [
-        "conda",
-        "libmamba",
-        "python-menuinst",
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-hexbytes",
-      "count": 7,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
+      "count": 7
     },
     {
       "component": "python-niapy",
@@ -180,10 +139,7 @@
       "blocked_by": [
         "fastapi-cli",
         "fastapi-cloud-cli",
-        "python-inline-snapshot",
-        "python-pydantic",
         "python-pydantic-extra-types",
-        "python-pydantic-settings",
         "python-rich-toolkit",
         "python-rignore",
         "python-sqlmodel"
@@ -198,17 +154,12 @@
       "count": 6,
       "blocked_by": [
         "conda",
-        "libmamba",
-        "python-menuinst"
+        "libmamba"
       ]
     },
     {
       "component": "python-rlp",
-      "count": 6,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
+      "count": 6
     },
     {
       "component": "python-PyGithub",
@@ -230,20 +181,6 @@
       ]
     },
     {
-      "component": "python-python-ulid",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-openai",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -253,10 +190,7 @@
     },
     {
       "component": "python-tldextract",
-      "count": 5,
-      "blocked_by": [
-        "python-syrupy"
-      ]
+      "count": 5
     },
     {
       "component": "python-trimesh",
@@ -273,19 +207,11 @@
     },
     {
       "component": "python-eth-keys",
-      "count": 5,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
+      "count": 5
     },
     {
       "component": "python-eth-abi",
-      "count": 5,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
+      "count": 5
     },
     {
       "component": "python-geopandas",
@@ -301,17 +227,12 @@
       "component": "python-celery",
       "count": 4,
       "blocked_by": [
-        "python-kombu",
-        "python-pydantic"
+        "python-kombu"
       ]
     },
     {
       "component": "python-rich-toolkit",
-      "count": 4,
-      "blocked_by": [
-        "python-inline-snapshot",
-        "python-pydantic"
-      ]
+      "count": 4
     },
     {
       "component": "python-django-allauth",
@@ -320,13 +241,6 @@
     {
       "component": "gdal",
       "count": 4
-    },
-    {
-      "component": "python-syrupy",
-      "count": 4,
-      "blocked_by": [
-        "python-pydantic"
-      ]
     },
     {
       "component": "python-decopatch",
@@ -338,29 +252,64 @@
     },
     {
       "component": "python-py_ecc",
-      "count": 4,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
+      "count": 4
     },
     {
       "component": "python-sse-starlette",
       "count": 4,
       "blocked_by": [
-        "python-fastapi",
-        "python-pydantic"
+        "python-fastapi"
       ]
+    },
+    {
+      "component": "python-xnat",
+      "count": 4,
+      "blocked_by": [
+        "python-xnat",
+        "python-xnat4tests"
+      ]
+    },
+    {
+      "component": "pylint",
+      "count": 4
+    },
+    {
+      "component": "python-niaaml",
+      "count": 3,
+      "blocked_by": [
+        "python-et_xmlfile",
+        "python-niapy",
+        "python-openpyxl"
+      ]
+    },
+    {
+      "component": "python-sshtunnel",
+      "count": 3
+    },
+    {
+      "component": "python-rignore",
+      "count": 3
+    },
+    {
+      "component": "python-ufo2ft",
+      "count": 3
+    },
+    {
+      "component": "python-django-mailman3",
+      "count": 3,
+      "blocked_by": [
+        "python-django-allauth"
+      ]
+    },
+    {
+      "component": "python-lazr-delegates",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-msrest",
       "count": 45
-    },
-    {
-      "component": "python-pydantic",
-      "count": 31
     },
     {
       "component": "python-torch",
@@ -399,6 +348,18 @@
       ]
     },
     {
+      "component": "python-fastapi",
+      "count": 3,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-pydantic-extra-types",
+        "python-rich-toolkit",
+        "python-rignore",
+        "python-sqlmodel"
+      ]
+    },
+    {
       "component": "pythran",
       "count": 3
     },
@@ -407,7 +368,6 @@
       "count": 3,
       "blocked_by": [
         "pylint",
-        "python-pytoolconfig",
         "python-rope"
       ]
     },
@@ -430,13 +390,6 @@
       "count": 3
     },
     {
-      "component": "python-syrupy",
-      "count": 3,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
@@ -449,10 +402,7 @@
     },
     {
       "component": "python-oci",
-      "count": 2,
-      "blocked_by": [
-        "python-pydantic"
-      ]
+      "count": 2
     },
     {
       "component": "gdal",
@@ -487,12 +437,18 @@
       "blocked_by": [
         "python-oci"
       ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 2,
+      "blocked_by": [
+        "python-eventlet"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-pydantic",
         "python-sqlmodel",
         "snakemake"
       ],
@@ -515,18 +471,10 @@
     },
     {
       "components": [
-        "python-eth-utils",
-        "python-pydantic"
+        "conda",
+        "libmamba"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "conda",
-        "libmamba",
-        "python-menuinst"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -542,13 +490,6 @@
         "python-openpyxl"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-fastapi",
-        "python-pydantic"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -574,9 +515,7 @@
     },
     {
       "components": [
-        "python-eth-utils",
         "python-hexbytes",
-        "python-pydantic",
         "python-rlp"
       ],
       "count": 2
@@ -586,21 +525,6 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-doubleratchet",
-        "python-pydantic",
-        "python-x3dh"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-settings"
       ],
       "count": 2
     },
@@ -644,6 +568,40 @@
       "components": [
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "fastapi-cloud-cli",
+        "fastapi-new",
+        "python-fastapi",
+        "python-rich-toolkit",
+        "python-rignore"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-rich-toolkit",
+        "python-rignore"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
       ],
       "count": 1
     }
