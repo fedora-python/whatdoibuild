@@ -19,15 +19,42 @@ def parse_component_argument(component_arg):
         component_arg: Either a plain component name or bcond identifier
     
     Returns:
-        Tuple of (component_name, bootstrap_config or None)
+        Tuple of (component_name, bcond_config or None)
     """
     if ':' not in component_arg:
         return component_arg, None
     
     build_reverse_id_lookup()
-    bootstrap = reverse_id_lookup[component_arg]
+    bcond_config = reverse_id_lookup[component_arg]
     component_name = component_arg.partition(':')[0]
-    return component_name, bootstrap
+    return component_name, bcond_config
+
+
+def has_bootstrap_bcond(bcond_config):
+    """Check if bcond config includes --with bootstrap."""
+    return bcond_config is not None and 'bootstrap' in bcond_config.get('withs', [])
+
+
+def strip_bootstrap_bcond(bcond_config):
+    """Return a copy of bcond_config with bootstrap removed from withs."""
+    config = dict(bcond_config)
+    withs = [w for w in config.get('withs', []) if w != 'bootstrap']
+    if withs:
+        config['withs'] = withs
+    else:
+        config.pop('withs', None)
+    return config
+
+
+def needs_spec_changes(bcond_config):
+    """Check if bcond config requires spec file modifications."""
+    if bcond_config is None:
+        return False
+    return bool(
+        bcond_config.get('withs')
+        or bcond_config.get('withouts')
+        or bcond_config.get('replacements')
+    )
 
 
 def get_patch_path(component_name):
@@ -98,28 +125,35 @@ def commit_and_push_changes(repopath, component_name, specpath, message):
     run('git', '-C', repopath, 'push')
 
 
-def submit_koji_build(repopath):
+def submit_koji_build(repopath, target=None):
     """
     Submit a Koji build for the component.
     
     Args:
         repopath: Path to the repository
+        target: Koji target to build for (defaults to config value)
     """
-    run('fedpkg', 'build', '--fail-fast', '--nowait', 
-        '--target', CONFIG['koji']['target'], cwd=repopath)  # '--background'
+    target = target or CONFIG['koji']['target']
+    run('fedpkg', 'build', '--fail-fast', '--nowait',
+        '--target', target, cwd=repopath)  # '--background'
 
 
 def build_component(component_arg):
     """
-    Build a component with optional bootstrap configuration.
+    Build a component with optional bcond configuration.
+    
+    When --with bootstrap is in the bcond config, it is handled by submitting
+    to a dedicated Koji bootstrap target instead of patching the spec file.
+    Any other bconds (withouts, replacements, non-bootstrap withs) are still
+    patched into the spec as before.
     
     Args:
         component_arg: Component name or bcond identifier (name:config)
     
     Raises:
-        NotImplementedError: If double bootstrap is attempted
+        NotImplementedError: If double spec-level bcond patching is attempted
     """
-    component_name, bootstrap = parse_component_argument(component_arg)
+    component_name, bcond_config = parse_component_argument(component_arg)
     repopath = FEDPKG_CACHEDIR / component_name
     
     refresh_or_clone(repopath, component_name, prune_existing=True)
@@ -127,23 +161,28 @@ def build_component(component_arg):
     specpath = get_spec_path(repopath, component_name)
     patch_path = get_patch_path(component_name)
     
+    use_bootstrap_target = has_bootstrap_bcond(bcond_config)
+    spec_bcond_config = strip_bootstrap_bcond(bcond_config) if use_bootstrap_target else bcond_config
+    modify_spec = needs_spec_changes(spec_bcond_config)
+    
     # Handle existing patches from previous builds
     if patch_path.exists():
-        if bootstrap:
-            raise NotImplementedError('Double bootstrap is not yet supported')
+        if modify_spec:
+            raise NotImplementedError('Double spec modify is not supported')
         revert_existing_patch(repopath, patch_path)
     
-    if bootstrap:
-        message = prepare_bootstrap_build(repopath, component_name, specpath, bootstrap)
+    if modify_spec:
+        message = prepare_bootstrap_build(repopath, component_name, specpath, spec_bcond_config)
     else:
         message = CONFIG['distgit']['commit_message']
     
     # Bump and commit only if we haven't already, XXX ability to force this
     head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
-    if bootstrap:  # or head_commit_msg != message:
+    if modify_spec:  # or head_commit_msg != message:
         commit_and_push_changes(repopath, component_name, specpath, message)
     
-    submit_koji_build(repopath)
+    target = CONFIG['koji']['bootstrap_target'] if use_bootstrap_target else None
+    submit_koji_build(repopath, target=target)
 
 
 def main():
