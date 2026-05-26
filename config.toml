@@ -74,6 +74,7 @@ baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.15-b
 # baseurl = ["http://kojipkgs.fedoraproject.org/repos/f44-build/latest/$basearch/"]
 metadata_expire = 60
 
+# comment this section out to stop checking for prerel-abi
 [prerel]
 current_version = "3.15.0~beta1"
 

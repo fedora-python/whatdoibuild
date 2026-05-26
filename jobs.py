@@ -336,10 +336,7 @@ def _filter_components_with_unsatisfied_prerel_abi(components_done):
     import rpm
 
     # Get the expected prerel-abi version from config
-    expected_version = CONFIG.get('prerel', {}).get('current_version')
-    if not expected_version:
-        log('  • Warning: No prerel.current_version found in config.toml, skipping prerel-abi filtering')
-        return components_done, set()
+    expected_version = CONFIG['prerel']['current_version']
 
     filtered = ReverseLookupDict()
     blocked_components = set()
@@ -399,8 +396,10 @@ def initialize_component_data():
     )
     
     # Filter out components with unsatisfied prerel-abi dependencies
-    components_done, prerel_abi_blocked = _filter_components_with_unsatisfied_prerel_abi(components_done)
-    
+    prerel_abi_blocked = set()
+    if CONFIG.get('prerel'):
+        components_done, prerel_abi_blocked = _filter_components_with_unsatisfied_prerel_abi(components_done)
+
     binary_rpms = components.all_values()
     
     return RebuildContext(
