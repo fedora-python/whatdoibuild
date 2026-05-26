@@ -10,7 +10,6 @@ khal
 kmymoney
 link-grammar
 monkeytype
-myst-nb
 oci-cli
 ocrmypdf
 osc
@@ -134,6 +133,7 @@ python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
+python-sphinx-thebe
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter

@@ -270,10 +270,6 @@
       ]
     },
     {
-      "component": "myst-nb",
-      "count": 3
-    },
-    {
       "component": "python-pcodedmp",
       "count": 3,
       "blocked_by": [
@@ -307,6 +303,10 @@
     },
     {
       "component": "python-extractcode",
+      "count": 2
+    },
+    {
+      "component": "python-ftfy",
       "count": 2
     }
   ],
