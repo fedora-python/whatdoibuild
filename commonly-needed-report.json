@@ -270,10 +270,6 @@
       ]
     },
     {
-      "component": "python-httpx-sse",
-      "count": 3
-    },
-    {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
@@ -308,6 +304,13 @@
     {
       "component": "usd",
       "count": 2
+    },
+    {
+      "component": "python-spdx-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype"
+      ]
     }
   ],
   "most_commonly_last_blocking": [

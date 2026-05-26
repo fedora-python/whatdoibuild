@@ -51,12 +51,10 @@ python-django-angular
 python-django-cacheops
 python-django-extensions
 dnf-plugin-perfmetrics
-python-eip712
 python-elastic-transport
 python-environs
 python-et_xmlfile
 python-eth-event
-python-eth-tester
 python-eventlet
 python-exiv2
 python-extractcode
@@ -71,7 +69,6 @@ gnulib
 python-google-cloud-dns
 python-grpc-google-iam-v1
 python-holidays
-python-httpx-sse
 python-huggingface-hub
 python-hypothesmith
 jc
@@ -88,6 +85,7 @@ python-markdown-callouts
 python-markdown-exec
 python-mathics-scanner
 Mayavi
+python-mcp
 python-memray
 python-meshio
 python-mkapi
