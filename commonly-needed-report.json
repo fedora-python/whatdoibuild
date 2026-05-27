@@ -22,14 +22,6 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 18,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ]
-    },
-    {
       "component": "pyproj",
       "count": 13
     },
@@ -53,10 +45,7 @@
     },
     {
       "component": "python-pytest-arraydiff",
-      "count": 10,
-      "blocked_by": [
-        "python-astropy"
-      ]
+      "count": 10
     },
     {
       "component": "python-pytest-astropy",
@@ -233,7 +222,6 @@
       "component": "python-astropy-healpix",
       "count": 3,
       "blocked_by": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
@@ -313,6 +301,10 @@
         "python-spdx-tools",
         "scancode-toolkit"
       ]
+    },
+    {
+      "component": "python-django-extensions",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -335,14 +327,6 @@
       "count": 9,
       "blocked_by": [
         "python-peachpy"
-      ]
-    },
-    {
-      "component": "python-astropy",
-      "count": 6,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
       ]
     },
     {
@@ -448,6 +432,10 @@
     {
       "component": "python-eventlet",
       "count": 2
+    },
+    {
+      "component": "python-PyGithub",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -460,11 +448,10 @@
     },
     {
       "components": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ],
-      "count": 6
+      "count": 7
     },
     {
       "components": [
