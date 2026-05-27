@@ -33,9 +33,7 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
-python-astroplan
-python-astropy-healpix
-python-astroscrappy
+python-astroquery
 python-avocado
 python-beartype
 python-binary-manager
@@ -102,7 +100,6 @@ python-opcodes
 python-opfunu
 petsc
 roca-detect
-python-photutils
 python-phply
 python-plaster-pastedeploy
 python-pluginlib
@@ -113,7 +110,6 @@ python-pygtkspellcheck
 python-jnius
 pylint
 pyproj
-python-pyregion
 python-pyscaffold
 python-pysdl2
 python-pyswip
@@ -121,12 +117,12 @@ python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
-python-pyvo
 pywhispercpp
 pyqtwebengine
 python-qudida
 python-readchar
 python-readme-renderer
+python-reproject
 python-requirements-parser
 python-rstcheck
 python-rstr

@@ -208,10 +208,6 @@
       "count": 3
     },
     {
-      "component": "python-astropy-healpix",
-      "count": 3
-    },
-    {
       "component": "python-rasterio",
       "count": 3,
       "blocked_by": [
@@ -301,6 +297,10 @@
       "blocked_by": [
         "python-lazr-delegates"
       ]
+    },
+    {
+      "component": "osc",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
