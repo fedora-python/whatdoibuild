@@ -44,10 +44,6 @@
       ]
     },
     {
-      "component": "python-pytest-astropy",
-      "count": 9
-    },
-    {
       "component": "python-msrestazure",
       "count": 9,
       "blocked_by": [
@@ -213,10 +209,7 @@
     },
     {
       "component": "python-astropy-healpix",
-      "count": 3,
-      "blocked_by": [
-        "python-pytest-astropy"
-      ]
+      "count": 3
     },
     {
       "component": "python-rasterio",
@@ -301,6 +294,13 @@
     {
       "component": "python-yamlloader",
       "count": 2
+    },
+    {
+      "component": "python-lazr-config",
+      "count": 2,
+      "blocked_by": [
+        "python-lazr-delegates"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -324,10 +324,6 @@
       "blocked_by": [
         "python-peachpy"
       ]
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 7
     },
     {
       "component": "python-trimesh",
@@ -431,6 +427,10 @@
     },
     {
       "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-PyGithub",
       "count": 2
     }
   ],
