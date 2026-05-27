@@ -44,15 +44,8 @@
       ]
     },
     {
-      "component": "python-pytest-arraydiff",
-      "count": 10
-    },
-    {
       "component": "python-pytest-astropy",
-      "count": 9,
-      "blocked_by": [
-        "python-pytest-arraydiff"
-      ]
+      "count": 9
     },
     {
       "component": "python-msrestazure",
@@ -222,7 +215,6 @@
       "component": "python-astropy-healpix",
       "count": 3,
       "blocked_by": [
-        "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
     },
@@ -305,6 +297,10 @@
     {
       "component": "python-django-extensions",
       "count": 2
+    },
+    {
+      "component": "python-yamlloader",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -328,6 +324,10 @@
       "blocked_by": [
         "python-peachpy"
       ]
+    },
+    {
+      "component": "python-pytest-astropy",
+      "count": 7
     },
     {
       "component": "python-trimesh",
@@ -432,10 +432,6 @@
     {
       "component": "python-eventlet",
       "count": 2
-    },
-    {
-      "component": "python-PyGithub",
-      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -445,13 +441,6 @@
         "python-msrestazure"
       ],
       "count": 9
-    },
-    {
-      "components": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 7
     },
     {
       "components": [
@@ -592,6 +581,13 @@
         "python-django-allauth",
         "python-django-mailman3",
         "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pulp-cli",
+        "python-pytest-subtests"
       ],
       "count": 1
     }

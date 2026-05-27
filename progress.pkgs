@@ -33,8 +33,6 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
-python-astroML
-astrometry
 python-avocado
 python-beartype
 python-binary-manager
@@ -67,10 +65,8 @@ gdal
 python-geopmpy
 python-geotiler
 gnulib
-python-goocalendar
 python-google-cloud-dns
 python-grpc-google-iam-v1
-python-healpy
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -78,6 +74,7 @@ jc
 emacs-jedi
 python-kaptan
 python-lazr-delegates
+libimobiledevice
 libmamba
 librealsense
 libsvm
@@ -101,7 +98,6 @@ net-snmp
 python-numpoly
 python-opcodes
 python-opfunu
-python-opytimizer
 petsc
 roca-detect
 python-phply
@@ -117,7 +113,7 @@ pyproj
 python-pyscaffold
 python-pysdl2
 python-pyswip
-python-pytest-arraydiff
+python-pytest-astropy
 python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
@@ -133,7 +129,6 @@ python-rstr
 python-SALib
 python-scales
 python-sentinels
-python-sep
 python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
@@ -150,6 +145,7 @@ python-triton
 usd
 python-vcstool
 python-webrtcvad
+libwignernj
 xapian-bindings
 xcfun
 python-yamlloader
@@ -158,6 +154,7 @@ rebase-helper
 renderdoc
 snakemake::bootstrap:::
 supervisor
+swift-lang
 thefuck
 ubertooth
 variety
