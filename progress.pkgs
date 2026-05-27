@@ -33,6 +33,7 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
+python-astropy:check::::
 python-avocado
 python-beartype
 python-binary-manager
@@ -127,13 +128,12 @@ python-rstcheck
 python-rstr
 python-SALib
 python-scales
-python-scikit-image
 python-sentinels
 python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
+python-sphinx-book-theme
 python-sphinx-kr-theme
-python-sphinx-thebe
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter

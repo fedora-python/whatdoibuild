@@ -26,8 +26,7 @@
       "count": 18,
       "blocked_by": [
         "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
+        "python-pytest-astropy"
       ]
     },
     {
@@ -87,10 +86,6 @@
     },
     {
       "component": "python-plaster-pastedeploy",
-      "count": 7
-    },
-    {
-      "component": "python-scikit-image",
       "count": 7
     },
     {
@@ -165,7 +160,6 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-scikit-image",
         "python-shapely",
         "usd"
       ]
@@ -308,6 +302,17 @@
     {
       "component": "python-ftfy",
       "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -337,8 +342,7 @@
       "count": 6,
       "blocked_by": [
         "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
+        "python-pytest-astropy"
       ]
     },
     {
@@ -349,7 +353,6 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-scikit-image",
         "python-shapely",
         "usd"
       ]
@@ -364,6 +367,10 @@
     {
       "component": "pylint",
       "count": 4
+    },
+    {
+      "component": "gdal",
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -399,10 +406,6 @@
     },
     {
       "component": "python-sshtunnel",
-      "count": 2
-    },
-    {
-      "component": "gdal",
       "count": 2
     },
     {
