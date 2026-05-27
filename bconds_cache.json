@@ -4353,6 +4353,39 @@
           "python3dist(wheel)"
         ]
       }
+    ],
+    "python-scikit-image": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-scikit-image:check::::",
+        "srpm_filename": "python-scikit-image-0.26.0-1.fc45.src.rpm",
+        "buildrequires": [
+          "((python3dist(cython) < 3.2~b1 or python3dist(cython) > 3.2~b1) with python3dist(cython) >= 3.0.8)",
+          "((python3dist(imageio) < 2.35 or python3dist(imageio) > 2.35) with python3dist(imageio) >= 2.33)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "python-unversioned-command",
+          "python3-devel",
+          "python3dist(lazy-loader) >= 0.4",
+          "python3dist(meson-python) >= 0.16",
+          "python3dist(networkx) >= 3",
+          "python3dist(numpy) >= 1.24",
+          "python3dist(numpy) >= 2",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 21",
+          "python3dist(pillow) >= 10.1",
+          "python3dist(pip)",
+          "python3dist(pip) >= 19",
+          "python3dist(pythran) >= 0.16",
+          "python3dist(scipy) >= 1.11.4",
+          "python3dist(tifffile) >= 2022.8.12",
+          "xorg-x11-server-Xvfb"
+        ]
+      }
     ]
   }
 }
