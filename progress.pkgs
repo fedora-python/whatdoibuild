@@ -39,6 +39,7 @@ python-beartype
 python-binary-manager
 bmap-tools
 python-bytecode
+python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
@@ -96,7 +97,6 @@ python-nagiosplugin
 python-neovim
 net-snmp
 python-numpoly
-python-opcodes
 python-opfunu
 petsc
 roca-detect
@@ -109,7 +109,6 @@ python-PyGithub
 python-pygtkspellcheck
 python-jnius
 pylint
-pyproj
 python-pyscaffold
 python-pysdl2
 python-pyswip
@@ -120,9 +119,9 @@ python-pyvmomi
 pywhispercpp
 pyqtwebengine
 python-qudida
+python-rasterio
 python-readchar
 python-readme-renderer
-python-reproject
 python-requirements-parser
 python-rstcheck
 python-rstr
@@ -137,6 +136,7 @@ python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter
 python-toml-cli
+python-torch
 python-tpm2-pytss
 python-transforms3d
 python-translitcodec
