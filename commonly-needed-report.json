@@ -205,13 +205,6 @@
       ]
     },
     {
-      "component": "python-pcodedmp",
-      "count": 3,
-      "blocked_by": [
-        "python-pcodedmp"
-      ]
-    },
-    {
       "component": "python-azure-mgmt-storage",
       "count": 2,
       "blocked_by": [
@@ -295,6 +288,10 @@
       "blocked_by": [
         "python-zict"
       ]
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -347,13 +344,6 @@
       "count": 3,
       "blocked_by": [
         "pylint"
-      ]
-    },
-    {
-      "component": "python-pcodedmp",
-      "count": 3,
-      "blocked_by": [
-        "python-pcodedmp"
       ]
     },
     {
@@ -417,6 +407,10 @@
     {
       "component": "xapian-bindings",
       "count": 2
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
