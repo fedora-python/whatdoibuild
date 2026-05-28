@@ -271,10 +271,6 @@
       ]
     },
     {
-      "component": "osc",
-      "count": 2
-    },
-    {
       "component": "mupdf",
       "count": 2,
       "blocked_by": [
@@ -292,6 +288,13 @@
     {
       "component": "python-geotiler",
       "count": 2
+    },
+    {
+      "component": "python-distributed",
+      "count": 2,
+      "blocked_by": [
+        "python-zict"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
