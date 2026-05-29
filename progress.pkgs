@@ -33,9 +33,9 @@ python-alembic1.14
 ansible-lint
 python-apipkg
 python-astroquery
+python-asyncinotify
 python-avocado
 python-beartype
-python-binary-manager
 bmap-tools
 python-bytecode
 python-cartopy
