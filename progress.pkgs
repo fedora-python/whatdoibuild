@@ -33,7 +33,6 @@ python-alembic1.14
 ansible-lint
 python-apipkg
 python-astroquery
-python-asyncinotify
 python-avocado
 python-beartype
 bmap-tools
@@ -61,7 +60,6 @@ python-extractcode
 python-fastprogress
 python-fields
 flatpak-module-tools
-python-ftfy
 gdal
 python-geopmpy
 python-geotiler
