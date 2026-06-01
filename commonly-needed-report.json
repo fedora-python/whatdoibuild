@@ -90,10 +90,6 @@
       ]
     },
     {
-      "component": "python-celery",
-      "count": 4
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -108,10 +104,6 @@
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "python-niaaml",
-      "count": 3
     },
     {
       "component": "python-sshtunnel",
@@ -209,13 +201,6 @@
       ]
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-celery"
-      ]
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -285,6 +270,18 @@
       "blocked_by": [
         "snakemake"
       ]
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "yt-dlp",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -350,18 +347,7 @@
       "count": 2
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-celery"
-      ]
-    },
-    {
       "component": "python-rasterio",
-      "count": 2
-    },
-    {
-      "component": "python-celery",
       "count": 2
     },
     {
@@ -396,11 +382,19 @@
       "count": 2
     },
     {
-      "component": "python-niaaml",
+      "component": "pyqtwebengine",
       "count": 1
     },
     {
-      "component": "pyqtwebengine",
+      "component": "yt-dlp",
+      "count": 1
+    },
+    {
+      "component": "usd",
+      "count": 1
+    },
+    {
+      "component": "pykakasi",
       "count": 1
     }
   ],
@@ -430,7 +424,6 @@
     },
     {
       "components": [
-        "python-celery",
         "python-cornice",
         "python-hupper",
         "python-plaster-pastedeploy",
@@ -517,7 +510,6 @@
     {
       "components": [
         "python-geotiler",
-        "python-niaaml",
         "python-sport-activities-features"
       ],
       "count": 1

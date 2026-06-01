@@ -33,6 +33,7 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
+ara
 python-astroquery
 python-avocado
 python-azure-data-tables
@@ -68,7 +69,6 @@ bmap-tools
 python-bytecode
 python-cartopy
 python-catkin_tools
-python-celery
 python-cerberus
 python-chai
 llvm21
@@ -119,11 +119,8 @@ python-mplcairo
 python-nagiosplugin
 python-neovim
 net-snmp
-python-niaaml
-python-niaclass
 python-numpoly
 python-opfunu
-pcp
 petsc
 roca-detect
 python-phply
@@ -155,7 +152,6 @@ python-rstr
 python-SALib
 python-scales
 python-sentinels
-python-sklearn-nature-inspired-algorithms
 python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
