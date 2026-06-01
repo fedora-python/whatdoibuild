@@ -11,16 +11,8 @@
       ]
     },
     {
-      "component": "python-openpyxl",
-      "count": 11
-    },
-    {
       "component": "python-torch",
       "count": 11
-    },
-    {
-      "component": "python-msrestazure",
-      "count": 9
     },
     {
       "component": "python-hupper",
@@ -41,13 +33,6 @@
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-niapy",
-      "count": 6,
-      "blocked_by": [
-        "python-openpyxl"
-      ]
     },
     {
       "component": "python-pyramid",
@@ -86,13 +71,6 @@
       ]
     },
     {
-      "component": "python-kombu",
-      "count": 5,
-      "blocked_by": [
-        "python-azure-mgmt-storage"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -113,10 +91,7 @@
     },
     {
       "component": "python-celery",
-      "count": 4,
-      "blocked_by": [
-        "python-kombu"
-      ]
+      "count": 4
     },
     {
       "component": "python-django-allauth",
@@ -136,11 +111,7 @@
     },
     {
       "component": "python-niaaml",
-      "count": 3,
-      "blocked_by": [
-        "python-niapy",
-        "python-openpyxl"
-      ]
+      "count": 3
     },
     {
       "component": "python-sshtunnel",
@@ -182,10 +153,6 @@
       "blocked_by": [
         "pylint"
       ]
-    },
-    {
-      "component": "python-azure-mgmt-storage",
-      "count": 2
     },
     {
       "component": "python-nifti-mrs",
@@ -245,8 +212,7 @@
       "component": "python-django-health-check",
       "count": 2,
       "blocked_by": [
-        "python-celery",
-        "python-kombu"
+        "python-celery"
       ]
     },
     {
@@ -287,6 +253,38 @@
     {
       "component": "python-eventlet",
       "count": 2
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2,
+      "blocked_by": [
+        "python-xarray"
+      ]
+    },
+    {
+      "component": "python-cartopy",
+      "count": 2
+    },
+    {
+      "component": "python-pytest-harvest",
+      "count": 2,
+      "blocked_by": [
+        "python-decopatch"
+      ]
+    },
+    {
+      "component": "python-snakemake-executor-plugin-cluster-generic",
+      "count": 2,
+      "blocked_by": [
+        "snakemake"
+      ]
+    },
+    {
+      "component": "python-snakemake-storage-plugin-http",
+      "count": 2,
+      "blocked_by": [
+        "snakemake"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -299,10 +297,6 @@
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3"
       ]
-    },
-    {
-      "component": "python-msrestazure",
-      "count": 9
     },
     {
       "component": "python-torch",
@@ -328,10 +322,6 @@
     },
     {
       "component": "pylint",
-      "count": 4
-    },
-    {
-      "component": "python-openpyxl",
       "count": 4
     },
     {
@@ -363,12 +353,15 @@
       "component": "python-django-health-check",
       "count": 2,
       "blocked_by": [
-        "python-celery",
-        "python-kombu"
+        "python-celery"
       ]
     },
     {
       "component": "python-rasterio",
+      "count": 2
+    },
+    {
+      "component": "python-celery",
       "count": 2
     },
     {
@@ -403,6 +396,10 @@
       "count": 2
     },
     {
+      "component": "python-niaaml",
+      "count": 1
+    },
+    {
       "component": "pyqtwebengine",
       "count": 1
     }
@@ -425,28 +422,6 @@
     },
     {
       "components": [
-        "python-niapy",
-        "python-openpyxl"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-celery",
-        "python-kombu"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-niaaml",
-        "python-niapy",
-        "python-openpyxl"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
@@ -458,7 +433,6 @@
         "python-celery",
         "python-cornice",
         "python-hupper",
-        "python-kombu",
         "python-plaster-pastedeploy",
         "python-pyramid",
         "python-pyramid-mako"
@@ -544,8 +518,6 @@
       "components": [
         "python-geotiler",
         "python-niaaml",
-        "python-niapy",
-        "python-openpyxl",
         "python-sport-activities-features"
       ],
       "count": 1
@@ -563,6 +535,28 @@
         "python-distributed",
         "python-xarray",
         "python-zict"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-decopatch",
+        "python-pytest-cases"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-elastic-transport",
+        "python-readme-renderer",
+        "python-twine"
       ],
       "count": 1
     }
