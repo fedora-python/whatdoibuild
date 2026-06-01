@@ -118,7 +118,6 @@ python-neovim
 net-snmp
 python-numpoly
 python-opfunu
-packit
 petsc
 roca-detect
 python-phply
@@ -149,7 +148,6 @@ python-SALib
 python-scales
 python-sentinels
 python-slackclient
-python-snakemake-executor-plugin-slurm
 python-social-auth-core
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
