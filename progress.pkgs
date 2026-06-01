@@ -1,7 +1,6 @@
 alot
 ansible
 ansible-builder
-ceph
 dnf-plugin-diff
 eric
 fail2ban
@@ -33,7 +32,6 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
-ara
 python-astroquery
 python-avocado
 python-azure-data-tables
@@ -64,7 +62,6 @@ python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
-python-beartype
 bmap-tools
 python-bytecode
 python-cartopy
@@ -121,15 +118,14 @@ python-neovim
 net-snmp
 python-numpoly
 python-opfunu
+packit
 petsc
 roca-detect
 python-phply
 python-phyghtmap
-python-plaster-pastedeploy
 python-pluginlib
 protobuf
 python-pygeoif
-python-PyGithub
 python-pygtkspellcheck
 python-jnius
 pylint
@@ -153,6 +149,7 @@ python-SALib
 python-scales
 python-sentinels
 python-slackclient
+python-snakemake-executor-plugin-slurm
 python-social-auth-core
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
@@ -178,7 +175,6 @@ python-yamlloader
 python-zict
 rebase-helper
 renderdoc
-snakemake::bootstrap:::
 supervisor
 swift-lang
 thefuck
