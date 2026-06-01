@@ -12,6 +12,7 @@ link-grammar
 monkeytype
 oci-cli
 ocrmypdf
+ogr2osm
 pg_activity
 pykakasi
 pyp2rpm
@@ -57,12 +58,11 @@ python-eth-event
 python-eventlet
 python-exiv2
 python-extractcode
-python-fastprogress
 python-fields
 flatpak-module-tools
-gdal
 python-geopmpy
 python-geotiler
+python-glymur
 gnulib
 python-google-cloud-dns
 python-grpc-google-iam-v1
@@ -98,6 +98,7 @@ python-opfunu
 petsc
 roca-detect
 python-phply
+python-phyghtmap
 python-plaster-pastedeploy
 python-pluginlib
 protobuf
@@ -132,6 +133,8 @@ python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter
+python-telegram-bot
+python-tilestache
 python-toml-cli
 python-torch
 python-tpm2-pytss

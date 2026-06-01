@@ -2,7 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "python-msrest",
-      "count": 57
+      "count": 54
     },
     {
       "component": "snakemake",
@@ -136,10 +136,6 @@
     },
     {
       "component": "python-django-allauth",
-      "count": 4
-    },
-    {
-      "component": "gdal",
       "count": 4
     },
     {
@@ -294,12 +290,21 @@
     {
       "component": "python-elastic-transport",
       "count": 2
+    },
+    {
+      "component": "python-py-key-value",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-elastic-transport",
+        "python-elasticsearch"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-msrest",
-      "count": 45
+      "count": 43
     },
     {
       "component": "snakemake",
@@ -321,10 +326,6 @@
       "blocked_by": [
         "python-rasterio"
       ]
-    },
-    {
-      "component": "gdal",
-      "count": 4
     },
     {
       "component": "python-trimesh",
@@ -411,6 +412,10 @@
     },
     {
       "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "yt-dlp",
       "count": 1
     }
   ],
