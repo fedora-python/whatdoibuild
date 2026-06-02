@@ -289,6 +289,10 @@
       "count": 4
     },
     {
+      "component": "python-huggingface-hub",
+      "count": 3
+    },
+    {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
@@ -313,10 +317,6 @@
     },
     {
       "component": "python-rasterio",
-      "count": 2
-    },
-    {
-      "component": "python-huggingface-hub",
       "count": 2
     },
     {
@@ -457,13 +457,6 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-safetensors"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-xarray",
         "python-xarray-einstats"
       ],
@@ -519,6 +512,13 @@
         "python-croniter",
         "python-py-key-value",
         "python-pydocket"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-mongomock",
+        "python-sentinels"
       ],
       "count": 1
     }
