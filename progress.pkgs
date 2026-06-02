@@ -1,5 +1,4 @@
 alot
-ansible
 ansible-builder
 dnf-plugin-diff
 eric
@@ -7,7 +6,6 @@ fail2ban
 fastapi-cli
 khal
 kmymoney
-link-grammar
 monkeytype
 oci-cli
 ocrmypdf
@@ -73,7 +71,6 @@ python-decopatch:tests::::
 dionaea
 root
 python-django-allauth
-python-django-angular
 python-django-cacheops
 python-django-extensions
 dnf-plugin-perfmetrics
@@ -100,7 +97,6 @@ python-kaptan
 python-lazr-delegates
 libmamba
 librealsense
-libsvm
 python-linuxdoc
 python3-mallard-ducktype
 manifold:python::::
@@ -122,17 +118,16 @@ python-opfunu
 petsc
 roca-detect
 python-phply
-python-phyghtmap
 python-pluginlib
 protobuf
 python-pygeoif
 python-pygtkspellcheck
 python-jnius
 pylint
-python-pyscaffold
 python-pysdl2
 python-pyswip
 python-pytest-subtests
+python-pytest-testinfra
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
@@ -149,7 +144,6 @@ python-SALib
 python-scales
 python-sentinels
 python-slackclient
-python-social-auth-core
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
@@ -159,14 +153,12 @@ python-telegram-bot
 python-tilestache
 python-toml-cli
 python-tpm2-pytss
-python-transforms3d
 python-translitcodec
 python-treq
 python-triton
 usd
 python-vcstool
 python-webrtcvad
-libwignernj
 xapian-bindings
 xcfun
 python-yamlloader
