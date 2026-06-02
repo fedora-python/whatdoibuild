@@ -127,7 +127,6 @@ pylint
 python-pysdl2
 python-pyswip
 python-pytest-subtests
-python-pytest-testinfra
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
