@@ -77,6 +77,7 @@ python-django-angular
 python-django-cacheops
 python-django-extensions
 dnf-plugin-perfmetrics
+python-einops
 python-elastic-transport
 python-environs
 python-eth-event
@@ -101,6 +102,7 @@ libmamba
 librealsense
 libsvm
 python-linuxdoc
+python-lion-pytorch
 python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
@@ -144,6 +146,7 @@ python-readme-renderer
 python-requirements-parser
 python-rstcheck
 python-rstr
+python-safetensors
 python-SALib
 python-scales
 python-sentinels
@@ -157,7 +160,12 @@ python-steampunk-spotter
 python-telegram-bot
 python-tilestache
 python-toml-cli
-python-torch
+python-torchaudio
+python-torchdata
+python-torchdiffeq
+python-torchsde
+python-torchtext
+python-torchvision
 python-tpm2-pytss
 python-transforms3d
 python-translitcodec
