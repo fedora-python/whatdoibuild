@@ -178,7 +178,7 @@ def build_component(component_arg):
     
     # Bump and commit only if we haven't already, XXX ability to force this
     head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
-    if modify_spec:  # or head_commit_msg != message:
+    if modify_spec or head_commit_msg != message:
         commit_and_push_changes(repopath, component_name, specpath, message)
     
     target = CONFIG['koji']['bootstrap_target'] if use_bootstrap_target else None
