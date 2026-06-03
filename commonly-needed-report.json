@@ -1,525 +1,1435 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-hupper",
-      "count": 8,
-      "unresolvable": true
-    },
-    {
-      "component": "python-xarray",
-      "count": 8,
+      "component": "python-pygments",
+      "count": 2327,
       "blocked_by": [
-        "python-rasterio"
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-hatchling",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-lxml",
+        "python-markupsafe",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-trove-classifiers",
+        "python-urllib3",
+        "python-wcag-contrast-ratio",
+        "snowball"
       ]
     },
     {
-      "component": "libmamba",
-      "count": 7
-    },
-    {
-      "component": "python-pyramid",
-      "count": 6,
+      "component": "python-pluggy",
+      "count": 2187,
       "blocked_by": [
-        "python-hupper"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-setuptools_scm",
+        "python-vcs-versioning"
       ]
     },
     {
-      "component": "conda",
-      "count": 6,
+      "component": "python-iniconfig",
+      "count": 1988,
       "blocked_by": [
-        "conda",
-        "libmamba"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-setuptools_scm",
+        "python-vcs-versioning"
       ]
     },
     {
-      "component": "python-fslpy",
-      "count": 5,
+      "component": "pytest",
+      "count": 1987,
       "blocked_by": [
-        "python-trimesh"
+        "babel",
+        "numpy",
+        "pytest",
+        "python-Automat",
+        "python-accessible-pygments",
+        "python-argcomplete",
+        "python-attrs",
+        "python-beautifulsoup4",
+        "python-charset-normalizer",
+        "python-constantly",
+        "python-decorator",
+        "python-docutils",
+        "python-elementpath",
+        "python-execnet",
+        "python-furo",
+        "python-hyperlink",
+        "python-hypothesis",
+        "python-idna",
+        "python-imagesize",
+        "python-incremental",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-lxml",
+        "python-markupsafe",
+        "python-pexpect",
+        "python-pluggy",
+        "python-ptyprocess",
+        "python-pygments",
+        "python-pygments-pytest",
+        "python-pytest-timeout",
+        "python-pytest-xdist",
+        "python-requests",
+        "python-roman-numerals",
+        "python-setuptools_scm",
+        "python-sortedcontainers",
+        "python-soupsieve",
+        "python-sphinx",
+        "python-sphinx-basic-ng",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-removed-in",
+        "python-sphinx-theme-alabaster",
+        "python-sphinxcontrib-trio",
+        "python-twisted",
+        "python-typing-extensions",
+        "python-urllib3",
+        "python-vcs-versioning",
+        "python-xmlschema",
+        "python-zope-interface",
+        "snowball"
       ]
     },
     {
-      "component": "python-readme-renderer",
-      "count": 5
-    },
-    {
-      "component": "python-huggingface-hub",
-      "count": 5
-    },
-    {
-      "component": "python-trimesh",
-      "count": 5,
+      "component": "python-idna",
+      "count": 1345,
       "blocked_by": [
-        "blender",
-        "manifold",
-        "python-cascadio",
-        "python-ezdxf",
-        "usd"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-django-allauth",
-      "count": 4
-    },
-    {
-      "component": "python-decopatch",
-      "count": 4,
+      "component": "python-urllib3",
+      "count": 1248,
       "blocked_by": [
-        "python-decopatch",
-        "python-pytest-cases"
+        "brotli",
+        "pyOpenSSL",
+        "pytest",
+        "python-aiofiles",
+        "python-anyio",
+        "python-attrs",
+        "python-blinker",
+        "python-certifi",
+        "python-cffi",
+        "python-click",
+        "python-cryptography",
+        "python-flask",
+        "python-h11",
+        "python-h2",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-hpack",
+        "python-httpcore",
+        "python-httpx",
+        "python-hypercorn",
+        "python-hyperframe",
+        "python-idna",
+        "python-iniconfig",
+        "python-itsdangerous",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-outcome",
+        "python-pathspec",
+        "python-pluggy",
+        "python-priority",
+        "python-pycparser",
+        "python-pygments",
+        "python-pysocks",
+        "python-pytest-timeout",
+        "python-quart",
+        "python-quart-trio",
+        "python-setuptools_scm",
+        "python-sniffio",
+        "python-sortedcontainers",
+        "python-tomlkit",
+        "python-trio",
+        "python-trove-classifiers",
+        "python-trustme",
+        "python-vcs-versioning",
+        "python-werkzeug",
+        "python-wsproto",
+        "tomcli"
       ]
     },
     {
-      "component": "pylint",
-      "count": 4
-    },
-    {
-      "component": "python-sshtunnel",
-      "count": 3
-    },
-    {
-      "component": "python-django-mailman3",
-      "count": 3,
+      "component": "python-charset-normalizer",
+      "count": 1237,
       "blocked_by": [
-        "python-django-allauth"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-lazr-delegates",
-      "count": 3
-    },
-    {
-      "component": "python-pytest-subtests",
-      "count": 3
-    },
-    {
-      "component": "python-rasterio",
-      "count": 3
-    },
-    {
-      "component": "python-zict",
-      "count": 3
-    },
-    {
-      "component": "python-futurist",
-      "count": 3,
+      "component": "python-requests",
+      "count": 1222,
       "blocked_by": [
-        "python-eventlet"
+        "brotli",
+        "pytest",
+        "python-blinker",
+        "python-cffi",
+        "python-chardet",
+        "python-charset-normalizer",
+        "python-click",
+        "python-cryptography",
+        "python-decorator",
+        "python-flask",
+        "python-greenlet",
+        "python-httpbin",
+        "python-idna",
+        "python-iniconfig",
+        "python-itsdangerous",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-pycparser",
+        "python-pygments",
+        "python-pysocks",
+        "python-pytest-httpbin",
+        "python-pytest-mock",
+        "python-six",
+        "python-trustme",
+        "python-urllib3",
+        "python-werkzeug"
       ]
     },
     {
-      "component": "python-lsp-server",
-      "count": 3,
+      "component": "python-markupsafe",
+      "count": 909,
       "blocked_by": [
-        "pylint"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-nifti-mrs",
-      "count": 2,
+      "component": "python-jinja2",
+      "count": 806,
       "blocked_by": [
-        "python-fslpy"
+        "babel",
+        "pytest",
+        "python-Pallets-Sphinx-Themes",
+        "python-attrs",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-outcome",
+        "python-pluggy",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sniffio",
+        "python-sortedcontainers",
+        "python-sphinx",
+        "python-sphinx-issues",
+        "python-sphinx-notfound-page",
+        "python-sphinx-theme-alabaster",
+        "python-sphinxcontrib-log-cabinet",
+        "python-trio",
+        "python-urllib3",
+        "snowball"
       ]
     },
     {
-      "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-extractcode",
-      "count": 2
-    },
-    {
-      "component": "go-vendor-tools",
-      "count": 2,
+      "component": "python-six",
+      "count": 727,
       "blocked_by": [
-        "python-extractcode",
-        "scancode-toolkit"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-django-extensions",
-      "count": 2
+      "component": "python-typing-extensions",
+      "count": 668
     },
     {
-      "component": "python-yamlloader",
-      "count": 2
+      "component": "python-docutils",
+      "count": 645
     },
     {
-      "component": "python-lazr-config",
-      "count": 2,
+      "component": "babel",
+      "count": 612,
       "blocked_by": [
-        "python-lazr-delegates"
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-dateutil",
+        "python-docutils",
+        "python-freezegun",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-six",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-urllib3",
+        "pytz",
+        "snowball"
       ]
     },
     {
-      "component": "mupdf",
-      "count": 2,
+      "component": "python-platformdirs",
+      "count": 595,
       "blocked_by": [
-        "llvm21"
+        "pytest",
+        "python-appdirs",
+        "python-click",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-mock",
+        "python-setuptools_scm",
+        "python-tomlkit",
+        "python-trove-classifiers",
+        "python-vcs-versioning",
+        "tomcli"
       ]
     },
     {
-      "component": "python-geotiler",
-      "count": 2
-    },
-    {
-      "component": "python-distributed",
-      "count": 2,
+      "component": "snowball",
+      "count": 574,
       "blocked_by": [
-        "python-zict"
+        "python-docutils",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-twine",
-      "count": 2,
+      "component": "python-roman-numerals",
+      "count": 571,
       "blocked_by": [
-        "python-readme-renderer"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-elastic-transport",
-      "count": 2
-    },
-    {
-      "component": "python-py-key-value",
-      "count": 2,
+      "component": "python-sphinx-theme-alabaster",
+      "count": 571,
       "blocked_by": [
-        "python-elastic-transport",
-        "python-elasticsearch"
+        "python-pygments"
       ]
     },
     {
-      "component": "python-sentinels",
-      "count": 2
-    },
-    {
-      "component": "python-eventlet",
-      "count": 2
-    },
-    {
-      "component": "python-libpysal",
-      "count": 2,
+      "component": "python-imagesize",
+      "count": 571,
       "blocked_by": [
-        "python-xarray"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ]
     },
     {
-      "component": "python-cartopy",
-      "count": 2
-    },
-    {
-      "component": "python-pytest-harvest",
-      "count": 2,
+      "component": "python-sphinx",
+      "count": 570,
       "blocked_by": [
-        "python-decopatch"
+        "Cython",
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-execnet",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-psutil",
+        "python-pygments",
+        "python-pytest-xdist",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-sphinxcontrib-devhelp",
+        "python-sphinxcontrib-htmlhelp",
+        "python-sphinxcontrib-qthelp",
+        "python-sphinxcontrib-serializinghtml",
+        "python-sphinxcontrib-websupport",
+        "python-typing-extensions",
+        "python-urllib3",
+        "snowball"
       ]
     },
     {
-      "component": "xapian-bindings",
-      "count": 2
+      "component": "PyYAML",
+      "count": 545,
+      "blocked_by": [
+        "Cython",
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
     },
     {
-      "component": "pyqtwebengine",
-      "count": 1
+      "component": "python-vcs-versioning",
+      "count": 516,
+      "blocked_by": [
+        "mercurial",
+        "pytest",
+        "python-execnet",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-xdist",
+        "python-setuptools_scm",
+        "python-vcs-versioning"
+      ]
     },
     {
-      "component": "yt-dlp",
-      "count": 1
+      "component": "python-setuptools_scm",
+      "count": 514,
+      "blocked_by": [
+        "mercurial",
+        "pytest",
+        "python-build",
+        "python-execnet",
+        "python-iniconfig",
+        "python-markdown-it-py",
+        "python-mdurl",
+        "python-pluggy",
+        "python-pygments",
+        "python-pyproject-hooks",
+        "python-pytest-timeout",
+        "python-pytest-xdist",
+        "python-rich",
+        "python-vcs-versioning"
+      ]
     },
     {
-      "component": "python-azure-mgmt-datamigration",
-      "count": 1
+      "component": "numpy",
+      "count": 474,
+      "blocked_by": [
+        "Cython",
+        "meson",
+        "ninja-build",
+        "python-meson-python",
+        "python-pyproject-metadata"
+      ]
     },
     {
-      "component": "python-azure-mgmt-eventgrid",
-      "count": 1
+      "component": "python-wheel",
+      "count": 474,
+      "blocked_by": [
+        "pytest",
+        "python-build",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-flit",
+        "python-idna",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pyproject-hooks",
+        "python-requests",
+        "python-tomli-w",
+        "python-urllib3"
+      ]
     },
     {
-      "component": "python-azure-mgmt-extendedlocation",
-      "count": 1
+      "component": "python-dateutil",
+      "count": 463,
+      "blocked_by": [
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-dateutil",
+        "python-docutils",
+        "python-freezegun",
+        "python-hypothesis",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-setuptools_scm",
+        "python-six",
+        "python-sortedcontainers",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery",
+        "python-urllib3",
+        "python-vcs-versioning",
+        "python-wheel",
+        "snowball"
+      ]
     },
     {
-      "component": "python-azure-mgmt-iotcentral",
-      "count": 1
+      "component": "python-pycparser",
+      "count": 421,
+      "blocked_by": [
+        "python-wheel"
+      ]
     },
     {
-      "component": "python-azure-mgmt-iothubprovisioningservices",
-      "count": 1
+      "component": "python-cffi",
+      "count": 420,
+      "blocked_by": [
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-pycparser",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-urllib3",
+        "snowball"
+      ]
     },
     {
-      "component": "python-azure-mgmt-loganalytics",
-      "count": 1
+      "component": "python-click",
+      "count": 407,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
     },
     {
-      "component": "python-azure-mgmt-managementgroups",
-      "count": 1
+      "component": "python-pathspec",
+      "count": 398,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
     },
     {
-      "component": "python-azure-mgmt-maps",
-      "count": 1
+      "component": "ninja-build",
+      "count": 387,
+      "blocked_by": [
+        "asciidoc",
+        "ninja-build"
+      ]
     },
     {
-      "component": "python-azure-mgmt-marketplaceordering",
-      "count": 1
+      "component": "python-attrs",
+      "count": 387,
+      "blocked_by": [
+        "pytest",
+        "python-cloudpickle",
+        "python-execnet",
+        "python-hatch-fancy-pypi-readme",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-hypothesis",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pluggy",
+        "python-psutil",
+        "python-pygments",
+        "python-pytest-xdist",
+        "python-setuptools_scm",
+        "python-sortedcontainers",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
+      ]
+    },
+    {
+      "component": "python-filelock",
+      "count": 374,
+      "blocked_by": [
+        "babel",
+        "pytest",
+        "python-accessible-pygments",
+        "python-beautifulsoup4",
+        "python-charset-normalizer",
+        "python-discovery",
+        "python-distlib",
+        "python-docutils",
+        "python-filelock",
+        "python-furo",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-lxml",
+        "python-markupsafe",
+        "python-pathspec",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-asyncio",
+        "python-pytest-mock",
+        "python-pytest-timeout",
+        "python-requests",
+        "python-roman-numerals",
+        "python-setuptools_scm",
+        "python-soupsieve",
+        "python-sphinx",
+        "python-sphinx-autodoc-typehints",
+        "python-sphinx-basic-ng",
+        "python-sphinx-theme-alabaster",
+        "python-trove-classifiers",
+        "python-typing-extensions",
+        "python-urllib3",
+        "python-vcs-versioning",
+        "python-virtualenv",
+        "snowball"
+      ]
+    },
+    {
+      "component": "python-tomli-w",
+      "count": 344,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-randomly"
+      ]
+    },
+    {
+      "component": "python-colorama",
+      "count": 338,
+      "blocked_by": [
+        "pytest",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-trove-classifiers"
+      ]
+    },
+    {
+      "component": "python-trove-classifiers",
+      "count": 334,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-discovery",
+      "count": 323,
+      "blocked_by": [
+        "pytest",
+        "python-filelock",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-mock",
+        "python-setuptools_scm",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
+      ]
+    },
+    {
+      "component": "python-distlib",
+      "count": 323,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-wheel"
+      ]
+    },
+    {
+      "component": "python-hatchling",
+      "count": 323,
+      "blocked_by": [
+        "python-pathspec",
+        "python-pluggy",
+        "python-trove-classifiers"
+      ]
+    },
+    {
+      "component": "python-virtualenv",
+      "count": 321,
+      "blocked_by": [
+        "pytest",
+        "python-dateutil",
+        "python-discovery",
+        "python-distlib",
+        "python-dotenv",
+        "python-filelock",
+        "python-flaky",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-env",
+        "python-pytest-mock",
+        "python-pytest-randomly",
+        "python-pytest-timeout",
+        "python-setuptools_scm",
+        "python-six",
+        "python-time-machine",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
+      ]
+    },
+    {
+      "component": "python-lxml",
+      "count": 314,
+      "blocked_by": [
+        "Cython",
+        "python-beautifulsoup4",
+        "python-cssselect",
+        "python-html5lib",
+        "python-lxml",
+        "python-lxml-html-clean",
+        "python-six",
+        "python-soupsieve",
+        "python-typing-extensions",
+        "python-webencodings"
+      ]
+    },
+    {
+      "component": "python-cryptography",
+      "count": 312,
+      "blocked_by": [
+        "cargo2rpm",
+        "maturin",
+        "pytest",
+        "python-certifi",
+        "python-cffi",
+        "python-cpuinfo",
+        "python-execnet",
+        "python-hypothesis",
+        "python-iniconfig",
+        "python-iso8601",
+        "python-pluggy",
+        "python-pretend",
+        "python-pycparser",
+        "python-pygments",
+        "python-pytest-benchmark",
+        "python-pytest-xdist",
+        "python-semantic_version",
+        "python-setuptools-rust",
+        "python-sortedcontainers"
+      ]
+    },
+    {
+      "component": "python-cachetools",
+      "count": 302,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-setuptools_scm",
+        "python-vcs-versioning"
+      ]
+    },
+    {
+      "component": "python-pyproject-api",
+      "count": 289,
+      "blocked_by": [
+        "pytest",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-mock",
+        "python-setuptools_scm",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
+      ]
+    },
+    {
+      "component": "python-tox",
+      "count": 287,
+      "blocked_by": [
+        "pytest",
+        "python-argcomplete",
+        "python-build",
+        "python-cachetools",
+        "python-colorama",
+        "python-dateutil",
+        "python-discovery",
+        "python-distlib",
+        "python-docutils",
+        "python-editables",
+        "python-execnet",
+        "python-filelock",
+        "python-flaky",
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pdm-backend",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-psutil",
+        "python-pygments",
+        "python-pyproject-api",
+        "python-pyproject-hooks",
+        "python-pyproject-metadata",
+        "python-pytest-mock",
+        "python-pytest-timeout",
+        "python-pytest-xdist",
+        "python-re-assert",
+        "python-regex",
+        "python-setuptools80",
+        "python-setuptools_scm",
+        "python-six",
+        "python-time-machine",
+        "python-tomli-w",
+        "python-trove-classifiers",
+        "python-vcs-versioning",
+        "python-virtualenv",
+        "python-wheel"
+      ]
+    },
+    {
+      "component": "python-tox-current-env",
+      "count": 275,
+      "blocked_by": [
+        "pytest",
+        "python-cachetools",
+        "python-colorama",
+        "python-discovery",
+        "python-distlib",
+        "python-execnet",
+        "python-filelock",
+        "python-iniconfig",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-pygments",
+        "python-pyproject-api",
+        "python-pytest-xdist",
+        "python-tomli-w",
+        "python-tox",
+        "python-virtualenv",
+        "python-wheel"
+      ]
+    },
+    {
+      "component": "at-spi2-core",
+      "count": 246,
+      "blocked_by": [
+        "babel",
+        "gi-docgen",
+        "gobject-introspection",
+        "meson",
+        "ninja-build",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-mako",
+        "python-markdown",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-smartypants",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-typogrify",
+        "python-urllib3",
+        "snowball"
+      ]
+    },
+    {
+      "component": "python-psutil",
+      "count": 237,
+      "blocked_by": [
+        "pytest",
+        "python-execnet",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-xdist"
+      ]
+    },
+    {
+      "component": "python-fastjsonschema",
+      "count": 233,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-lark",
+      "count": 226
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-xarray",
+      "component": "ninja-build",
+      "count": 42,
+      "blocked_by": [
+        "asciidoc",
+        "ninja-build"
+      ]
+    },
+    {
+      "component": "python-wheel",
+      "count": 24,
+      "blocked_by": [
+        "pytest",
+        "python-build",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-flit",
+        "python-idna",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pyproject-hooks",
+        "python-requests",
+        "python-tomli-w",
+        "python-urllib3"
+      ]
+    },
+    {
+      "component": "Cython",
+      "count": 16,
+      "blocked_by": [
+        "boost",
+        "gdb",
+        "ipython",
+        "numpy",
+        "pytest",
+        "python-asttokens",
+        "python-beniget",
+        "python-decorator",
+        "python-executing",
+        "python-gast",
+        "python-iniconfig",
+        "python-ipython-pygments-lexers",
+        "python-jedi",
+        "python-matplotlib-inline",
+        "python-parso",
+        "python-pexpect",
+        "python-pluggy",
+        "python-ply",
+        "python-prompt-toolkit",
+        "python-psutil",
+        "python-ptyprocess",
+        "python-pure-eval",
+        "python-pygments",
+        "python-pytest-asyncio",
+        "python-stack-data",
+        "python-testpath",
+        "python-traitlets",
+        "python-wcwidth",
+        "pythran"
+      ]
+    },
+    {
+      "component": "python-six",
+      "count": 9,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "unbound",
+      "count": 8
+    },
+    {
+      "component": "python-pygments",
+      "count": 8,
+      "blocked_by": [
+        "babel",
+        "pytest",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-hatchling",
+        "python-idna",
+        "python-imagesize",
+        "python-iniconfig",
+        "python-jinja2",
+        "python-lxml",
+        "python-markupsafe",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-trove-classifiers",
+        "python-urllib3",
+        "python-wcag-contrast-ratio",
+        "snowball"
+      ]
+    },
+    {
+      "component": "numpy",
       "count": 5,
       "blocked_by": [
-        "python-rasterio"
+        "Cython",
+        "meson",
+        "ninja-build",
+        "python-meson-python",
+        "python-pyproject-metadata"
       ]
     },
     {
-      "component": "python-trimesh",
+      "component": "PyYAML",
+      "count": 5,
+      "blocked_by": [
+        "Cython",
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "asciidoc",
       "count": 4,
       "blocked_by": [
-        "blender",
-        "manifold",
-        "python-cascadio",
-        "python-ezdxf",
-        "usd"
+        "dblatex"
       ]
     },
     {
-      "component": "pylint",
-      "count": 4
+      "component": "python-pbr",
+      "count": 4,
+      "blocked_by": [
+        "PyYAML",
+        "babel",
+        "python-autopage",
+        "python-cachetools",
+        "python-charset-normalizer",
+        "python-cliff",
+        "python-cmd2",
+        "python-colorama",
+        "python-discovery",
+        "python-distlib",
+        "python-docutils",
+        "python-filelock",
+        "python-fixtures",
+        "python-idna",
+        "python-imagesize",
+        "python-iso8601",
+        "python-jinja2",
+        "python-markdown-it-py",
+        "python-markupsafe",
+        "python-mdurl",
+        "python-platformdirs",
+        "python-pluggy",
+        "python-prettytable",
+        "python-pygments",
+        "python-pyperclip",
+        "python-pyproject-api",
+        "python-requests",
+        "python-rich",
+        "python-rich-argparse",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-stestr",
+        "python-stevedore",
+        "python-testresources",
+        "python-testscenarios",
+        "python-testtools",
+        "python-tomli-w",
+        "python-tomlkit",
+        "python-tox",
+        "python-tox-current-env",
+        "python-urllib3",
+        "python-virtualenv",
+        "python-voluptuous",
+        "python-wcwidth",
+        "python-wheel",
+        "snowball",
+        "subunit"
+      ]
     },
     {
-      "component": "python-huggingface-hub",
+      "component": "libxml2",
+      "count": 3,
+      "blocked_by": [
+        "ninja-build"
+      ]
+    },
+    {
+      "component": "python-distutils-extra",
       "count": 3
     },
     {
-      "component": "python-lsp-server",
+      "component": "pygobject3",
       "count": 3,
       "blocked_by": [
-        "pylint"
+        "at-spi2-core",
+        "gobject-introspection",
+        "meson",
+        "ninja-build",
+        "pycairo",
+        "pytest",
+        "python-argcomplete",
+        "python-iniconfig",
+        "python-mako",
+        "python-markdown",
+        "python-markupsafe",
+        "python-pluggy",
+        "python-pygments",
+        "xwayland-run"
       ]
     },
     {
-      "component": "go-vendor-tools",
+      "component": "python-click",
+      "count": 3,
+      "blocked_by": [
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-markdown",
+      "count": 3,
+      "blocked_by": [
+        "PyYAML"
+      ]
+    },
+    {
+      "component": "at-spi2-core",
       "count": 2,
       "blocked_by": [
-        "python-extractcode",
-        "scancode-toolkit"
+        "babel",
+        "gi-docgen",
+        "gobject-introspection",
+        "meson",
+        "ninja-build",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-mako",
+        "python-markdown",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-smartypants",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-typogrify",
+        "python-urllib3",
+        "snowball"
       ]
     },
     {
-      "component": "python-sshtunnel",
-      "count": 2
-    },
-    {
-      "component": "python-pytest-subtests",
-      "count": 2
-    },
-    {
-      "component": "python-rasterio",
-      "count": 2
-    },
-    {
-      "component": "python-futurist",
+      "component": "python-pycryptodomex",
       "count": 2,
       "blocked_by": [
-        "python-eventlet"
+        "babel",
+        "python-charset-normalizer",
+        "python-docutils",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-autodoc-typehints",
+        "python-sphinx-theme-alabaster",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery",
+        "python-urllib3",
+        "snowball"
       ]
     },
     {
-      "component": "python-fslpy",
+      "component": "python-d2to1",
+      "count": 2
+    },
+    {
+      "component": "python-ply",
+      "count": 2
+    },
+    {
+      "component": "python-chardet",
       "count": 2,
       "blocked_by": [
-        "python-trimesh"
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-pathspec",
+        "python-pluggy",
+        "python-setuptools_scm",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
       ]
-    },
-    {
-      "component": "python-eventlet",
-      "count": 2
-    },
-    {
-      "component": "python-hupper",
-      "count": 2,
-      "unresolvable": true
-    },
-    {
-      "component": "xapian-bindings",
-      "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
-    },
-    {
-      "component": "yt-dlp",
-      "count": 1
-    },
-    {
-      "component": "usd",
-      "count": 1
-    },
-    {
-      "component": "python-treq",
-      "count": 1
-    },
-    {
-      "component": "pykakasi",
-      "count": 1
-    },
-    {
-      "component": "python-mkdocs-git-revision-date-localized-plugin",
-      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "conda",
-        "libmamba"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ],
-      "count": 5
+      "count": 210
     },
     {
       "components": [
-        "python-hupper",
-        "python-pyramid"
+        "python-azure-common",
+        "python-azure-core",
+        "python-azure-mgmt-core",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-isodate",
+        "python-requests",
+        "python-typing-extensions",
+        "python-urllib3"
       ],
-      "count": 5
+      "count": 27
     },
     {
       "components": [
-        "python-fslpy",
-        "python-nifti-mrs",
-        "spec2nii"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-setuptools_scm",
+        "python-vcs-versioning"
       ],
-      "count": 1
+      "count": 22
     },
     {
       "components": [
-        "python-cornice",
-        "python-hupper",
-        "python-pyramid",
-        "python-pyramid-mako"
+        "pytest",
+        "python-hatchling",
+        "python-iniconfig",
+        "python-pathspec",
+        "python-pluggy",
+        "python-pygments",
+        "python-trove-classifiers"
       ],
-      "count": 1
+      "count": 21
     },
     {
       "components": [
-        "python-extractcode",
-        "scancode-toolkit"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-wheel"
       ],
-      "count": 1
+      "count": 19
     },
     {
       "components": [
-        "python-django-allauth",
-        "python-django-extensions",
-        "python-django-mailman3"
+        "python-charset-normalizer",
+        "python-idna",
+        "python-requests",
+        "python-urllib3"
       ],
-      "count": 1
+      "count": 15
     },
     {
       "components": [
-        "python-yamlloader",
-        "pywbem"
+        "pytest",
+        "python-fastjsonschema",
+        "python-iniconfig",
+        "python-lark",
+        "python-pluggy",
+        "python-poetry-core",
+        "python-pygments"
       ],
-      "count": 1
+      "count": 15
     },
     {
       "components": [
-        "python-lazr-config",
-        "python-lazr-delegates"
+        "python-setuptools_scm",
+        "python-vcs-versioning"
       ],
-      "count": 1
+      "count": 13
     },
     {
       "components": [
-        "python-django-allauth",
-        "python-django-mailman3",
-        "python-readme-renderer"
+        "boost",
+        "ninja-build",
+        "numpy"
       ],
-      "count": 1
+      "count": 13
     },
     {
       "components": [
-        "pulp-cli",
-        "python-pytest-subtests"
+        "python-hatchling",
+        "python-pathspec",
+        "python-pluggy",
+        "python-trove-classifiers"
       ],
-      "count": 1
+      "count": 11
     },
     {
       "components": [
-        "python-xarray",
-        "python-xarray-einstats"
+        "Cython",
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments"
       ],
-      "count": 1
+      "count": 11
     },
     {
       "components": [
-        "python-geotiler",
-        "python-sport-activities-features"
+        "python-hatch-vcs",
+        "python-hatchling",
+        "python-pathspec",
+        "python-pluggy",
+        "python-setuptools_scm",
+        "python-trove-classifiers",
+        "python-vcs-versioning"
       ],
-      "count": 1
+      "count": 11
     },
     {
       "components": [
-        "conda",
-        "conda-build",
-        "libmamba"
+        "python-azure-core",
+        "python-azure-mgmt-core",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-isodate",
+        "python-requests",
+        "python-typing-extensions",
+        "python-urllib3",
+        "python-wheel"
       ],
-      "count": 1
+      "count": 11
     },
     {
       "components": [
-        "python-distributed",
-        "python-xarray",
-        "python-zict"
+        "python-setuptools_scm",
+        "python-vcs-versioning",
+        "python-wheel"
       ],
-      "count": 1
+      "count": 10
     },
     {
       "components": [
-        "python-decopatch",
-        "python-pytest-cases"
+        "python-fastjsonschema",
+        "python-lark",
+        "python-poetry-core"
       ],
-      "count": 1
+      "count": 10
     },
     {
       "components": [
-        "python-elastic-transport",
-        "python-readme-renderer",
-        "python-twine"
+        "meson",
+        "ninja-build"
       ],
-      "count": 1
+      "count": 9
     },
     {
       "components": [
-        "mupdf",
-        "python-PyMuPDF"
+        "pytest",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-six"
       ],
-      "count": 1
+      "count": 9
     },
     {
       "components": [
-        "python-py-key-value",
-        "python-pydocket"
+        "boost",
+        "numpy"
       ],
-      "count": 1
+      "count": 8
     },
     {
       "components": [
-        "python-mongomock",
-        "python-sentinels"
+        "at-spi2-core",
+        "ninja-build"
       ],
-      "count": 1
+      "count": 7
     },
     {
       "components": [
-        "python-fsleyes-props",
-        "python-fslpy",
-        "python-trimesh"
+        "pytest",
+        "python-coverage",
+        "python-iniconfig",
+        "python-pluggy",
+        "python-pygments",
+        "python-pytest-cov"
       ],
-      "count": 1
+      "count": 7
     }
   ],
-  "dependency_loops": []
+  "dependency_loops": [
+    [
+      "python-ruamel-yaml-clib",
+      "python-ruamel-yaml-clib"
+    ]
+  ]
 }
