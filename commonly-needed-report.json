@@ -2,41 +2,13 @@
   "most_commonly_needed": [
     {
       "component": "numpy",
-      "count": 474,
-      "blocked_by": [
-        "python-meson-python"
-      ]
-    },
-    {
-      "component": "python-dateutil",
-      "count": 463,
-      "blocked_by": [
-        "python-dateutil",
-        "python-freezegun"
-      ]
-    },
-    {
-      "component": "python-cffi",
-      "count": 419
-    },
-    {
-      "component": "python-virtualenv",
-      "count": 321,
-      "blocked_by": [
-        "python-dateutil",
-        "python-dotenv",
-        "python-pytest-env",
-        "python-pytest-randomly",
-        "python-pytest-timeout",
-        "python-time-machine"
-      ]
+      "count": 474
     },
     {
       "component": "python-cryptography",
       "count": 311,
       "blocked_by": [
         "maturin",
-        "python-cffi",
         "python-execnet",
         "python-pytest-xdist",
         "python-semantic_version",
@@ -48,12 +20,10 @@
       "count": 287,
       "blocked_by": [
         "python-build",
-        "python-dateutil",
         "python-execnet",
         "python-pytest-timeout",
         "python-pytest-xdist",
-        "python-time-machine",
-        "python-virtualenv"
+        "python-time-machine"
       ]
     },
     {
@@ -62,17 +32,8 @@
       "blocked_by": [
         "python-execnet",
         "python-pytest-xdist",
-        "python-tox",
-        "python-virtualenv"
+        "python-tox"
       ]
-    },
-    {
-      "component": "at-spi2-core",
-      "count": 246
-    },
-    {
-      "component": "python-olefile",
-      "count": 212
     },
     {
       "component": "python-mdurl",
@@ -130,21 +91,15 @@
       "count": 150,
       "blocked_by": [
         "python-Automat",
-        "python-constantly",
-        "python-hyperlink",
         "python-jsonschema-specifications",
         "python-referencing",
         "python-rpds-py",
-        "python-twisted",
-        "python-zope-interface"
+        "python-twisted"
       ]
     },
     {
       "component": "pygobject3",
-      "count": 144,
-      "blocked_by": [
-        "at-spi2-core"
-      ]
+      "count": 144
     },
     {
       "component": "fonttools",
@@ -155,7 +110,6 @@
         "python-booleanoperations",
         "python-cffsubr",
         "python-contourpy",
-        "python-dateutil",
         "python-fontMath",
         "python-freetype",
         "python-glyphsLib",
@@ -163,7 +117,6 @@
         "python-lz4",
         "python-matplotlib",
         "python-mpmath",
-        "python-olefile",
         "python-openstep-plist",
         "python-pooch",
         "python-pytest-randomly",
@@ -182,9 +135,7 @@
         "python-gevent",
         "python-pytest-timeout",
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv",
-        "python-zope-interface"
+        "python-tox-current-env"
       ]
     },
     {
@@ -193,10 +144,8 @@
       "blocked_by": [
         "pyOpenSSL",
         "python-bcrypt",
-        "python-cffi",
         "python-cryptography",
         "python-invoke",
-        "python-lexicon",
         "python-paramiko",
         "python-pyftpdlib",
         "python-pynacl",
@@ -212,8 +161,7 @@
         "python-execnet",
         "python-setproctitle",
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
       ]
     },
     {
@@ -224,8 +172,6 @@
         "numpy",
         "python-array-api-strict",
         "python-execnet",
-        "python-gmpy2",
-        "python-meson-python",
         "python-mpmath",
         "python-pooch",
         "python-pytest-xdist",
@@ -246,29 +192,21 @@
         "fonttools",
         "numpy",
         "python-contourpy",
-        "python-dateutil",
         "python-execnet",
         "python-kiwisolver",
         "python-matplotlib",
-        "python-meson-python",
-        "python-olefile",
         "python-pytest-xdist"
       ]
     },
     {
       "component": "python-kiwisolver",
-      "count": 113,
-      "blocked_by": [
-        "python-cppy"
-      ]
+      "count": 113
     },
     {
       "component": "python-anyio",
       "count": 112,
       "blocked_by": [
-        "python-cffi",
         "python-cryptography",
-        "python-outcome",
         "python-trio",
         "python-trustme"
       ]
@@ -277,21 +215,16 @@
       "component": "python-matplotlib",
       "count": 111,
       "blocked_by": [
-        "at-spi2-core",
         "dbus-python",
         "fonttools",
         "numpy",
         "pygobject3",
         "python-cairocffi",
-        "python-cffi",
         "python-contourpy",
         "python-cssselect",
-        "python-dateutil",
         "python-execnet",
         "python-inkex",
         "python-kiwisolver",
-        "python-meson-python",
-        "python-olefile",
         "python-pyqt6",
         "python-pytest-timeout",
         "python-pytest-xdist",
@@ -307,7 +240,6 @@
         "numpy",
         "python-Bottleneck",
         "python-asttokens",
-        "python-dateutil",
         "python-inline-snapshot",
         "python-markdown-it-py",
         "python-mdurl",
@@ -320,7 +252,6 @@
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
-        "python-cloudpickle",
         "python-dns",
         "python-email-validator",
         "python-jsonschema",
@@ -342,7 +273,6 @@
       "count": 93,
       "blocked_by": [
         "python-Pallets-Sphinx-Themes",
-        "python-cffi",
         "python-cryptography",
         "python-pytest-timeout",
         "python-sphinx-notfound-page",
@@ -357,20 +287,10 @@
       ]
     },
     {
-      "component": "python-zope-interface",
-      "count": 89,
-      "blocked_by": [
-        "python-furo",
-        "python-repoze-sphinx-autointerface",
-        "python-zope-interface"
-      ]
-    },
-    {
       "component": "python-oauthlib",
       "count": 89,
       "blocked_by": [
         "python-blinker",
-        "python-cffi",
         "python-cryptography",
         "python-jwt"
       ]
@@ -393,7 +313,6 @@
         "python-h2",
         "python-httpbin",
         "python-itsdangerous",
-        "python-outcome",
         "python-pytest-httpbin",
         "python-pytest-trio",
         "python-trio",
@@ -414,13 +333,11 @@
       "count": 85,
       "blocked_by": [
         "python-anyio",
-        "python-cffi",
         "python-cryptography",
         "python-h2",
         "python-httpcore",
         "python-markdown-it-py",
         "python-mdurl",
-        "python-outcome",
         "python-rich",
         "python-trio",
         "python-trustme",
@@ -445,24 +362,19 @@
         "python-boto3",
         "python-botocore",
         "python-cftime",
-        "python-cloudpickle",
         "python-contourpy",
         "python-dask",
-        "python-dateutil",
         "python-execnet",
         "python-flask",
         "python-fsspec",
         "python-html5lib",
         "python-itsdangerous",
-        "python-jmespath",
         "python-kiwisolver",
         "python-locket",
         "python-matplotlib",
-        "python-meson-python",
         "python-ndindex",
         "python-numexpr",
         "python-numpydoc",
-        "python-olefile",
         "python-openpyxl",
         "python-pandas",
         "python-pandas-datareader",
@@ -499,8 +411,7 @@
       "count": 83,
       "blocked_by": [
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
       ]
     },
     {
@@ -508,11 +419,8 @@
       "count": 81,
       "blocked_by": [
         "python-aiodns",
-        "python-cffi",
-        "python-dateutil",
         "python-execnet",
         "python-freezegun",
-        "python-gunicorn",
         "python-propcache",
         "python-pycares",
         "python-pytest-xdist",
@@ -525,7 +433,6 @@
       "count": 80,
       "blocked_by": [
         "python-oauthlib",
-        "python-outcome",
         "python-requests-mock",
         "python-selenium",
         "python-trio",
@@ -544,9 +451,7 @@
         "python-PyMySQL",
         "python-aiomysql",
         "python-asyncpg",
-        "python-dateutil",
         "python-execnet",
-        "python-mysqlclient",
         "python-pg8000",
         "python-pymssql",
         "python-pytest-xdist",
@@ -557,7 +462,6 @@
       "component": "python-itsdangerous",
       "count": 70,
       "blocked_by": [
-        "python-dateutil",
         "python-freezegun"
       ]
     },
@@ -578,7 +482,6 @@
       "component": "pyOpenSSL",
       "count": 66,
       "blocked_by": [
-        "python-cffi",
         "python-cryptography"
       ]
     },
@@ -587,8 +490,7 @@
       "count": 65,
       "blocked_by": [
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
       ]
     },
     {
@@ -596,45 +498,87 @@
       "count": 65,
       "blocked_by": [
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
+      ]
+    },
+    {
+      "component": "python-stack-data",
+      "count": 63,
+      "blocked_by": [
+        "python-asttokens",
+        "python-pure-eval",
+        "python-tox",
+        "python-tox-current-env"
+      ]
+    },
+    {
+      "component": "ipython",
+      "count": 61,
+      "blocked_by": [
+        "python-asttokens",
+        "python-pure-eval",
+        "python-stack-data"
+      ]
+    },
+    {
+      "component": "python-pyperclip",
+      "count": 61,
+      "blocked_by": [
+        "dbus-python",
+        "python-qt5"
+      ]
+    },
+    {
+      "component": "python-zmq",
+      "count": 59,
+      "blocked_by": [
+        "numpy",
+        "python-gevent"
+      ]
+    },
+    {
+      "component": "python-nbformat",
+      "count": 58,
+      "blocked_by": [
+        "python-jsonschema",
+        "python-jsonschema-specifications",
+        "python-referencing",
+        "python-rpds-py"
+      ]
+    },
+    {
+      "component": "python-rich-argparse",
+      "count": 57,
+      "blocked_by": [
+        "python-markdown-it-py",
+        "python-mdurl",
+        "python-rich"
       ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "numpy",
-      "count": 50,
-      "blocked_by": [
-        "python-meson-python"
-      ]
-    },
-    {
-      "component": "at-spi2-core",
-      "count": 29
-    },
-    {
-      "component": "python-cffi",
-      "count": 27
+      "count": 66
     },
     {
       "component": "pygobject3",
-      "count": 26,
-      "blocked_by": [
-        "at-spi2-core"
-      ]
+      "count": 51
     },
     {
-      "component": "python-dateutil",
-      "count": 18,
+      "component": "python-cryptography",
+      "count": 25,
       "blocked_by": [
-        "python-dateutil",
-        "python-freezegun"
+        "maturin",
+        "python-execnet",
+        "python-pytest-xdist",
+        "python-semantic_version",
+        "python-setuptools-rust"
       ]
     },
     {
       "component": "python-django6",
-      "count": 16,
+      "count": 17,
       "blocked_by": [
         "numpy",
         "python-aiohttp",
@@ -642,18 +586,14 @@
         "python-argon2-cffi",
         "python-argon2-cffi-bindings",
         "python-bcrypt",
-        "python-cffi",
         "python-cryptography",
         "python-enchant",
         "python-geoip2",
-        "python-mysqlclient",
-        "python-olefile",
         "python-oracledb",
         "python-propcache",
         "python-psycopg3",
         "python-pymemcache",
         "python-redis",
-        "python-sphinx-lint",
         "python-sphinxcontrib-spelling",
         "python-tblib",
         "python-yarl"
@@ -661,23 +601,33 @@
     },
     {
       "component": "maturin",
-      "count": 11,
+      "count": 12,
       "blocked_by": [
         "python-semantic_version",
         "python-setuptools-rust"
       ]
     },
     {
-      "component": "python-olefile",
-      "count": 9
+      "component": "python-freezegun",
+      "count": 10,
+      "blocked_by": [
+        "python-tox",
+        "python-tox-current-env"
+      ]
     },
     {
       "component": "python-pytest-timeout",
       "count": 9,
       "blocked_by": [
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
+      ]
+    },
+    {
+      "component": "python-pyside6",
+      "count": 9,
+      "blocked_by": [
+        "numpy"
       ]
     },
     {
@@ -685,6 +635,17 @@
       "count": 8,
       "blocked_by": [
         "python-breathe"
+      ]
+    },
+    {
+      "component": "python-flake8",
+      "count": 8
+    },
+    {
+      "component": "dbus-python",
+      "count": 7,
+      "blocked_by": [
+        "pygobject3"
       ]
     },
     {
@@ -696,7 +657,6 @@
         "python-booleanoperations",
         "python-cffsubr",
         "python-contourpy",
-        "python-dateutil",
         "python-fontMath",
         "python-freetype",
         "python-glyphsLib",
@@ -704,7 +664,6 @@
         "python-lz4",
         "python-matplotlib",
         "python-mpmath",
-        "python-olefile",
         "python-openstep-plist",
         "python-pooch",
         "python-pytest-randomly",
@@ -717,10 +676,11 @@
       ]
     },
     {
-      "component": "dbus-python",
+      "component": "python-html5lib",
       "count": 6,
       "blocked_by": [
-        "pygobject3"
+        "python-pytest-expect",
+        "python-u-msgpack-python"
       ]
     },
     {
@@ -736,20 +696,8 @@
       ]
     },
     {
-      "component": "python-gssapi",
-      "count": 5
-    },
-    {
-      "component": "python-html5lib",
-      "count": 5,
-      "blocked_by": [
-        "python-pytest-expect",
-        "python-u-msgpack-python"
-      ]
-    },
-    {
       "component": "python-furo",
-      "count": 5,
+      "count": 6,
       "blocked_by": [
         "python-diagnostic",
         "python-markdown-it-py",
@@ -764,24 +712,13 @@
       ]
     },
     {
-      "component": "python-virtualenv",
+      "component": "python-tabulate",
       "count": 5,
       "blocked_by": [
-        "python-dateutil",
-        "python-dotenv",
-        "python-pytest-env",
-        "python-pytest-randomly",
-        "python-pytest-timeout",
-        "python-time-machine"
-      ]
-    },
-    {
-      "component": "python-zope-interface",
-      "count": 5,
-      "blocked_by": [
-        "python-furo",
-        "python-repoze-sphinx-autointerface",
-        "python-zope-interface"
+        "numpy",
+        "python-Bottleneck",
+        "python-numexpr",
+        "python-pandas"
       ]
     },
     {
@@ -791,23 +728,39 @@
         "python-execnet",
         "python-pytest-xdist"
       ]
+    },
+    {
+      "component": "python-uv-build",
+      "count": 4,
+      "blocked_by": [
+        "maturin"
+      ]
+    },
+    {
+      "component": "python-wxpython4",
+      "count": 4,
+      "blocked_by": [
+        "numpy",
+        "python-execnet",
+        "python-pytest-timeout",
+        "python-pytest-xdist"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "python-tox-current-env"
       ],
-      "count": 86
+      "count": 95
     },
     {
       "components": [
         "boost",
         "numpy"
       ],
-      "count": 31
+      "count": 44
     },
     {
       "components": [
@@ -819,24 +772,10 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "pygobject3"
-      ],
-      "count": 22
-    },
-    {
-      "components": [
-        "python-cffi",
-        "python-cryptography"
-      ],
-      "count": 21
-    },
-    {
-      "components": [
         "python-execnet",
         "python-pytest-xdist"
       ],
-      "count": 14
+      "count": 18
     },
     {
       "components": [
@@ -845,42 +784,36 @@
         "python-referencing",
         "python-rpds-py"
       ],
-      "count": 12
-    },
-    {
-      "components": [
-        "at-spi2-core",
-        "boost",
-        "numpy"
-      ],
-      "count": 12
-    },
-    {
-      "components": [
-        "python-Automat",
-        "python-constantly",
-        "python-hyperlink",
-        "python-twisted",
-        "python-zope-interface"
-      ],
-      "count": 11
+      "count": 13
     },
     {
       "components": [
         "dbus-python",
         "python-qt5"
       ],
-      "count": 10
+      "count": 11
     },
     {
       "components": [
         "fonttools",
         "numpy",
         "python-contourpy",
-        "python-dateutil",
         "python-kiwisolver",
-        "python-matplotlib",
-        "python-olefile"
+        "python-matplotlib"
+      ],
+      "count": 11
+    },
+    {
+      "components": [
+        "python-Automat",
+        "python-twisted"
+      ],
+      "count": 11
+    },
+    {
+      "components": [
+        "dbus-python",
+        "pygobject3"
       ],
       "count": 10
     },
@@ -894,8 +827,11 @@
     },
     {
       "components": [
-        "python-dateutil",
-        "python-freezegun"
+        "mkdocs",
+        "python-ghp-import",
+        "python-mergedeep",
+        "python-mkdocs-get-deps",
+        "python-watchdog"
       ],
       "count": 9
     },
@@ -910,45 +846,12 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "python-pyside6"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
         "numpy",
         "python-Bottleneck",
-        "python-dateutil",
         "python-numexpr",
         "python-pandas"
       ],
       "count": 8
-    },
-    {
-      "components": [
-        "python-flake8",
-        "python-pycodestyle"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
-        "dbus-python",
-        "pygobject3"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "mkdocs",
-        "python-dateutil",
-        "python-ghp-import",
-        "python-mergedeep",
-        "python-mkdocs-get-deps",
-        "python-watchdog"
-      ],
-      "count": 7
     },
     {
       "components": [
@@ -957,6 +860,61 @@
         "python-rich"
       ],
       "count": 6
+    },
+    {
+      "components": [
+        "boost",
+        "imath",
+        "numpy",
+        "vtk"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-mdurl",
+        "python-myst-parser"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "dbus-python",
+        "python-pyqt6"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-aiohttp",
+        "python-propcache",
+        "python-yarl"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-adal",
+        "python-cryptography",
+        "python-jwt",
+        "python-msrest",
+        "python-msrestazure",
+        "python-oauthlib",
+        "python-requests-oauthlib"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-bcrypt",
+        "python-cryptography",
+        "python-invoke",
+        "python-paramiko",
+        "python-pynacl"
+      ],
+      "count": 5
     }
   ],
   "dependency_loops": []
