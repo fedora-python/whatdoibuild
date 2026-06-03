@@ -1,0 +1,10 @@
+diff --git a/python-beautifulsoup4.spec b/python-beautifulsoup4.spec
+index 50f754a..f75457a 100644
+--- a/python-beautifulsoup4.spec
++++ b/python-beautifulsoup4.spec
+@@ -1,3 +1,5 @@
++%global _without_soupsieve 1
++%global _without_tests 1
+ # Ciruclar dependency with soupsieve which must be disabled at times
+ %if 0%{?rhel} > 10
+ %bcond soupsieve 0
