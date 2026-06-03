@@ -1,0 +1,9 @@
+diff --git a/python-soupsieve.spec b/python-soupsieve.spec
+index a429d59..2628fe0 100644
+--- a/python-soupsieve.spec
++++ b/python-soupsieve.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %bcond tests 1
+ 
+ Name:           python-soupsieve
