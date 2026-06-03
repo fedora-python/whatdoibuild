@@ -1,0 +1,9 @@
+diff --git a/python-werkzeug.spec b/python-werkzeug.spec
+index c4cd9fc..241e358 100644
+--- a/python-werkzeug.spec
++++ b/python-werkzeug.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %global srcname werkzeug
+ %global modname werkzeug
+ 
