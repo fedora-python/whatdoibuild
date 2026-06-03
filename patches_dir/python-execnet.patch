@@ -1,0 +1,9 @@
+diff --git a/python-execnet.spec b/python-execnet.spec
+index b506a06..f1afd3c 100644
+--- a/python-execnet.spec
++++ b/python-execnet.spec
+@@ -1,3 +1,4 @@
++%global _without_optional_test_deps 1
+ %global srcname execnet
+ 
+ # Some of the BuildRequires are used in tests only when installed.
