@@ -1,0 +1,13 @@
+diff --git a/python-httpretty.spec b/python-httpretty.spec
+index 22d0497..8b8a3ea 100644
+--- a/python-httpretty.spec
++++ b/python-httpretty.spec
+@@ -3,7 +3,7 @@
+ %global srcname         httpretty
+ 
+ %if 0%{?fedora}
+-%global run_tests 1
++%global run_tests 0
+ %else
+ # missing deps in epel9
+ %global run_tests 0
