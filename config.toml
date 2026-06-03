@@ -71,7 +71,7 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 
 [[repos.target]]
 repoid = "f45-python"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/f45-build/latest/$basearch/"]
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f45-python/latest/$basearch/"]
 metadata_expire = 60
 
 # comment this section out to stop checking for prerel-abi
