@@ -1,9 +1,0 @@
-diff --git a/python-pluggy.spec b/python-pluggy.spec
-index 19a4420..d812f2e 100644
---- a/python-pluggy.spec
-+++ b/python-pluggy.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- # Turn the tests off when bootstrapping Python, because pytest requires pluggy
- %bcond tests 1
- 
