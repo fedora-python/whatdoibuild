@@ -1,0 +1,9 @@
+diff --git a/python-build.spec b/python-build.spec
+index 5d3245d..7d08cc7 100644
+--- a/python-build.spec
++++ b/python-build.spec
+@@ -1,3 +1,4 @@
++%global _without_extras 1
+ # uv has many build dependencies which are not included in RHEL;
+ # virtualenv is not included in RHEL
+ %bcond extras %{undefined rhel}
