@@ -11,7 +11,6 @@
         "maturin",
         "python-execnet",
         "python-pytest-xdist",
-        "python-semantic_version",
         "python-setuptools-rust"
       ]
     },
@@ -563,7 +562,7 @@
     },
     {
       "component": "pygobject3",
-      "count": 51
+      "count": 52
     },
     {
       "component": "python-cryptography",
@@ -572,7 +571,6 @@
         "maturin",
         "python-execnet",
         "python-pytest-xdist",
-        "python-semantic_version",
         "python-setuptools-rust"
       ]
     },
@@ -603,7 +601,6 @@
       "component": "maturin",
       "count": 12,
       "blocked_by": [
-        "python-semantic_version",
         "python-setuptools-rust"
       ]
     },
@@ -684,10 +681,6 @@
       ]
     },
     {
-      "component": "python-pycryptodomex",
-      "count": 6
-    },
-    {
       "component": "python-redis",
       "count": 6,
       "blocked_by": [
@@ -712,6 +705,16 @@
       ]
     },
     {
+      "component": "python-wxpython4",
+      "count": 5,
+      "blocked_by": [
+        "numpy",
+        "python-execnet",
+        "python-pytest-timeout",
+        "python-pytest-xdist"
+      ]
+    },
+    {
       "component": "python-tabulate",
       "count": 5,
       "blocked_by": [
@@ -722,27 +725,26 @@
       ]
     },
     {
+      "component": "python-dotenv",
+      "count": 4,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-pure-eval",
+        "python-stack-data",
+        "python-tox",
+        "python-tox-current-env"
+      ]
+    },
+    {
+      "component": "python-setuptools-rust",
+      "count": 4
+    },
+    {
       "component": "python3-mypy",
       "count": 4,
       "blocked_by": [
         "python-execnet",
-        "python-pytest-xdist"
-      ]
-    },
-    {
-      "component": "python-uv-build",
-      "count": 4,
-      "blocked_by": [
-        "maturin"
-      ]
-    },
-    {
-      "component": "python-wxpython4",
-      "count": 4,
-      "blocked_by": [
-        "numpy",
-        "python-execnet",
-        "python-pytest-timeout",
         "python-pytest-xdist"
       ]
     }
@@ -827,20 +829,20 @@
     },
     {
       "components": [
+        "python-blinker",
+        "python-flask",
+        "python-itsdangerous",
+        "python-werkzeug"
+      ],
+      "count": 10
+    },
+    {
+      "components": [
         "mkdocs",
         "python-ghp-import",
         "python-mergedeep",
         "python-mkdocs-get-deps",
         "python-watchdog"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
-        "python-blinker",
-        "python-flask",
-        "python-itsdangerous",
-        "python-werkzeug"
       ],
       "count": 9
     },
@@ -852,6 +854,14 @@
         "python-pandas"
       ],
       "count": 8
+    },
+    {
+      "components": [
+        "python-aiohttp",
+        "python-propcache",
+        "python-yarl"
+      ],
+      "count": 6
     },
     {
       "components": [
@@ -883,14 +893,6 @@
       "components": [
         "dbus-python",
         "python-pyqt6"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-aiohttp",
-        "python-propcache",
-        "python-yarl"
       ],
       "count": 5
     },
