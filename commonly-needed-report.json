@@ -1,20 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-sphinx",
-      "count": 570,
-      "blocked_by": [
-        "python-execnet",
-        "python-pytest-xdist",
-        "python-sphinx",
-        "python-sphinxcontrib-devhelp",
-        "python-sphinxcontrib-htmlhelp",
-        "python-sphinxcontrib-qthelp",
-        "python-sphinxcontrib-serializinghtml",
-        "python-sphinxcontrib-websupport"
-      ]
-    },
-    {
       "component": "numpy",
       "count": 474,
       "blocked_by": [
@@ -23,10 +9,7 @@
     },
     {
       "component": "python-wheel",
-      "count": 474,
-      "blocked_by": [
-        "python-flit"
-      ]
+      "count": 474
     },
     {
       "component": "python-dateutil",
@@ -35,7 +18,6 @@
         "python-dateutil",
         "python-freezegun",
         "python-hypothesis",
-        "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
         "python-wheel"
@@ -52,8 +34,7 @@
       "component": "python-cffi",
       "count": 419,
       "blocked_by": [
-        "python-pycparser",
-        "python-sphinx"
+        "python-pycparser"
       ]
     },
     {
@@ -159,7 +140,6 @@
       "blocked_by": [
         "gi-docgen",
         "python-smartypants",
-        "python-sphinx",
         "python-typogrify"
       ]
     },
@@ -167,7 +147,6 @@
       "component": "python-olefile",
       "count": 212,
       "blocked_by": [
-        "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
       ]
@@ -238,7 +217,6 @@
         "python-furo",
         "python-referencing",
         "python-rpds-py",
-        "python-sphinx",
         "python-sphinx-basic-ng",
         "python-sphinx-copybutton",
         "python-sphinxcontrib-spelling",
@@ -264,16 +242,12 @@
     },
     {
       "component": "python-sphinxcontrib-jquery",
-      "count": 150,
-      "blocked_by": [
-        "python-sphinx"
-      ]
+      "count": 150
     },
     {
       "component": "python-sphinx_rtd_theme",
       "count": 146,
       "blocked_by": [
-        "python-sphinx",
         "python-sphinxcontrib-jquery"
       ]
     },
@@ -326,7 +300,6 @@
         "python-gevent",
         "python-pyproject-api",
         "python-pytest-timeout",
-        "python-sphinx",
         "python-tox",
         "python-tox-current-env",
         "python-virtualenv",
@@ -385,8 +358,7 @@
       "component": "python-pytest-asyncio",
       "count": 123,
       "blocked_by": [
-        "python-hypothesis",
-        "tomcli"
+        "python-hypothesis"
       ]
     },
     {
@@ -466,8 +438,7 @@
         "python-pycparser",
         "python-pytest-mock",
         "python-trio",
-        "python-trustme",
-        "tomcli"
+        "python-trustme"
       ]
     },
     {
@@ -496,7 +467,6 @@
         "python-pytest-timeout",
         "python-pytest-xdist",
         "python-qt5",
-        "python-sphinx",
         "python-tinycss2",
         "python-webencodings",
         "python-wxpython4"
@@ -526,8 +496,7 @@
         "python-numexpr",
         "python-pandas",
         "python-pytest-mock",
-        "python-rich",
-        "tomcli"
+        "python-rich"
       ]
     },
     {
@@ -544,8 +513,7 @@
         "python-pydantic-core",
         "python-pytest-mock",
         "python-referencing",
-        "python-rpds-py",
-        "tomcli"
+        "python-rpds-py"
       ]
     },
     {
@@ -575,7 +543,6 @@
         "python-pytest-xdist",
         "python-redis",
         "python-rich",
-        "python-sphinx",
         "python-sphinx-jsonschema",
         "python-sphinx_rtd_theme",
         "python-sphinx_selective_exclude",
@@ -593,7 +560,6 @@
         "python-cryptography",
         "python-pycparser",
         "python-pytest-timeout",
-        "python-sphinx",
         "python-sphinx-notfound-page",
         "python-sphinxcontrib-log-cabinet",
         "python-watchdog"
@@ -613,51 +579,43 @@
         "python-accessible-pygments",
         "python-furo",
         "python-repoze-sphinx-autointerface",
-        "python-sphinx",
         "python-sphinx-basic-ng",
         "python-wheel",
         "python-zope-event",
         "python-zope-interface",
         "python-zope-testing"
       ]
+    },
+    {
+      "component": "python-oauthlib",
+      "count": 89,
+      "blocked_by": [
+        "python-blinker",
+        "python-cffi",
+        "python-cryptography",
+        "python-jwt",
+        "python-pycparser"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-wheel",
-      "count": 111,
-      "blocked_by": [
-        "python-flit"
-      ]
-    },
-    {
-      "component": "python-sphinx",
-      "count": 98,
-      "blocked_by": [
-        "python-execnet",
-        "python-pytest-xdist",
-        "python-sphinx",
-        "python-sphinxcontrib-devhelp",
-        "python-sphinxcontrib-htmlhelp",
-        "python-sphinxcontrib-qthelp",
-        "python-sphinxcontrib-serializinghtml",
-        "python-sphinxcontrib-websupport"
-      ]
+      "count": 120
     },
     {
       "component": "numpy",
-      "count": 26,
+      "count": 30,
       "blocked_by": [
         "python-meson-python"
       ]
     },
     {
       "component": "at-spi2-core",
-      "count": 24,
+      "count": 27,
       "blocked_by": [
         "gi-docgen",
         "python-smartypants",
-        "python-sphinx",
         "python-typogrify"
       ]
     },
@@ -670,20 +628,8 @@
       ]
     },
     {
-      "component": "python-pytest-cov",
-      "count": 13,
-      "blocked_by": [
-        "python-discovery",
-        "python-distlib",
-        "python-execnet",
-        "python-hatch-fancy-pypi-readme",
-        "python-pytest-xdist",
-        "python-virtualenv"
-      ]
-    },
-    {
       "component": "python-hypothesis",
-      "count": 12,
+      "count": 15,
       "blocked_by": [
         "numpy",
         "python-Bottleneck",
@@ -701,7 +647,6 @@
         "python-pytest-xdist",
         "python-redis",
         "python-rich",
-        "python-sphinx",
         "python-sphinx-jsonschema",
         "python-sphinx_rtd_theme",
         "python-sphinx_selective_exclude",
@@ -711,16 +656,42 @@
       ]
     },
     {
+      "component": "python-pytest-cov",
+      "count": 14,
+      "blocked_by": [
+        "python-discovery",
+        "python-distlib",
+        "python-execnet",
+        "python-hatch-fancy-pypi-readme",
+        "python-pytest-xdist",
+        "python-virtualenv"
+      ]
+    },
+    {
       "component": "python-dateutil",
-      "count": 10,
+      "count": 12,
       "blocked_by": [
         "python-dateutil",
         "python-freezegun",
         "python-hypothesis",
-        "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
         "python-wheel"
+      ]
+    },
+    {
+      "component": "maturin",
+      "count": 10,
+      "blocked_by": [
+        "python-semantic_version",
+        "python-setuptools-rust"
+      ]
+    },
+    {
+      "component": "python-pytest-asyncio",
+      "count": 9,
+      "blocked_by": [
+        "python-hypothesis"
       ]
     },
     {
@@ -731,25 +702,19 @@
       ]
     },
     {
-      "component": "tomcli",
-      "count": 8
-    },
-    {
       "component": "dnf5",
       "count": 7,
       "blocked_by": [
         "python-breathe",
-        "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
       ]
     },
     {
-      "component": "python-pytest-asyncio",
+      "component": "python-pytest-mock",
       "count": 7,
       "blocked_by": [
-        "python-hypothesis",
-        "tomcli"
+        "python-pytest-asyncio"
       ]
     },
     {
@@ -761,10 +726,16 @@
       ]
     },
     {
+      "component": "dbus-python",
+      "count": 5,
+      "blocked_by": [
+        "pygobject3"
+      ]
+    },
+    {
       "component": "python-pycryptodomex",
       "count": 5,
       "blocked_by": [
-        "python-sphinx",
         "python-sphinx-autodoc-typehints",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
@@ -812,25 +783,20 @@
       ]
     },
     {
-      "component": "python-pytest-mock",
+      "component": "python-urwid",
       "count": 5,
       "blocked_by": [
-        "python-pytest-asyncio"
+        "python-wheel"
       ]
     },
     {
-      "component": "maturin",
-      "count": 5,
-      "blocked_by": [
-        "python-semantic_version",
-        "python-setuptools-rust"
-      ]
-    },
-    {
-      "component": "dbus-python",
+      "component": "python3-mypy",
       "count": 4,
       "blocked_by": [
-        "pygobject3"
+        "python-attrs",
+        "python-execnet",
+        "python-pytest-cov",
+        "python-pytest-xdist"
       ]
     },
     {
@@ -851,11 +817,10 @@
         "python-tox-current-env",
         "python-virtualenv"
       ],
-      "count": 38
+      "count": 44
     },
     {
       "components": [
-        "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
       ],
@@ -873,7 +838,14 @@
         "boost",
         "numpy"
       ],
-      "count": 24
+      "count": 25
+    },
+    {
+      "components": [
+        "at-spi2-core",
+        "pygobject3"
+      ],
+      "count": 22
     },
     {
       "components": [
@@ -887,29 +859,10 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "pygobject3"
-      ],
-      "count": 19
-    },
-    {
-      "components": [
         "python-cffi",
         "python-pycparser"
       ],
-      "count": 15
-    },
-    {
-      "components": [
-        "python-discovery",
-        "python-distlib",
-        "python-pyproject-api",
-        "python-pytest-cov",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
-      ],
-      "count": 12
+      "count": 16
     },
     {
       "components": [
@@ -921,7 +874,26 @@
         "python-virtualenv",
         "python-wheel"
       ],
-      "count": 11
+      "count": 13
+    },
+    {
+      "components": [
+        "python-discovery",
+        "python-distlib",
+        "python-pyproject-api",
+        "python-pytest-cov",
+        "python-tox",
+        "python-tox-current-env",
+        "python-virtualenv"
+      ],
+      "count": 13
+    },
+    {
+      "components": [
+        "python-asgiref",
+        "python-django6"
+      ],
+      "count": 12
     },
     {
       "components": [
@@ -933,17 +905,10 @@
     },
     {
       "components": [
-        "python-asgiref",
-        "python-django6"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
         "dbus-python",
         "python-qt5"
       ],
-      "count": 9
+      "count": 10
     },
     {
       "components": [
@@ -955,9 +920,36 @@
     },
     {
       "components": [
+        "numpy",
+        "python-wheel"
+      ],
+      "count": 9
+    },
+    {
+      "components": [
         "at-spi2-core",
         "boost",
         "numpy"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "python-olefile",
+        "python-pillow"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "fonttools",
+        "numpy",
+        "python-contourpy",
+        "python-dateutil",
+        "python-kiwisolver",
+        "python-matplotlib",
+        "python-olefile",
+        "python-pillow"
       ],
       "count": 8
     },
@@ -981,33 +973,8 @@
     },
     {
       "components": [
-        "gi-docgen",
-        "pygobject3",
-        "python-smartypants",
-        "python-typogrify"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-sphinx",
-        "python-wheel"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "numpy",
-        "python-wheel"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-sphinx",
-        "python-sphinx_rtd_theme",
-        "python-sphinxcontrib-jquery",
-        "python-wheel"
+        "dbus-python",
+        "pygobject3"
       ],
       "count": 7
     }

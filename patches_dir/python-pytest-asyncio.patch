@@ -1,0 +1,9 @@
+diff --git a/python-pytest-asyncio.spec b/python-pytest-asyncio.spec
+index 7222733..0af4f26 100644
+--- a/python-pytest-asyncio.spec
++++ b/python-pytest-asyncio.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %bcond_without  tests
+ 
+ Name:           python-pytest-asyncio
