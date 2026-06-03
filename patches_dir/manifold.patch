@@ -1,0 +1,9 @@
+diff --git a/manifold.spec b/manifold.spec
+index c533f45..f3931ab 100644
+--- a/manifold.spec
++++ b/manifold.spec
+@@ -1,3 +1,4 @@
++%global _without_python 1
+ %bcond  python 1
+ %bcond  export 1
+ %global soversion 3
