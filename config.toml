@@ -8,16 +8,16 @@
 #- gdb: # not blocking (yet)
 #    macros:
 #      %global _without_python 1
-#- python-flit-core:
+#- python-flit-core::bootstrap:::
 #    macros:
 #      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
-#- python-packaging:
+#- python-packaging::bootstrap:::
 #    macros:
 #      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
-#- python-setuptools:
+#- python-setuptools::bootstrap:::
 #    macros:
 #      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
-#- python-pip:
+#- python-pip:man-tests::::
 #    macros:
 #      %global _without_tests 1
 #      %global _without_man 1
