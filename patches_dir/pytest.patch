@@ -1,0 +1,11 @@
+diff --git a/pytest.spec b/pytest.spec
+index 517d1da..4e879f8 100644
+--- a/pytest.spec
++++ b/pytest.spec
+@@ -1,3 +1,6 @@
++%global _without_docs 1
++%global _without_tests 1
++%global _without_timeout 1
+ Name:           pytest
+ Version:        9.0.3
+ Release:        %autorelease
