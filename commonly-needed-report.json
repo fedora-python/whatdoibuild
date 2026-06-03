@@ -1,31 +1,11 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-requests",
-      "count": 1222,
-      "blocked_by": [
-        "brotli",
-        "python-blinker",
-        "python-cffi",
-        "python-cryptography",
-        "python-decorator",
-        "python-flask",
-        "python-httpbin",
-        "python-itsdangerous",
-        "python-pycparser",
-        "python-pytest-httpbin",
-        "python-pytest-mock",
-        "python-trustme",
-        "python-werkzeug"
-      ]
-    },
-    {
       "component": "python-sphinx",
       "count": 570,
       "blocked_by": [
         "python-execnet",
         "python-pytest-xdist",
-        "python-requests",
         "python-sphinx",
         "python-sphinxcontrib-devhelp",
         "python-sphinxcontrib-htmlhelp",
@@ -45,8 +25,7 @@
       "component": "python-wheel",
       "count": 474,
       "blocked_by": [
-        "python-flit",
-        "python-requests"
+        "python-flit"
       ]
     },
     {
@@ -56,7 +35,6 @@
         "python-dateutil",
         "python-freezegun",
         "python-hypothesis",
-        "python-requests",
         "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
@@ -75,7 +53,6 @@
       "count": 419,
       "blocked_by": [
         "python-pycparser",
-        "python-requests",
         "python-sphinx"
       ]
     },
@@ -181,8 +158,6 @@
       "count": 246,
       "blocked_by": [
         "gi-docgen",
-        "gobject-introspection",
-        "python-requests",
         "python-smartypants",
         "python-sphinx",
         "python-typogrify"
@@ -192,7 +167,6 @@
       "component": "python-olefile",
       "count": 212,
       "blocked_by": [
-        "python-requests",
         "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
@@ -206,10 +180,6 @@
       ]
     },
     {
-      "component": "pycairo",
-      "count": 203
-    },
-    {
       "component": "python-mdurl",
       "count": 194,
       "blocked_by": [
@@ -220,13 +190,11 @@
       "component": "python-markdown-it-py",
       "count": 193,
       "blocked_by": [
-        "python-linkify-it-py",
         "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-mdurl",
         "python-pytest-datadir",
-        "python-pytest-regressions",
-        "python-requests"
+        "python-pytest-regressions"
       ]
     },
     {
@@ -235,10 +203,6 @@
       "blocked_by": [
         "python-wheel"
       ]
-    },
-    {
-      "component": "python-tomlkit",
-      "count": 159
     },
     {
       "component": "python-rich",
@@ -273,7 +237,6 @@
         "python-enchant",
         "python-furo",
         "python-referencing",
-        "python-requests",
         "python-rpds-py",
         "python-sphinx",
         "python-sphinx-basic-ng",
@@ -303,7 +266,6 @@
       "component": "python-sphinxcontrib-jquery",
       "count": 150,
       "blocked_by": [
-        "python-requests",
         "python-sphinx"
       ]
     },
@@ -311,7 +273,6 @@
       "component": "python-sphinx_rtd_theme",
       "count": 146,
       "blocked_by": [
-        "python-requests",
         "python-sphinx",
         "python-sphinxcontrib-jquery"
       ]
@@ -321,20 +282,15 @@
       "count": 144,
       "blocked_by": [
         "at-spi2-core",
-        "gobject-introspection",
-        "pycairo",
-        "python-argcomplete",
-        "xwayland-run"
+        "python-argcomplete"
       ]
     },
     {
       "component": "fonttools",
       "count": 129,
       "blocked_by": [
-        "brotli",
         "fonttools",
         "numpy",
-        "pycairo",
         "python-attrs",
         "python-booleanoperations",
         "python-cffsubr",
@@ -353,7 +309,6 @@
         "python-pooch",
         "python-pyclipper",
         "python-pytest-randomly",
-        "python-requests",
         "python-ufo2ft",
         "python-ufoLib2",
         "python-uharfbuzz",
@@ -371,7 +326,6 @@
         "python-gevent",
         "python-pyproject-api",
         "python-pytest-timeout",
-        "python-requests",
         "python-sphinx",
         "python-tox",
         "python-tox-current-env",
@@ -408,7 +362,6 @@
         "python-pynacl",
         "python-pytest-httpserver",
         "python-pytest-localftpserver",
-        "python-requests",
         "python-tqdm",
         "python-werkzeug",
         "python-wheel"
@@ -433,7 +386,6 @@
       "count": 123,
       "blocked_by": [
         "python-hypothesis",
-        "python-tomlkit",
         "tomcli"
       ]
     },
@@ -452,7 +404,6 @@
         "python-mpmath",
         "python-pooch",
         "python-pytest-xdist",
-        "python-requests",
         "pythran"
       ]
     },
@@ -460,7 +411,6 @@
       "component": "python-azure-core",
       "count": 117,
       "blocked_by": [
-        "python-requests",
         "python-wheel"
       ]
     },
@@ -468,7 +418,6 @@
       "component": "dbus-python",
       "count": 116,
       "blocked_by": [
-        "pycairo",
         "pygobject3"
       ]
     },
@@ -479,7 +428,6 @@
         "fonttools",
         "numpy",
         "pybind11",
-        "pycairo",
         "python-contourpy",
         "python-dateutil",
         "python-execnet",
@@ -517,7 +465,6 @@
         "python-outcome",
         "python-pycparser",
         "python-pytest-mock",
-        "python-tomlkit",
         "python-trio",
         "python-trustme",
         "tomcli"
@@ -532,7 +479,6 @@
         "fonttools",
         "numpy",
         "pybind11",
-        "pycairo",
         "pygobject3",
         "python-cairocffi",
         "python-cffi",
@@ -550,13 +496,10 @@
         "python-pytest-timeout",
         "python-pytest-xdist",
         "python-qt5",
-        "python-requests",
-        "python-scour",
         "python-sphinx",
         "python-tinycss2",
         "python-webencodings",
-        "python-wxpython4",
-        "xwayland-run"
+        "python-wxpython4"
       ]
     },
     {
@@ -584,7 +527,6 @@
         "python-pandas",
         "python-pytest-mock",
         "python-rich",
-        "python-tomlkit",
         "tomcli"
       ]
     },
@@ -603,7 +545,6 @@
         "python-pytest-mock",
         "python-referencing",
         "python-rpds-py",
-        "python-tomlkit",
         "tomcli"
       ]
     },
@@ -633,7 +574,6 @@
         "python-pandas",
         "python-pytest-xdist",
         "python-redis",
-        "python-requests",
         "python-rich",
         "python-sphinx",
         "python-sphinx-jsonschema",
@@ -643,34 +583,65 @@
         "python-watchdog",
         "python-wheel"
       ]
+    },
+    {
+      "component": "python-werkzeug",
+      "count": 93,
+      "blocked_by": [
+        "python-Pallets-Sphinx-Themes",
+        "python-cffi",
+        "python-cryptography",
+        "python-pycparser",
+        "python-pytest-timeout",
+        "python-sphinx",
+        "python-sphinx-notfound-page",
+        "python-sphinxcontrib-log-cabinet",
+        "python-watchdog"
+      ]
+    },
+    {
+      "component": "python-numexpr",
+      "count": 90,
+      "blocked_by": [
+        "numpy"
+      ]
+    },
+    {
+      "component": "python-zope-interface",
+      "count": 89,
+      "blocked_by": [
+        "python-accessible-pygments",
+        "python-furo",
+        "python-repoze-sphinx-autointerface",
+        "python-sphinx",
+        "python-sphinx-basic-ng",
+        "python-wheel",
+        "python-zope-event",
+        "python-zope-interface",
+        "python-zope-testing"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-wheel",
-      "count": 103,
+      "count": 111,
       "blocked_by": [
-        "python-flit",
-        "python-requests"
+        "python-flit"
       ]
     },
     {
-      "component": "python-requests",
-      "count": 40,
+      "component": "python-sphinx",
+      "count": 98,
       "blocked_by": [
-        "brotli",
-        "python-blinker",
-        "python-cffi",
-        "python-cryptography",
-        "python-decorator",
-        "python-flask",
-        "python-httpbin",
-        "python-itsdangerous",
-        "python-pycparser",
-        "python-pytest-httpbin",
-        "python-pytest-mock",
-        "python-trustme",
-        "python-werkzeug"
+        "python-execnet",
+        "python-pytest-xdist",
+        "python-sphinx",
+        "python-sphinxcontrib-devhelp",
+        "python-sphinxcontrib-htmlhelp",
+        "python-sphinxcontrib-qthelp",
+        "python-sphinxcontrib-serializinghtml",
+        "python-sphinxcontrib-websupport"
       ]
     },
     {
@@ -682,14 +653,32 @@
     },
     {
       "component": "at-spi2-core",
-      "count": 17,
+      "count": 24,
       "blocked_by": [
         "gi-docgen",
-        "gobject-introspection",
-        "python-requests",
         "python-smartypants",
         "python-sphinx",
         "python-typogrify"
+      ]
+    },
+    {
+      "component": "pygobject3",
+      "count": 18,
+      "blocked_by": [
+        "at-spi2-core",
+        "python-argcomplete"
+      ]
+    },
+    {
+      "component": "python-pytest-cov",
+      "count": 13,
+      "blocked_by": [
+        "python-discovery",
+        "python-distlib",
+        "python-execnet",
+        "python-hatch-fancy-pypi-readme",
+        "python-pytest-xdist",
+        "python-virtualenv"
       ]
     },
     {
@@ -711,7 +700,6 @@
         "python-pandas",
         "python-pytest-xdist",
         "python-redis",
-        "python-requests",
         "python-rich",
         "python-sphinx",
         "python-sphinx-jsonschema",
@@ -723,25 +711,12 @@
       ]
     },
     {
-      "component": "python-pytest-cov",
-      "count": 11,
-      "blocked_by": [
-        "python-discovery",
-        "python-distlib",
-        "python-execnet",
-        "python-hatch-fancy-pypi-readme",
-        "python-pytest-xdist",
-        "python-virtualenv"
-      ]
-    },
-    {
       "component": "python-dateutil",
       "count": 10,
       "blocked_by": [
         "python-dateutil",
         "python-freezegun",
         "python-hypothesis",
-        "python-requests",
         "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
@@ -749,18 +724,24 @@
       ]
     },
     {
-      "component": "gobject-introspection",
-      "count": 9
+      "component": "python-azure-core",
+      "count": 9,
+      "blocked_by": [
+        "python-wheel"
+      ]
     },
     {
-      "component": "pygobject3",
-      "count": 8,
+      "component": "tomcli",
+      "count": 8
+    },
+    {
+      "component": "dnf5",
+      "count": 7,
       "blocked_by": [
-        "at-spi2-core",
-        "gobject-introspection",
-        "pycairo",
-        "python-argcomplete",
-        "xwayland-run"
+        "python-breathe",
+        "python-sphinx",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery"
       ]
     },
     {
@@ -768,24 +749,8 @@
       "count": 7,
       "blocked_by": [
         "python-hypothesis",
-        "python-tomlkit",
         "tomcli"
       ]
-    },
-    {
-      "component": "dnf5",
-      "count": 6,
-      "blocked_by": [
-        "python-breathe",
-        "python-requests",
-        "python-sphinx",
-        "python-sphinx_rtd_theme",
-        "python-sphinxcontrib-jquery"
-      ]
-    },
-    {
-      "component": "libxml2",
-      "count": 6
     },
     {
       "component": "python-ruamel-yaml-clib",
@@ -796,12 +761,54 @@
       ]
     },
     {
+      "component": "python-pycryptodomex",
+      "count": 5,
+      "blocked_by": [
+        "python-sphinx",
+        "python-sphinx-autodoc-typehints",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery"
+      ]
+    },
+    {
       "component": "python-redis",
       "count": 5,
       "blocked_by": [
         "numpy",
         "python-pytest-asyncio",
         "python-pytest-timeout"
+      ]
+    },
+    {
+      "component": "fonttools",
+      "count": 5,
+      "blocked_by": [
+        "fonttools",
+        "numpy",
+        "python-attrs",
+        "python-booleanoperations",
+        "python-cffsubr",
+        "python-contourpy",
+        "python-dateutil",
+        "python-fontMath",
+        "python-freetype",
+        "python-glyphsLib",
+        "python-kiwisolver",
+        "python-lz4",
+        "python-matplotlib",
+        "python-mpmath",
+        "python-olefile",
+        "python-openstep-plist",
+        "python-pillow",
+        "python-pooch",
+        "python-pyclipper",
+        "python-pytest-randomly",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "python-uharfbuzz",
+        "python-unicodedata2",
+        "scipy",
+        "sympy"
       ]
     },
     {
@@ -823,54 +830,7 @@
       "component": "dbus-python",
       "count": 4,
       "blocked_by": [
-        "pycairo",
         "pygobject3"
-      ]
-    },
-    {
-      "component": "python-pycryptodomex",
-      "count": 4,
-      "blocked_by": [
-        "python-requests",
-        "python-sphinx",
-        "python-sphinx-autodoc-typehints",
-        "python-sphinx_rtd_theme",
-        "python-sphinxcontrib-jquery"
-      ]
-    },
-    {
-      "component": "fonttools",
-      "count": 4,
-      "blocked_by": [
-        "brotli",
-        "fonttools",
-        "numpy",
-        "pycairo",
-        "python-attrs",
-        "python-booleanoperations",
-        "python-cffsubr",
-        "python-contourpy",
-        "python-dateutil",
-        "python-fontMath",
-        "python-freetype",
-        "python-glyphsLib",
-        "python-kiwisolver",
-        "python-lz4",
-        "python-matplotlib",
-        "python-mpmath",
-        "python-olefile",
-        "python-openstep-plist",
-        "python-pillow",
-        "python-pooch",
-        "python-pyclipper",
-        "python-pytest-randomly",
-        "python-requests",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-uharfbuzz",
-        "python-unicodedata2",
-        "scipy",
-        "sympy"
       ]
     },
     {
@@ -884,13 +844,6 @@
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-requests",
-        "python-sphinx"
-      ],
-      "count": 95
-    },
-    {
-      "components": [
         "python-discovery",
         "python-distlib",
         "python-pyproject-api",
@@ -898,11 +851,10 @@
         "python-tox-current-env",
         "python-virtualenv"
       ],
-      "count": 37
+      "count": 38
     },
     {
       "components": [
-        "python-requests",
         "python-sphinx",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery"
@@ -912,8 +864,7 @@
     {
       "components": [
         "python-azure-core",
-        "python-azure-mgmt-core",
-        "python-requests"
+        "python-azure-mgmt-core"
       ],
       "count": 27
     },
@@ -930,17 +881,23 @@
         "python-azure-mgmt-core",
         "python-msrest",
         "python-oauthlib",
-        "python-requests",
         "python-requests-oauthlib"
       ],
       "count": 21
     },
     {
       "components": [
+        "at-spi2-core",
+        "pygobject3"
+      ],
+      "count": 19
+    },
+    {
+      "components": [
         "python-cffi",
         "python-pycparser"
       ],
-      "count": 13
+      "count": 15
     },
     {
       "components": [
@@ -956,15 +913,6 @@
     },
     {
       "components": [
-        "python-azure-core",
-        "python-azure-mgmt-core",
-        "python-requests",
-        "python-wheel"
-      ],
-      "count": 11
-    },
-    {
-      "components": [
         "python-discovery",
         "python-distlib",
         "python-pyproject-api",
@@ -973,7 +921,15 @@
         "python-virtualenv",
         "python-wheel"
       ],
-      "count": 10
+      "count": 11
+    },
+    {
+      "components": [
+        "python-azure-core",
+        "python-azure-mgmt-core",
+        "python-wheel"
+      ],
+      "count": 11
     },
     {
       "components": [
@@ -984,14 +940,6 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "pycairo",
-        "pygobject3"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
         "dbus-python",
         "python-qt5"
       ],
@@ -999,15 +947,17 @@
     },
     {
       "components": [
-        "python-azure-core",
-        "python-requests"
+        "python-cffi",
+        "python-cryptography",
+        "python-pycparser"
       ],
       "count": 9
     },
     {
       "components": [
-        "python-tomlkit",
-        "tomcli"
+        "at-spi2-core",
+        "boost",
+        "numpy"
       ],
       "count": 8
     },
@@ -1021,22 +971,25 @@
     },
     {
       "components": [
-        "python-requests",
-        "python-wheel"
+        "python-attrs",
+        "python-jsonschema",
+        "python-jsonschema-specifications",
+        "python-referencing",
+        "python-rpds-py"
       ],
       "count": 7
     },
     {
       "components": [
-        "at-spi2-core",
-        "boost",
-        "numpy"
+        "gi-docgen",
+        "pygobject3",
+        "python-smartypants",
+        "python-typogrify"
       ],
       "count": 7
     },
     {
       "components": [
-        "python-requests",
         "python-sphinx",
         "python-wheel"
       ],
@@ -1045,6 +998,15 @@
     {
       "components": [
         "numpy",
+        "python-wheel"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "python-sphinx",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery",
         "python-wheel"
       ],
       "count": 7
