@@ -662,6 +662,9 @@ withouts = ["pydantic_tests"]
 [[bconds.python-scikit-image]]
 withouts = ["check"]
 
+[[bconds.python-semantic_version]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
