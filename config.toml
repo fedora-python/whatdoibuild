@@ -51,7 +51,7 @@ old = ["python(abi) = 3.14", "libpython3.14.so.1.0()(64bit)", "libpython3.14d.so
 new = ["python(abi) = 3.15", "libpython3.15.so.1.0()(64bit)", "libpython3.15d.so.1.0()(64bit)"]
 
 [components]
-excluded = ["python3.14", "python3.15"]
+excluded = ["python3.14", "python3.15", "kernel"]
 extra = []
 
 [cache_dir]
