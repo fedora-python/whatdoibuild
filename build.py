@@ -3,7 +3,7 @@ import sys
 
 from bconds import reverse_id_lookup, build_reverse_id_lookup
 from gitrepo import patch_spec, refresh_or_clone
-from utils import CONFIG, run
+from utils import CONFIG, run, log
 
 
 PATCHDIR = pathlib.Path('patches_dir')
@@ -134,8 +134,9 @@ def submit_koji_build(repopath, target=None):
         target: Koji target to build for (defaults to config value)
     """
     target = target or CONFIG['koji']['target']
-    run('fedpkg', 'build', '--fail-fast', '--nowait',
-        '--target', target, cwd=repopath)  # '--background'
+    result = run('fedpkg', 'build', '--fail-fast', '--nowait',
+        '--background', '--target', target, cwd=repopath)
+    log(result.stdout)
 
 
 def build_component(component_arg):
