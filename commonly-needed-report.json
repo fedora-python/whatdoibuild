@@ -152,10 +152,6 @@
       ]
     },
     {
-      "component": "dbus-python",
-      "count": 116
-    },
-    {
       "component": "python-contourpy",
       "count": 114,
       "blocked_by": [
@@ -183,7 +179,6 @@
       "component": "python-matplotlib",
       "count": 111,
       "blocked_by": [
-        "dbus-python",
         "fonttools",
         "python-cairocffi",
         "python-contourpy",
@@ -312,7 +307,6 @@
       "component": "python-pandas",
       "count": 82,
       "blocked_by": [
-        "dbus-python",
         "fonttools",
         "ipython",
         "libarrow",
@@ -470,7 +464,6 @@
       "component": "python-pyperclip",
       "count": 61,
       "blocked_by": [
-        "dbus-python",
         "python-qt5"
       ]
     },
@@ -527,6 +520,23 @@
         "python-numexpr",
         "python-pandas"
       ]
+    },
+    {
+      "component": "python-cliff",
+      "count": 55,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-markdown-it-py",
+        "python-mdurl",
+        "python-pyperclip",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr",
+        "python-tox-current-env",
+        "python-voluptuous"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -544,16 +554,12 @@
     },
     {
       "component": "python-cryptography",
-      "count": 25,
+      "count": 26,
       "blocked_by": [
         "maturin",
         "python-execnet",
         "python-pytest-xdist"
       ]
-    },
-    {
-      "component": "dbus-python",
-      "count": 18
     },
     {
       "component": "python-django6",
@@ -576,6 +582,10 @@
       ]
     },
     {
+      "component": "python-qt5",
+      "count": 14
+    },
+    {
       "component": "maturin",
       "count": 14
     },
@@ -587,17 +597,17 @@
       ]
     },
     {
+      "component": "dnf5",
+      "count": 10,
+      "blocked_by": [
+        "python-breathe"
+      ]
+    },
+    {
       "component": "python-freezegun",
       "count": 10,
       "blocked_by": [
         "python-tox-current-env"
-      ]
-    },
-    {
-      "component": "dnf5",
-      "count": 9,
-      "blocked_by": [
-        "python-breathe"
       ]
     },
     {
@@ -662,6 +672,13 @@
       ]
     },
     {
+      "component": "gdb",
+      "count": 5,
+      "blocked_by": [
+        "boost"
+      ]
+    },
+    {
       "component": "python-wxpython4",
       "count": 5,
       "blocked_by": [
@@ -669,6 +686,10 @@
         "python-pytest-timeout",
         "python-pytest-xdist"
       ]
+    },
+    {
+      "component": "python-pyqt6",
+      "count": 5
     },
     {
       "component": "python-sqlalchemy",
@@ -702,21 +723,6 @@
         "python-stack-data",
         "python-tox-current-env"
       ]
-    },
-    {
-      "component": "python3-mypy",
-      "count": 4,
-      "blocked_by": [
-        "python-execnet",
-        "python-pytest-xdist"
-      ]
-    },
-    {
-      "component": "python-reportlab",
-      "count": 4,
-      "blocked_by": [
-        "python-html5lib"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -741,13 +747,6 @@
         "python-jsonschema-specifications",
         "python-referencing",
         "python-rpds-py"
-      ],
-      "count": 14
-    },
-    {
-      "components": [
-        "dbus-python",
-        "python-qt5"
       ],
       "count": 14
     },
@@ -849,13 +848,6 @@
     },
     {
       "components": [
-        "dbus-python",
-        "python-pyqt6"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-adal",
         "python-cryptography",
         "python-jwt",
@@ -879,6 +871,24 @@
       "components": [
         "boost",
         "imath"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-cryptography",
+        "python-jwt"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "fonttools",
+        "python-contourpy",
+        "python-kiwisolver",
+        "python-matplotlib",
+        "python-pooch",
+        "scipy"
       ],
       "count": 4
     }
