@@ -28,15 +28,10 @@
         "python-glyphsLib",
         "python-matplotlib",
         "python-mpmath",
-        "python-pooch",
         "python-ufo2ft",
         "python-ufoLib2",
         "sympy"
       ]
-    },
-    {
-      "component": "python-pooch",
-      "count": 124
     },
     {
       "component": "python-contourpy",
@@ -71,7 +66,6 @@
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
-        "python-email-validator",
         "python-pydantic-core"
       ]
     },
@@ -136,10 +130,7 @@
     },
     {
       "component": "python-sqlalchemy",
-      "count": 77,
-      "blocked_by": [
-        "python-aiomysql"
-      ]
+      "count": 77
     },
     {
       "component": "python-flask",
@@ -496,7 +487,6 @@
         "python-mdit-py-plugins",
         "python-mpmath",
         "python-myst-parser",
-        "python-pooch",
         "python-stack-data"
       ]
     },
@@ -511,6 +501,25 @@
         "python-rich",
         "python-typer",
         "python-zipp"
+      ]
+    },
+    {
+      "component": "python-keystoneauth1",
+      "count": 29,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-oauthlib",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-oslo-utils",
+        "python-requests-mock",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
       ]
     }
   ],
@@ -538,10 +547,6 @@
       ]
     },
     {
-      "component": "python-pooch",
-      "count": 20
-    },
-    {
       "component": "dnf5",
       "count": 19,
       "blocked_by": [
@@ -558,18 +563,15 @@
       ]
     },
     {
-      "component": "python-sqlalchemy",
-      "count": 12,
-      "blocked_by": [
-        "python-aiomysql"
-      ]
-    },
-    {
       "component": "python-Bottleneck",
-      "count": 11,
+      "count": 12,
       "blocked_by": [
         "python-numpydoc"
       ]
+    },
+    {
+      "component": "python-sqlalchemy",
+      "count": 12
     },
     {
       "component": "fonttools",
@@ -583,7 +585,6 @@
         "python-glyphsLib",
         "python-matplotlib",
         "python-mpmath",
-        "python-pooch",
         "python-ufo2ft",
         "python-ufoLib2",
         "sympy"
@@ -637,6 +638,14 @@
       ]
     },
     {
+      "component": "python-flexmock",
+      "count": 6,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
+      ]
+    },
+    {
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
@@ -661,14 +670,6 @@
       ]
     },
     {
-      "component": "python-flexmock",
-      "count": 5,
-      "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
-      ]
-    },
-    {
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
@@ -678,6 +679,15 @@
       "count": 5,
       "blocked_by": [
         "python-requests-futures"
+      ]
+    },
+    {
+      "component": "python-dotenv",
+      "count": 4,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-stack-data"
       ]
     }
   ],
@@ -696,21 +706,21 @@
         "python-contourpy",
         "python-matplotlib"
       ],
-      "count": 18
+      "count": 26
     },
     {
       "components": [
         "python-aiohttp",
         "python-yarl"
       ],
-      "count": 16
+      "count": 17
     },
     {
       "components": [
         "python-markdown-it-py",
         "python-rich"
       ],
-      "count": 14
+      "count": 15
     },
     {
       "components": [
@@ -756,10 +766,10 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-contourpy",
-        "python-matplotlib",
-        "python-pooch"
+        "python-fsspec",
+        "python-mpmath",
+        "python-torch",
+        "sympy"
       ],
       "count": 8
     },
@@ -831,15 +841,6 @@
     },
     {
       "components": [
-        "python-fsspec",
-        "python-mpmath",
-        "python-torch",
-        "sympy"
-      ],
-      "count": 6
-    },
-    {
-      "components": [
         "imath",
         "vtk"
       ],
@@ -855,10 +856,17 @@
     {
       "components": [
         "gnuradio",
-        "python-pooch",
         "python-pyqtgraph",
         "python-zmq",
         "uhd"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "ipython",
+        "python-asttokens",
+        "python-stack-data"
       ],
       "count": 5
     }
