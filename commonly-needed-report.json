@@ -5,8 +5,7 @@
       "count": 193,
       "blocked_by": [
         "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-pytest-regressions"
+        "python-mdit-py-plugins"
       ]
     },
     {
@@ -143,8 +142,7 @@
       "component": "python-mdit-py-plugins",
       "count": 40,
       "blocked_by": [
-        "python-markdown-it-py",
-        "python-pytest-regressions"
+        "python-markdown-it-py"
       ]
     },
     {
@@ -213,8 +211,7 @@
       "count": 35,
       "blocked_by": [
         "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-pytest-regressions"
+        "python-mdit-py-plugins"
       ]
     },
     {
@@ -473,8 +470,7 @@
         "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
-        "python-nbconvert",
-        "python-pytest-jupyter"
+        "python-nbconvert"
       ]
     },
     {
@@ -693,8 +689,12 @@
       ]
     },
     {
-      "component": "python-pytest-regressions",
-      "count": 4
+      "component": "python-vcrpy",
+      "count": 4,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -717,7 +717,7 @@
         "python-pydantic",
         "python-pydantic-core"
       ],
-      "count": 14
+      "count": 18
     },
     {
       "components": [
@@ -728,6 +728,14 @@
         "snakemake"
       ],
       "count": 12
+    },
+    {
+      "components": [
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-myst-parser"
+      ],
+      "count": 10
     },
     {
       "components": [
@@ -751,14 +759,6 @@
         "python-httpx"
       ],
       "count": 9
-    },
-    {
-      "components": [
-        "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-myst-parser"
-      ],
-      "count": 8
     },
     {
       "components": [
