@@ -26,23 +26,17 @@
         "python-contourpy",
         "python-fontMath",
         "python-glyphsLib",
-        "python-kiwisolver",
         "python-matplotlib",
         "python-mpmath",
-        "python-openstep-plist",
         "python-pooch",
         "python-ufo2ft",
         "python-ufoLib2",
-        "python-unicodedata2",
         "sympy"
       ]
     },
     {
       "component": "python-pooch",
-      "count": 124,
-      "blocked_by": [
-        "python-paramiko"
-      ]
+      "count": 124
     },
     {
       "component": "python-contourpy",
@@ -50,13 +44,8 @@
       "blocked_by": [
         "fonttools",
         "python-contourpy",
-        "python-kiwisolver",
         "python-matplotlib"
       ]
-    },
-    {
-      "component": "python-kiwisolver",
-      "count": 113
     },
     {
       "component": "python-matplotlib",
@@ -64,7 +53,6 @@
       "blocked_by": [
         "fonttools",
         "python-contourpy",
-        "python-kiwisolver",
         "python-wxpython4"
       ]
     },
@@ -83,7 +71,6 @@
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
-        "python-dns",
         "python-email-validator",
         "python-pydantic-core"
       ]
@@ -151,9 +138,7 @@
       "component": "python-sqlalchemy",
       "count": 77,
       "blocked_by": [
-        "python-PyMySQL",
-        "python-aiomysql",
-        "python-pymssql"
+        "python-aiomysql"
       ]
     },
     {
@@ -229,7 +214,6 @@
         "gpgmepy",
         "python-aiohttp",
         "python-markdown-it-py",
-        "python-paramiko",
         "python-rich",
         "python-yarl"
       ]
@@ -278,15 +262,6 @@
         "python-pytest-jupyter",
         "python-stack-data",
         "python-zmq"
-      ]
-    },
-    {
-      "component": "python-dns",
-      "count": 44,
-      "blocked_by": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -382,7 +357,6 @@
         "python-notebook",
         "python-notebook-shim",
         "python-numcodecs",
-        "python-paramiko",
         "python-partd",
         "python-stack-data",
         "python-tblib",
@@ -422,7 +396,6 @@
         "ipython",
         "python-asttokens",
         "python-contourpy",
-        "python-kiwisolver",
         "python-matplotlib",
         "python-stack-data"
       ]
@@ -507,6 +480,38 @@
       "blocked_by": [
         "python-breathe"
       ]
+    },
+    {
+      "component": "sympy",
+      "count": 30,
+      "blocked_by": [
+        "fonttools",
+        "ipython",
+        "llvm",
+        "python-asttokens",
+        "python-contourpy",
+        "python-furo",
+        "python-markdown-it-py",
+        "python-matplotlib",
+        "python-mdit-py-plugins",
+        "python-mpmath",
+        "python-myst-parser",
+        "python-pooch",
+        "python-stack-data"
+      ]
+    },
+    {
+      "component": "python-importlib-metadata",
+      "count": 29,
+      "blocked_by": [
+        "python-jaraco-collections",
+        "python-jaraco-test",
+        "python-jaraco-text",
+        "python-markdown-it-py",
+        "python-rich",
+        "python-typer",
+        "python-zipp"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -534,14 +539,11 @@
     },
     {
       "component": "python-pooch",
-      "count": 20,
-      "blocked_by": [
-        "python-paramiko"
-      ]
+      "count": 20
     },
     {
       "component": "dnf5",
-      "count": 18,
+      "count": 19,
       "blocked_by": [
         "python-breathe"
       ]
@@ -559,9 +561,7 @@
       "component": "python-sqlalchemy",
       "count": 12,
       "blocked_by": [
-        "python-PyMySQL",
-        "python-aiomysql",
-        "python-pymssql"
+        "python-aiomysql"
       ]
     },
     {
@@ -573,7 +573,7 @@
     },
     {
       "component": "fonttools",
-      "count": 10,
+      "count": 11,
       "blocked_by": [
         "fonttools",
         "python-booleanoperations",
@@ -581,14 +581,11 @@
         "python-contourpy",
         "python-fontMath",
         "python-glyphsLib",
-        "python-kiwisolver",
         "python-matplotlib",
         "python-mpmath",
-        "python-openstep-plist",
         "python-pooch",
         "python-ufo2ft",
         "python-ufoLib2",
-        "python-unicodedata2",
         "sympy"
       ]
     },
@@ -611,10 +608,6 @@
       "component": "python-jwt",
       "count": 9,
       "unresolvable": true
-    },
-    {
-      "component": "python-paramiko",
-      "count": 9
     },
     {
       "component": "koji",
@@ -641,15 +634,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-dns",
-      "count": 6,
-      "blocked_by": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -683,6 +667,18 @@
         "python-twisted",
         "python-zope-testrunner"
       ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 5,
+      "unresolvable": true
+    },
+    {
+      "component": "python-requests-mock",
+      "count": 5,
+      "blocked_by": [
+        "python-requests-futures"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -698,7 +694,6 @@
       "components": [
         "fonttools",
         "python-contourpy",
-        "python-kiwisolver",
         "python-matplotlib"
       ],
       "count": 18
@@ -712,6 +707,13 @@
     },
     {
       "components": [
+        "python-markdown-it-py",
+        "python-rich"
+      ],
+      "count": 14
+    },
+    {
+      "components": [
         "python-pydantic",
         "python-pydantic-core"
       ],
@@ -719,15 +721,22 @@
     },
     {
       "components": [
-        "python-markdown-it-py",
-        "python-rich"
+        "mkdocs",
+        "python-watchdog"
       ],
-      "count": 13
+      "count": 10
     },
     {
       "components": [
-        "mkdocs",
-        "python-watchdog"
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-smart_open",
+        "python-snakemake-interface-executor-plugins",
+        "python-snakemake-interface-storage-plugins",
+        "python-sqlalchemy",
+        "python-sqlmodel",
+        "python-throttler",
+        "snakemake"
       ],
       "count": 10
     },
@@ -749,7 +758,6 @@
       "components": [
         "fonttools",
         "python-contourpy",
-        "python-kiwisolver",
         "python-matplotlib",
         "python-pooch"
       ],
@@ -805,6 +813,13 @@
     },
     {
       "components": [
+        "python-httpcore",
+        "python-httpx"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "ipython",
         "python-asttokens",
         "python-ipykernel",
@@ -844,24 +859,6 @@
         "python-pyqtgraph",
         "python-zmq",
         "uhd"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-adal",
-        "python-jwt",
-        "python-msrest",
-        "python-msrestazure",
-        "python-oauthlib",
-        "python-requests-oauthlib"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-httpcore",
-        "python-httpx"
       ],
       "count": 5
     }
