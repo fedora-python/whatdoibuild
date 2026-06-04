@@ -1,26 +1,14 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-markdown-it-py",
-      "count": 193,
-      "blocked_by": [
-        "python-markdown-it-py",
-        "python-mdit-py-plugins"
-      ]
-    },
-    {
       "component": "python-rich",
-      "count": 156,
-      "blocked_by": [
-        "python-markdown-it-py"
-      ]
+      "count": 156
     },
     {
       "component": "python-pydantic-core",
       "count": 107,
       "blocked_by": [
         "python-inline-snapshot",
-        "python-markdown-it-py",
         "python-rich"
       ]
     },
@@ -47,7 +35,6 @@
       "blocked_by": [
         "python-h2",
         "python-httpcore",
-        "python-markdown-it-py",
         "python-rich",
         "python-uvicorn"
       ]
@@ -61,16 +48,12 @@
     },
     {
       "component": "python-flask",
-      "count": 68,
-      "blocked_by": [
-        "python-sphinx-tabs"
-      ]
+      "count": 68
     },
     {
       "component": "python-rich-argparse",
       "count": 57,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich"
       ]
     },
@@ -78,7 +61,6 @@
       "component": "python-cmd2",
       "count": 56,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich",
         "python-rich-argparse"
       ]
@@ -89,7 +71,6 @@
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-markdown-it-py",
         "python-rich",
         "python-rich-argparse",
         "python-stestr"
@@ -106,7 +87,6 @@
       "component": "python-dulwich",
       "count": 51,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich"
       ]
     },
@@ -116,7 +96,6 @@
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-markdown-it-py",
         "python-rich",
         "python-rich-argparse"
       ]
@@ -125,7 +104,6 @@
       "component": "python-typer",
       "count": 48,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich"
       ]
     },
@@ -140,10 +118,7 @@
     },
     {
       "component": "python-mdit-py-plugins",
-      "count": 40,
-      "blocked_by": [
-        "python-markdown-it-py"
-      ]
+      "count": 40
     },
     {
       "component": "python-requests-mock",
@@ -173,7 +148,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-rich",
         "python-rich-argparse",
@@ -210,7 +184,6 @@
       "component": "python-myst-parser",
       "count": 35,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-mdit-py-plugins"
       ]
     },
@@ -221,7 +194,6 @@
         "python-jaraco-collections",
         "python-jaraco-test",
         "python-jaraco-text",
-        "python-markdown-it-py",
         "python-rich",
         "python-typer"
       ]
@@ -233,7 +205,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-oslo-config",
         "python-oslo-i18n",
@@ -252,13 +223,11 @@
       "count": 31,
       "blocked_by": [
         "python-diagnostic",
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser",
         "python-rich",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
-        "python-sphinx-tabs",
         "python-sphinx-theme-builder"
       ]
     },
@@ -275,7 +244,6 @@
       "blocked_by": [
         "llvm",
         "python-furo",
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser"
       ]
@@ -287,7 +255,6 @@
         "python-jaraco-collections",
         "python-jaraco-test",
         "python-jaraco-text",
-        "python-markdown-it-py",
         "python-rich",
         "python-typer",
         "python-zipp"
@@ -300,7 +267,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-oslo-config",
         "python-oslo-i18n",
@@ -332,7 +298,6 @@
         "python-jupyter-server",
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-mistune",
         "python-myst-parser",
@@ -351,7 +316,6 @@
         "python-cmd2",
         "python-debtcollector",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-oslo-config",
         "python-oslo-context",
@@ -372,7 +336,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-oslo-i18n",
         "python-oslo-utils",
@@ -400,7 +363,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-rich",
         "python-rich-argparse",
@@ -429,7 +391,6 @@
       "component": "python-jupyter-events",
       "count": 22,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich"
       ]
     },
@@ -447,7 +408,6 @@
         "python-cliff",
         "python-cmd2",
         "python-keystoneauth1",
-        "python-markdown-it-py",
         "python-oslo-config",
         "python-oslo-i18n",
         "python-requests-mock",
@@ -504,7 +464,6 @@
       "component": "python-jaraco-text",
       "count": 20,
       "blocked_by": [
-        "python-markdown-it-py",
         "python-rich",
         "python-typer"
       ]
@@ -514,7 +473,6 @@
       "count": 19,
       "blocked_by": [
         "python-jaraco-text",
-        "python-markdown-it-py",
         "python-rich",
         "python-typer"
       ]
@@ -535,15 +493,22 @@
         "python-pytest-astropy",
         "python-scikit-image"
       ]
+    },
+    {
+      "component": "python-notebook-shim",
+      "count": 16,
+      "blocked_by": [
+        "python-jupyter-events",
+        "python-jupyter-server",
+        "python-mistune",
+        "python-nbconvert"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-flask",
-      "count": 25,
-      "blocked_by": [
-        "python-sphinx-tabs"
-      ]
+      "count": 25
     },
     {
       "component": "dnf5",
@@ -562,17 +527,19 @@
       ]
     },
     {
+      "component": "python-rich",
+      "count": 20
+    },
+    {
       "component": "python-furo",
       "count": 13,
       "blocked_by": [
         "python-diagnostic",
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser",
         "python-rich",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
-        "python-sphinx-tabs",
         "python-sphinx-theme-builder"
       ]
     },
@@ -611,7 +578,6 @@
       "blocked_by": [
         "llvm",
         "python-furo",
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser"
       ]
@@ -687,14 +653,6 @@
       "blocked_by": [
         "python-breathe"
       ]
-    },
-    {
-      "component": "python-vcrpy",
-      "count": 4,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -704,13 +662,6 @@
         "python-requests-oauthlib"
       ],
       "count": 34
-    },
-    {
-      "components": [
-        "python-markdown-it-py",
-        "python-rich"
-      ],
-      "count": 20
     },
     {
       "components": [
@@ -731,7 +682,6 @@
     },
     {
       "components": [
-        "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser"
       ],
@@ -788,7 +738,6 @@
       "components": [
         "python-cliff",
         "python-cmd2",
-        "python-markdown-it-py",
         "python-rich",
         "python-rich-argparse",
         "python-stestr"
@@ -800,7 +749,6 @@
         "python-cliff",
         "python-cmd2",
         "python-dulwich",
-        "python-markdown-it-py",
         "python-openstackdocstheme",
         "python-rich",
         "python-rich-argparse",
@@ -862,6 +810,16 @@
         "python-hupper",
         "python-pyramid",
         "python-zope-deprecation"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-jaraco-collections",
+        "python-jaraco-test",
+        "python-jaraco-text",
+        "python-rich",
+        "python-typer"
       ],
       "count": 4
     }
