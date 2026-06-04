@@ -1,18 +1,8 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 107,
-      "blocked_by": [
-        "python-inline-snapshot"
-      ]
-    },
-    {
       "component": "python-pydantic",
-      "count": 106,
-      "blocked_by": [
-        "python-pydantic-core"
-      ]
+      "count": 106
     },
     {
       "component": "python-httpcore",
@@ -71,16 +61,8 @@
       ]
     },
     {
-      "component": "python-watchdog",
-      "count": 31,
-      "unresolvable": true
-    },
-    {
       "component": "python-furo",
-      "count": 31,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 31
     },
     {
       "component": "dnf5",
@@ -142,7 +124,6 @@
         "python-httpcore",
         "python-httpx",
         "python-pydantic",
-        "python-pydantic-core",
         "python-starlette"
       ]
     },
@@ -170,10 +151,7 @@
     },
     {
       "component": "mkdocs",
-      "count": 22,
-      "blocked_by": [
-        "python-watchdog"
-      ]
+      "count": 22
     },
     {
       "component": "python-openstacksdk",
@@ -193,7 +171,6 @@
         "python-google-cloud-storage",
         "python-proto-plus",
         "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -265,10 +242,7 @@
     },
     {
       "component": "python-pydata-sphinx-theme",
-      "count": 14,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 14
     },
     {
       "component": "grpc",
@@ -305,8 +279,7 @@
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ]
     },
     {
@@ -413,6 +386,45 @@
       "blocked_by": [
         "sympy"
       ]
+    },
+    {
+      "component": "python-pydantic-settings",
+      "count": 11,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-openstackclient",
+      "count": 11,
+      "blocked_by": [
+        "python-aodhclient",
+        "python-cinderclient",
+        "python-debtcollector",
+        "python-futurist",
+        "python-gnocchiclient",
+        "python-hacking",
+        "python-heatclient",
+        "python-ironicclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-manilaclient",
+        "python-mistralclient",
+        "python-neutronclient",
+        "python-octaviaclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-osc-placement",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-swiftclient",
+        "python-troveclient",
+        "python-zaqarclient"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -433,11 +445,16 @@
       ]
     },
     {
+      "component": "python-pydantic",
+      "count": 21
+    },
+    {
       "component": "python-furo",
-      "count": 20,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 20
+    },
+    {
+      "component": "mkdocs",
+      "count": 10
     },
     {
       "component": "sympy",
@@ -446,11 +463,6 @@
         "llvm",
         "python-furo"
       ]
-    },
-    {
-      "component": "python-watchdog",
-      "count": 8,
-      "unresolvable": true
     },
     {
       "component": "vtk",
@@ -488,10 +500,7 @@
     },
     {
       "component": "python-pydata-sphinx-theme",
-      "count": 6,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 6
     },
     {
       "component": "python-zope-testrunner",
@@ -545,27 +554,12 @@
       "blocked_by": [
         "python-furo"
       ]
-    },
-    {
-      "component": "python-sphinxcontrib-bibtex",
-      "count": 4,
-      "blocked_by": [
-        "python-sphinx-autoapi"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 21
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-sqlmodel",
         "snakemake"
@@ -578,13 +572,6 @@
         "python-httpx"
       ],
       "count": 11
-    },
-    {
-      "components": [
-        "mkdocs",
-        "python-watchdog"
-      ],
-      "count": 10
     },
     {
       "components": [
@@ -629,8 +616,7 @@
       "components": [
         "python-httpcore",
         "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ],
       "count": 5
     },
@@ -663,8 +649,7 @@
     {
       "components": [
         "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ],
       "count": 4
     },
@@ -680,8 +665,7 @@
       "components": [
         "mkdocs",
         "mkdocs-material",
-        "python-pymdown-extensions",
-        "python-watchdog"
+        "python-pymdown-extensions"
       ],
       "count": 4
     },
@@ -714,6 +698,21 @@
         "python-openstacksdk",
         "python-oslo-i18n",
         "python-oslo-utils"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "grpc",
+        "python-google-api-core",
+        "python-proto-plus"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-docstring-to-markdown",
+        "python-lsp-server"
       ],
       "count": 3
     }
