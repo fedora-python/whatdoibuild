@@ -1,9 +1,0 @@
-diff --git a/python-pydantic-core.spec b/python-pydantic-core.spec
-index 2a4ff2b..30392e9 100644
---- a/python-pydantic-core.spec
-+++ b/python-pydantic-core.spec
-@@ -1,3 +1,4 @@
-+%global _without_inline_snapshot_tests 1
- # Copyright (C) 2023 Maxwell G <maxwell@gtmx.me>
- # Copyright (C) Fedora Project Authors
- # SPDX-License-Identifier: MIT
