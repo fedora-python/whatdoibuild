@@ -19,7 +19,6 @@
       "count": 87,
       "blocked_by": [
         "python-h2",
-        "python-httpbin",
         "python-pytest-httpbin"
       ]
     },
@@ -40,15 +39,8 @@
       ]
     },
     {
-      "component": "python-rich-argparse",
-      "count": 57
-    },
-    {
       "component": "python-cmd2",
-      "count": 56,
-      "blocked_by": [
-        "python-rich-argparse"
-      ]
+      "count": 56
     },
     {
       "component": "python-cliff",
@@ -56,7 +48,6 @@
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -76,13 +67,8 @@
       "count": 50,
       "blocked_by": [
         "python-cliff",
-        "python-cmd2",
-        "python-rich-argparse"
+        "python-cmd2"
       ]
-    },
-    {
-      "component": "python-typer",
-      "count": 48
     },
     {
       "component": "python-twisted",
@@ -122,7 +108,6 @@
         "python-cmd2",
         "python-dulwich",
         "python-openstackdocstheme",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -137,7 +122,6 @@
         "python-fsspec",
         "python-httpcore",
         "python-httpx",
-        "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyterlab-server",
@@ -153,17 +137,12 @@
       ]
     },
     {
-      "component": "python-myst-parser",
-      "count": 35
-    },
-    {
       "component": "python-zipp",
       "count": 31,
       "blocked_by": [
         "python-jaraco-collections",
         "python-jaraco-test",
-        "python-jaraco-text",
-        "python-typer"
+        "python-jaraco-text"
       ]
     },
     {
@@ -176,7 +155,6 @@
         "python-openstackdocstheme",
         "python-oslo-config",
         "python-oslo-i18n",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -189,8 +167,6 @@
       "component": "python-furo",
       "count": 31,
       "blocked_by": [
-        "python-diagnostic",
-        "python-myst-parser",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
         "python-sphinx-theme-builder"
@@ -208,8 +184,7 @@
       "count": 30,
       "blocked_by": [
         "llvm",
-        "python-furo",
-        "python-myst-parser"
+        "python-furo"
       ]
     },
     {
@@ -219,7 +194,6 @@
         "python-jaraco-collections",
         "python-jaraco-test",
         "python-jaraco-text",
-        "python-typer",
         "python-zipp"
       ]
     },
@@ -235,7 +209,6 @@
         "python-oslo-i18n",
         "python-oslo-utils",
         "python-requests-mock",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -255,13 +228,11 @@
         "python-httpcore",
         "python-httpx",
         "python-ipywidgets",
-        "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
         "python-mistune",
-        "python-myst-parser",
         "python-nbconvert",
         "python-nbsphinx",
         "python-notebook",
@@ -285,7 +256,6 @@
         "python-oslo-serialization",
         "python-oslo-utils",
         "python-requests-mock",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -299,7 +269,6 @@
         "python-openstackdocstheme",
         "python-oslo-i18n",
         "python-oslo-utils",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -323,7 +292,6 @@
         "python-cmd2",
         "python-dulwich",
         "python-openstackdocstheme",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -346,10 +314,6 @@
       ]
     },
     {
-      "component": "python-jupyter-events",
-      "count": 22
-    },
-    {
       "component": "mkdocs",
       "count": 22,
       "blocked_by": [
@@ -366,7 +330,6 @@
         "python-oslo-config",
         "python-oslo-i18n",
         "python-requests-mock",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -381,7 +344,6 @@
       "component": "python-jupyter-server",
       "count": 21,
       "blocked_by": [
-        "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
         "python-nbconvert"
@@ -415,17 +377,13 @@
     },
     {
       "component": "python-jaraco-text",
-      "count": 20,
-      "blocked_by": [
-        "python-typer"
-      ]
+      "count": 20
     },
     {
       "component": "python-jaraco-collections",
       "count": 19,
       "blocked_by": [
-        "python-jaraco-text",
-        "python-typer"
+        "python-jaraco-text"
       ]
     },
     {
@@ -449,7 +407,6 @@
       "component": "python-notebook-shim",
       "count": 16,
       "blocked_by": [
-        "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
         "python-nbconvert"
@@ -468,7 +425,6 @@
         "python-oslo-i18n",
         "python-oslo-utils",
         "python-requests-mock",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
@@ -485,6 +441,30 @@
       "blocked_by": [
         "python-twisted"
       ]
+    },
+    {
+      "component": "python-pycurl",
+      "count": 15
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 15,
+      "blocked_by": [
+        "python-a2wsgi",
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "libarrow",
+      "count": 15
+    },
+    {
+      "component": "python-pydata-sphinx-theme",
+      "count": 14,
+      "blocked_by": [
+        "python-sphinx-theme-builder"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -497,7 +477,7 @@
     },
     {
       "component": "python-twisted",
-      "count": 20,
+      "count": 21,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
@@ -506,18 +486,12 @@
     },
     {
       "component": "python-furo",
-      "count": 17,
+      "count": 19,
       "blocked_by": [
-        "python-diagnostic",
-        "python-myst-parser",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
         "python-sphinx-theme-builder"
       ]
-    },
-    {
-      "component": "python-myst-parser",
-      "count": 11
     },
     {
       "component": "python-requests-oauthlib",
@@ -525,6 +499,11 @@
       "blocked_by": [
         "python-requests-mock"
       ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 8,
+      "unresolvable": true
     },
     {
       "component": "vtk",
@@ -539,8 +518,7 @@
       "count": 8,
       "blocked_by": [
         "llvm",
-        "python-furo",
-        "python-myst-parser"
+        "python-furo"
       ]
     },
     {
@@ -551,13 +529,16 @@
       ]
     },
     {
-      "component": "python-watchdog",
-      "count": 7,
-      "unresolvable": true
-    },
-    {
       "component": "python-pycurl",
       "count": 7
+    },
+    {
+      "component": "python-flexmock",
+      "count": 7,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
+      ]
     },
     {
       "component": "python-requests-mock",
@@ -586,14 +567,6 @@
       ]
     },
     {
-      "component": "python-flexmock",
-      "count": 6,
-      "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
-      ]
-    },
-    {
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
@@ -606,7 +579,6 @@
       "count": 5,
       "blocked_by": [
         "dnf5",
-        "python-requests_ntlm",
         "python-winrm"
       ]
     },
@@ -632,6 +604,13 @@
       "blocked_by": [
         "python-httpcore",
         "python-httpx"
+      ]
+    },
+    {
+      "component": "python-pydata-sphinx-theme",
+      "count": 4,
+      "blocked_by": [
+        "python-sphinx-theme-builder"
       ]
     }
   ],
@@ -711,7 +690,6 @@
       "components": [
         "python-cliff",
         "python-cmd2",
-        "python-rich-argparse",
         "python-stestr"
       ],
       "count": 7
@@ -722,7 +700,6 @@
         "python-cmd2",
         "python-dulwich",
         "python-openstackdocstheme",
-        "python-rich-argparse",
         "python-stestr"
       ],
       "count": 7
@@ -731,6 +708,15 @@
       "components": [
         "imath",
         "vtk"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-httpcore",
+        "python-httpx",
+        "python-pydantic",
+        "python-pydantic-core"
       ],
       "count": 5
     },
@@ -747,6 +733,17 @@
         "python-msrest",
         "python-msrestazure",
         "python-requests-oauthlib"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "poetry",
+        "python-CacheControl",
+        "python-dulwich",
+        "python-httpcore",
+        "python-httpx",
+        "python-pbs-installer"
       ],
       "count": 5
     },
@@ -769,15 +766,6 @@
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-hupper",
         "python-pyramid",
         "python-zope-deprecation"
@@ -788,16 +776,7 @@
       "components": [
         "python-jaraco-collections",
         "python-jaraco-test",
-        "python-jaraco-text",
-        "python-typer"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-jaraco-text"
       ],
       "count": 4
     }
