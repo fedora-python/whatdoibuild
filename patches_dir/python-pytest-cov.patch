@@ -1,9 +1,0 @@
-diff --git a/python-pytest-cov.spec b/python-pytest-cov.spec
-index 6f4ef7d..0d36f66 100644
---- a/python-pytest-cov.spec
-+++ b/python-pytest-cov.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %global srcname  pytest-cov
- %global slugname pytest_cov
- %global forgeurl https://github.com/pytest-dev/%{srcname}

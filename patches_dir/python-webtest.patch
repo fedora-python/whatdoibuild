@@ -1,9 +1,0 @@
-diff --git a/python-webtest.spec b/python-webtest.spec
-index d9ff6a7..8f4992a 100644
---- a/python-webtest.spec
-+++ b/python-webtest.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %bcond tests 1
- 
- Name:           python-webtest
