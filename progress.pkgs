@@ -1,6 +1,5 @@
 Io-language
 cloud-init
-conan
 copr-cli
 criu
 dnf-plugin-diff
@@ -41,6 +40,7 @@ python-exiv2
 python-extractcode
 python-fields
 python-fitsio
+python-flake8-import-order
 python-geotiler
 gnulib
 grpc
@@ -99,6 +99,7 @@ python-sphinx-autoapi
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
+python-stack-data
 python-tpm2-pytss
 python-translitcodec
 python-triton

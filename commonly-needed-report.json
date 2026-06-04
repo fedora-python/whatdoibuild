@@ -36,7 +36,6 @@
       "count": 107,
       "blocked_by": [
         "python-Bottleneck",
-        "python-asttokens",
         "python-inline-snapshot",
         "python-markdown-it-py",
         "python-rich"
@@ -85,11 +84,6 @@
       ]
     },
     {
-      "component": "python-asttokens",
-      "count": 79,
-      "unresolvable": true
-    },
-    {
       "component": "python-flask",
       "count": 68,
       "blocked_by": [
@@ -99,16 +93,12 @@
     },
     {
       "component": "python-stack-data",
-      "count": 63,
-      "blocked_by": [
-        "python-asttokens"
-      ]
+      "count": 63
     },
     {
       "component": "ipython",
       "count": 61,
       "blocked_by": [
-        "python-asttokens",
         "python-stack-data"
       ]
     },
@@ -193,7 +183,6 @@
       "count": 44,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-ipykernel",
         "python-jupyter-client",
         "python-pytest-jupyter",
@@ -206,7 +195,6 @@
       "count": 42,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-stack-data"
       ]
     },
@@ -260,7 +248,6 @@
         "ipython",
         "jupyterlab",
         "libarrow",
-        "python-asttokens",
         "python-dask",
         "python-distributed",
         "python-fsspec",
@@ -300,7 +287,6 @@
       "count": 35,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-ipykernel",
         "python-ipyparallel",
         "python-jupyter-client",
@@ -313,7 +299,6 @@
       "count": 33,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-contourpy",
         "python-matplotlib",
         "python-stack-data"
@@ -325,7 +310,6 @@
       "blocked_by": [
         "ipython",
         "jupyterlab",
-        "python-asttokens",
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
@@ -406,7 +390,6 @@
       "blocked_by": [
         "ipython",
         "llvm",
-        "python-asttokens",
         "python-contourpy",
         "python-furo",
         "python-markdown-it-py",
@@ -462,7 +445,6 @@
       "blocked_by": [
         "ipython",
         "jupyterlab",
-        "python-asttokens",
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
@@ -557,6 +539,16 @@
       "blocked_by": [
         "python-httpcore",
         "python-httpx"
+      ]
+    },
+    {
+      "component": "python-smart_open",
+      "count": 23,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-google-cloud-storage",
+        "python-proto-plus"
       ]
     }
   ],
@@ -689,7 +681,6 @@
       "count": 4,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-stack-data"
       ]
     },
@@ -834,7 +825,6 @@
     {
       "components": [
         "ipython",
-        "python-asttokens",
         "python-stack-data"
       ],
       "count": 6
@@ -849,7 +839,6 @@
     {
       "components": [
         "ipython",
-        "python-asttokens",
         "python-ipykernel",
         "python-jupyter-client",
         "python-stack-data",
