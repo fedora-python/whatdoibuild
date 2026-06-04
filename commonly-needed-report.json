@@ -85,10 +85,6 @@
       ]
     },
     {
-      "component": "python-aiohttp",
-      "count": 81
-    },
-    {
       "component": "python-requests-oauthlib",
       "count": 80,
       "blocked_by": [
@@ -161,7 +157,6 @@
       "component": "python-msrest",
       "count": 54,
       "blocked_by": [
-        "python-aiohttp",
         "python-oauthlib",
         "python-requests-oauthlib"
       ]
@@ -170,8 +165,6 @@
       "component": "python-dulwich",
       "count": 51,
       "blocked_by": [
-        "gpgmepy",
-        "python-aiohttp",
         "python-markdown-it-py",
         "python-rich"
       ]
@@ -226,11 +219,9 @@
       "component": "python-django6",
       "count": 44,
       "blocked_by": [
-        "python-aiohttp",
         "python-geoip2",
         "python-oracledb",
         "python-psycopg3",
-        "python-sphinxcontrib-spelling",
         "python-tblib"
       ]
     },
@@ -293,7 +284,6 @@
         "ipython",
         "jupyterlab",
         "libarrow",
-        "python-aiohttp",
         "python-asttokens",
         "python-dask",
         "python-distributed",
@@ -518,16 +508,34 @@
         "python-notebook",
         "python-notebook-shim",
         "python-pydata-sphinx-theme",
-        "python-sphinxcontrib-spelling",
         "python-stack-data",
         "python-zmq"
       ]
     },
     {
       "component": "python-throttler",
-      "count": 26,
+      "count": 26
+    },
+    {
+      "component": "python-oslo-config",
+      "count": 25,
       "blocked_by": [
-        "python-aiohttp"
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-context",
+        "python-oslo-i18n",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-requests-mock",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
       ]
     }
   ],
@@ -544,28 +552,22 @@
       "component": "python-django6",
       "count": 24,
       "blocked_by": [
-        "python-aiohttp",
         "python-geoip2",
         "python-oracledb",
         "python-psycopg3",
-        "python-sphinxcontrib-spelling",
         "python-tblib"
       ]
     },
     {
       "component": "dnf5",
-      "count": 21,
+      "count": 22,
       "blocked_by": [
         "python-breathe"
       ]
     },
     {
-      "component": "python-aiohttp",
-      "count": 18
-    },
-    {
       "component": "python-twisted",
-      "count": 18,
+      "count": 19,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
@@ -574,14 +576,14 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 15,
+      "count": 16,
       "blocked_by": [
         "python-numpydoc"
       ]
     },
     {
       "component": "python-furo",
-      "count": 10,
+      "count": 12,
       "blocked_by": [
         "python-diagnostic",
         "python-markdown-it-py",
@@ -688,6 +690,15 @@
       "blocked_by": [
         "python-breathe"
       ]
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 4,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-contourpy",
+        "python-matplotlib"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -697,7 +708,7 @@
         "python-oauthlib",
         "python-requests-oauthlib"
       ],
-      "count": 31
+      "count": 32
     },
     {
       "components": [
@@ -711,7 +722,7 @@
         "python-markdown-it-py",
         "python-rich"
       ],
-      "count": 16
+      "count": 17
     },
     {
       "components": [
@@ -742,7 +753,6 @@
     },
     {
       "components": [
-        "python-aiohttp",
         "python-azure-devtools",
         "python-dotenv",
         "python-msrest",
@@ -750,6 +760,13 @@
         "python-pytest-aiohttp",
         "python-requests-oauthlib",
         "python-vcrpy"
+      ],
+      "count": 9
+    },
+    {
+      "components": [
+        "python-httpcore",
+        "python-httpx"
       ],
       "count": 9
     },
@@ -781,6 +798,13 @@
     },
     {
       "components": [
+        "python-oauthlib",
+        "python-requests-oauthlib"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
         "python-cliff",
         "python-cmd2",
         "python-markdown-it-py",
@@ -805,10 +829,11 @@
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx"
+        "ipython",
+        "python-asttokens",
+        "python-stack-data"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "components": [
@@ -837,24 +862,9 @@
     },
     {
       "components": [
-        "python-oauthlib",
-        "python-requests-oauthlib"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "gnuradio",
         "python-pyqtgraph",
         "python-zmq"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "ipython",
-        "python-asttokens",
-        "python-stack-data"
       ],
       "count": 5
     },
