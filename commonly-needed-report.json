@@ -1,14 +1,9 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-httpcore",
-      "count": 87
-    },
-    {
       "component": "python-httpx",
       "count": 85,
       "blocked_by": [
-        "python-httpcore",
         "python-uvicorn"
       ]
     },
@@ -16,7 +11,6 @@
       "component": "python-twisted",
       "count": 48,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -29,7 +23,6 @@
         "python-dask",
         "python-distributed",
         "python-fsspec",
-        "python-httpcore",
         "python-httpx",
         "python-notebook",
         "python-numcodecs",
@@ -38,10 +31,6 @@
         "python-zarr",
         "python-zict"
       ]
-    },
-    {
-      "component": "python-oslo-utils",
-      "count": 31
     },
     {
       "component": "dnf5",
@@ -56,10 +45,7 @@
     },
     {
       "component": "python-keystoneauth1",
-      "count": 29,
-      "blocked_by": [
-        "python-oslo-utils"
-      ]
+      "count": 29
     },
     {
       "component": "vtk",
@@ -71,17 +57,13 @@
     },
     {
       "component": "python-oslo-serialization",
-      "count": 24,
-      "blocked_by": [
-        "python-oslo-utils"
-      ]
+      "count": 24
     },
     {
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
         "python-fastapi",
-        "python-httpcore",
         "python-httpx",
         "python-starlette"
       ]
@@ -90,7 +72,6 @@
       "component": "python-vcrpy",
       "count": 23,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -138,7 +119,6 @@
       "component": "python-starlette",
       "count": 18,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -156,8 +136,7 @@
       "count": 16,
       "blocked_by": [
         "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
+        "python-openstacksdk"
       ]
     },
     {
@@ -176,7 +155,6 @@
       "count": 15,
       "blocked_by": [
         "python-a2wsgi",
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -207,8 +185,7 @@
       "blocked_by": [
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-serialization",
-        "python-oslo-utils"
+        "python-oslo-serialization"
       ]
     },
     {
@@ -230,7 +207,6 @@
       "component": "jupyterlab",
       "count": 13,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -276,8 +252,7 @@
       "count": 12,
       "blocked_by": [
         "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils"
+        "python-oslo-serialization"
       ]
     },
     {
@@ -337,15 +312,10 @@
         "python-osc-placement",
         "python-oslo-log",
         "python-oslo-serialization",
-        "python-oslo-utils",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
       ]
-    },
-    {
-      "component": "python-psycopg3",
-      "count": 10
     },
     {
       "component": "python-numcodecs",
@@ -372,22 +342,14 @@
       ]
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 10
-    },
-    {
       "component": "python-peewee",
-      "count": 9,
-      "blocked_by": [
-        "python-psycopg3"
-      ]
+      "count": 9
     },
     {
       "component": "python-flexmock",
       "count": 9,
       "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
+        "python-twisted"
       ]
     },
     {
@@ -395,7 +357,6 @@
       "count": 9,
       "blocked_by": [
         "jupyterlab",
-        "python-httpcore",
         "python-httpx"
       ]
     },
@@ -404,6 +365,37 @@
       "count": 9,
       "blocked_by": [
         "python-pytest-arraydiff"
+      ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 9,
+      "blocked_by": [
+        "python-fsspec",
+        "python-numcodecs"
+      ]
+    },
+    {
+      "component": "python-hupper",
+      "count": 8,
+      "unresolvable": true
+    },
+    {
+      "component": "fonttools",
+      "count": 8,
+      "blocked_by": [
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-pbs-installer",
+      "count": 8,
+      "blocked_by": [
+        "python-httpx"
       ]
     }
   ],
@@ -414,10 +406,16 @@
     },
     {
       "component": "python-twisted",
-      "count": 22,
+      "count": 24,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
+      ]
+    },
+    {
+      "component": "python-httpx",
+      "count": 19,
+      "blocked_by": [
+        "python-uvicorn"
       ]
     },
     {
@@ -436,6 +434,13 @@
       ]
     },
     {
+      "component": "python-flexmock",
+      "count": 8,
+      "blocked_by": [
+        "python-twisted"
+      ]
+    },
+    {
       "component": "python-pydata-sphinx-theme",
       "count": 7
     },
@@ -444,19 +449,8 @@
       "count": 7
     },
     {
-      "component": "python-flexmock",
-      "count": 7,
-      "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
-      ]
-    },
-    {
       "component": "python-peewee",
-      "count": 6,
-      "blocked_by": [
-        "python-psycopg3"
-      ]
+      "count": 6
     },
     {
       "component": "python-pyqtgraph",
@@ -469,13 +463,8 @@
       "component": "python-vcrpy",
       "count": 6,
       "blocked_by": [
-        "python-httpcore",
         "python-httpx"
       ]
-    },
-    {
-      "component": "python-zope-testrunner",
-      "count": 6
     },
     {
       "component": "ansible-core",
@@ -498,11 +487,14 @@
       ]
     },
     {
-      "component": "imath",
-      "count": 4
+      "component": "python-pytest-django",
+      "count": 5,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
     },
     {
-      "component": "python-psycopg3",
+      "component": "imath",
       "count": 4
     },
     {
@@ -524,31 +516,20 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 4,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "python-gitlab",
       "count": 3,
       "blocked_by": [
         "python-gql",
-        "python-httpcore",
         "python-httpx",
         "python-respx"
       ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-httpcore",
-        "python-httpx"
-      ],
-      "count": 19
-    },
     {
       "components": [
         "python-smart_open",
@@ -593,7 +574,6 @@
       "components": [
         "poetry",
         "python-CacheControl",
-        "python-httpcore",
         "python-httpx",
         "python-pbs-installer"
       ],
@@ -614,8 +594,7 @@
         "python-openstackclient",
         "python-openstacksdk",
         "python-osc-lib",
-        "python-oslo-serialization",
-        "python-oslo-utils"
+        "python-oslo-serialization"
       ],
       "count": 5
     },
@@ -629,8 +608,14 @@
     },
     {
       "components": [
+        "python-keystoneauth1",
+        "python-openstacksdk"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
         "jupyterlab",
-        "python-httpcore",
         "python-httpx"
       ],
       "count": 4
@@ -659,14 +644,6 @@
     },
     {
       "components": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "grpc",
         "python-google-api-core",
         "python-proto-plus"
@@ -682,8 +659,7 @@
         "python-openstacksdk",
         "python-osc-lib",
         "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils"
+        "python-oslo-serialization"
       ],
       "count": 3
     },
@@ -707,6 +683,13 @@
       "components": [
         "freeipa",
         "python-jwcrypto"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-httpx",
+        "python-starlette"
       ],
       "count": 2
     }
