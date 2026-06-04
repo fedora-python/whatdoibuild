@@ -14,7 +14,6 @@ libreoffice
 marshalparser
 mrack
 obs-studio
-plplot
 pykakasi
 python-OWSLib
 python-XStatic
@@ -46,8 +45,6 @@ python-chai
 pychromecast
 condor
 python-contourpy::bootstrap:::
-csdiff
-cucumber-messages
 cvc5
 python-decopatch:tests::::
 dionaea
@@ -63,7 +60,6 @@ hamlib
 coin-or-HiGHS
 python-holidays
 python-hypothesmith
-python-janus-swi
 jc
 emacs-jedi
 python-jsonschema-specifications:::with_doc::
@@ -81,20 +77,17 @@ kf6-kxmlgui
 pykickstart
 kiwi
 python-kiwisolver
-libkolabxml
 389-ds-base
 libftdi
 libkml
 libmamba
 libpst
-python-libsass
 libsvm
 lilv
 python-linuxdoc
 python-lupa
 python3-mallard-ducktype
 manifold:python::::
-python-mapnik
 python-markdown-callouts
 python-mathics-scanner
 python-minikerberos
@@ -148,6 +141,7 @@ python-qcustomplot-pyqt
 qhexedit2
 qscintilla
 pyqtwebengine
+python-qtsass
 python-readchar
 python-readme-renderer
 python-requests-kerberos
@@ -178,7 +172,7 @@ python-triton
 python-trml2pdf
 python-trustme
 python-typecode
-python-ua-parser
+python-user-agents
 uwsgi
 python-valkey
 python-vcstool
