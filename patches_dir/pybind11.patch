@@ -1,9 +1,0 @@
-diff --git a/pybind11.spec b/pybind11.spec
-index 4976cd3..240961d 100644
---- a/pybind11.spec
-+++ b/pybind11.spec
-@@ -1,3 +1,4 @@
-+%global _without_optional_tests 1
- # While the headers are architecture independent, the package must be
- # built separately on all architectures so that the tests are run
- # properly. See also
