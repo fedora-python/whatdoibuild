@@ -587,7 +587,7 @@
     },
     {
       "component": "python-furo",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "python-diagnostic",
         "python-markdown-it-py",
@@ -602,7 +602,7 @@
     },
     {
       "component": "python-jwt",
-      "count": 9,
+      "count": 10,
       "unresolvable": true
     },
     {
@@ -617,7 +617,6 @@
       "component": "koji",
       "count": 7,
       "blocked_by": [
-        "librepo",
         "python-requests-mock"
       ]
     },
@@ -634,6 +633,13 @@
       "blocked_by": [
         "python-twisted",
         "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-requests-mock",
+      "count": 6,
+      "blocked_by": [
+        "python-requests-futures"
       ]
     },
     {
@@ -668,13 +674,6 @@
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
-    },
-    {
-      "component": "python-requests-mock",
-      "count": 5,
-      "blocked_by": [
-        "python-requests-futures"
-      ]
     },
     {
       "component": "python-dotenv",
@@ -745,8 +744,6 @@
         "python-pydantic",
         "python-pydantic-core",
         "python-smart_open",
-        "python-snakemake-interface-executor-plugins",
-        "python-snakemake-interface-storage-plugins",
         "python-sqlmodel",
         "snakemake"
       ],
