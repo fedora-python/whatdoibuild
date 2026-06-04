@@ -50,10 +50,6 @@
       ]
     },
     {
-      "component": "python-oauthlib",
-      "count": 89
-    },
-    {
       "component": "python-httpcore",
       "count": 87,
       "blocked_by": [
@@ -85,7 +81,6 @@
       "component": "python-requests-oauthlib",
       "count": 80,
       "blocked_by": [
-        "python-oauthlib",
         "python-requests-mock"
       ]
     },
@@ -154,7 +149,6 @@
       "component": "python-msrest",
       "count": 54,
       "blocked_by": [
-        "python-oauthlib",
         "python-requests-oauthlib"
       ]
     },
@@ -444,7 +438,6 @@
         "python-cmd2",
         "python-dulwich",
         "python-markdown-it-py",
-        "python-oauthlib",
         "python-openstackdocstheme",
         "python-oslo-config",
         "python-oslo-i18n",
@@ -557,6 +550,14 @@
         "python-rich-argparse",
         "python-stestr"
       ]
+    },
+    {
+      "component": "python-vcrpy",
+      "count": 23,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -607,6 +608,13 @@
       ]
     },
     {
+      "component": "python-requests-oauthlib",
+      "count": 9,
+      "blocked_by": [
+        "python-requests-mock"
+      ]
+    },
+    {
       "component": "vtk",
       "count": 8,
       "blocked_by": [
@@ -629,18 +637,18 @@
       ]
     },
     {
+      "component": "python-requests-mock",
+      "count": 7,
+      "blocked_by": [
+        "python-requests-futures"
+      ]
+    },
+    {
       "component": "python-flexmock",
       "count": 6,
       "blocked_by": [
         "python-twisted",
         "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-requests-mock",
-      "count": 6,
-      "blocked_by": [
-        "python-requests-futures"
       ]
     },
     {
@@ -708,20 +716,15 @@
         "python-httpcore",
         "python-httpx"
       ]
-    },
-    {
-      "component": "python-zmq",
-      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-msrest",
-        "python-oauthlib",
         "python-requests-oauthlib"
       ],
-      "count": 32
+      "count": 33
     },
     {
       "components": [
@@ -763,17 +766,9 @@
     },
     {
       "components": [
-        "python-oauthlib",
-        "python-requests-oauthlib"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
         "python-azure-devtools",
         "python-dotenv",
         "python-msrest",
-        "python-oauthlib",
         "python-requests-oauthlib",
         "python-vcrpy"
       ],
@@ -879,11 +874,17 @@
     },
     {
       "components": [
-        "python-adal",
         "python-msrest",
         "python-msrestazure",
-        "python-oauthlib",
         "python-requests-oauthlib"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-Bottleneck",
+        "python-contourpy",
+        "python-matplotlib"
       ],
       "count": 5
     }
