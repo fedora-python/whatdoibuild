@@ -1,0 +1,9 @@
+diff --git a/python-jsonschema.spec b/python-jsonschema.spec
+index 1bce86d..995814a 100644
+--- a/python-jsonschema.spec
++++ b/python-jsonschema.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %global pypi_name jsonschema
+ 
+ %global common_description %{expand:
