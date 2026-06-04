@@ -119,10 +119,6 @@
       "count": 13
     },
     {
-      "component": "fedora-messaging",
-      "count": 12
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -267,10 +263,6 @@
       ]
     },
     {
-      "component": "poetry",
-      "count": 7
-    },
-    {
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
@@ -331,10 +323,6 @@
       "count": 6
     },
     {
-      "component": "python-ipywidgets",
-      "count": 6
-    },
-    {
       "component": "python-diskcache",
       "count": 6,
       "blocked_by": [
@@ -380,6 +368,33 @@
       "blocked_by": [
         "python-respx"
       ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 5,
+      "blocked_by": [
+        "python-fsspec"
+      ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 5,
+      "blocked_by": [
+        "OpenColorIO",
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "sympy",
+        "usd",
+        "vtk"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -392,21 +407,17 @@
     },
     {
       "component": "sympy",
-      "count": 9,
+      "count": 10,
       "blocked_by": [
         "llvm"
       ]
     },
     {
-      "component": "fedora-messaging",
-      "count": 9
+      "component": "grpc",
+      "count": 8
     },
     {
       "component": "python-pydata-sphinx-theme",
-      "count": 7
-    },
-    {
-      "component": "grpc",
       "count": 7
     },
     {
@@ -415,10 +426,6 @@
       "blocked_by": [
         "python-pydata-sphinx-theme"
       ]
-    },
-    {
-      "component": "poetry",
-      "count": 6
     },
     {
       "component": "python-pymdown-extensions",
@@ -470,10 +477,6 @@
       "count": 4
     },
     {
-      "component": "python-specfile",
-      "count": 3
-    },
-    {
       "component": "python-starlette",
       "count": 3
     },
@@ -501,6 +504,34 @@
       "blocked_by": [
         "python-a2wsgi"
       ]
+    },
+    {
+      "component": "python-fsspec",
+      "count": 3,
+      "blocked_by": [
+        "libarrow",
+        "python-dask",
+        "python-distributed",
+        "python-fsspec",
+        "python-numcodecs",
+        "python-partd",
+        "python-zarr",
+        "python-zict"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -518,7 +549,7 @@
         "python-torch",
         "sympy"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "components": [
@@ -571,20 +602,6 @@
         "vtk"
       ],
       "count": 3
-    },
-    {
-      "components": [
-        "python-oletools",
-        "python-pcodedmp"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "freeipa",
-        "python-jwcrypto"
-      ],
-      "count": 2
     },
     {
       "components": [
@@ -655,11 +672,26 @@
     {
       "components": [
         "bodhi-messages",
-        "fedora-messaging",
         "python-cornice",
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-autobahn",
+        "python-croniter",
+        "python-treq",
+        "python-txaio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
       ],
       "count": 1
     }
