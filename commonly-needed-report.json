@@ -17,10 +17,6 @@
       ]
     },
     {
-      "component": "python-matplotlib",
-      "count": 111
-    },
-    {
       "component": "python-pydantic-core",
       "count": 107,
       "blocked_by": [
@@ -241,10 +237,7 @@
     },
     {
       "component": "python-mpmath",
-      "count": 33,
-      "blocked_by": [
-        "python-matplotlib"
-      ]
+      "count": 33
     },
     {
       "component": "python-nbclient",
@@ -329,7 +322,6 @@
         "llvm",
         "python-furo",
         "python-markdown-it-py",
-        "python-matplotlib",
         "python-mdit-py-plugins",
         "python-mpmath",
         "python-myst-parser"
@@ -553,13 +545,17 @@
         "python-snakemake-storage-plugin-s3",
         "python-sqlmodel"
       ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 20,
+      "blocked_by": [
+        "pyproj",
+        "python-scipy-doctest"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-matplotlib",
-      "count": 30
-    },
     {
       "component": "python-flask",
       "count": 25,
@@ -575,19 +571,19 @@
       ]
     },
     {
+      "component": "python-Bottleneck",
+      "count": 22,
+      "blocked_by": [
+        "python-numpydoc"
+      ]
+    },
+    {
       "component": "python-twisted",
       "count": 20,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
         "python-httpx"
-      ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 17,
-      "blocked_by": [
-        "python-numpydoc"
       ]
     },
     {
@@ -691,18 +687,27 @@
       ]
     },
     {
+      "component": "python-pyqtgraph",
+      "count": 5,
+      "blocked_by": [
+        "python-pydata-sphinx-theme",
+        "python-sphinx-design"
+      ]
+    },
+    {
+      "component": "python-astropy",
+      "count": 5,
+      "blocked_by": [
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
+      ]
+    },
+    {
       "component": "imath",
       "count": 4,
       "blocked_by": [
         "python-breathe"
-      ]
-    },
-    {
-      "component": "python-pytest-regressions",
-      "count": 4,
-      "blocked_by": [
-        "python-Bottleneck",
-        "python-matplotlib"
       ]
     }
   ],
@@ -827,8 +832,8 @@
     },
     {
       "components": [
-        "gnuradio",
-        "python-pyqtgraph"
+        "python-mpmath",
+        "sympy"
       ],
       "count": 5
     },
@@ -837,13 +842,6 @@
         "python-msrest",
         "python-msrestazure",
         "python-requests-oauthlib"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-Bottleneck",
-        "python-matplotlib"
       ],
       "count": 5
     },
@@ -869,6 +867,15 @@
         "python-msrestazure",
         "python-requests-oauthlib",
         "python-vcrpy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-httpcore",
+        "python-httpx",
+        "python-pydantic",
+        "python-pydantic-core"
       ],
       "count": 4
     }
