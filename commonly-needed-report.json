@@ -2,16 +2,12 @@
   "most_commonly_needed": [
     {
       "component": "python-httpcore",
-      "count": 87,
-      "blocked_by": [
-        "python-h2"
-      ]
+      "count": 87
     },
     {
       "component": "python-httpx",
       "count": 85,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-uvicorn"
       ]
@@ -20,7 +16,6 @@
       "component": "python-twisted",
       "count": 48,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
@@ -46,17 +41,11 @@
     },
     {
       "component": "python-oslo-utils",
-      "count": 31,
-      "blocked_by": [
-        "python-oslo-config"
-      ]
+      "count": 31
     },
     {
       "component": "dnf5",
-      "count": 30,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 30
     },
     {
       "component": "sympy",
@@ -69,7 +58,6 @@
       "component": "python-keystoneauth1",
       "count": 29,
       "blocked_by": [
-        "python-oslo-config",
         "python-oslo-utils"
       ]
     },
@@ -79,16 +67,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 25,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils"
       ]
     },
     {
@@ -130,8 +108,7 @@
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-config"
+        "python-keystoneauth1"
       ]
     },
     {
@@ -185,10 +162,7 @@
     },
     {
       "component": "imath",
-      "count": 15,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 15
     },
     {
       "component": "python-pika",
@@ -233,19 +207,9 @@
       "blocked_by": [
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils"
       ]
-    },
-    {
-      "component": "python-h2",
-      "count": 14,
-      "unresolvable": true
-    },
-    {
-      "component": "python-eth-utils",
-      "count": 14
     },
     {
       "component": "pyproj",
@@ -352,10 +316,6 @@
       ]
     },
     {
-      "component": "python-pydantic-settings",
-      "count": 11
-    },
-    {
       "component": "python-openstackclient",
       "count": 11,
       "blocked_by": [
@@ -363,7 +323,6 @@
         "python-cinderclient",
         "python-futurist",
         "python-gnocchiclient",
-        "python-hacking",
         "python-heatclient",
         "python-ironicclient",
         "python-keystoneauth1",
@@ -376,7 +335,6 @@
         "python-openstacksdk",
         "python-osc-lib",
         "python-osc-placement",
-        "python-oslo-config",
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
@@ -415,25 +373,49 @@
     },
     {
       "component": "python-zope-testrunner",
-      "count": 10,
+      "count": 10
+    },
+    {
+      "component": "python-peewee",
+      "count": 9,
       "blocked_by": [
-        "python-sphinxcontrib-programoutput"
+        "python-psycopg3"
+      ]
+    },
+    {
+      "component": "python-flexmock",
+      "count": 9,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-notebook",
+      "count": 9,
+      "blocked_by": [
+        "jupyterlab",
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-pytest-astropy",
+      "count": 9,
+      "blocked_by": [
+        "python-pytest-arraydiff"
       ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "dnf5",
-      "count": 25,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 25
     },
     {
       "component": "python-twisted",
       "count": 22,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
@@ -493,10 +475,7 @@
     },
     {
       "component": "python-zope-testrunner",
-      "count": 6,
-      "blocked_by": [
-        "python-sphinxcontrib-programoutput"
-      ]
+      "count": 6
     },
     {
       "component": "ansible-core",
@@ -504,6 +483,10 @@
       "blocked_by": [
         "dnf5"
       ]
+    },
+    {
+      "component": "python-pymdown-extensions",
+      "count": 5
     },
     {
       "component": "python-astropy",
@@ -516,21 +499,10 @@
     },
     {
       "component": "imath",
-      "count": 4,
-      "blocked_by": [
-        "python-breathe"
-      ]
-    },
-    {
-      "component": "python-pymdown-extensions",
       "count": 4
     },
     {
       "component": "python-psycopg3",
-      "count": 4
-    },
-    {
-      "component": "python-sphinxcontrib-programoutput",
       "count": 4
     },
     {
@@ -557,6 +529,16 @@
       "blocked_by": [
         "python-django-configurations"
       ]
+    },
+    {
+      "component": "python-gitlab",
+      "count": 3,
+      "blocked_by": [
+        "python-gql",
+        "python-httpcore",
+        "python-httpx",
+        "python-respx"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -565,7 +547,7 @@
         "python-httpcore",
         "python-httpx"
       ],
-      "count": 16
+      "count": 19
     },
     {
       "components": [
@@ -632,7 +614,6 @@
         "python-openstackclient",
         "python-openstacksdk",
         "python-osc-lib",
-        "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils"
       ],
@@ -672,16 +653,7 @@
     {
       "components": [
         "conda",
-        "libmamba",
-        "python-menuinst"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
+        "libmamba"
       ],
       "count": 3
     },
@@ -698,6 +670,20 @@
         "grpc",
         "python-google-api-core",
         "python-proto-plus"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-cinderclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils"
       ],
       "count": 3
     },
