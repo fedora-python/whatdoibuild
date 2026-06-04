@@ -43,15 +43,14 @@ gnuradio
 grpc
 python-holidays
 python-hypothesmith
+python-ipykernel::bootstrap:::
 jc
 emacs-jedi
-python-jupyter-client::bootstrap:::
 python-jwcrypto
 python-kaptan
 libmamba
 librealsense
 python-linuxdoc
-python-logbook
 python-lupa
 python3-mallard-ducktype
 manifold:python::::
@@ -61,6 +60,7 @@ python-matplotlib
 python-mirrors-countme
 moose
 python-nagiosplugin
+python-nbclient::bootstrap:::
 python-neovim
 net-snmp
 python-oslo-i18n:::with_doc::
@@ -76,6 +76,7 @@ pylint
 python-pymdown-extensions
 pyproj
 python-pysdl2
+python-pyshark
 python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado

@@ -152,15 +152,6 @@
       ]
     },
     {
-      "component": "python-jupyter-client",
-      "count": 44,
-      "blocked_by": [
-        "python-ipykernel",
-        "python-jupyter-client",
-        "python-pytest-jupyter"
-      ]
-    },
-    {
       "component": "python-mdit-py-plugins",
       "count": 40,
       "blocked_by": [
@@ -215,7 +206,6 @@
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -246,8 +236,7 @@
       "count": 35,
       "blocked_by": [
         "python-ipykernel",
-        "python-ipyparallel",
-        "python-jupyter-client"
+        "python-ipyparallel"
       ]
     },
     {
@@ -266,7 +255,6 @@
         "python-httpx",
         "python-ipykernel",
         "python-ipywidgets",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -395,7 +383,6 @@
         "python-httpx",
         "python-ipykernel",
         "python-ipywidgets",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -538,13 +525,33 @@
       "count": 21,
       "blocked_by": [
         "python-ipykernel",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
         "python-nbclient",
         "python-nbconvert",
         "python-pytest-jupyter"
+      ]
+    },
+    {
+      "component": "snakemake",
+      "count": 21,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-flask",
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-google-cloud-storage",
+        "python-proto-plus",
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-requests-oauthlib",
+        "python-smart_open",
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3",
+        "python-sqlmodel"
       ]
     }
   ],
@@ -648,6 +655,14 @@
       ]
     },
     {
+      "component": "python-ipykernel",
+      "count": 6,
+      "blocked_by": [
+        "python-ipykernel",
+        "python-ipyparallel"
+      ]
+    },
+    {
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
@@ -687,13 +702,6 @@
       "count": 4,
       "blocked_by": [
         "python-Bottleneck",
-        "python-matplotlib"
-      ]
-    },
-    {
-      "component": "python-numpydoc",
-      "count": 4,
-      "blocked_by": [
         "python-matplotlib"
       ]
     }
@@ -812,13 +820,6 @@
     },
     {
       "components": [
-        "python-ipykernel",
-        "python-jupyter-client"
-      ],
-      "count": 6
-    },
-    {
-      "components": [
         "imath",
         "vtk"
       ],
@@ -858,6 +859,16 @@
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-azure-devtools",
+        "python-msrest",
+        "python-msrestazure",
+        "python-requests-oauthlib",
+        "python-vcrpy"
       ],
       "count": 4
     }
