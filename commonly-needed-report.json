@@ -227,7 +227,6 @@
       "count": 44,
       "blocked_by": [
         "python-aiohttp",
-        "python-enchant",
         "python-geoip2",
         "python-oracledb",
         "python-psycopg3",
@@ -499,7 +498,6 @@
         "ipython",
         "jupyterlab",
         "python-asttokens",
-        "python-enchant",
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
@@ -547,7 +545,6 @@
       "count": 24,
       "blocked_by": [
         "python-aiohttp",
-        "python-enchant",
         "python-geoip2",
         "python-oracledb",
         "python-psycopg3",
@@ -758,6 +755,14 @@
     },
     {
       "components": [
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-myst-parser"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
         "fedora-messaging",
         "python-crochet",
         "python-pika",
@@ -773,14 +778,6 @@
         "sympy"
       ],
       "count": 8
-    },
-    {
-      "components": [
-        "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-myst-parser"
-      ],
-      "count": 7
     },
     {
       "components": [
