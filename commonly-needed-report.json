@@ -149,8 +149,7 @@
       "count": 80,
       "blocked_by": [
         "python-oauthlib",
-        "python-requests-mock",
-        "python-selenium"
+        "python-requests-mock"
       ]
     },
     {
@@ -193,10 +192,6 @@
     {
       "component": "python-zmq",
       "count": 59
-    },
-    {
-      "component": "python-nbformat",
-      "count": 58
     },
     {
       "component": "python-rich-argparse",
@@ -294,7 +289,6 @@
         "python-asttokens",
         "python-ipykernel",
         "python-jupyter-client",
-        "python-nbformat",
         "python-pytest-jupyter",
         "python-stack-data",
         "python-zmq"
@@ -405,7 +399,6 @@
         "python-mistune",
         "python-nbclient",
         "python-nbconvert",
-        "python-nbformat",
         "python-notebook",
         "python-notebook-shim",
         "python-numcodecs",
@@ -477,7 +470,6 @@
         "python-mistune",
         "python-nbclient",
         "python-nbconvert",
-        "python-nbformat",
         "python-notebook",
         "python-notebook-shim",
         "python-stack-data",
@@ -498,6 +490,22 @@
         "python-markdown-it-py",
         "python-rich",
         "python-typer"
+      ]
+    },
+    {
+      "component": "python-oslo-utils",
+      "count": 31,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
       ]
     }
   ],
@@ -612,6 +620,13 @@
       "count": 7
     },
     {
+      "component": "python-pycurl",
+      "count": 7,
+      "blocked_by": [
+        "python-flask"
+      ]
+    },
+    {
       "component": "vtk",
       "count": 7,
       "blocked_by": [
@@ -629,13 +644,6 @@
       "blocked_by": [
         "librepo",
         "python-requests-mock"
-      ]
-    },
-    {
-      "component": "python-pycurl",
-      "count": 6,
-      "blocked_by": [
-        "python-flask"
       ]
     },
     {
@@ -791,6 +799,17 @@
     },
     {
       "components": [
+        "ipython",
+        "python-asttokens",
+        "python-ipykernel",
+        "python-jupyter-client",
+        "python-stack-data",
+        "python-zmq"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "python-fsspec",
         "python-mpmath",
         "python-torch",
@@ -831,17 +850,6 @@
         "python-msrestazure",
         "python-oauthlib",
         "python-requests-oauthlib"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "ipython",
-        "python-asttokens",
-        "python-ipykernel",
-        "python-jupyter-client",
-        "python-stack-data",
-        "python-zmq"
       ],
       "count": 5
     },
