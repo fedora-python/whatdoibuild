@@ -17,27 +17,9 @@
       ]
     },
     {
-      "component": "fonttools",
-      "count": 129,
-      "blocked_by": [
-        "fonttools",
-        "python-booleanoperations",
-        "python-cffsubr",
-        "python-contourpy",
-        "python-fontMath",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-mpmath",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
-    },
-    {
       "component": "python-contourpy",
       "count": 114,
       "blocked_by": [
-        "fonttools",
         "python-contourpy",
         "python-matplotlib"
       ]
@@ -46,7 +28,6 @@
       "component": "python-matplotlib",
       "count": 111,
       "blocked_by": [
-        "fonttools",
         "python-contourpy",
         "python-wxpython4"
       ]
@@ -87,10 +68,6 @@
       ]
     },
     {
-      "component": "python-yarl",
-      "count": 86
-    },
-    {
       "component": "python-httpx",
       "count": 85,
       "blocked_by": [
@@ -110,10 +87,7 @@
     },
     {
       "component": "python-aiohttp",
-      "count": 81,
-      "blocked_by": [
-        "python-yarl"
-      ]
+      "count": 81
     },
     {
       "component": "python-requests-oauthlib",
@@ -194,8 +168,7 @@
       "blocked_by": [
         "python-aiohttp",
         "python-oauthlib",
-        "python-requests-oauthlib",
-        "python-yarl"
+        "python-requests-oauthlib"
       ]
     },
     {
@@ -205,8 +178,7 @@
         "gpgmepy",
         "python-aiohttp",
         "python-markdown-it-py",
-        "python-rich",
-        "python-yarl"
+        "python-rich"
       ]
     },
     {
@@ -265,8 +237,7 @@
         "python-oracledb",
         "python-psycopg3",
         "python-sphinxcontrib-spelling",
-        "python-tblib",
-        "python-yarl"
+        "python-tblib"
       ]
     },
     {
@@ -341,7 +312,6 @@
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyterlab-server",
-        "python-locket",
         "python-mistune",
         "python-nbclient",
         "python-nbconvert",
@@ -351,7 +321,6 @@
         "python-partd",
         "python-stack-data",
         "python-tblib",
-        "python-yarl",
         "python-zarr",
         "python-zict",
         "python-zmq"
@@ -383,7 +352,6 @@
       "component": "python-mpmath",
       "count": 33,
       "blocked_by": [
-        "fonttools",
         "ipython",
         "python-asttokens",
         "python-contourpy",
@@ -476,7 +444,6 @@
       "component": "sympy",
       "count": 30,
       "blocked_by": [
-        "fonttools",
         "ipython",
         "llvm",
         "python-asttokens",
@@ -521,6 +488,47 @@
         "python-rich-argparse",
         "python-stestr"
       ]
+    },
+    {
+      "component": "vtk",
+      "count": 28,
+      "blocked_by": [
+        "imath",
+        "vtk"
+      ]
+    },
+    {
+      "component": "python-nbconvert",
+      "count": 28,
+      "blocked_by": [
+        "ipython",
+        "jupyterlab",
+        "python-asttokens",
+        "python-enchant",
+        "python-httpcore",
+        "python-httpx",
+        "python-ipykernel",
+        "python-ipywidgets",
+        "python-jupyter-client",
+        "python-jupyter-events",
+        "python-jupyter-lsp",
+        "python-jupyter-server",
+        "python-jupyterlab-server",
+        "python-jupyterlab-widgets",
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-mistune",
+        "python-myst-parser",
+        "python-nbclient",
+        "python-nbconvert",
+        "python-nbsphinx",
+        "python-notebook",
+        "python-notebook-shim",
+        "python-pydata-sphinx-theme",
+        "python-sphinxcontrib-spelling",
+        "python-stack-data",
+        "python-zmq"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -534,13 +542,12 @@
         "python-oracledb",
         "python-psycopg3",
         "python-sphinxcontrib-spelling",
-        "python-tblib",
-        "python-yarl"
+        "python-tblib"
       ]
     },
     {
       "component": "python-flask",
-      "count": 20,
+      "count": 22,
       "blocked_by": [
         "python-dotenv",
         "python-sphinx-tabs"
@@ -563,8 +570,12 @@
       ]
     },
     {
+      "component": "python-aiohttp",
+      "count": 17
+    },
+    {
       "component": "python-Bottleneck",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "python-numpydoc"
       ]
@@ -572,23 +583,6 @@
     {
       "component": "python-sqlalchemy",
       "count": 12
-    },
-    {
-      "component": "fonttools",
-      "count": 11,
-      "blocked_by": [
-        "fonttools",
-        "python-booleanoperations",
-        "python-cffsubr",
-        "python-contourpy",
-        "python-fontMath",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-mpmath",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
     },
     {
       "component": "python-furo",
@@ -670,6 +664,13 @@
       ]
     },
     {
+      "component": "python-peewee",
+      "count": 5,
+      "blocked_by": [
+        "python-psycopg3"
+      ]
+    },
+    {
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
@@ -679,15 +680,6 @@
       "count": 5,
       "blocked_by": [
         "python-requests-futures"
-      ]
-    },
-    {
-      "component": "python-dotenv",
-      "count": 4,
-      "blocked_by": [
-        "ipython",
-        "python-asttokens",
-        "python-stack-data"
       ]
     }
   ],
@@ -702,18 +694,10 @@
     },
     {
       "components": [
-        "fonttools",
         "python-contourpy",
         "python-matplotlib"
       ],
       "count": 26
-    },
-    {
-      "components": [
-        "python-aiohttp",
-        "python-yarl"
-      ],
-      "count": 17
     },
     {
       "components": [
@@ -759,8 +743,7 @@
         "python-oauthlib",
         "python-pytest-aiohttp",
         "python-requests-oauthlib",
-        "python-vcrpy",
-        "python-yarl"
+        "python-vcrpy"
       ],
       "count": 9
     },
@@ -867,6 +850,17 @@
         "ipython",
         "python-asttokens",
         "python-stack-data"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-adal",
+        "python-jwt",
+        "python-msrest",
+        "python-msrestazure",
+        "python-oauthlib",
+        "python-requests-oauthlib"
       ],
       "count": 5
     }
