@@ -20,7 +20,6 @@
       "component": "python-pydantic-core",
       "count": 107,
       "blocked_by": [
-        "python-Bottleneck",
         "python-inline-snapshot",
         "python-markdown-it-py",
         "python-rich"
@@ -53,10 +52,6 @@
         "python-rich",
         "python-uvicorn"
       ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 82
     },
     {
       "component": "python-requests-oauthlib",
@@ -198,7 +193,6 @@
         "python-fsspec",
         "python-httpcore",
         "python-httpx",
-        "python-ipykernel",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -221,14 +215,6 @@
         "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-pytest-regressions"
-      ]
-    },
-    {
-      "component": "python-ipykernel",
-      "count": 35,
-      "blocked_by": [
-        "python-ipykernel",
-        "python-ipyparallel"
       ]
     },
     {
@@ -343,7 +329,6 @@
         "jupyterlab",
         "python-httpcore",
         "python-httpx",
-        "python-ipykernel",
         "python-ipywidgets",
         "python-jupyter-events",
         "python-jupyter-lsp",
@@ -485,7 +470,6 @@
       "component": "python-jupyter-server",
       "count": 21,
       "blocked_by": [
-        "python-ipykernel",
         "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
@@ -497,7 +481,6 @@
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-Bottleneck",
         "python-flask",
         "python-google-api-core",
         "python-google-cloud-core",
@@ -539,6 +522,23 @@
         "python-rich",
         "python-typer"
       ]
+    },
+    {
+      "component": "python-starlette",
+      "count": 18,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-astropy",
+      "count": 18,
+      "blocked_by": [
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -555,10 +555,6 @@
       "blocked_by": [
         "python-breathe"
       ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 22
     },
     {
       "component": "python-twisted",
@@ -614,28 +610,8 @@
       ]
     },
     {
-      "component": "python-requests-mock",
-      "count": 7,
-      "blocked_by": [
-        "python-requests-futures"
-      ]
-    },
-    {
-      "component": "python-watchdog",
-      "count": 6,
-      "unresolvable": true
-    },
-    {
-      "component": "python-flexmock",
-      "count": 6,
-      "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
-      ]
-    },
-    {
       "component": "sympy",
-      "count": 6,
+      "count": 7,
       "blocked_by": [
         "llvm",
         "python-furo",
@@ -645,11 +621,38 @@
       ]
     },
     {
-      "component": "python-ipykernel",
+      "component": "python-requests-mock",
+      "count": 7,
+      "blocked_by": [
+        "python-requests-futures"
+      ]
+    },
+    {
+      "component": "python-peewee",
       "count": 6,
       "blocked_by": [
-        "python-ipykernel",
-        "python-ipyparallel"
+        "python-psycopg3"
+      ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 6,
+      "unresolvable": true
+    },
+    {
+      "component": "python-pyqtgraph",
+      "count": 6,
+      "blocked_by": [
+        "python-pydata-sphinx-theme",
+        "python-sphinx-design"
+      ]
+    },
+    {
+      "component": "python-flexmock",
+      "count": 6,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
       ]
     },
     {
@@ -674,21 +677,6 @@
       "count": 5
     },
     {
-      "component": "python-peewee",
-      "count": 5,
-      "blocked_by": [
-        "python-psycopg3"
-      ]
-    },
-    {
-      "component": "python-pyqtgraph",
-      "count": 5,
-      "blocked_by": [
-        "python-pydata-sphinx-theme",
-        "python-sphinx-design"
-      ]
-    },
-    {
       "component": "python-astropy",
       "count": 5,
       "blocked_by": [
@@ -696,6 +684,17 @@
         "python-pytest-astropy",
         "python-scikit-image"
       ]
+    },
+    {
+      "component": "imath",
+      "count": 4,
+      "blocked_by": [
+        "python-breathe"
+      ]
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
