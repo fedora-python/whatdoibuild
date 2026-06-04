@@ -28,8 +28,7 @@
       "component": "python-matplotlib",
       "count": 111,
       "blocked_by": [
-        "python-contourpy",
-        "python-wxpython4"
+        "python-contourpy"
       ]
     },
     {
@@ -558,7 +557,7 @@
     },
     {
       "component": "dnf5",
-      "count": 20,
+      "count": 21,
       "blocked_by": [
         "python-breathe"
       ]
@@ -578,7 +577,7 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 13,
+      "count": 15,
       "blocked_by": [
         "python-numpydoc"
       ]
@@ -604,6 +603,14 @@
       "unresolvable": true
     },
     {
+      "component": "vtk",
+      "count": 8,
+      "blocked_by": [
+        "imath",
+        "vtk"
+      ]
+    },
+    {
       "component": "koji",
       "count": 7,
       "blocked_by": [
@@ -612,22 +619,10 @@
       ]
     },
     {
-      "component": "python-wxpython4",
-      "count": 7
-    },
-    {
       "component": "python-pycurl",
       "count": 7,
       "blocked_by": [
         "python-flask"
-      ]
-    },
-    {
-      "component": "vtk",
-      "count": 7,
-      "blocked_by": [
-        "imath",
-        "vtk"
       ]
     },
     {
@@ -689,6 +684,13 @@
         "python-asttokens",
         "python-stack-data"
       ]
+    },
+    {
+      "component": "imath",
+      "count": 4,
+      "blocked_by": [
+        "python-breathe"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -705,7 +707,7 @@
         "python-contourpy",
         "python-matplotlib"
       ],
-      "count": 27
+      "count": 28
     },
     {
       "components": [
@@ -756,12 +758,29 @@
     },
     {
       "components": [
+        "fedora-messaging",
+        "python-crochet",
+        "python-pika",
+        "python-twisted"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
         "python-fsspec",
         "python-mpmath",
         "python-torch",
         "sympy"
       ],
       "count": 8
+    },
+    {
+      "components": [
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-myst-parser"
+      ],
+      "count": 7
     },
     {
       "components": [
@@ -789,27 +808,10 @@
     },
     {
       "components": [
-        "fedora-messaging",
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
         "python-httpcore",
         "python-httpx"
       ],
       "count": 7
-    },
-    {
-      "components": [
-        "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-myst-parser"
-      ],
-      "count": 6
     },
     {
       "components": [
