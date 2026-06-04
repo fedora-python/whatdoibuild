@@ -1,9 +1,0 @@
-diff --git a/python-llm.spec b/python-llm.spec
-index 3546dc3..b523724 100644
---- a/python-llm.spec
-+++ b/python-llm.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %bcond_without  tests
- %bcond_without  docs
- 

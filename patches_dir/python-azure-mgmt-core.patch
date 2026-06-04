@@ -1,9 +1,0 @@
-diff --git a/python-azure-mgmt-core.spec b/python-azure-mgmt-core.spec
-index ab39b8d..4657cbf 100644
---- a/python-azure-mgmt-core.spec
-+++ b/python-azure-mgmt-core.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- # EPEL9 does not have python-aiohttp packaged yet.
- %if 0%{?fedora}
- %bcond_without  tests
