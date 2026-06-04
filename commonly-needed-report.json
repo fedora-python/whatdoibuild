@@ -48,10 +48,6 @@
       ]
     },
     {
-      "component": "python-vcrpy",
-      "count": 23
-    },
-    {
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
@@ -60,10 +56,6 @@
         "python-google-cloud-storage",
         "python-proto-plus"
       ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 22
     },
     {
       "component": "snakemake",
@@ -103,10 +95,7 @@
     },
     {
       "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
+      "count": 16
     },
     {
       "component": "python-pika",
@@ -145,10 +134,7 @@
     },
     {
       "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
+      "count": 14
     },
     {
       "component": "pyproj",
@@ -171,10 +157,7 @@
     },
     {
       "component": "python-azure-devtools",
-      "count": 13,
-      "blocked_by": [
-        "python-vcrpy"
-      ]
+      "count": 13
     },
     {
       "component": "fedora-messaging",
@@ -203,10 +186,6 @@
     },
     {
       "component": "python-partd",
-      "count": 12
-    },
-    {
-      "component": "python-cinderclient",
       "count": 12
     },
     {
@@ -249,7 +228,6 @@
       "count": 11,
       "blocked_by": [
         "python-aodhclient",
-        "python-cinderclient",
         "python-futurist",
         "python-gnocchiclient",
         "python-heatclient",
@@ -260,10 +238,8 @@
         "python-neutronclient",
         "python-octaviaclient",
         "python-openstackclient",
-        "python-openstacksdk",
         "python-osc-lib",
         "python-osc-placement",
-        "python-oslo-log",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
@@ -339,10 +315,6 @@
       ]
     },
     {
-      "component": "python-pbs-installer",
-      "count": 8
-    },
-    {
       "component": "python-tables",
       "count": 8,
       "blocked_by": [
@@ -383,6 +355,35 @@
       "blocked_by": [
         "vtk"
       ]
+    },
+    {
+      "component": "python-pyqtgraph",
+      "count": 7,
+      "blocked_by": [
+        "python-pydata-sphinx-theme"
+      ]
+    },
+    {
+      "component": "python-jupyterlab-widgets",
+      "count": 7,
+      "blocked_by": [
+        "jupyterlab"
+      ]
+    },
+    {
+      "component": "poetry",
+      "count": 7,
+      "blocked_by": [
+        "python-CacheControl"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "python-pywt",
+        "pythran"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -400,6 +401,10 @@
       "blocked_by": [
         "vtk"
       ]
+    },
+    {
+      "component": "python-azure-devtools",
+      "count": 13
     },
     {
       "component": "sympy",
@@ -424,19 +429,11 @@
       "count": 7
     },
     {
-      "component": "python-vcrpy",
-      "count": 7
-    },
-    {
       "component": "python-pyqtgraph",
       "count": 6,
       "blocked_by": [
         "python-pydata-sphinx-theme"
       ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 6
     },
     {
       "component": "ansible-core",
@@ -466,6 +463,14 @@
       ]
     },
     {
+      "component": "python-gitlab",
+      "count": 4,
+      "blocked_by": [
+        "python-gql",
+        "python-respx"
+      ]
+    },
+    {
       "component": "python-sphinxcontrib-bibtex",
       "count": 4,
       "blocked_by": [
@@ -492,19 +497,15 @@
       "count": 4
     },
     {
-      "component": "python-gitlab",
-      "count": 3,
-      "blocked_by": [
-        "python-gql",
-        "python-respx"
-      ]
-    },
-    {
       "component": "python-specfile",
       "count": 3,
       "blocked_by": [
         "python-flexmock"
       ]
+    },
+    {
+      "component": "python-starlette",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -518,19 +519,20 @@
     },
     {
       "components": [
-        "python-azure-devtools",
-        "python-vcrpy"
-      ],
-      "count": 13
-    },
-    {
-      "components": [
         "fedora-messaging",
         "python-crochet",
         "python-pika",
         "python-twisted"
       ],
       "count": 9
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-osc-lib"
+      ],
+      "count": 8
     },
     {
       "components": [
@@ -551,20 +553,9 @@
     {
       "components": [
         "poetry",
-        "python-CacheControl",
-        "python-pbs-installer"
+        "python-CacheControl"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "python-cinderclient",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 5
     },
     {
       "components": [
@@ -605,17 +596,6 @@
     },
     {
       "components": [
-        "python-cinderclient",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-oslo-log"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "OpenColorIO",
         "vtk"
       ],
@@ -638,13 +618,6 @@
     },
     {
       "components": [
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-trimesh",
         "vtk"
       ],
@@ -661,6 +634,29 @@
       "components": [
         "python-fsspec",
         "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "grpc",
+        "python-grpcio-gcp",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-osc-lib"
       ],
       "count": 2
     }
