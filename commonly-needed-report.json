@@ -103,10 +103,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-sqlalchemy",
-      "count": 77
-    },
-    {
       "component": "python-flask",
       "count": 68,
       "blocked_by": [
@@ -529,9 +525,24 @@
         "python-stack-data",
         "python-zmq"
       ]
+    },
+    {
+      "component": "python-throttler",
+      "count": 26,
+      "blocked_by": [
+        "python-aiohttp"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-flask",
+      "count": 24,
+      "blocked_by": [
+        "python-dotenv",
+        "python-sphinx-tabs"
+      ]
+    },
     {
       "component": "python-django6",
       "count": 24,
@@ -546,19 +557,15 @@
       ]
     },
     {
-      "component": "python-flask",
-      "count": 22,
-      "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
-      ]
-    },
-    {
       "component": "dnf5",
-      "count": 19,
+      "count": 20,
       "blocked_by": [
         "python-breathe"
       ]
+    },
+    {
+      "component": "python-aiohttp",
+      "count": 18
     },
     {
       "component": "python-twisted",
@@ -570,19 +577,11 @@
       ]
     },
     {
-      "component": "python-aiohttp",
-      "count": 17
-    },
-    {
       "component": "python-Bottleneck",
       "count": 13,
       "blocked_by": [
         "python-numpydoc"
       ]
-    },
-    {
-      "component": "python-sqlalchemy",
-      "count": 12
     },
     {
       "component": "python-furo",
@@ -681,6 +680,15 @@
       "blocked_by": [
         "python-requests-futures"
       ]
+    },
+    {
+      "component": "python-dotenv",
+      "count": 4,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-stack-data"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -697,14 +705,14 @@
         "python-contourpy",
         "python-matplotlib"
       ],
-      "count": 26
+      "count": 27
     },
     {
       "components": [
         "python-markdown-it-py",
         "python-rich"
       ],
-      "count": 15
+      "count": 16
     },
     {
       "components": [
@@ -715,22 +723,21 @@
     },
     {
       "components": [
-        "mkdocs",
-        "python-watchdog"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
         "python-pydantic",
         "python-pydantic-core",
         "python-smart_open",
         "python-snakemake-interface-executor-plugins",
         "python-snakemake-interface-storage-plugins",
-        "python-sqlalchemy",
         "python-sqlmodel",
         "python-throttler",
         "snakemake"
+      ],
+      "count": 11
+    },
+    {
+      "components": [
+        "mkdocs",
+        "python-watchdog"
       ],
       "count": 10
     },
@@ -791,6 +798,13 @@
     },
     {
       "components": [
+        "python-httpcore",
+        "python-httpx"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
         "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-myst-parser"
@@ -801,13 +815,6 @@
       "components": [
         "python-importlib-metadata",
         "python-zipp"
-      ],
-      "count": 6
-    },
-    {
-      "components": [
-        "python-httpcore",
-        "python-httpx"
       ],
       "count": 6
     },
@@ -840,8 +847,7 @@
       "components": [
         "gnuradio",
         "python-pyqtgraph",
-        "python-zmq",
-        "uhd"
+        "python-zmq"
       ],
       "count": 5
     },
