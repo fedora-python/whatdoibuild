@@ -437,9 +437,6 @@ withs = ["bootstrap"]
 [[bconds.python-httpx]]
 withouts = ["tests"]
 
-[[bconds.python-oslo-i18n]]
-replacements = {with_doc = "0"}
-
 [[bconds.python-pymssql]]
 withouts = ["tests"]
 
