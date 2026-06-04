@@ -216,16 +216,6 @@
       ]
     },
     {
-      "component": "python-django6",
-      "count": 44,
-      "blocked_by": [
-        "python-geoip2",
-        "python-oracledb",
-        "python-psycopg3",
-        "python-tblib"
-      ]
-    },
-    {
       "component": "python-dotenv",
       "count": 42,
       "blocked_by": [
@@ -513,10 +503,6 @@
       ]
     },
     {
-      "component": "python-throttler",
-      "count": 26
-    },
-    {
       "component": "python-oslo-config",
       "count": 25,
       "blocked_by": [
@@ -537,6 +523,34 @@
         "python-rich-argparse",
         "python-stestr"
       ]
+    },
+    {
+      "component": "python-oslo-serialization",
+      "count": 24,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-openstackdocstheme",
+        "python-oslo-i18n",
+        "python-oslo-utils",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-sqlmodel",
+      "count": 24,
+      "blocked_by": [
+        "python-fastapi",
+        "python-httpcore",
+        "python-httpx",
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-starlette"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -546,16 +560,6 @@
       "blocked_by": [
         "python-dotenv",
         "python-sphinx-tabs"
-      ]
-    },
-    {
-      "component": "python-django6",
-      "count": 24,
-      "blocked_by": [
-        "python-geoip2",
-        "python-oracledb",
-        "python-psycopg3",
-        "python-tblib"
       ]
     },
     {
@@ -651,10 +655,7 @@
     },
     {
       "component": "grpc",
-      "count": 5,
-      "blocked_by": [
-        "python-google-auth"
-      ]
+      "count": 5
     },
     {
       "component": "python-peewee",
@@ -699,6 +700,14 @@
         "python-contourpy",
         "python-matplotlib"
       ]
+    },
+    {
+      "component": "python-vcrpy",
+      "count": 4,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -739,7 +748,6 @@
         "python-snakemake-interface-executor-plugins",
         "python-snakemake-interface-storage-plugins",
         "python-sqlmodel",
-        "python-throttler",
         "snakemake"
       ],
       "count": 11
@@ -757,7 +765,6 @@
         "python-dotenv",
         "python-msrest",
         "python-oauthlib",
-        "python-pytest-aiohttp",
         "python-requests-oauthlib",
         "python-vcrpy"
       ],
@@ -769,6 +776,13 @@
         "python-httpx"
       ],
       "count": 9
+    },
+    {
+      "components": [
+        "python-oauthlib",
+        "python-requests-oauthlib"
+      ],
+      "count": 8
     },
     {
       "components": [
@@ -795,13 +809,6 @@
         "sympy"
       ],
       "count": 8
-    },
-    {
-      "components": [
-        "python-oauthlib",
-        "python-requests-oauthlib"
-      ],
-      "count": 7
     },
     {
       "components": [
