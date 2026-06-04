@@ -56,10 +56,7 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 82,
-      "blocked_by": [
-        "python-numpydoc"
-      ]
+      "count": 82
     },
     {
       "component": "python-requests-oauthlib",
@@ -207,7 +204,6 @@
         "python-jupyter-server",
         "python-jupyterlab-server",
         "python-mistune",
-        "python-nbclient",
         "python-nbconvert",
         "python-notebook",
         "python-notebook-shim",
@@ -233,31 +229,6 @@
       "blocked_by": [
         "python-ipykernel",
         "python-ipyparallel"
-      ]
-    },
-    {
-      "component": "python-mpmath",
-      "count": 33
-    },
-    {
-      "component": "python-nbclient",
-      "count": 32,
-      "blocked_by": [
-        "jupyterlab",
-        "python-httpcore",
-        "python-httpx",
-        "python-ipykernel",
-        "python-ipywidgets",
-        "python-jupyter-events",
-        "python-jupyter-lsp",
-        "python-jupyter-server",
-        "python-jupyterlab-server",
-        "python-jupyterlab-widgets",
-        "python-mistune",
-        "python-nbclient",
-        "python-nbconvert",
-        "python-notebook",
-        "python-notebook-shim"
       ]
     },
     {
@@ -323,7 +294,6 @@
         "python-furo",
         "python-markdown-it-py",
         "python-mdit-py-plugins",
-        "python-mpmath",
         "python-myst-parser"
       ]
     },
@@ -384,7 +354,6 @@
         "python-mdit-py-plugins",
         "python-mistune",
         "python-myst-parser",
-        "python-nbclient",
         "python-nbconvert",
         "python-nbsphinx",
         "python-notebook",
@@ -520,7 +489,6 @@
         "python-jupyter-events",
         "python-jupyter-server",
         "python-mistune",
-        "python-nbclient",
         "python-nbconvert",
         "python-pytest-jupyter"
       ]
@@ -550,8 +518,26 @@
       "component": "python-shapely",
       "count": 20,
       "blocked_by": [
-        "pyproj",
-        "python-scipy-doctest"
+        "pyproj"
+      ]
+    },
+    {
+      "component": "python-jaraco-text",
+      "count": 20,
+      "blocked_by": [
+        "python-markdown-it-py",
+        "python-rich",
+        "python-typer"
+      ]
+    },
+    {
+      "component": "python-jaraco-collections",
+      "count": 19,
+      "blocked_by": [
+        "python-jaraco-text",
+        "python-markdown-it-py",
+        "python-rich",
+        "python-typer"
       ]
     }
   ],
@@ -572,10 +558,7 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 22,
-      "blocked_by": [
-        "python-numpydoc"
-      ]
+      "count": 22
     },
     {
       "component": "python-twisted",
@@ -651,6 +634,17 @@
       ]
     },
     {
+      "component": "sympy",
+      "count": 6,
+      "blocked_by": [
+        "llvm",
+        "python-furo",
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-myst-parser"
+      ]
+    },
+    {
       "component": "python-ipykernel",
       "count": 6,
       "blocked_by": [
@@ -701,13 +695,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "imath",
-      "count": 4,
-      "blocked_by": [
-        "python-breathe"
       ]
     }
   ],
@@ -786,7 +773,6 @@
     {
       "components": [
         "python-fsspec",
-        "python-mpmath",
         "python-torch",
         "sympy"
       ],
@@ -832,8 +818,9 @@
     },
     {
       "components": [
-        "python-mpmath",
-        "sympy"
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
       ],
       "count": 5
     },
@@ -854,14 +841,6 @@
     },
     {
       "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-azure-devtools",
         "python-msrest",
         "python-msrestazure",
@@ -876,6 +855,14 @@
         "python-httpx",
         "python-pydantic",
         "python-pydantic-core"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-hupper",
+        "python-pyramid",
+        "python-zope-deprecation"
       ],
       "count": 4
     }
