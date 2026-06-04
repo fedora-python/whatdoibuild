@@ -51,10 +51,7 @@
     },
     {
       "component": "python-oauthlib",
-      "count": 89,
-      "blocked_by": [
-        "python-jwt"
-      ]
+      "count": 89
     },
     {
       "component": "python-httpcore",
@@ -196,11 +193,6 @@
         "python-httpcore",
         "python-httpx"
       ]
-    },
-    {
-      "component": "python-jwt",
-      "count": 46,
-      "unresolvable": true
     },
     {
       "component": "python-jupyter-client",
@@ -551,6 +543,20 @@
         "python-pydantic-core",
         "python-starlette"
       ]
+    },
+    {
+      "component": "python-debtcollector",
+      "count": 23,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-openstackdocstheme",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -599,11 +605,6 @@
         "python-sphinx-tabs",
         "python-sphinx-theme-builder"
       ]
-    },
-    {
-      "component": "python-jwt",
-      "count": 10,
-      "unresolvable": true
     },
     {
       "component": "vtk",
@@ -707,6 +708,10 @@
         "python-httpcore",
         "python-httpx"
       ]
+    },
+    {
+      "component": "python-zmq",
+      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -758,6 +763,13 @@
     },
     {
       "components": [
+        "python-oauthlib",
+        "python-requests-oauthlib"
+      ],
+      "count": 9
+    },
+    {
+      "components": [
         "python-azure-devtools",
         "python-dotenv",
         "python-msrest",
@@ -773,13 +785,6 @@
         "python-httpx"
       ],
       "count": 9
-    },
-    {
-      "components": [
-        "python-oauthlib",
-        "python-requests-oauthlib"
-      ],
-      "count": 8
     },
     {
       "components": [
@@ -875,7 +880,6 @@
     {
       "components": [
         "python-adal",
-        "python-jwt",
         "python-msrest",
         "python-msrestazure",
         "python-oauthlib",

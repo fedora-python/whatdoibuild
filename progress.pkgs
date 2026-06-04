@@ -1,11 +1,14 @@
 Io-language
+conan
 copr-cli
 criu
 dnf-plugin-diff
+ipsilon
 khal
 kmymoney
 libreoffice
 monkeytype
+picard
 pykakasi
 python-XStatic
 python-XStatic-Angular-UUID
@@ -18,11 +21,11 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
+python-adal
 python-alembic1.14
 python-ansible-pylibssh
 python-apipkg
 python-autodocsumm
-python-beaker
 python-beartype
 python-biopython
 python-catkin_tools
@@ -33,7 +36,6 @@ python-contourpy::bootstrap:::
 dionaea
 root
 python-django-configurations
-python-django-q
 dnf-plugin-perfmetrics
 python-exceptiongroup
 python-exiv2
@@ -41,10 +43,12 @@ python-extractcode
 python-fields
 python-fitsio
 python-geotiler
+python-github3py
 gnulib
 grpc
 python-holidays
 python-hypothesmith
+python-ibm-cloud-sdk-core
 jc
 emacs-jedi
 python-jwcrypto
@@ -59,12 +63,12 @@ python-markdown-callouts
 python-mathics-scanner
 python-mirrors-countme
 moose
+python-msal::bootstrap:::
 python-nagiosplugin
 python-neovim
 net-snmp
-python-openid-cla
+python-oauthlib
 python-oslo-i18n:::with_doc::
-python-paste-script
 petsc
 roca-detect
 python-phply
@@ -72,6 +76,7 @@ python-pluginlib
 protobuf
 python-psycopg3
 python-pygeoif
+python-PyGithub
 python-pyglet
 pylint
 python-pymdown-extensions
@@ -89,6 +94,7 @@ python-readme-renderer
 python-requirements-parser
 python-rstr
 python-scales
+python-scitokens
 python-sentinels
 python-slackclient
 python-sphinx-argparse-cli
@@ -99,6 +105,7 @@ python-sshtunnel
 python-tpm2-pytss
 python-translitcodec
 python-triton
+python-twilio
 python-vcstool
 python-webrtcvad
 xapian-bindings
