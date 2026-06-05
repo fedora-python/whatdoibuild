@@ -4,7 +4,6 @@
       "component": "python-fsspec",
       "count": 36,
       "blocked_by": [
-        "libarrow",
         "python-dask",
         "python-distributed",
         "python-fsspec",
@@ -53,18 +52,6 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 18,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ]
-    },
-    {
-      "component": "libarrow",
-      "count": 15
-    },
-    {
       "component": "grpc",
       "count": 14
     },
@@ -94,7 +81,6 @@
       "component": "python-dask",
       "count": 11,
       "blocked_by": [
-        "libarrow",
         "python-blosc2",
         "python-dask",
         "python-distributed",
@@ -126,7 +112,6 @@
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
-        "python-astropy",
         "python-blosc2",
         "python-ndindex",
         "python-tables"
@@ -170,7 +155,6 @@
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
-        "libarrow",
         "python-dask",
         "python-fsspec",
         "python-partd",
@@ -193,7 +177,6 @@
       "component": "python-pyogrio",
       "count": 7,
       "blocked_by": [
-        "libarrow",
         "python-geopandas",
         "python-pyogrio"
       ]
@@ -274,7 +257,6 @@
       "component": "python-geopandas",
       "count": 5,
       "blocked_by": [
-        "libarrow",
         "python-fiona",
         "python-fsspec",
         "python-mapclassify",
@@ -341,7 +323,6 @@
       "component": "python-astropy-healpix",
       "count": 3,
       "blocked_by": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
@@ -370,6 +351,17 @@
       "blocked_by": [
         "python-eth-keys"
       ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 3,
+      "blocked_by": [
+        "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-lupa",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
@@ -402,7 +394,6 @@
       "component": "python-fsspec",
       "count": 6,
       "blocked_by": [
-        "libarrow",
         "python-dask",
         "python-distributed",
         "python-fsspec",
@@ -412,20 +403,8 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 5,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ]
-    },
-    {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "libarrow",
-      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -500,6 +479,22 @@
     {
       "component": "python-eventlet",
       "count": 2
+    },
+    {
+      "component": "python-hupper",
+      "count": 2,
+      "unresolvable": true
+    },
+    {
+      "component": "python-xarray",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-fsspec",
+        "python-partd",
+        "python-rasterio",
+        "python-zarr"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -520,11 +515,10 @@
     },
     {
       "components": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ],
-      "count": 6
+      "count": 7
     },
     {
       "components": [
@@ -535,18 +529,18 @@
     },
     {
       "components": [
-        "python-hupper",
-        "python-pyramid"
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
       ],
       "count": 4
     },
     {
       "components": [
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
+        "python-hupper",
+        "python-pyramid"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "components": [
@@ -583,6 +577,13 @@
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-geopandas",
+        "python-pyogrio"
       ],
       "count": 2
     },
@@ -648,13 +649,6 @@
       "components": [
         "python-croniter",
         "python-treq"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "netgen-mesher",
-        "vtk"
       ],
       "count": 1
     }
