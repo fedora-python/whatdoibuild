@@ -4,7 +4,6 @@
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
-        "python-google-api-core",
         "python-google-cloud-core",
         "python-google-cloud-storage"
       ]
@@ -13,7 +12,6 @@
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-google-api-core",
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-smart_open",
@@ -22,10 +20,6 @@
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3"
       ]
-    },
-    {
-      "component": "python-google-api-core",
-      "count": 12
     },
     {
       "component": "python-partd",
@@ -47,15 +41,8 @@
       "count": 11
     },
     {
-      "component": "python-pytest-arraydiff",
-      "count": 10
-    },
-    {
       "component": "python-pytest-astropy",
-      "count": 9,
-      "blocked_by": [
-        "python-pytest-arraydiff"
-      ]
+      "count": 9
     },
     {
       "component": "python-hupper",
@@ -81,10 +68,6 @@
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "OpenColorIO",
-      "count": 6
     },
     {
       "component": "python-pyramid",
@@ -119,10 +102,7 @@
     },
     {
       "component": "python-google-cloud-core",
-      "count": 6,
-      "blocked_by": [
-        "python-google-api-core"
-      ]
+      "count": 6
     },
     {
       "component": "python-readme-renderer",
@@ -154,7 +134,6 @@
       "component": "python-google-cloud-storage",
       "count": 4,
       "blocked_by": [
-        "python-google-api-core",
         "python-google-cloud-core"
       ]
     },
@@ -182,7 +161,6 @@
       "component": "python-astropy-healpix",
       "count": 3,
       "blocked_by": [
-        "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
     },
@@ -232,17 +210,11 @@
     },
     {
       "component": "materialx",
-      "count": 2,
-      "blocked_by": [
-        "OpenColorIO"
-      ]
+      "count": 2
     },
     {
       "component": "google-api-python-client",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core"
-      ]
+      "count": 2
     },
     {
       "component": "python-spdx-tools",
@@ -285,7 +257,6 @@
         "python-astropy-healpix",
         "python-dask",
         "python-partd",
-        "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
     },
@@ -304,7 +275,6 @@
       "component": "python-pyvo",
       "count": 2,
       "blocked_by": [
-        "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
     },
@@ -316,6 +286,25 @@
         "python-partd",
         "python-zict"
       ]
+    },
+    {
+      "component": "python-eth-account",
+      "count": 2,
+      "blocked_by": [
+        "python-eth-keyfile",
+        "python-eth-keys"
+      ]
+    },
+    {
+      "component": "python-twine",
+      "count": 2,
+      "blocked_by": [
+        "python-readme-renderer"
+      ]
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -324,19 +313,15 @@
       "count": 9
     },
     {
+      "component": "python-pytest-astropy",
+      "count": 7
+    },
+    {
       "component": "python-pytest-django",
       "count": 6,
       "blocked_by": [
         "python-django-configurations"
       ]
-    },
-    {
-      "component": "OpenColorIO",
-      "count": 4
-    },
-    {
-      "component": "python-google-api-core",
-      "count": 4
     },
     {
       "component": "python-xarray",
@@ -364,6 +349,10 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
+    },
+    {
+      "component": "google-api-python-client",
+      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -397,10 +386,6 @@
       ]
     },
     {
-      "component": "python-AppTools",
-      "count": 2
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
@@ -424,6 +409,10 @@
       "unresolvable": true
     },
     {
+      "component": "python-google-cloud-core",
+      "count": 2
+    },
+    {
       "component": "opencv",
       "count": 2
     },
@@ -443,13 +432,6 @@
     },
     {
       "components": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
         "conda",
         "libmamba"
       ],
@@ -464,23 +446,9 @@
     },
     {
       "components": [
-        "google-api-python-client",
-        "python-google-api-core"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-google-api-core",
-        "python-google-cloud-core"
       ],
       "count": 2
     },
@@ -493,7 +461,6 @@
     },
     {
       "components": [
-        "OpenColorIO",
         "OpenImageIO",
         "materialx",
         "usd"
@@ -567,7 +534,6 @@
         "python-dask",
         "python-partd",
         "python-pyregion",
-        "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-reproject"
       ],
@@ -585,6 +551,31 @@
       "components": [
         "python-xarray",
         "python-xarray-einstats"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-geotiler",
+        "python-sport-activities-features"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-astropy-healpix",
+        "python-astroscrappy",
+        "python-dask",
+        "python-partd",
+        "python-reproject"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "conda",
+        "conda-build",
+        "libmamba"
       ],
       "count": 1
     }

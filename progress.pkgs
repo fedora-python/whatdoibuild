@@ -1,12 +1,13 @@
 Io-language
-OpenColorIO
 alot
 ansible-builder
+bidscoin
 dnf-plugin-diff
 fail2ban
 khal
 kicad
 kmymoney
+krita
 monkeytype
 netgen-mesher
 ocrmypdf
@@ -30,7 +31,6 @@ abiword
 python-alembic1.14
 ansible-lint
 python-apipkg
-python-AppTools
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
@@ -72,6 +72,7 @@ python-django-configurations
 dnf-plugin-perfmetrics
 python-elastic-transport
 python-environs
+python-envisage
 python-eth-event
 python-eventlet
 python-exceptiongroup
@@ -83,9 +84,9 @@ python-fsleyes
 python-geopmpy
 python-geotiler
 gnulib
-python-google-api-core
+google-api-python-client
+python-google-cloud-core
 python-grpc-google-iam-v1
-python-h5io
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -99,12 +100,13 @@ python-linuxdoc
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
+materialx
 python-mathics-scanner
+Mayavi
 python-memray
 python-meshio
 python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
-mlt
 moose
 python-mplcairo
 python-nagiosplugin
@@ -112,6 +114,8 @@ python-neovim
 net-snmp
 python-numpoly
 opencv
+OpenImageIO
+openshadinglanguage
 python-opfunu
 python-pandas-datareader
 python-partd
@@ -126,7 +130,7 @@ python-pygtkspellcheck
 python-jnius
 pylint
 python-pysdl2
-python-pytest-arraydiff
+python-pytest-astropy
 python-pytest-cases
 python-pytest-subtests
 python-pytest-tldr
@@ -165,7 +169,6 @@ python-yamlloader
 python-zict
 rebase-helper
 renderdoc
-spec2nii
 supervisor
 syslog-ng
 thefuck
