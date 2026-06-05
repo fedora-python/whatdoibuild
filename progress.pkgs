@@ -30,6 +30,7 @@ abiword
 python-alembic1.14
 ansible-lint
 python-apipkg
+python-astropy:check::::
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
@@ -78,6 +79,7 @@ python-fields
 python-fitsio
 flatpak-module-tools
 python-geotiler
+python-glymur
 gnulib
 grpc
 python-holidays
@@ -130,7 +132,6 @@ python-requirements-parser
 python-rstr
 python-SALib
 python-scales
-python-scikit-image
 python-sentinels
 python-slackclient
 python-sphinx-argparse-cli

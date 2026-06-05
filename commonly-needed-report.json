@@ -57,8 +57,7 @@
       "count": 18,
       "blocked_by": [
         "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
+        "python-pytest-astropy"
       ]
     },
     {
@@ -102,7 +101,6 @@
         "python-fsspec",
         "python-ndindex",
         "python-partd",
-        "python-scikit-image",
         "python-tables",
         "python-xarray",
         "python-zarr",
@@ -186,10 +184,6 @@
       "blocked_by": [
         "python-django-configurations"
       ]
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 7
     },
     {
       "component": "libmamba",
@@ -307,7 +301,6 @@
       "unresolvable": true,
       "blocked_by": [
         "python-ezdxf",
-        "python-scikit-image",
         "sympy"
       ]
     },
@@ -370,6 +363,13 @@
     {
       "component": "python-zict",
       "count": 3
+    },
+    {
+      "component": "python-eth-keyfile",
+      "count": 3,
+      "blocked_by": [
+        "python-eth-keys"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -416,8 +416,7 @@
       "count": 5,
       "blocked_by": [
         "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
+        "python-pytest-astropy"
       ]
     },
     {
@@ -474,10 +473,6 @@
       ]
     },
     {
-      "component": "python-scikit-image",
-      "count": 2
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
@@ -501,6 +496,10 @@
       "blocked_by": [
         "python-trimesh"
       ]
+    },
+    {
+      "component": "python-eventlet",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [

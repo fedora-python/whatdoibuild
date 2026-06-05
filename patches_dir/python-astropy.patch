@@ -1,0 +1,9 @@
+diff --git a/python-astropy.spec b/python-astropy.spec
+index d6df18f..3fa60c1 100644
+--- a/python-astropy.spec
++++ b/python-astropy.spec
+@@ -1,3 +1,4 @@
++%global _without_check 1
+ %bcond_without check
+ 
+ %global srcname astropy
