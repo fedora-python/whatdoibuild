@@ -29,7 +29,6 @@ abiword
 python-alembic1.14
 ansible-lint
 python-apipkg
-astrometry
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
@@ -62,6 +61,7 @@ python-azure-synapse-spark
 python-beartype
 bluechi
 python-bytecode
+python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
@@ -75,10 +75,9 @@ python-eventlet
 python-exceptiongroup
 python-exiv2
 python-fields
-python-fiona
 python-fitsio
 flatpak-module-tools
-python-geopandas::bootstrap:::
+python-geodatasets
 python-geotiler
 gnulib
 grpc
@@ -109,7 +108,6 @@ net-snmp
 python-opfunu
 python-pandas-datareader
 python-partd
-pcp
 petsc
 roca-detect
 python-phply
@@ -148,14 +146,12 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-universal-pathlib
 python-vcstool
-python-webdav4
 python-webrtcvad
 xapian-bindings
 xcfun
 python-yamlloader
-python-zarr
+python-zarr-checksum
 python-zict
 rebase-helper
 renderdoc
