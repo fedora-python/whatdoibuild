@@ -1,13 +1,11 @@
 Io-language
 alot
 ansible-builder
-beets
 ceph
 llvm
 dnf-plugin-diff
+dnsviz
 fail2ban
-fastapi-cli
-glances
 khal
 kmymoney
 libarrow
@@ -71,8 +69,6 @@ python-catkin_tools
 python-cerberus
 python-chai
 llvm21
-python-conda-index::bootstrap:::
-python-conda-sphinx-theme
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -84,7 +80,6 @@ python-exceptiongroup
 python-exiv2
 python-fields
 python-fitsio
-python-flask-socketio
 flatpak-module-tools
 python-geotiler
 gnulib
@@ -104,21 +99,17 @@ python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
-python-medimages4tests
 python-memray
 python-meshio
 python-metakernel
 python-mirrors-countme
 moose
 python-mplcairo
-python-mplcursors
 python-nagiosplugin
 python-neovim
 net-snmp
 python-numcodecs
-python-openapi-core
 python-opfunu
-packit
 python-pandas-datareader
 python-partd
 petsc
@@ -129,7 +120,6 @@ python-poetry-plugin-export
 python-pyexiftool
 python-pygeoif
 python-pyglet
-python-pygraphviz
 python-pygtkspellcheck
 python-jnius
 pylint
@@ -158,7 +148,6 @@ python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-bibtex
 python-sphinxcontrib-chapeldomain
-python-sqlmodel
 python-sshtunnel
 python-steampunk-spotter
 python-toml-cli
@@ -171,6 +160,7 @@ python-vcstool
 python-webrtcvad
 xapian-bindings
 xcfun
+python-xnat4tests
 python-yamlloader
 python-zict
 rebase-helper

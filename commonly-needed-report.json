@@ -29,10 +29,6 @@
       ]
     },
     {
-      "component": "python-sqlmodel",
-      "count": 24
-    },
-    {
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
@@ -54,8 +50,7 @@
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3",
-        "python-sqlmodel"
+        "python-snakemake-storage-plugin-s3"
       ]
     },
     {
@@ -289,8 +284,7 @@
       "count": 6,
       "blocked_by": [
         "conda",
-        "libmamba",
-        "python-conda-sphinx-theme"
+        "libmamba"
       ]
     },
     {
@@ -373,6 +367,13 @@
       "count": 4,
       "blocked_by": [
         "sympy"
+      ]
+    },
+    {
+      "component": "python-nbsphinx",
+      "count": 4,
+      "blocked_by": [
+        "python-sphinxcontrib-bibtex"
       ]
     }
   ],
@@ -510,7 +511,6 @@
     {
       "components": [
         "python-smart_open",
-        "python-sqlmodel",
         "snakemake"
       ],
       "count": 17
@@ -533,6 +533,13 @@
     },
     {
       "components": [
+        "conda",
+        "libmamba"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "mkdocs-material",
         "python-pymdown-extensions"
       ],
@@ -550,13 +557,6 @@
         "python-blosc2",
         "python-ndindex",
         "python-tables"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "conda",
-        "libmamba"
       ],
       "count": 3
     },
