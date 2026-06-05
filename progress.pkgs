@@ -78,6 +78,7 @@ python-fields
 python-fitsio
 flatpak-module-tools
 python-geotiler
+python-glyphsLib
 gnulib
 python-graph-tool
 grpc
@@ -95,7 +96,6 @@ python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
-python-mcp
 python-memray
 python-meshio
 python-metakernel
@@ -147,7 +147,6 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-ufo2ft
 python-vcstool
 python-webrtcvad
 xapian-bindings
@@ -163,4 +162,5 @@ thefuck
 ubertooth
 variety
 veusz
+virtme-ng
 yt-dlp

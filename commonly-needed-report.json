@@ -15,7 +15,7 @@
     },
     {
       "component": "sympy",
-      "count": 29,
+      "count": 30,
       "blocked_by": [
         "llvm"
       ]
@@ -192,6 +192,13 @@
       ]
     },
     {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "pythran"
+      ]
+    },
+    {
       "component": "libmamba",
       "count": 7
     },
@@ -235,13 +242,6 @@
     {
       "component": "python-beartype",
       "count": 6
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 6,
-      "blocked_by": [
-        "pythran"
-      ]
     },
     {
       "component": "python-diskcache",
@@ -320,7 +320,12 @@
     {
       "component": "python-trimesh",
       "count": 4,
-      "unresolvable": true
+      "unresolvable": true,
+      "blocked_by": [
+        "python-ezdxf",
+        "python-scikit-image",
+        "sympy"
+      ]
     },
     {
       "component": "pythran",
@@ -344,10 +349,6 @@
       "count": 3
     },
     {
-      "component": "python-ufo2ft",
-      "count": 3
-    },
-    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -362,6 +363,15 @@
     {
       "component": "python-pytest-subtests",
       "count": 3
+    },
+    {
+      "component": "python-astropy-healpix",
+      "count": 3,
+      "blocked_by": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
