@@ -4,7 +4,6 @@
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
-        "python-google-cloud-core",
         "python-google-cloud-storage"
       ]
     },
@@ -12,7 +11,6 @@
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
@@ -39,10 +37,6 @@
     {
       "component": "python-torch",
       "count": 11
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 9
     },
     {
       "component": "python-hupper",
@@ -101,10 +95,6 @@
       ]
     },
     {
-      "component": "python-google-cloud-core",
-      "count": 6
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -132,10 +122,7 @@
     },
     {
       "component": "python-google-cloud-storage",
-      "count": 4,
-      "blocked_by": [
-        "python-google-cloud-core"
-      ]
+      "count": 4
     },
     {
       "component": "python-sshtunnel",
@@ -159,10 +146,7 @@
     },
     {
       "component": "python-astropy-healpix",
-      "count": 3,
-      "blocked_by": [
-        "python-pytest-astropy"
-      ]
+      "count": 3
     },
     {
       "component": "python-rasterio",
@@ -213,10 +197,6 @@
       "count": 2
     },
     {
-      "component": "google-api-python-client",
-      "count": 2
-    },
-    {
       "component": "python-spdx-tools",
       "count": 2,
       "blocked_by": [
@@ -256,8 +236,7 @@
       "blocked_by": [
         "python-astropy-healpix",
         "python-dask",
-        "python-partd",
-        "python-pytest-astropy"
+        "python-partd"
       ]
     },
     {
@@ -273,10 +252,7 @@
     },
     {
       "component": "python-pyvo",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-astropy"
-      ]
+      "count": 2
     },
     {
       "component": "python-distributed",
@@ -305,16 +281,33 @@
     {
       "component": "python-elastic-transport",
       "count": 2
+    },
+    {
+      "component": "python-py-key-value",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-diskcache",
+        "python-elastic-transport",
+        "python-elasticsearch"
+      ]
+    },
+    {
+      "component": "python-fakeredis",
+      "count": 2,
+      "blocked_by": [
+        "python-lupa"
+      ]
+    },
+    {
+      "component": "python-sentinels",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-torch",
       "count": 9
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 7
     },
     {
       "component": "python-pytest-django",
@@ -349,10 +342,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "google-api-python-client",
-      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -409,10 +398,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-google-cloud-core",
-      "count": 2
-    },
-    {
       "component": "opencv",
       "count": 2
     },
@@ -420,6 +405,18 @@
       "component": "python-croniter",
       "count": 2,
       "unresolvable": true
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "pykakasi",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -534,7 +531,6 @@
         "python-dask",
         "python-partd",
         "python-pyregion",
-        "python-pytest-astropy",
         "python-reproject"
       ],
       "count": 1
