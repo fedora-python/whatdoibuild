@@ -165,17 +165,6 @@
       "unresolvable": true
     },
     {
-      "component": "fonttools",
-      "count": 8,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
-    },
-    {
       "component": "python-tables",
       "count": 8,
       "blocked_by": [
@@ -316,10 +305,7 @@
     },
     {
       "component": "python-ufoLib2",
-      "count": 4,
-      "blocked_by": [
-        "fonttools"
-      ]
+      "count": 4
     },
     {
       "component": "python-django-allauth",
@@ -365,7 +351,6 @@
       "component": "python-ufo2ft",
       "count": 3,
       "blocked_by": [
-        "fonttools",
         "python-defcon",
         "python-ufoLib2"
       ]
@@ -377,6 +362,10 @@
         "python-django-allauth",
         "python-pytest-django"
       ]
+    },
+    {
+      "component": "python-lazr-delegates",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
@@ -434,17 +423,6 @@
     {
       "component": "pythran",
       "count": 4
-    },
-    {
-      "component": "fonttools",
-      "count": 4,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
     },
     {
       "component": "pylint",
@@ -508,6 +486,13 @@
       "count": 2,
       "blocked_by": [
         "pythran"
+      ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 2,
+      "blocked_by": [
+        "python-eventlet"
       ]
     }
   ],
