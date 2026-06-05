@@ -29,7 +29,6 @@ abiword
 python-alembic1.14
 ansible-lint
 python-apipkg
-python-astroML
 astrometry
 python-avocado
 python-azure-data-tables
@@ -76,14 +75,15 @@ python-eventlet
 python-exceptiongroup
 python-exiv2
 python-fields
+python-fiona
 python-fitsio
 flatpak-module-tools
-python-fsspec::bootstrap:::
+python-geopandas::bootstrap:::
 python-geotiler
 gnulib
 grpc
-python-healpy
 python-holidays
+python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
@@ -120,7 +120,6 @@ python-pyglet
 python-pygtkspellcheck
 python-jnius
 pylint
-python-pyogrio::bootstrap:::
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
@@ -129,6 +128,7 @@ python-pytest-tornado
 python-pyvmomi
 pywhispercpp
 pyqtwebengine
+python-rasterio
 python-readchar
 python-readme-renderer
 python-requirements-parser
@@ -136,7 +136,6 @@ python-rstr
 python-SALib
 python-scales
 python-sentinels
-python-sep
 python-slackclient
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
@@ -149,11 +148,14 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
+python-universal-pathlib
 python-vcstool
+python-webdav4
 python-webrtcvad
 xapian-bindings
 xcfun
 python-yamlloader
+python-zarr
 python-zict
 rebase-helper
 renderdoc

@@ -1,18 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-fsspec",
-      "count": 36,
-      "blocked_by": [
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-partd",
-        "python-zarr",
-        "python-zict"
-      ]
-    },
-    {
       "component": "sympy",
       "count": 30,
       "blocked_by": [
@@ -84,7 +72,6 @@
         "python-blosc2",
         "python-dask",
         "python-distributed",
-        "python-fsspec",
         "python-ndindex",
         "python-partd",
         "python-tables",
@@ -97,7 +84,6 @@
       "component": "python-torch",
       "count": 11,
       "blocked_by": [
-        "python-fsspec",
         "sympy"
       ]
     },
@@ -133,10 +119,7 @@
     },
     {
       "component": "python-zarr",
-      "count": 9,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 9
     },
     {
       "component": "python-hupper",
@@ -156,7 +139,6 @@
       "count": 8,
       "blocked_by": [
         "python-dask",
-        "python-fsspec",
         "python-partd",
         "python-rasterio",
         "python-zarr"
@@ -172,14 +154,6 @@
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-pyogrio",
-      "count": 7,
-      "blocked_by": [
-        "python-geopandas",
-        "python-pyogrio"
-      ]
     },
     {
       "component": "OpenColorIO",
@@ -241,10 +215,7 @@
     },
     {
       "component": "python-huggingface-hub",
-      "count": 5,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 5
     },
     {
       "component": "python-eth-keys",
@@ -258,9 +229,7 @@
       "count": 5,
       "blocked_by": [
         "python-fiona",
-        "python-fsspec",
-        "python-mapclassify",
-        "python-pyogrio"
+        "python-mapclassify"
       ]
     },
     {
@@ -336,10 +305,7 @@
     },
     {
       "component": "python-rasterio",
-      "count": 3,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 3
     },
     {
       "component": "python-zict",
@@ -362,6 +328,20 @@
     {
       "component": "python-lupa",
       "count": 3
+    },
+    {
+      "component": "opencv",
+      "count": 3,
+      "blocked_by": [
+        "vtk"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -374,7 +354,7 @@
     },
     {
       "component": "sympy",
-      "count": 11,
+      "count": 12,
       "blocked_by": [
         "llvm"
       ]
@@ -388,18 +368,6 @@
       "count": 6,
       "blocked_by": [
         "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-fsspec",
-      "count": 6,
-      "blocked_by": [
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-partd",
-        "python-zarr",
-        "python-zict"
       ]
     },
     {
@@ -486,11 +454,18 @@
       "unresolvable": true
     },
     {
+      "component": "python-geopandas",
+      "count": 2,
+      "blocked_by": [
+        "python-fiona",
+        "python-mapclassify"
+      ]
+    },
+    {
       "component": "python-xarray",
       "count": 2,
       "blocked_by": [
         "python-dask",
-        "python-fsspec",
         "python-partd",
         "python-rasterio",
         "python-zarr"
@@ -507,7 +482,6 @@
     },
     {
       "components": [
-        "python-fsspec",
         "python-torch",
         "sympy"
       ],
@@ -582,13 +556,6 @@
     },
     {
       "components": [
-        "python-geopandas",
-        "python-pyogrio"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "grpc",
         "python-grpcio-gcp",
         "python-proto-plus"
@@ -606,7 +573,6 @@
     {
       "components": [
         "python-dask",
-        "python-fsspec",
         "python-partd"
       ],
       "count": 2
@@ -649,6 +615,13 @@
       "components": [
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "netgen-mesher",
+        "vtk"
       ],
       "count": 1
     }
