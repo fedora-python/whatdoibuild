@@ -2,9 +2,7 @@ Io-language
 OpenColorIO
 alot
 ansible-builder
-audiotube
 dnf-plugin-diff
-f3d
 fail2ban
 khal
 kicad
@@ -28,11 +26,11 @@ python-XStatic-JS-Yaml
 python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
-YafaRay
 abiword
 python-alembic1.14
 ansible-lint
 python-apipkg
+python-AppTools
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
@@ -66,7 +64,6 @@ python-beartype
 bluechi
 python-bytecode
 python-cartopy
-python-cascadio
 python-catkin_tools
 python-cerberus
 python-chai
@@ -82,11 +79,13 @@ python-exiv2
 python-fields
 python-fitsio
 flatpak-module-tools
-python-fsleyes-props
+python-fsleyes
+python-geopmpy
 python-geotiler
 gnulib
-python-goocalendar
+python-google-api-core
 python-grpc-google-iam-v1
+python-h5io
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -94,11 +93,8 @@ jc
 emacs-jedi
 python-kaptan
 python-lazr-delegates
-libfreenect
 libmamba
-libopenshot
 librealsense
-libsonata
 python-linuxdoc
 python-lupa
 python3-mallard-ducktype
@@ -110,12 +106,10 @@ python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
 mlt
 moose
-morphio
 python-mplcairo
 python-nagiosplugin
 python-neovim
 net-snmp
-python-nifti-mrs
 python-numpoly
 opencv
 python-opfunu
@@ -132,6 +126,7 @@ python-pygtkspellcheck
 python-jnius
 pylint
 python-pysdl2
+python-pytest-arraydiff
 python-pytest-cases
 python-pytest-subtests
 python-pytest-tldr
@@ -153,7 +148,6 @@ python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter
-python-tables
 python-telegram-bot
 python-tilestache
 python-toml-cli
@@ -162,8 +156,8 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
+python-vascpy
 python-vcstool
-python-vedo
 python-webrtcvad
 xapian-bindings
 xcfun
@@ -171,6 +165,7 @@ python-yamlloader
 python-zict
 rebase-helper
 renderdoc
+spec2nii
 supervisor
 syslog-ng
 thefuck

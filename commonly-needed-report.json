@@ -6,8 +6,7 @@
       "blocked_by": [
         "python-google-api-core",
         "python-google-cloud-core",
-        "python-google-cloud-storage",
-        "python-proto-plus"
+        "python-google-cloud-storage"
       ]
     },
     {
@@ -17,7 +16,6 @@
         "python-google-api-core",
         "python-google-cloud-core",
         "python-google-cloud-storage",
-        "python-proto-plus",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -26,19 +24,8 @@
       ]
     },
     {
-      "component": "python-proto-plus",
-      "count": 14,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
       "component": "python-google-api-core",
-      "count": 12,
-      "blocked_by": [
-        "python-proto-plus"
-      ]
+      "count": 12
     },
     {
       "component": "python-partd",
@@ -51,7 +38,6 @@
         "python-dask",
         "python-distributed",
         "python-partd",
-        "python-tables",
         "python-xarray",
         "python-zict"
       ]
@@ -62,10 +48,7 @@
     },
     {
       "component": "python-pytest-arraydiff",
-      "count": 10,
-      "blocked_by": [
-        "python-tables"
-      ]
+      "count": 10
     },
     {
       "component": "python-pytest-astropy",
@@ -78,10 +61,6 @@
       "component": "python-hupper",
       "count": 8,
       "unresolvable": true
-    },
-    {
-      "component": "python-tables",
-      "count": 8
     },
     {
       "component": "python-xarray",
@@ -142,8 +121,7 @@
       "component": "python-google-cloud-core",
       "count": 6,
       "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
+        "python-google-api-core"
       ]
     },
     {
@@ -177,8 +155,7 @@
       "count": 4,
       "blocked_by": [
         "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
+        "python-google-cloud-core"
       ]
     },
     {
@@ -254,10 +231,6 @@
       ]
     },
     {
-      "component": "python-nifti-mrs",
-      "count": 2
-    },
-    {
       "component": "materialx",
       "count": 2,
       "blocked_by": [
@@ -268,8 +241,7 @@
       "component": "google-api-python-client",
       "count": 2,
       "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
+        "python-google-api-core"
       ]
     },
     {
@@ -323,6 +295,27 @@
       "blocked_by": [
         "python-pytest-django"
       ]
+    },
+    {
+      "component": "python-geotiler",
+      "count": 2
+    },
+    {
+      "component": "python-pyvo",
+      "count": 2,
+      "blocked_by": [
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
+    },
+    {
+      "component": "python-distributed",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-zict"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -342,7 +335,7 @@
       "count": 4
     },
     {
-      "component": "python-tables",
+      "component": "python-google-api-core",
       "count": 4
     },
     {
@@ -405,10 +398,7 @@
     },
     {
       "component": "python-AppTools",
-      "count": 2,
-      "blocked_by": [
-        "python-tables"
-      ]
+      "count": 2
     },
     {
       "component": "python-futurist",
@@ -434,16 +424,13 @@
       "unresolvable": true
     },
     {
-      "component": "python-proto-plus",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
       "component": "opencv",
       "count": 2
+    },
+    {
+      "component": "python-croniter",
+      "count": 2,
+      "unresolvable": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -477,16 +464,8 @@
     },
     {
       "components": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "google-api-python-client",
-        "python-google-api-core",
-        "python-proto-plus"
+        "python-google-api-core"
       ],
       "count": 2
     },
@@ -501,8 +480,7 @@
     {
       "components": [
         "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
+        "python-google-cloud-core"
       ],
       "count": 2
     },
@@ -512,13 +490,6 @@
         "python-partd"
       ],
       "count": 2
-    },
-    {
-      "components": [
-        "python-nifti-mrs",
-        "spec2nii"
-      ],
-      "count": 1
     },
     {
       "components": [
@@ -599,6 +570,21 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-reproject"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-safetensors",
+        "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-xarray",
+        "python-xarray-einstats"
       ],
       "count": 1
     }
