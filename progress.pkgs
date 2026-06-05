@@ -64,7 +64,6 @@ python-bytecode
 python-catkin_tools
 python-cerberus
 python-chai
-llvm21
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -82,7 +81,7 @@ gnulib
 grpc
 python-holidays
 python-hypothesmith
-python-igraph
+python-iplotx
 jc
 emacs-jedi
 python-jwcrypto
@@ -99,12 +98,10 @@ python-memray
 python-meshio
 python-metakernel
 python-mirrors-countme
-python-mkapi
-python-mkdocs-autorefs
-python-mkdocs-rss-plugin
-python-mkdocs-static-i18n
+python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
+mupdf
 python-nagiosplugin
 python-neovim
 net-snmp
@@ -128,7 +125,6 @@ python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
 pywhispercpp
-qgis
 pyqtwebengine
 python-readchar
 python-readme-renderer
