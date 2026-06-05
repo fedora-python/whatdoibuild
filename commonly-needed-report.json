@@ -79,10 +79,6 @@
       ]
     },
     {
-      "component": "python-pymdown-extensions",
-      "count": 13
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -216,8 +212,7 @@
       "count": 7,
       "blocked_by": [
         "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin",
-        "python-pymdown-extensions"
+        "python-mkdocs-rss-plugin"
       ]
     },
     {
@@ -372,6 +367,13 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
+    },
+    {
+      "component": "python-boutdata",
+      "count": 3,
+      "blocked_by": [
+        "sympy"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -414,16 +416,20 @@
       ]
     },
     {
-      "component": "python-pymdown-extensions",
-      "count": 5
-    },
-    {
       "component": "python-astropy",
       "count": 5,
       "blocked_by": [
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
+      ]
+    },
+    {
+      "component": "mkdocs-material",
+      "count": 5,
+      "blocked_by": [
+        "python-mkdocs-git-revision-date-localized-plugin",
+        "python-mkdocs-rss-plugin"
       ]
     },
     {
@@ -530,13 +536,6 @@
       "components": [
         "conda",
         "libmamba"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "mkdocs-material",
-        "python-pymdown-extensions"
       ],
       "count": 5
     },
@@ -657,6 +656,13 @@
       "components": [
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "netgen-mesher",
+        "vtk"
       ],
       "count": 1
     }

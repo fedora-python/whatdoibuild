@@ -7,6 +7,7 @@ fail2ban
 khal
 kmymoney
 libarrow
+mkdocs-material::bootstrap:::
 monkeytype
 oci-cli
 ocrmypdf
@@ -59,12 +60,14 @@ python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
 python-beartype
+bids-schema
 bluechi
 python-bytecode
 python-catkin_tools
 python-cerberus
 python-chai
 llvm21
+python-cyclopts
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -94,11 +97,13 @@ python-linuxdoc
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
+python-markdown-exec
 python-mathics-scanner
 python-memray
 python-meshio
 python-metakernel
 python-mirrors-countme
+python-mkdocs-d2-plugin
 moose
 python-mplcairo
 python-nagiosplugin
@@ -117,7 +122,6 @@ python-pyglet
 python-pygtkspellcheck
 python-jnius
 pylint
-python-pymdown-extensions
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
