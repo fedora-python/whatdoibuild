@@ -2737,25 +2737,6 @@
         ]
       }
     ],
-    "python-oslo-i18n": [
-      {
-        "replacements": {
-          "with_doc": "0"
-        },
-        "id": "python-oslo-i18n:::with_doc::",
-        "buildrequires": [
-          "(python3dist(tomli) if python3-devel < 3.11)",
-          "git-core",
-          "pyproject-rpm-macros",
-          "python3-babel",
-          "python3-devel",
-          "python3dist(packaging)",
-          "python3dist(pbr) >= 2",
-          "python3dist(pbr) >= 6.1.1",
-          "python3dist(pip) >= 19"
-        ]
-      }
-    ],
     "python-pymssql": [
       {
         "withouts": [
