@@ -208,14 +208,6 @@
       ]
     },
     {
-      "component": "mkdocs-material",
-      "count": 7,
-      "blocked_by": [
-        "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin"
-      ]
-    },
-    {
       "component": "OpenColorIO",
       "count": 6,
       "blocked_by": [
@@ -374,6 +366,13 @@
       "blocked_by": [
         "sympy"
       ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-fsspec"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -422,14 +421,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "mkdocs-material",
-      "count": 5,
-      "blocked_by": [
-        "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin"
       ]
     },
     {
@@ -505,6 +496,13 @@
       "count": 2,
       "blocked_by": [
         "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 2,
+      "blocked_by": [
+        "python-asn1tools"
       ]
     }
   ],
@@ -625,8 +623,6 @@
     },
     {
       "components": [
-        "bids-schema",
-        "python-bids-validator",
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
