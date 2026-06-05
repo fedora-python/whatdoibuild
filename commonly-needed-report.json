@@ -32,8 +32,7 @@
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
-        "python-fastapi",
-        "python-starlette"
+        "python-fastapi"
       ]
     },
     {
@@ -68,10 +67,6 @@
       "blocked_by": [
         "pyproj"
       ]
-    },
-    {
-      "component": "python-starlette",
-      "count": 19
     },
     {
       "component": "python-astropy",
@@ -256,7 +251,6 @@
         "fastapi-cloud-cli",
         "python-a2wsgi",
         "python-sqlmodel",
-        "python-starlette",
         "python-uvicorn"
       ]
     },
@@ -386,6 +380,13 @@
       "blocked_by": [
         "python-sphinx-autoapi"
       ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-asn1tools"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -419,6 +420,13 @@
       ]
     },
     {
+      "component": "python-pytest-django",
+      "count": 6,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
+    },
+    {
       "component": "python-pymdown-extensions",
       "count": 5
     },
@@ -429,13 +437,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 5,
-      "blocked_by": [
-        "python-django-configurations"
       ]
     },
     {
@@ -464,12 +465,15 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 4
+      "component": "python-uvicorn",
+      "count": 4,
+      "blocked_by": [
+        "python-a2wsgi"
+      ]
     },
     {
-      "component": "python-starlette",
-      "count": 3
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "pythran",
@@ -480,21 +484,11 @@
     },
     {
       "component": "python-respx",
-      "count": 3,
-      "blocked_by": [
-        "python-starlette"
-      ]
+      "count": 3
     },
     {
       "component": "libarrow",
       "count": 3
-    },
-    {
-      "component": "python-uvicorn",
-      "count": 3,
-      "blocked_by": [
-        "python-a2wsgi"
-      ]
     },
     {
       "component": "python-fsspec",
@@ -522,6 +516,13 @@
       "count": 3,
       "blocked_by": [
         "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 3,
+      "blocked_by": [
+        "pyproj"
       ]
     }
   ],
@@ -626,13 +627,6 @@
     },
     {
       "components": [
-        "python-fastapi",
-        "python-starlette"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-dask",
         "python-fsspec",
         "python-partd"
@@ -682,6 +676,13 @@
         "python-croniter",
         "python-treq",
         "python-txaio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
       ],
       "count": 1
     }

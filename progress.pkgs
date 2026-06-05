@@ -27,6 +27,7 @@ python-XStatic-JS-Yaml
 python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
+python-a2wsgi
 abiword
 python-alembic1.14
 ansible-lint
@@ -87,6 +88,7 @@ gnulib
 python-graph-tool
 grpc
 python-holidays
+python-httpx-socks
 python-hypothesmith
 jc
 emacs-jedi
@@ -140,6 +142,7 @@ pyqtwebengine
 python-readchar
 python-readme-renderer
 python-requirements-parser
+python-respx
 python-rstr
 python-SALib
 python-scales
@@ -150,7 +153,6 @@ python-sphinx-autoapi
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
-python-starlette
 python-steampunk-spotter
 python-toml-cli
 python-tpm2-pytss
