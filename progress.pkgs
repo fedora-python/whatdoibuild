@@ -4,6 +4,7 @@ ansible-builder
 llvm
 dnf-plugin-diff
 fail2ban
+fontmake
 khal
 kmymoney
 libarrow
@@ -78,7 +79,6 @@ python-fields
 python-fitsio
 flatpak-module-tools
 python-geotiler
-python-glyphsLib
 gnulib
 python-graph-tool
 grpc

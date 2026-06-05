@@ -384,7 +384,7 @@
     },
     {
       "component": "sympy",
-      "count": 10,
+      "count": 11,
       "blocked_by": [
         "llvm"
       ]
