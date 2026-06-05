@@ -75,6 +75,7 @@ python-exiv2
 python-fields
 python-fitsio
 flatpak-module-tools
+python-fslpy
 python-geotiler
 gnulib
 python-grpc-google-iam-v1
@@ -134,8 +135,8 @@ python-scales
 python-sentinels
 python-slackclient
 python-sphinx-argparse-cli
+python-sphinx-book-theme
 python-sphinx-kr-theme
-python-sphinx-thebe
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter
@@ -147,7 +148,6 @@ python-torch
 python-tpm2-pytss
 python-translitcodec
 python-treq
-python-trimesh::bootstrap:::
 python-triton
 python-vcstool
 python-webrtcvad

@@ -158,10 +158,7 @@
     },
     {
       "component": "python-fslpy",
-      "count": 5,
-      "blocked_by": [
-        "python-trimesh"
-      ]
+      "count": 5
     },
     {
       "component": "python-readme-renderer",
@@ -184,11 +181,6 @@
       "blocked_by": [
         "python-pytest-django"
       ]
-    },
-    {
-      "component": "python-trimesh",
-      "count": 4,
-      "unresolvable": true
     },
     {
       "component": "pylint",
@@ -327,12 +319,19 @@
     {
       "component": "python-yamlloader",
       "count": 2
+    },
+    {
+      "component": "python-lazr-config",
+      "count": 2,
+      "blocked_by": [
+        "python-lazr-delegates"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "vtk",
-      "count": 14,
+      "count": 16,
       "blocked_by": [
         "vtk"
       ]
@@ -426,10 +425,7 @@
     },
     {
       "component": "python-fslpy",
-      "count": 2,
-      "blocked_by": [
-        "python-trimesh"
-      ]
+      "count": 2
     },
     {
       "component": "python-eventlet",
@@ -502,13 +498,6 @@
         "google-api-python-client",
         "python-google-api-core",
         "python-proto-plus"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-trimesh",
-        "vtk"
       ],
       "count": 2
     },
@@ -603,6 +592,13 @@
       "components": [
         "python-yamlloader",
         "pywbem"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-lazr-config",
+        "python-lazr-delegates"
       ],
       "count": 1
     }
