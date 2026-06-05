@@ -662,6 +662,9 @@ withouts = ["check"]
 [[bconds.python-semantic_version]]
 withs = ["bootstrap"]
 
+[[bconds.python-httpx2]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
