@@ -81,10 +81,10 @@ gnulib
 grpc
 python-holidays
 python-hypothesmith
+freeipa-desktop-profile
 python-iplotx
 jc
 emacs-jedi
-python-jwcrypto
 python-kaptan
 python-lazr-delegates
 libmamba
@@ -132,6 +132,7 @@ python-requirements-parser
 python-rstr
 python-SALib
 python-scales
+python-scikit-image
 python-sentinels
 python-slackclient
 python-sphinx-argparse-cli
@@ -151,7 +152,6 @@ xapian-bindings
 xcfun
 python-yamlloader
 python-zict
-pythran
 rebase-helper
 renderdoc
 supervisor
