@@ -1,9 +1,0 @@
-diff --git a/python-tiny-proxy.spec b/python-tiny-proxy.spec
-index cf36ed7..8de6e77 100644
---- a/python-tiny-proxy.spec
-+++ b/python-tiny-proxy.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- # The tests BR httpx-socks, Requires python-socks.
- # The tests of python-socks BR tiny-proxy.
- # To break the loop when bootstrapping Python, we can disable the tests here.
