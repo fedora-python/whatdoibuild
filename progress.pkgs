@@ -1,9 +1,9 @@
+DisplayCAL
 Io-language
 alot
 ansible-builder
 ceph
 llvm
-criu
 dnf-plugin-diff
 fail2ban
 khal
@@ -27,7 +27,6 @@ python-XStatic-JS-Yaml
 python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
-python-a2wsgi
 abiword
 python-alembic1.14
 ansible-lint
@@ -68,13 +67,13 @@ python-bytecode
 python-catkin_tools
 python-cerberus
 python-chai
-pychromecast
 llvm21
 python-conda-index::bootstrap:::
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
 python-dns-lexicon
+python-elastic-transport
 python-environs
 python-eth-event
 python-eventlet
@@ -84,11 +83,11 @@ python-fields
 python-fitsio
 flatpak-module-tools
 python-geotiler
+python-gitlab
 gnulib
 python-graph-tool
 grpc
 python-holidays
-python-httpx-socks
 python-hypothesmith
 jc
 emacs-jedi
@@ -100,6 +99,7 @@ librealsense
 python-linuxdoc
 python-lupa
 python3-mallard-ducktype
+manifold:python::::
 python-markdown-callouts
 python-mathics-scanner
 python-mechanicalsoup
@@ -112,7 +112,6 @@ python-mplcairo
 python-nagiosplugin
 python-neovim
 net-snmp
-python-oldmemo
 python-opfunu
 python-pandas-datareader
 python-partd
@@ -121,6 +120,7 @@ roca-detect
 python-phply
 python-pluginlib
 python-poetry-plugin-export
+protobuf
 python-pydata-sphinx-theme
 python-pydoctor
 python-pygeoif
@@ -142,11 +142,11 @@ pyqtwebengine
 python-readchar
 python-readme-renderer
 python-requirements-parser
-python-respx
 python-rstr
 python-SALib
 python-scales
 python-sentinels
+python-sgqlc
 python-slackclient
 python-sphinx-argparse-cli
 python-sphinx-autoapi
@@ -159,7 +159,7 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-twomemo
+python-uvicorn
 python-vcstool
 python-webrtcvad
 xapian-bindings

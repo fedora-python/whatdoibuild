@@ -16,14 +16,14 @@
     },
     {
       "component": "sympy",
-      "count": 29,
+      "count": 30,
       "blocked_by": [
         "llvm"
       ]
     },
     {
       "component": "vtk",
-      "count": 27,
+      "count": 28,
       "blocked_by": [
         "vtk"
       ]
@@ -63,7 +63,7 @@
     },
     {
       "component": "python-shapely",
-      "count": 19,
+      "count": 20,
       "blocked_by": [
         "pyproj"
       ]
@@ -79,10 +79,7 @@
     },
     {
       "component": "python-uvicorn",
-      "count": 15,
-      "blocked_by": [
-        "python-a2wsgi"
-      ]
+      "count": 15
     },
     {
       "component": "libarrow",
@@ -244,14 +241,10 @@
       ]
     },
     {
-      "component": "python-fastapi",
+      "component": "OpenColorIO",
       "count": 7,
       "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-a2wsgi",
-        "python-sqlmodel",
-        "python-uvicorn"
+        "vtk"
       ]
     },
     {
@@ -259,6 +252,14 @@
       "count": 7,
       "blocked_by": [
         "python-pydata-sphinx-theme"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "python-pywt",
+        "pythran"
       ]
     },
     {
@@ -286,13 +287,6 @@
       ]
     },
     {
-      "component": "OpenColorIO",
-      "count": 6,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
-    {
       "component": "python-pyramid",
       "count": 6,
       "blocked_by": [
@@ -305,16 +299,18 @@
       "unresolvable": true
     },
     {
-      "component": "python-beartype",
-      "count": 6
-    },
-    {
-      "component": "python-scikit-image",
+      "component": "python-fastapi",
       "count": 6,
       "blocked_by": [
-        "python-pywt",
-        "pythran"
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlmodel",
+        "python-uvicorn"
       ]
+    },
+    {
+      "component": "python-beartype",
+      "count": 6
     },
     {
       "component": "python-diskcache",
@@ -358,10 +354,7 @@
     },
     {
       "component": "python-gitlab",
-      "count": 5,
-      "blocked_by": [
-        "python-respx"
-      ]
+      "count": 5
     },
     {
       "component": "python-readme-renderer",
@@ -375,17 +368,26 @@
       ]
     },
     {
+      "component": "python-trimesh",
+      "count": 5,
+      "blocked_by": [
+        "OpenColorIO",
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "sympy",
+        "usd",
+        "vtk"
+      ]
+    },
+    {
       "component": "python-sphinxcontrib-bibtex",
       "count": 5,
       "blocked_by": [
         "python-sphinx-autoapi"
-      ]
-    },
-    {
-      "component": "python-eth-keys",
-      "count": 5,
-      "blocked_by": [
-        "python-asn1tools"
       ]
     }
   ],
@@ -411,6 +413,10 @@
     {
       "component": "python-pydata-sphinx-theme",
       "count": 7
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 6
     },
     {
       "component": "python-pyqtgraph",
@@ -441,10 +447,7 @@
     },
     {
       "component": "python-gitlab",
-      "count": 4,
-      "blocked_by": [
-        "python-respx"
-      ]
+      "count": 4
     },
     {
       "component": "python-sphinxcontrib-bibtex",
@@ -465,13 +468,6 @@
       ]
     },
     {
-      "component": "python-uvicorn",
-      "count": 4,
-      "blocked_by": [
-        "python-a2wsgi"
-      ]
-    },
-    {
       "component": "pylint",
       "count": 4
     },
@@ -481,10 +477,6 @@
       "blocked_by": [
         "python-nbsphinx"
       ]
-    },
-    {
-      "component": "python-respx",
-      "count": 3
     },
     {
       "component": "libarrow",
@@ -524,6 +516,10 @@
       "blocked_by": [
         "pyproj"
       ]
+    },
+    {
+      "component": "python-sphinx-autoapi",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
