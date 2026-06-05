@@ -166,10 +166,6 @@
       ]
     },
     {
-      "component": "python-protobuf",
-      "count": 10
-    },
-    {
       "component": "python-numcodecs",
       "count": 10,
       "blocked_by": [
@@ -383,6 +379,13 @@
       "blocked_by": [
         "python-fsspec"
       ]
+    },
+    {
+      "component": "python-sphinxcontrib-bibtex",
+      "count": 5,
+      "blocked_by": [
+        "python-sphinx-autoapi"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -402,10 +405,6 @@
     },
     {
       "component": "grpc",
-      "count": 8
-    },
-    {
-      "component": "python-protobuf",
       "count": 8
     },
     {
@@ -516,6 +515,13 @@
       "count": 3,
       "blocked_by": [
         "pylint"
+      ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
       ]
     }
   ],
@@ -642,13 +648,6 @@
     },
     {
       "components": [
-        "pychromecast",
-        "python-protobuf"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "bids-schema",
         "python-bids-validator",
         "python-fslpy",
@@ -674,6 +673,15 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-autobahn",
+        "python-croniter",
+        "python-treq",
+        "python-txaio"
       ],
       "count": 1
     }
