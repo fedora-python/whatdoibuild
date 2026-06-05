@@ -15,6 +15,7 @@ pykakasi
 pyp2rpm
 python-streamlink
 python-OBD
+python-PyMuPDF
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -81,8 +82,6 @@ gnulib
 grpc
 python-holidays
 python-hypothesmith
-freeipa-desktop-profile
-python-iplotx
 jc
 emacs-jedi
 python-kaptan
@@ -101,7 +100,6 @@ python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
-mupdf
 python-nagiosplugin
 python-neovim
 net-snmp
