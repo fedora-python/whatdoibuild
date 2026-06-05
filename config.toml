@@ -620,9 +620,6 @@ withouts = ["tests"]
 [[bconds.pyproj]]
 withouts = ["xarray"]
 
-[[bconds.manifold]]
-withouts = ["python"]
-
 [[bconds.python-distlib]]
 withouts = ["check"]
 
