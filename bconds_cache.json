@@ -4367,6 +4367,53 @@
           "xorg-x11-server-Xvfb"
         ]
       }
+    ],
+    "python-trimesh": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-trimesh::bootstrap:::",
+        "srpm_filename": "python-trimesh-4.12.2-7.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(draco or python3(s390-64))",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "/usr/bin/dot",
+          "/usr/bin/openscad",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(charset-normalizer)",
+          "python3dist(colorlog)",
+          "python3dist(embreex)",
+          "python3dist(ezdxf)",
+          "python3dist(fast-simplification)",
+          "python3dist(httpx)",
+          "python3dist(ipython)",
+          "python3dist(jsonschema)",
+          "python3dist(lxml)",
+          "python3dist(mapbox-earcut) >= 1.0.2",
+          "python3dist(matplotlib)",
+          "python3dist(networkx)",
+          "python3dist(numpy) >= 1.20",
+          "python3dist(packaging)",
+          "python3dist(pillow)",
+          "python3dist(pip) >= 19",
+          "python3dist(pycollada)",
+          "python3dist(pytest)",
+          "python3dist(pytest-xdist)",
+          "python3dist(python-fcl)",
+          "python3dist(rtree)",
+          "python3dist(scikit-image)",
+          "python3dist(scipy)",
+          "python3dist(setuptools) >= 61",
+          "python3dist(shapely)",
+          "python3dist(svg-path)",
+          "python3dist(sympy)",
+          "python3dist(vhacdx)",
+          "python3dist(wheel)",
+          "python3dist(xxhash)"
+        ]
+      }
     ]
   }
 }
