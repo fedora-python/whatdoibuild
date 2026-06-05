@@ -668,6 +668,9 @@ withs = ["bootstrap"]
 [[bconds.python-trimesh]]
 withs = ["bootstrap"]
 
+[[bconds.python-scikit-image]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
