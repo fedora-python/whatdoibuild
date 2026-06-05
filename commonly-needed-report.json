@@ -315,10 +315,6 @@
       ]
     },
     {
-      "component": "python-autobahn",
-      "count": 4
-    },
-    {
       "component": "python-ufoLib2",
       "count": 4,
       "blocked_by": [
@@ -340,28 +336,13 @@
       ]
     },
     {
-      "component": "python-nbsphinx",
-      "count": 4
-    },
-    {
       "component": "python-trimesh",
       "count": 4,
       "unresolvable": true
     },
     {
       "component": "pythran",
-      "count": 4,
-      "blocked_by": [
-        "python-nbsphinx"
-      ]
-    },
-    {
-      "component": "python-sse-starlette",
-      "count": 4,
-      "blocked_by": [
-        "python-autobahn",
-        "python-daphne"
-      ]
+      "count": 4
     },
     {
       "component": "pylint",
@@ -375,12 +356,33 @@
         "python-google-cloud-core",
         "python-proto-plus"
       ]
+    },
+    {
+      "component": "python-sshtunnel",
+      "count": 3
+    },
+    {
+      "component": "python-ufo2ft",
+      "count": 3,
+      "blocked_by": [
+        "fonttools",
+        "python-defcon",
+        "python-ufoLib2"
+      ]
+    },
+    {
+      "component": "python-django-mailman3",
+      "count": 3,
+      "blocked_by": [
+        "python-django-allauth",
+        "python-pytest-django"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "vtk",
-      "count": 13,
+      "count": 14,
       "blocked_by": [
         "vtk"
       ]
@@ -431,10 +433,7 @@
     },
     {
       "component": "pythran",
-      "count": 4,
-      "blocked_by": [
-        "python-nbsphinx"
-      ]
+      "count": 4
     },
     {
       "component": "fonttools",
@@ -450,10 +449,6 @@
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "python-nbsphinx",
-      "count": 3
     },
     {
       "component": "libarrow",
@@ -506,6 +501,13 @@
       "count": 2,
       "blocked_by": [
         "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 2,
+      "blocked_by": [
+        "pythran"
       ]
     }
   ],
@@ -662,7 +664,6 @@
     },
     {
       "components": [
-        "python-autobahn",
         "python-croniter",
         "python-treq"
       ],
