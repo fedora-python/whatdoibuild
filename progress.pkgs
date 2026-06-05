@@ -10,6 +10,7 @@ ocrmypdf
 pg_activity
 pykakasi
 pyp2rpm
+pyplane
 python-streamlink
 python-OBD
 python-PyMuPDF
@@ -25,6 +26,7 @@ python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-alembic1.14
+python-annarchy
 ansible-lint
 python-apipkg
 python-avocado
@@ -58,6 +60,7 @@ python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
 python-beartype
 bluechi
+python-boutdata
 python-bytecode
 python-cartopy
 python-catkin_tools
@@ -73,7 +76,6 @@ python-eventlet
 python-exceptiongroup
 python-exiv2
 python-fields
-python-filecheck
 python-fitsio
 flatpak-module-tools
 python-geotiler
@@ -84,8 +86,10 @@ python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
+python-jupyter-cache
 python-kaptan
 python-lazr-delegates
+python-lfpykit
 libmamba
 librealsense
 python-linuxdoc
@@ -101,16 +105,20 @@ python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
 python-nagiosplugin
+python-ndindex
 python-neovim
 net-snmp
+python-numpoly
 python-opfunu
 python-pandas-datareader
 python-partd
 petsc
 roca-detect
 python-phply
+python-piper-tts
 python-pluginlib
 python-poetry-plugin-export
+libpoly
 python-pygeoif
 python-pyglet
 python-pygtkspellcheck
@@ -138,9 +146,10 @@ python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-steampunk-spotter
-sympy
+python-texext
 python-tilestache
 python-toml-cli
+python-torch
 python-tpm2-pytss
 python-translitcodec
 python-treq
