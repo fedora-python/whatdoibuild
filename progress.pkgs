@@ -1,7 +1,6 @@
 Io-language
 alot
 ansible-builder
-ceph
 llvm
 dnf-plugin-diff
 fail2ban
@@ -66,7 +65,6 @@ python-catkin_tools
 python-cerberus
 python-chai
 llvm21
-python-defcon
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -84,7 +82,6 @@ gnulib
 python-graph-tool
 grpc
 python-holidays
-python-httpx-sse
 python-hypothesmith
 jc
 emacs-jedi
@@ -98,6 +95,7 @@ python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
+python-mcp
 python-memray
 python-meshio
 python-metakernel
@@ -107,7 +105,6 @@ python-mplcairo
 python-nagiosplugin
 python-neovim
 net-snmp
-python-opentypesvg
 python-opfunu
 python-pandas-datareader
 python-partd
@@ -150,9 +147,8 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-ufoLib2
+python-ufo2ft
 python-vcstool
-weasyprint
 python-webrtcvad
 xapian-bindings
 xcfun

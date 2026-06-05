@@ -304,10 +304,6 @@
       ]
     },
     {
-      "component": "python-ufoLib2",
-      "count": 4
-    },
-    {
       "component": "python-django-allauth",
       "count": 4,
       "blocked_by": [
@@ -349,11 +345,7 @@
     },
     {
       "component": "python-ufo2ft",
-      "count": 3,
-      "blocked_by": [
-        "python-defcon",
-        "python-ufoLib2"
-      ]
+      "count": 3
     },
     {
       "component": "python-django-mailman3",
@@ -365,6 +357,10 @@
     },
     {
       "component": "python-lazr-delegates",
+      "count": 3
+    },
+    {
+      "component": "python-pytest-subtests",
       "count": 3
     }
   ],
