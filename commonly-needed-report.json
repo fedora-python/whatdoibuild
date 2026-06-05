@@ -16,14 +16,14 @@
     },
     {
       "component": "sympy",
-      "count": 30,
+      "count": 29,
       "blocked_by": [
         "llvm"
       ]
     },
     {
       "component": "vtk",
-      "count": 28,
+      "count": 27,
       "blocked_by": [
         "vtk"
       ]
@@ -64,14 +64,14 @@
     },
     {
       "component": "python-shapely",
-      "count": 20,
+      "count": 19,
       "blocked_by": [
         "pyproj"
       ]
     },
     {
       "component": "python-starlette",
-      "count": 18
+      "count": 19
     },
     {
       "component": "python-astropy",
@@ -166,6 +166,10 @@
       ]
     },
     {
+      "component": "python-protobuf",
+      "count": 10
+    },
+    {
       "component": "python-numcodecs",
       "count": 10,
       "blocked_by": [
@@ -249,10 +253,15 @@
       ]
     },
     {
-      "component": "OpenColorIO",
+      "component": "python-fastapi",
       "count": 7,
       "blocked_by": [
-        "vtk"
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-a2wsgi",
+        "python-sqlmodel",
+        "python-starlette",
+        "python-uvicorn"
       ]
     },
     {
@@ -260,14 +269,6 @@
       "count": 7,
       "blocked_by": [
         "python-pydata-sphinx-theme"
-      ]
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 7,
-      "blocked_by": [
-        "python-pywt",
-        "pythran"
       ]
     },
     {
@@ -295,6 +296,13 @@
       ]
     },
     {
+      "component": "OpenColorIO",
+      "count": 6,
+      "blocked_by": [
+        "vtk"
+      ]
+    },
+    {
       "component": "python-pyramid",
       "count": 6,
       "blocked_by": [
@@ -307,20 +315,16 @@
       "unresolvable": true
     },
     {
-      "component": "python-fastapi",
-      "count": 6,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-a2wsgi",
-        "python-sqlmodel",
-        "python-starlette",
-        "python-uvicorn"
-      ]
-    },
-    {
       "component": "python-beartype",
       "count": 6
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 6,
+      "blocked_by": [
+        "python-pywt",
+        "pythran"
+      ]
     },
     {
       "component": "python-diskcache",
@@ -379,22 +383,6 @@
       "blocked_by": [
         "python-fsspec"
       ]
-    },
-    {
-      "component": "python-trimesh",
-      "count": 5,
-      "blocked_by": [
-        "OpenColorIO",
-        "blender",
-        "manifold",
-        "python-cascadio",
-        "python-ezdxf",
-        "python-scikit-image",
-        "python-shapely",
-        "sympy",
-        "usd",
-        "vtk"
-      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -414,6 +402,10 @@
     },
     {
       "component": "grpc",
+      "count": 8
+    },
+    {
+      "component": "python-protobuf",
       "count": 8
     },
     {
@@ -525,13 +517,6 @@
       "blocked_by": [
         "pylint"
       ]
-    },
-    {
-      "component": "python-pcodedmp",
-      "count": 3,
-      "blocked_by": [
-        "python-pcodedmp"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -635,6 +620,13 @@
     },
     {
       "components": [
+        "python-fastapi",
+        "python-starlette"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-dask",
         "python-fsspec",
         "python-partd"
@@ -647,6 +639,13 @@
         "vtk"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "pychromecast",
+        "python-protobuf"
+      ],
+      "count": 1
     },
     {
       "components": [
@@ -675,22 +674,6 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-autobahn",
-        "python-croniter",
-        "python-treq",
-        "python-txaio"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-shapely",
-        "python-uranium"
       ],
       "count": 1
     }
