@@ -376,6 +376,15 @@
       "count": 4
     },
     {
+      "component": "python-xarray",
+      "count": 3,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-rasterio"
+      ]
+    },
+    {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
@@ -453,15 +462,6 @@
       "component": "python-hupper",
       "count": 2,
       "unresolvable": true
-    },
-    {
-      "component": "python-xarray",
-      "count": 2,
-      "blocked_by": [
-        "python-dask",
-        "python-partd",
-        "python-rasterio"
-      ]
     },
     {
       "component": "python-croniter",

@@ -65,6 +65,7 @@ python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
+python-dandischema
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -77,7 +78,6 @@ python-exiv2
 python-fields
 python-fitsio
 flatpak-module-tools
-python-geodatasets
 python-geotiler
 gnulib
 grpc
@@ -151,7 +151,6 @@ python-webrtcvad
 xapian-bindings
 xcfun
 python-yamlloader
-python-zarr-checksum
 python-zict
 rebase-helper
 renderdoc
