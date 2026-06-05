@@ -1,17 +1,19 @@
-DisplayCAL
 Io-language
 alot
 ansible-builder
+centpkg
 ceph
 llvm
 dnf-plugin-diff
 fail2ban
+fastapi-cloud-cli
 khal
 kmymoney
 libarrow
 monkeytype
 oci-cli
 ocrmypdf
+pagure-exporter
 pg_activity
 pykakasi
 pyp2rpm
@@ -69,6 +71,7 @@ python-cerberus
 python-chai
 llvm21
 python-conda-index::bootstrap:::
+python-datalad
 dionaea
 python-django-configurations
 dnf-plugin-perfmetrics
@@ -79,11 +82,11 @@ python-eth-event
 python-eventlet
 python-exceptiongroup
 python-exiv2
+python-fastapi::bootstrap:::
 python-fields
 python-fitsio
 flatpak-module-tools
 python-geotiler
-python-gitlab
 gnulib
 python-graph-tool
 grpc
@@ -99,7 +102,6 @@ librealsense
 python-linuxdoc
 python-lupa
 python3-mallard-ducktype
-manifold:python::::
 python-markdown-callouts
 python-mathics-scanner
 python-mechanicalsoup
@@ -112,6 +114,8 @@ python-mplcairo
 python-nagiosplugin
 python-neovim
 net-snmp
+python-ogr
+python-openneuro
 python-opfunu
 python-pandas-datareader
 python-partd
@@ -120,7 +124,6 @@ roca-detect
 python-phply
 python-pluginlib
 python-poetry-plugin-export
-protobuf
 python-pydata-sphinx-theme
 python-pydoctor
 python-pygeoif
@@ -146,10 +149,11 @@ python-rstr
 python-SALib
 python-scales
 python-sentinels
-python-sgqlc
 python-slackclient
+python-socketio
 python-sphinx-argparse-cli
 python-sphinx-autoapi
+python-sphinx-autobuild
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
@@ -159,7 +163,6 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-uvicorn
 python-vcstool
 python-webrtcvad
 xapian-bindings
