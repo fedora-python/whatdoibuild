@@ -4,7 +4,6 @@ ansible-builder
 llvm
 dnf-plugin-diff
 fail2ban
-fontmake
 khal
 kmymoney
 libarrow
@@ -162,5 +161,4 @@ thefuck
 ubertooth
 variety
 veusz
-virtme-ng
 yt-dlp
