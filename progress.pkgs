@@ -73,8 +73,8 @@ dnf-plugin-perfmetrics
 python-einops
 python-elastic-transport
 python-environs
+python-eth-account
 python-eth-event
-python-eth-keyfile
 python-eventlet
 python-exceptiongroup
 python-exiv2
@@ -169,4 +169,3 @@ thefuck
 ubertooth
 variety
 veusz
-vyper

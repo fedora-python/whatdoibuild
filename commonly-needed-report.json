@@ -101,10 +101,6 @@
       "count": 3
     },
     {
-      "component": "python-eth-keyfile",
-      "count": 3
-    },
-    {
       "component": "python-futurist",
       "count": 3,
       "blocked_by": [
@@ -176,10 +172,7 @@
     },
     {
       "component": "python-eth-account",
-      "count": 2,
-      "blocked_by": [
-        "python-eth-keyfile"
-      ]
+      "count": 2
     },
     {
       "component": "python-twine",
@@ -266,6 +259,10 @@
     {
       "component": "python-azure-mgmt-maps",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-marketplaceordering",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -308,6 +305,10 @@
     },
     {
       "component": "python-pytest-subtests",
+      "count": 2
+    },
+    {
+      "component": "python-eth-account",
       "count": 2
     },
     {
@@ -362,13 +363,6 @@
     {
       "component": "flatpak-module-tools",
       "count": 1
-    },
-    {
-      "component": "python-zoidberg",
-      "count": 1,
-      "blocked_by": [
-        "python-xarray"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -398,13 +392,6 @@
         "python-dask",
         "python-partd",
         "python-reproject"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-eth-account",
-        "python-eth-keyfile"
       ],
       "count": 2
     },
@@ -526,6 +513,13 @@
         "python-lupa",
         "python-py-key-value",
         "python-pydocket"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-mongomock",
+        "python-sentinels"
       ],
       "count": 1
     }
