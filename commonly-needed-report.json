@@ -34,10 +34,6 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 8
-    },
-    {
       "component": "libmamba",
       "count": 7
     },
@@ -59,10 +55,7 @@
     },
     {
       "component": "python-diskcache",
-      "count": 6,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 6
     },
     {
       "component": "conda",
@@ -89,10 +82,7 @@
     },
     {
       "component": "python-django-allauth",
-      "count": 4,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 4
     },
     {
       "component": "pylint",
@@ -106,8 +96,7 @@
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
-        "python-django-allauth",
-        "python-pytest-django"
+        "python-django-allauth"
       ]
     },
     {
@@ -169,10 +158,7 @@
     },
     {
       "component": "python-django-extensions",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 2
     },
     {
       "component": "python-yamlloader",
@@ -195,10 +181,7 @@
     },
     {
       "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 2
     },
     {
       "component": "python-geotiler",
@@ -287,16 +270,16 @@
     {
       "component": "python-azure-mgmt-extendedlocation",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iotcentral",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-torch",
       "count": 9
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 6
     },
     {
       "component": "python-xarray",
@@ -337,17 +320,11 @@
     },
     {
       "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 2
     },
     {
       "component": "python-diskcache",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 2
     },
     {
       "component": "python-futurist",
@@ -395,6 +372,10 @@
     },
     {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
+      "count": 1
+    },
+    {
+      "component": "python-nagiosplugin",
       "count": 1
     }
   ],
