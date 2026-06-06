@@ -292,6 +292,8 @@ def report_blocking_components(loop_detector):
     log('\nDetected dependency loops:')
     for loop in sorted(loops, key=lambda t: -len(t)):
         log('    • ' + ' → '.join(loop))
+    # keep the print for the notebook scripts for blocking bugzillas
+    # print(loop_detector)
     return loops
 
 
