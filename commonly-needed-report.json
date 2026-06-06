@@ -54,10 +54,6 @@
       "count": 6
     },
     {
-      "component": "python-diskcache",
-      "count": 6
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
@@ -180,10 +176,6 @@
       ]
     },
     {
-      "component": "python-django-health-check",
-      "count": 2
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -220,7 +212,6 @@
       "count": 2,
       "blocked_by": [
         "python-beartype",
-        "python-diskcache",
         "python-elastic-transport",
         "python-elasticsearch"
       ]
@@ -274,6 +265,14 @@
     {
       "component": "python-azure-mgmt-iotcentral",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iothubprovisioningservices",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-loganalytics",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -316,14 +315,6 @@
     },
     {
       "component": "python-pytest-subtests",
-      "count": 2
-    },
-    {
-      "component": "python-django-health-check",
-      "count": 2
-    },
-    {
-      "component": "python-diskcache",
       "count": 2
     },
     {
@@ -376,6 +367,14 @@
     },
     {
       "component": "python-nagiosplugin",
+      "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
+    },
+    {
+      "component": "flatpak-module-tools",
       "count": 1
     }
   ],

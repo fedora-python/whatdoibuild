@@ -28,6 +28,8 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
+ara
+python-asn1tools
 python-astroquery
 python-avocado
 python-azure-data-tables
@@ -66,11 +68,9 @@ python-catkin_tools
 python-cerberus
 python-chai
 dionaea
-python-diskcache
 python-django-allauth
 python-django-cacheops
 python-django-extensions
-python-django-health-check
 dnf-plugin-perfmetrics
 python-elastic-transport
 python-environs
