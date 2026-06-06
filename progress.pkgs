@@ -28,8 +28,6 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
-ara
-python-asn1tools
 python-astroquery
 python-avocado
 python-azure-data-tables
@@ -72,9 +70,11 @@ python-django-allauth
 python-django-cacheops
 python-django-extensions
 dnf-plugin-perfmetrics
+python-einops
 python-elastic-transport
 python-environs
 python-eth-event
+python-eth-keys
 python-eventlet
 python-exceptiongroup
 python-exiv2
@@ -95,6 +95,7 @@ python-lazr-delegates
 libmamba
 librealsense
 python-linuxdoc
+python-lion-pytorch
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
@@ -137,6 +138,7 @@ python-readchar
 python-readme-renderer
 python-requirements-parser
 python-rstr
+python-safetensors
 python-SALib
 python-scales
 python-sentinels
@@ -149,7 +151,12 @@ python-steampunk-spotter
 python-telegram-bot
 python-tilestache
 python-toml-cli
-python-torch
+python-torchaudio
+python-torchdata
+python-torchdiffeq
+python-torchsde
+python-torchtext
+python-torchvision
 python-tpm2-pytss
 python-translitcodec
 python-treq
