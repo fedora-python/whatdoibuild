@@ -3,8 +3,10 @@ alot
 ansible-builder
 dnf-plugin-diff
 fail2ban
+go2rpm
 khal
 kicad
+kitty
 kmymoney
 monkeytype
 ocrmypdf
@@ -58,7 +60,6 @@ python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
-python-beartype
 bluechi
 python-bytecode
 python-cartopy
@@ -134,7 +135,6 @@ python-qudida
 python-rasterio
 python-readchar
 python-readme-renderer
-python-requirements-parser
 python-rstr
 python-SALib
 python-scales
