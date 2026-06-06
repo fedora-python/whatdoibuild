@@ -66,10 +66,6 @@
       "count": 5
     },
     {
-      "component": "python-eth-keys",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -106,10 +102,7 @@
     },
     {
       "component": "python-eth-keyfile",
-      "count": 3,
-      "blocked_by": [
-        "python-eth-keys"
-      ]
+      "count": 3
     },
     {
       "component": "python-futurist",
@@ -185,8 +178,7 @@
       "component": "python-eth-account",
       "count": 2,
       "blocked_by": [
-        "python-eth-keyfile",
-        "python-eth-keys"
+        "python-eth-keyfile"
       ]
     },
     {
@@ -270,6 +262,10 @@
     {
       "component": "python-azure-mgmt-managementgroups",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-maps",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -285,6 +281,10 @@
     {
       "component": "pylint",
       "count": 4
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -311,19 +311,11 @@
       "count": 2
     },
     {
-      "component": "python-huggingface-hub",
-      "count": 2
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
         "python-eventlet"
       ]
-    },
-    {
-      "component": "python-eth-keys",
-      "count": 2
     },
     {
       "component": "python-eventlet",
@@ -370,6 +362,13 @@
     {
       "component": "flatpak-module-tools",
       "count": 1
+    },
+    {
+      "component": "python-zoidberg",
+      "count": 1,
+      "blocked_by": [
+        "python-xarray"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -405,8 +404,7 @@
     {
       "components": [
         "python-eth-account",
-        "python-eth-keyfile",
-        "python-eth-keys"
+        "python-eth-keyfile"
       ],
       "count": 2
     },
@@ -473,13 +471,6 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-safetensors"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-xarray",
         "python-xarray-einstats"
       ],
@@ -523,6 +514,18 @@
         "python-elastic-transport",
         "python-readme-renderer",
         "python-twine"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-beartype",
+        "python-croniter",
+        "python-exceptiongroup",
+        "python-fakeredis",
+        "python-lupa",
+        "python-py-key-value",
+        "python-pydocket"
       ],
       "count": 1
     }
