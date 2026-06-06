@@ -35,10 +35,7 @@
     },
     {
       "component": "python-pytest-django",
-      "count": 8,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
+      "count": 8
     },
     {
       "component": "libmamba",
@@ -299,10 +296,7 @@
     },
     {
       "component": "python-pytest-django",
-      "count": 6,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
+      "count": 6
     },
     {
       "component": "python-xarray",
