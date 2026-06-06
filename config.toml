@@ -62,16 +62,18 @@ fedpkg = "_fedpkg_cache_dir"
 [[repos.rawhide]]
 repoid = "rawhide"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/$basearch/"]
+baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20260606.n.0/compose/Everything/$basearch/os/"]
+metadata_expire = 600000000
 
 [[repos.rawhide]]
 repoid = "rawhide-source"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide-source&arch=$basearch"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
+baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20260606.n.0/compose/Everything/source/tree/"]
+metadata_expire = 600000000
 
 [[repos.target]]
-repoid = "f45-python"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/f45-python/latest/$basearch/"]
+repoid = "f45-build"
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f45-build/latest/$basearch/"]
 metadata_expire = 60
 
 # comment this section out to stop checking for prerel-abi
