@@ -279,19 +279,19 @@
       "count": 2
     },
     {
-      "component": "python-snakemake-executor-plugin-cluster-generic",
-      "count": 2
-    },
-    {
-      "component": "python-snakemake-storage-plugin-http",
-      "count": 2
-    },
-    {
       "component": "xapian-bindings",
       "count": 2
     },
     {
       "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-datamigration",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-eventgrid",
       "count": 1
     }
   ],
