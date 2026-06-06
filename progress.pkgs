@@ -139,7 +139,6 @@ python-SALib
 python-scales
 python-sentinels
 python-slackclient
-python-smart_open
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
@@ -157,13 +156,14 @@ usd
 python-vascpy
 python-vcstool
 python-webrtcvad
-python-willow
 xapian-bindings
 xcfun
 python-yamlloader
 python-zict
 rebase-helper
 renderdoc
+setzer
+snakemake::bootstrap:::
 supervisor
 syslog-ng
 thefuck

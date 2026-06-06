@@ -1,14 +1,9 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-smart_open",
-      "count": 23
-    },
-    {
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
@@ -297,7 +292,6 @@
       "component": "python-snakemake-executor-plugin-cluster-generic",
       "count": 2,
       "blocked_by": [
-        "python-smart_open",
         "snakemake"
       ]
     },
@@ -305,12 +299,25 @@
       "component": "python-snakemake-storage-plugin-http",
       "count": 2,
       "blocked_by": [
-        "python-smart_open",
         "snakemake"
       ]
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "snakemake",
+      "count": 19,
+      "blocked_by": [
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3"
+      ]
+    },
     {
       "component": "python-torch",
       "count": 9
@@ -419,20 +426,9 @@
     {
       "component": "usd",
       "count": 1
-    },
-    {
-      "component": "pykakasi",
-      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-smart_open",
-        "snakemake"
-      ],
-      "count": 19
-    },
     {
       "components": [
         "conda",
@@ -575,6 +571,14 @@
       "components": [
         "python-huggingface-hub",
         "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-partd",
+        "python-zict"
       ],
       "count": 1
     }
