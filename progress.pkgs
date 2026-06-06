@@ -80,7 +80,6 @@ flatpak-module-tools
 python-geopmpy
 python-geotiler
 gnulib
-python-google-cloud-dns
 python-grpc-google-iam-v1
 python-holidays
 python-huggingface-hub
