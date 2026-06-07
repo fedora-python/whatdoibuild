@@ -40,11 +40,6 @@
       ]
     },
     {
-      "component": "python-croniter",
-      "count": 6,
-      "unresolvable": true
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
@@ -86,13 +81,6 @@
     {
       "component": "python-rasterio",
       "count": 3
-    },
-    {
-      "component": "python-futurist",
-      "count": 3,
-      "blocked_by": [
-        "python-eventlet"
-      ]
     },
     {
       "component": "python-lupa",
@@ -252,6 +240,14 @@
     {
       "component": "python-azure-mgmt-maps",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-marketplaceordering",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-media",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -284,23 +280,11 @@
       "count": 2
     },
     {
-      "component": "python-futurist",
-      "count": 2,
-      "blocked_by": [
-        "python-eventlet"
-      ]
-    },
-    {
       "component": "python-eventlet",
       "count": 2
     },
     {
       "component": "python-hupper",
-      "count": 2,
-      "unresolvable": true
-    },
-    {
-      "component": "python-croniter",
       "count": 2,
       "unresolvable": true
     },
@@ -317,6 +301,10 @@
       "count": 1
     },
     {
+      "component": "python-treq",
+      "count": 1
+    },
+    {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
@@ -326,10 +314,6 @@
     },
     {
       "component": "python-translitcodec",
-      "count": 1
-    },
-    {
-      "component": "flatpak-module-tools",
       "count": 1
     },
     {
@@ -349,6 +333,14 @@
     },
     {
       "component": "libmamba",
+      "count": 1
+    },
+    {
+      "component": "python-rasterio",
+      "count": 1
+    },
+    {
+      "component": "python-partd",
       "count": 1
     }
   ],
@@ -388,13 +380,6 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-croniter",
-        "python-treq"
       ],
       "count": 1
     },
@@ -476,7 +461,6 @@
     },
     {
       "components": [
-        "python-croniter",
         "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
@@ -504,6 +488,13 @@
       "components": [
         "python-readme-renderer",
         "python-twine"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-llama-cpp-python"
       ],
       "count": 1
     }
