@@ -28,7 +28,6 @@ python-alembic1.14
 ansible-lint
 python-apipkg
 python-astroquery
-atomic-reactor
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
@@ -72,7 +71,6 @@ dnf-plugin-perfmetrics
 python-einops
 python-elastic-transport
 python-environs
-python-etcd3gw
 python-eth-event
 python-eventlet
 python-exceptiongroup
@@ -81,7 +79,6 @@ python-fields
 python-fitsio
 python-geopmpy
 python-geotiler
-python-gnocchiclient
 gnulib
 python-grpc-google-iam-v1
 python-holidays
@@ -134,7 +131,6 @@ python-qudida
 python-rasterio
 python-readchar
 python-readme-renderer
-python-rq
 python-rstr
 python-SALib
 python-scales
