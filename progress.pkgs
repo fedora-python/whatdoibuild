@@ -7,7 +7,6 @@ khal
 kitty
 kmymoney
 monkeytype
-mycli
 ocrmypdf
 pg_activity
 pyp2rpm
@@ -88,7 +87,6 @@ python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
-jsonnet
 python-kaptan
 python-lazr-delegates
 libmamba
