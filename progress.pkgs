@@ -1,17 +1,15 @@
 Io-language
 alot
-ansible-builder
 dnf-plugin-diff
 fail2ban
-go2rpm
+hddfancontrol
 khal
-kicad
 kitty
 kmymoney
 monkeytype
+mycli
 ocrmypdf
 pg_activity
-pykakasi
 pyp2rpm
 python-streamlink
 python-OBD
@@ -90,6 +88,7 @@ python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
+jsonnet
 python-kaptan
 python-lazr-delegates
 libmamba
@@ -143,7 +142,6 @@ python-slackclient
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
-python-sshtunnel
 python-steampunk-spotter
 python-telegram-bot
 python-tilestache
@@ -159,7 +157,6 @@ python-webrtcvad
 xapian-bindings
 xcfun
 python-yamlloader
-python-zict
 rebase-helper
 renderdoc
 supervisor
