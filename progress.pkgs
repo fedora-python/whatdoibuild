@@ -64,7 +64,6 @@ python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
-python-datasets
 dionaea
 python-django-allauth
 python-django-cacheops
@@ -91,7 +90,7 @@ python-lazr-delegates
 libmamba
 librealsense
 python-linuxdoc
-python-llama-cpp-python
+python-logdetective
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
@@ -140,9 +139,9 @@ python-slackclient
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
-python-steampunk-spotter
 python-telegram-bot
 python-tilestache
+python-tokenizers
 python-toml-cli
 python-tpm2-pytss
 python-translitcodec
@@ -153,7 +152,6 @@ python-vascpy
 python-vcstool
 python-webrtcvad
 xapian-bindings
-xcfun
 python-yamlloader
 rebase-helper
 renderdoc
