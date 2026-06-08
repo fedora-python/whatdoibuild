@@ -28,10 +28,6 @@
       "count": 7
     },
     {
-      "component": "python-pyramid",
-      "count": 6
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
@@ -244,13 +240,13 @@
     {
       "component": "python-azure-mgmt-trafficmanager",
       "count": 1
+    },
+    {
+      "component": "python-azure-synapse-spark",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-pyramid",
-      "count": 5
-    },
     {
       "component": "python-xarray",
       "count": 4,
@@ -337,6 +333,10 @@
     {
       "component": "python-pytest-cases",
       "count": 1
+    },
+    {
+      "component": "python-django-allauth",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -365,7 +365,6 @@
     {
       "components": [
         "python-cornice",
-        "python-pyramid",
         "python-pyramid-mako"
       ],
       "count": 1
