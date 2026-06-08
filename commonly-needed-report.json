@@ -155,10 +155,6 @@
       ]
     },
     {
-      "component": "python-sentinels",
-      "count": 2
-    },
-    {
       "component": "python-eventlet",
       "count": 2
     },
@@ -247,6 +243,10 @@
     },
     {
       "component": "python-azure-mgmt-privatedns",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-synapse",
       "count": 1
     }
   ],
@@ -464,13 +464,6 @@
     },
     {
       "components": [
-        "python-mongomock",
-        "python-sentinels"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-dask",
         "python-distributed",
         "python-partd"
@@ -500,6 +493,14 @@
         "python-hyperkitty",
         "python-postorius",
         "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-contextily",
+        "python-libpysal",
+        "python-rasterio"
       ],
       "count": 1
     }
