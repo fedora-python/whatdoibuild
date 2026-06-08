@@ -1,16 +1,11 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-partd",
-      "count": 12
-    },
-    {
       "component": "python-dask",
       "count": 11,
       "blocked_by": [
         "python-dask",
         "python-distributed",
-        "python-partd",
         "python-xarray"
       ]
     },
@@ -19,7 +14,6 @@
       "count": 8,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio"
       ]
     },
@@ -100,8 +94,7 @@
       "component": "python-reproject",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -112,8 +105,7 @@
       "component": "python-distributed",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -244,15 +236,27 @@
     {
       "component": "python-azure-synapse-spark",
       "count": 1
+    },
+    {
+      "component": "python-cornice",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-dask",
+      "count": 4,
+      "blocked_by": [
+        "python-dask",
+        "python-distributed",
+        "python-xarray"
+      ]
+    },
     {
       "component": "python-xarray",
       "count": 4,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio"
       ]
     },
@@ -327,10 +331,6 @@
       "count": 1
     },
     {
-      "component": "python-partd",
-      "count": 1
-    },
-    {
       "component": "python-pytest-cases",
       "count": 1
     },
@@ -350,14 +350,6 @@
     {
       "components": [
         "python-dask",
-        "python-partd"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd",
         "python-reproject"
       ],
       "count": 2
@@ -425,7 +417,6 @@
       "components": [
         "python-dask",
         "python-distributed",
-        "python-partd",
         "python-xarray"
       ],
       "count": 1
@@ -451,8 +442,7 @@
     {
       "components": [
         "python-dask",
-        "python-distributed",
-        "python-partd"
+        "python-distributed"
       ],
       "count": 1
     },
@@ -493,8 +483,14 @@
     {
       "components": [
         "python-dask",
-        "python-pandas-datareader",
-        "python-partd"
+        "python-pandas-datareader"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-elastic-transport",
+        "python-elasticsearch"
       ],
       "count": 1
     }
