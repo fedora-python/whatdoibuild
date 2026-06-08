@@ -15,11 +15,6 @@
       ]
     },
     {
-      "component": "python-hupper",
-      "count": 8,
-      "unresolvable": true
-    },
-    {
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
@@ -34,10 +29,7 @@
     },
     {
       "component": "python-pyramid",
-      "count": 6,
-      "blocked_by": [
-        "python-hupper"
-      ]
+      "count": 6
     },
     {
       "component": "conda",
@@ -248,9 +240,17 @@
     {
       "component": "python-azure-mgmt-synapse",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-trafficmanager",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-pyramid",
+      "count": 5
+    },
     {
       "component": "python-xarray",
       "count": 4,
@@ -278,11 +278,6 @@
     {
       "component": "python-eventlet",
       "count": 2
-    },
-    {
-      "component": "python-hupper",
-      "count": 2,
-      "unresolvable": true
     },
     {
       "component": "xapian-bindings",
@@ -354,13 +349,6 @@
     },
     {
       "components": [
-        "python-hupper",
-        "python-pyramid"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-dask",
         "python-partd"
       ],
@@ -377,7 +365,6 @@
     {
       "components": [
         "python-cornice",
-        "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
       ],
@@ -501,6 +488,14 @@
         "python-contextily",
         "python-libpysal",
         "python-rasterio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-pandas-datareader",
+        "python-partd"
       ],
       "count": 1
     }

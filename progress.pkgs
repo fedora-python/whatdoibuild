@@ -53,7 +53,6 @@ python-azure-mgmt-maps
 python-azure-mgmt-marketplaceordering
 python-azure-mgmt-media
 python-azure-mgmt-privatedns
-python-azure-mgmt-subscription
 python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
@@ -78,6 +77,8 @@ python-exceptiongroup
 python-exiv2
 python-fields
 python-fitsio
+python-flask-security-too
+python-gearbox
 python-geopmpy
 python-geotiler
 gnulib
@@ -90,7 +91,6 @@ python-lazr-delegates
 libmamba
 librealsense
 python-linuxdoc
-python-logdetective
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
@@ -100,7 +100,6 @@ python-memray
 python-meshio
 python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
-python-mongomock
 moose
 python-mplcairo
 python-nagiosplugin
@@ -120,6 +119,7 @@ python-pyglet
 python-pygtkspellcheck
 python-jnius
 pylint
+python-pyramid
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
@@ -141,7 +141,6 @@ python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-telegram-bot
 python-tilestache
-python-tokenizers
 python-toml-cli
 python-tpm2-pytss
 python-translitcodec
