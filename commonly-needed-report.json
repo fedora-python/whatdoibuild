@@ -52,10 +52,6 @@
       "count": 5
     },
     {
-      "component": "python-huggingface-hub",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -248,6 +244,10 @@
     {
       "component": "python-azure-mgmt-media",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-privatedns",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -263,10 +263,6 @@
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "python-huggingface-hub",
-      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -341,6 +337,10 @@
     },
     {
       "component": "python-partd",
+      "count": 1
+    },
+    {
+      "component": "python-pytest-cases",
       "count": 1
     }
   ],
@@ -493,8 +493,9 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-llama-cpp-python"
+        "mailman3",
+        "python-lazr-config",
+        "python-lazr-delegates"
       ],
       "count": 1
     }
