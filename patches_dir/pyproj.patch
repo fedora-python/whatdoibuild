@@ -1,9 +1,0 @@
-diff --git a/pyproj.spec b/pyproj.spec
-index 05f6f32..ec6b808 100644
---- a/pyproj.spec
-+++ b/pyproj.spec
-@@ -1,3 +1,4 @@
-+%global _without_xarray 1
- # note: PROJ_MIN_VERSION is defined in the setup.py file of pyproj
- # a compatibility matrix is also provided in docs/installation.rst
- %global minimal_needed_proj_version 9.4.0

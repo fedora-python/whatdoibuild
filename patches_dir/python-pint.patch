@@ -1,9 +1,0 @@
-diff --git a/python-pint.spec b/python-pint.spec
-index 33f0799..017ea4f 100644
---- a/python-pint.spec
-+++ b/python-pint.spec
-@@ -1,3 +1,4 @@
-+%global _without_xarray 1
- %bcond xarray 1
- # Not yet packaged: python-uncertainties
- %bcond uncertainties 0
