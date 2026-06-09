@@ -107,7 +107,6 @@ python-opfunu
 python-pandas-datareader
 petsc
 roca-detect
-python-phply
 python-pluginlib
 python-poetry-plugin-export
 python-pygeoif
@@ -151,5 +150,6 @@ renderdoc
 supervisor
 syslog-ng
 thefuck
+translate-toolkit
 ubertooth
 veusz
