@@ -1,9 +1,9 @@
 Io-language
 alot
+bodhi-server
 dnf-plugin-diff
 fail2ban
 hddfancontrol
-khal
 kitty
 kmymoney
 monkeytype
@@ -62,7 +62,6 @@ python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
-python-cornice
 python-dask::bootstrap:::
 dionaea
 python-django-allauth
@@ -117,9 +116,6 @@ python-pyglet
 python-pygtkspellcheck
 python-jnius
 pylint
-python-pyramid-fas-openid
-python-pyramid-mako
-python-pyramid-tm
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
