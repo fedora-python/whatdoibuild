@@ -1,5 +1,4 @@
 Io-language
-alot
 bodhi-server
 dnf-plugin-diff
 fail2ban
@@ -69,7 +68,6 @@ python-django-extensions
 dnf-plugin-perfmetrics
 python-einops
 python-elastic-transport
-python-environs
 python-eth-event
 python-eventlet
 python-exceptiongroup
@@ -86,6 +84,7 @@ emacs-jedi
 python-kaptan
 python-lazr-delegates
 libmamba
+qtile
 librealsense
 python-linuxdoc
 python-lupa
@@ -109,7 +108,6 @@ petsc
 roca-detect
 python-pluginlib
 python-poetry-plugin-export
-python-pygeoif
 python-pyglet
 python-pygtkspellcheck
 python-jnius
@@ -125,7 +123,6 @@ pyqtwebengine
 python-qudida
 python-rasterio
 python-readchar
-python-readme-renderer
 python-rstr
 python-SALib
 python-scales
@@ -136,20 +133,17 @@ python-sphinxcontrib-chapeldomain
 python-telegram-bot
 python-tilestache
 python-toml-cli
-python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
 usd
 python-vascpy
 python-vcstool
-python-webrtcvad
 xapian-bindings
 python-yamlloader
 renderdoc
 supervisor
 syslog-ng
 thefuck
-translate-toolkit
 ubertooth
 veusz
