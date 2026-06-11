@@ -104,7 +104,6 @@ net-snmp
 python-numpoly
 python-opfunu
 python-pandas-datareader
-petsc
 roca-detect
 python-pluginlib
 python-poetry-plugin-export
@@ -118,7 +117,6 @@ python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
-pywhispercpp
 pyqtwebengine
 python-qudida
 python-rasterio
