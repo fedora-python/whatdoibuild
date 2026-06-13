@@ -5,15 +5,7 @@
       "count": 11,
       "blocked_by": [
         "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 8,
-      "blocked_by": [
-        "python-dask"
+        "python-distributed"
       ]
     },
     {
@@ -124,10 +116,7 @@
     },
     {
       "component": "python-libpysal",
-      "count": 2,
-      "blocked_by": [
-        "python-xarray"
-      ]
+      "count": 2
     },
     {
       "component": "python-cartopy",
@@ -239,23 +228,19 @@
     {
       "component": "python-nagiosplugin",
       "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-dask",
-      "count": 5,
+      "count": 6,
       "blocked_by": [
         "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 4,
-      "blocked_by": [
-        "python-dask"
+        "python-distributed"
       ]
     },
     {
@@ -279,6 +264,14 @@
     },
     {
       "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2
+    },
+    {
+      "component": "python-cartopy",
       "count": 2
     },
     {
@@ -306,11 +299,12 @@
       "count": 1
     },
     {
+      "component": "python-xarray-einstats",
+      "count": 1
+    },
+    {
       "component": "python-zoidberg",
-      "count": 1,
-      "blocked_by": [
-        "python-xarray"
-      ]
+      "count": 1
     },
     {
       "component": "certbot",
@@ -327,14 +321,6 @@
     {
       "component": "python-pytest-cases",
       "count": 1
-    },
-    {
-      "component": "python-django-allauth",
-      "count": 1
-    },
-    {
-      "component": "python-elastic-transport",
-      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -349,6 +335,13 @@
       "components": [
         "python-dask",
         "python-reproject"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-distributed"
       ],
       "count": 2
     },
@@ -383,13 +376,6 @@
     },
     {
       "components": [
-        "python-xarray",
-        "python-xarray-einstats"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-geotiler",
         "python-sport-activities-features"
       ],
@@ -405,26 +391,11 @@
     },
     {
       "components": [
-        "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
         "python-py-key-value",
         "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-distributed"
       ],
       "count": 1
     },
@@ -448,13 +419,6 @@
     },
     {
       "components": [
-        "python-contextily",
-        "python-libpysal"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-dask",
         "python-pandas-datareader"
       ],
@@ -472,20 +436,6 @@
         "python-fakeredis",
         "python-lupa",
         "python-py-key-value"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-cartopy",
-        "python-xarray"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-xarray"
       ],
       "count": 1
     }

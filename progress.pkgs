@@ -60,7 +60,6 @@ python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
-python-contextily
 python-dask::bootstrap:::
 dionaea
 python-django-allauth
@@ -85,6 +84,7 @@ emacs-jedi
 python-kaptan
 python-lazr-delegates
 libmamba
+python-libpysal
 qtile
 librealsense
 python-linuxdoc
@@ -136,7 +136,9 @@ usd
 python-vascpy
 python-vcstool
 xapian-bindings
+python-xarray-einstats
 python-yamlloader
+python-zoidberg
 renderdoc
 supervisor
 syslog-ng
