@@ -115,10 +115,6 @@
       "count": 2
     },
     {
-      "component": "python-libpysal",
-      "count": 2
-    },
-    {
       "component": "python-cartopy",
       "count": 2
     },
@@ -232,6 +228,13 @@
     {
       "component": "python-translitcodec",
       "count": 1
+    },
+    {
+      "component": "python-sport-activities-features",
+      "count": 1,
+      "blocked_by": [
+        "python-geotiler"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -267,10 +270,6 @@
       "count": 2
     },
     {
-      "component": "python-libpysal",
-      "count": 2
-    },
-    {
       "component": "python-cartopy",
       "count": 2
     },
@@ -299,14 +298,6 @@
       "count": 1
     },
     {
-      "component": "python-xarray-einstats",
-      "count": 1
-    },
-    {
-      "component": "python-zoidberg",
-      "count": 1
-    },
-    {
       "component": "certbot",
       "count": 1
     },
@@ -320,6 +311,18 @@
     },
     {
       "component": "python-pytest-cases",
+      "count": 1
+    },
+    {
+      "component": "python-django-allauth",
+      "count": 1
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 1
+    },
+    {
+      "component": "python-lupa",
       "count": 1
     }
   ],
