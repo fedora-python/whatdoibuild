@@ -60,6 +60,7 @@ python-cartopy
 python-catkin_tools
 python-cerberus
 python-chai
+python-contextily
 python-dask::bootstrap:::
 dionaea
 python-django-allauth
@@ -100,7 +101,6 @@ moose
 python-mplcairo
 python-nagiosplugin
 python-neovim
-net-snmp
 python-numpoly
 python-opfunu
 python-pandas-datareader
@@ -119,7 +119,6 @@ python-pytest-tornado
 python-pyvmomi
 pyqtwebengine
 python-qudida
-python-rasterio
 python-readchar
 python-rstr
 python-SALib

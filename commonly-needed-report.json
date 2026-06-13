@@ -13,8 +13,7 @@
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
-        "python-dask",
-        "python-rasterio"
+        "python-dask"
       ]
     },
     {
@@ -50,10 +49,6 @@
     },
     {
       "component": "python-pytest-subtests",
-      "count": 3
-    },
-    {
-      "component": "python-rasterio",
       "count": 3
     },
     {
@@ -240,12 +235,16 @@
     {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
+    },
+    {
+      "component": "python-nagiosplugin",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-dask",
-      "count": 4,
+      "count": 5,
       "blocked_by": [
         "python-dask",
         "python-distributed",
@@ -256,8 +255,7 @@
       "component": "python-xarray",
       "count": 4,
       "blocked_by": [
-        "python-dask",
-        "python-rasterio"
+        "python-dask"
       ]
     },
     {
@@ -327,15 +325,15 @@
       "count": 1
     },
     {
-      "component": "python-rasterio",
-      "count": 1
-    },
-    {
       "component": "python-pytest-cases",
       "count": 1
     },
     {
       "component": "python-django-allauth",
+      "count": 1
+    },
+    {
+      "component": "python-elastic-transport",
       "count": 1
     }
   ],
@@ -451,8 +449,7 @@
     {
       "components": [
         "python-contextily",
-        "python-libpysal",
-        "python-rasterio"
+        "python-libpysal"
       ],
       "count": 1
     },
@@ -488,7 +485,7 @@
     {
       "components": [
         "python-dask",
-        "python-rasterio"
+        "python-xarray"
       ],
       "count": 1
     }
