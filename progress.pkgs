@@ -25,7 +25,6 @@ certbot
 python-alembic1.14
 ansible-lint
 python-apipkg
-python-arviz
 python-astroquery
 python-avocado
 python-azure-data-tables
@@ -91,7 +90,6 @@ librealsense
 python-linuxdoc
 python-lupa
 python3-mallard-ducktype
-python-mapclassify
 python-markdown-callouts
 python-mathics-scanner
 Mayavi
