@@ -491,7 +491,7 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-pint]]
-withouts = ["xarray"]
+withs = ["bootstrap"]
 
 [[bconds.python-qcengine]]
 withouts = ["tests"]
@@ -668,6 +668,9 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-scikit-image]]
+withs = ["bootstrap"]
+
+[[bconds.python-xarray]]
 withs = ["bootstrap"]
 
 # [[bconds.OpenColorIO]]
