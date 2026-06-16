@@ -60,9 +60,9 @@ python-cerberus
 python-chai
 python-dask::bootstrap:::
 dionaea
-python-django-allauth
 python-django-cacheops
 python-django-extensions
+python-django-mailman3
 python-einops
 python-elastic-transport
 python-eth-event
@@ -84,6 +84,7 @@ libmamba
 qtile
 librealsense
 python-linuxdoc
+python-lsp-server
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
@@ -101,11 +102,12 @@ python-numpoly
 python-opfunu
 python-pandas-datareader
 roca-detect
+python-pocketlint
 python-poetry-plugin-export
 python-pyglet
 python-pygtkspellcheck
 python-jnius
-pylint
+python-pylint-venv
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
@@ -134,5 +136,6 @@ python-yamlloader
 renderdoc
 supervisor
 thefuck
+thonny
 ubertooth
 veusz

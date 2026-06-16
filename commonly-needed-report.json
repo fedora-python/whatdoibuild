@@ -21,19 +21,8 @@
       ]
     },
     {
-      "component": "python-django-allauth",
-      "count": 4
-    },
-    {
-      "component": "pylint",
-      "count": 4
-    },
-    {
       "component": "python-django-mailman3",
-      "count": 3,
-      "blocked_by": [
-        "python-django-allauth"
-      ]
+      "count": 3
     },
     {
       "component": "python-lazr-delegates",
@@ -49,10 +38,7 @@
     },
     {
       "component": "python-lsp-server",
-      "count": 3,
-      "blocked_by": [
-        "pylint"
-      ]
+      "count": 3
     },
     {
       "component": "usd",
@@ -235,6 +221,14 @@
       "blocked_by": [
         "python-geotiler"
       ]
+    },
+    {
+      "component": "certbot",
+      "count": 1
+    },
+    {
+      "component": "python-numpoly",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -247,19 +241,12 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 4
-    },
-    {
       "component": "python-pytest-subtests",
       "count": 3
     },
     {
       "component": "python-lsp-server",
-      "count": 3,
-      "blocked_by": [
-        "pylint"
-      ]
+      "count": 3
     },
     {
       "component": "usd",
@@ -298,6 +285,10 @@
       "count": 1
     },
     {
+      "component": "python-django-mailman3",
+      "count": 1
+    },
+    {
       "component": "certbot",
       "count": 1
     },
@@ -314,15 +305,15 @@
       "count": 1
     },
     {
-      "component": "python-django-allauth",
-      "count": 1
-    },
-    {
       "component": "python-elastic-transport",
       "count": 1
     },
     {
       "component": "python-lupa",
+      "count": 1
+    },
+    {
+      "component": "python-astroquery",
       "count": 1
     }
   ],
@@ -350,7 +341,6 @@
     },
     {
       "components": [
-        "python-django-allauth",
         "python-django-extensions",
         "python-django-mailman3"
       ],
@@ -367,13 +357,6 @@
       "components": [
         "python-lazr-config",
         "python-lazr-delegates"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-django-allauth",
-        "python-django-mailman3"
       ],
       "count": 1
     },
@@ -412,7 +395,6 @@
     },
     {
       "components": [
-        "python-django-allauth",
         "python-django-extensions",
         "python-django-mailman3",
         "python-hyperkitty",
