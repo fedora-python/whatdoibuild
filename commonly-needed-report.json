@@ -21,10 +21,6 @@
       ]
     },
     {
-      "component": "python-django-mailman3",
-      "count": 3
-    },
-    {
       "component": "python-lazr-delegates",
       "count": 3
     },
@@ -37,15 +33,7 @@
       "count": 3
     },
     {
-      "component": "python-lsp-server",
-      "count": 3
-    },
-    {
       "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-django-extensions",
       "count": 2
     },
     {
@@ -229,6 +217,22 @@
     {
       "component": "python-numpoly",
       "count": 1
+    },
+    {
+      "component": "conda-build",
+      "count": 1,
+      "blocked_by": [
+        "conda",
+        "libmamba"
+      ]
+    },
+    {
+      "component": "python-pytest-cases",
+      "count": 1
+    },
+    {
+      "component": "python-exceptiongroup",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -242,10 +246,6 @@
     },
     {
       "component": "python-pytest-subtests",
-      "count": 3
-    },
-    {
-      "component": "python-lsp-server",
       "count": 3
     },
     {
@@ -285,10 +285,6 @@
       "count": 1
     },
     {
-      "component": "python-django-mailman3",
-      "count": 1
-    },
-    {
       "component": "certbot",
       "count": 1
     },
@@ -315,6 +311,14 @@
     {
       "component": "python-astroquery",
       "count": 1
+    },
+    {
+      "component": "python-readchar",
+      "count": 1
+    },
+    {
+      "component": "python-cerberus",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -338,13 +342,6 @@
         "python-distributed"
       ],
       "count": 2
-    },
-    {
-      "components": [
-        "python-django-extensions",
-        "python-django-mailman3"
-      ],
-      "count": 1
     },
     {
       "components": [
@@ -395,8 +392,6 @@
     },
     {
       "components": [
-        "python-django-extensions",
-        "python-django-mailman3",
         "python-hyperkitty",
         "python-postorius"
       ],
