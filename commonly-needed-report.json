@@ -392,13 +392,6 @@
     },
     {
       "components": [
-        "python-hyperkitty",
-        "python-postorius"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-dask",
         "python-pandas-datareader"
       ],
