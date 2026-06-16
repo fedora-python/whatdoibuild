@@ -1,7 +1,6 @@
 Io-language
 bodhi-server
 dnf-plugin-diff
-fail2ban
 hddfancontrol
 kitty
 kmymoney
@@ -22,7 +21,6 @@ python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-accelerate
 certbot
-python-alembic1.14
 ansible-lint
 python-apipkg
 python-astroquery
