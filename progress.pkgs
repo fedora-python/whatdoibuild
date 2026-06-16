@@ -52,7 +52,6 @@ python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
-bluechi
 bout++
 python-bytecode
 python-cartopy
@@ -134,7 +133,6 @@ xapian-bindings
 python-yamlloader
 renderdoc
 supervisor
-syslog-ng
 thefuck
 ubertooth
 veusz
