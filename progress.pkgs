@@ -8,7 +8,6 @@ monkeytype
 ocrmypdf
 pyp2rpm
 python-streamlink
-APLpy
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -57,7 +56,6 @@ bout++
 python-bytecode
 python-cartopy
 python-catkin_tools
-python-ccdproc
 python-cerberus
 python-chai
 dionaea
