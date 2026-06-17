@@ -1,8 +1,8 @@
 Io-language
 bodhi-server
+buildbot
 dnf-plugin-diff
 hddfancontrol
-python-hyperkitty
 kitty
 kmymoney
 monkeytype
@@ -83,7 +83,6 @@ qtile
 librealsense
 python-linuxdoc
 python-lsp-black
-python-lsp-ruff
 python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
@@ -105,7 +104,6 @@ python-poetry-plugin-export
 python-pyglet
 python-pygtkspellcheck
 python-jnius
-python-pyls-spyder
 python-pysdl2
 python-pytest-cases
 python-pytest-subtests
@@ -124,7 +122,6 @@ python-sphinxcontrib-chapeldomain
 python-tilestache
 python-toml-cli
 python-translitcodec
-python-treq
 python-triton
 usd
 python-vascpy

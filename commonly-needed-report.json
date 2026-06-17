@@ -181,10 +181,6 @@
       "count": 1
     },
     {
-      "component": "python-treq",
-      "count": 1
-    },
-    {
       "component": "pywbem",
       "count": 1,
       "blocked_by": [
@@ -233,6 +229,15 @@
     {
       "component": "python-exceptiongroup",
       "count": 1
+    },
+    {
+      "component": "python-pydocket",
+      "count": 1,
+      "blocked_by": [
+        "python-fakeredis",
+        "python-lupa",
+        "python-py-key-value"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -266,10 +271,6 @@
     },
     {
       "component": "pyqtwebengine",
-      "count": 1
-    },
-    {
-      "component": "python-treq",
       "count": 1
     },
     {
@@ -318,6 +319,10 @@
     },
     {
       "component": "python-cerberus",
+      "count": 1
+    },
+    {
+      "component": "python-lazr-delegates",
       "count": 1
     }
   ],
