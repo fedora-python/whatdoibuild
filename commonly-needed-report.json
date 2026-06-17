@@ -40,10 +40,6 @@
       ]
     },
     {
-      "component": "python-reproject",
-      "count": 2
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -228,6 +224,10 @@
     {
       "component": "python-astroquery",
       "count": 1
+    },
+    {
+      "component": "python-readchar",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -237,10 +237,6 @@
     },
     {
       "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-reproject",
       "count": 2
     },
     {
@@ -309,6 +305,10 @@
     },
     {
       "component": "python-cerberus",
+      "count": 1
+    },
+    {
+      "component": "python-lazr-delegates",
       "count": 1
     }
   ],

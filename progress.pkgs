@@ -8,6 +8,7 @@ monkeytype
 ocrmypdf
 pyp2rpm
 python-streamlink
+APLpy
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -56,6 +57,7 @@ bout++
 python-bytecode
 python-cartopy
 python-catkin_tools
+python-ccdproc
 python-cerberus
 python-chai
 dionaea
@@ -100,7 +102,6 @@ python-opfunu
 python-pandas-datareader
 roca-detect
 python-poetry-plugin-export
-python-psygnal
 python-pyglet
 python-pygtkspellcheck
 python-jnius
@@ -113,7 +114,6 @@ python-pyvmomi
 pyqtwebengine
 python-qudida
 python-readchar
-python-reproject
 python-rstr
 python-SALib
 python-slackclient
