@@ -1,14 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-dask",
-      "count": 11,
-      "blocked_by": [
-        "python-dask",
-        "python-distributed"
-      ]
-    },
-    {
       "component": "libmamba",
       "count": 7
     },
@@ -49,10 +41,7 @@
     },
     {
       "component": "python-reproject",
-      "count": 2,
-      "blocked_by": [
-        "python-dask"
-      ]
+      "count": 2
     },
     {
       "component": "python-geotiler",
@@ -60,10 +49,7 @@
     },
     {
       "component": "python-distributed",
-      "count": 2,
-      "blocked_by": [
-        "python-dask"
-      ]
+      "count": 2
     },
     {
       "component": "python-elastic-transport",
@@ -238,23 +224,27 @@
         "python-lupa",
         "python-py-key-value"
       ]
+    },
+    {
+      "component": "python-astroquery",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-dask",
-      "count": 6,
-      "blocked_by": [
-        "python-dask",
-        "python-distributed"
-      ]
-    },
     {
       "component": "python-pytest-subtests",
       "count": 3
     },
     {
       "component": "usd",
+      "count": 2
+    },
+    {
+      "component": "python-reproject",
+      "count": 2
+    },
+    {
+      "component": "python-distributed",
       "count": 2
     },
     {
@@ -320,10 +310,6 @@
     {
       "component": "python-cerberus",
       "count": 1
-    },
-    {
-      "component": "python-lazr-delegates",
-      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -333,20 +319,6 @@
         "libmamba"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-reproject"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-distributed"
-      ],
-      "count": 2
     },
     {
       "components": [
@@ -392,13 +364,6 @@
         "mailman3",
         "python-lazr-config",
         "python-lazr-delegates"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-pandas-datareader"
       ],
       "count": 1
     },
