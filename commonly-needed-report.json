@@ -44,10 +44,6 @@
       "count": 2
     },
     {
-      "component": "python-distributed",
-      "count": 2
-    },
-    {
       "component": "python-elastic-transport",
       "count": 2
     },
@@ -228,6 +224,10 @@
     {
       "component": "python-readchar",
       "count": 1
+    },
+    {
+      "component": "python-cerberus",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -237,10 +237,6 @@
     },
     {
       "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-distributed",
       "count": 2
     },
     {
@@ -309,6 +305,10 @@
     },
     {
       "component": "python-lazr-delegates",
+      "count": 1
+    },
+    {
+      "component": "python-hypothesmith",
       "count": 1
     }
   ],

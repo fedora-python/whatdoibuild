@@ -59,7 +59,6 @@ python-catkin_tools
 python-cerberus
 python-chai
 dionaea
-python-distributed
 python-django-cacheops
 python-einops
 python-elastic-transport
@@ -94,7 +93,6 @@ python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
 python-nagiosplugin
-python-neovim
 python-numpoly
 python-opfunu
 python-pandas-datareader
@@ -128,7 +126,6 @@ xapian-bindings
 python-xbout
 python-yamlloader
 renderdoc
-supervisor
 thefuck
 ubertooth
 veusz
