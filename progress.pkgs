@@ -114,7 +114,6 @@ python-qudida
 python-readchar
 python-rstr
 python-SALib
-python-slackclient
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
