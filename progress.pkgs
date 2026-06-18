@@ -5,6 +5,7 @@ hddfancontrol
 kitty
 kmymoney
 monkeytype
+nagios-plugins-systemd
 ocrmypdf
 pyp2rpm
 python-streamlink
@@ -61,7 +62,6 @@ python-chai
 dionaea
 python-django-cacheops
 python-einops
-python-elastic-transport
 python-eth-event
 python-eventlet
 python-exceptiongroup
@@ -72,7 +72,6 @@ python-geotiler
 gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
-jc
 emacs-jedi
 python-kaptan
 python-lazr-delegates
@@ -92,12 +91,12 @@ python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
-python-nagiosplugin
 python-numpoly
 python-opfunu
 python-pandas-datareader
 roca-detect
 python-poetry-plugin-export
+python-py-key-value
 python-pyglet
 python-pygtkspellcheck
 python-jnius
@@ -107,6 +106,7 @@ python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
+pywbem
 pyqtwebengine
 python-qudida
 python-readchar
@@ -124,7 +124,6 @@ python-vascpy
 python-vcstool
 xapian-bindings
 python-xbout
-python-yamlloader
 renderdoc
 thefuck
 ubertooth
