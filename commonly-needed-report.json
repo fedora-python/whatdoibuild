@@ -47,10 +47,6 @@
       ]
     },
     {
-      "component": "python-eventlet",
-      "count": 2
-    },
-    {
       "component": "python-cartopy",
       "count": 2
     },
@@ -227,6 +223,10 @@
       "blocked_by": [
         "python-toml-cli"
       ]
+    },
+    {
+      "component": "python-toml-cli",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -236,10 +236,6 @@
     },
     {
       "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-eventlet",
       "count": 2
     },
     {
@@ -309,6 +305,13 @@
     {
       "component": "python-mathics-scanner",
       "count": 1
+    },
+    {
+      "component": "python-mkdocs-test",
+      "count": 1,
+      "blocked_by": [
+        "python-toml-cli"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [

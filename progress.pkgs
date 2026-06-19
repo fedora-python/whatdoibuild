@@ -60,7 +60,6 @@ python-cerberus
 python-chai
 python-einops
 python-eth-event
-python-eventlet
 python-exceptiongroup
 python-exiv2
 python-fields
