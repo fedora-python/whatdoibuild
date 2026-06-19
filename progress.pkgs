@@ -4,7 +4,6 @@ dnf-plugin-diff
 hddfancontrol
 kitty
 kmymoney
-libstoragemgmt
 monkeytype
 ocrmypdf
 pyp2rpm
@@ -110,7 +109,6 @@ python-rstr
 python-SALib
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
-python-sphinxcontrib-chapeldomain
 python-tilestache
 python-toml-cli
 python-translitcodec
@@ -119,7 +117,6 @@ usd
 python-vascpy
 python-vcstool
 xapian-bindings
-python-xbout
 renderdoc
 thefuck
 ubertooth
