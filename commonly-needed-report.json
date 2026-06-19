@@ -40,10 +40,6 @@
       "count": 2
     },
     {
-      "component": "python-py-key-value",
-      "count": 2
-    },
-    {
       "component": "python-fakeredis",
       "count": 2,
       "blocked_by": [
@@ -147,10 +143,6 @@
       "count": 1
     },
     {
-      "component": "pywbem",
-      "count": 1
-    },
-    {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
@@ -194,8 +186,7 @@
       "count": 1,
       "blocked_by": [
         "python-fakeredis",
-        "python-lupa",
-        "python-py-key-value"
+        "python-lupa"
       ]
     },
     {
@@ -225,6 +216,17 @@
         "python-lazr-config",
         "python-lazr-delegates"
       ]
+    },
+    {
+      "component": "python-mathics-scanner",
+      "count": 1
+    },
+    {
+      "component": "python-mkdocs-test",
+      "count": 1,
+      "blocked_by": [
+        "python-toml-cli"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -250,10 +252,6 @@
     },
     {
       "component": "pyqtwebengine",
-      "count": 1
-    },
-    {
-      "component": "pywbem",
       "count": 1
     },
     {
@@ -307,6 +305,10 @@
     {
       "component": "gnulib",
       "count": 1
+    },
+    {
+      "component": "python-mathics-scanner",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -344,7 +346,6 @@
         "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
-        "python-py-key-value",
         "python-pydocket"
       ],
       "count": 1
@@ -360,8 +361,7 @@
     {
       "components": [
         "python-fakeredis",
-        "python-lupa",
-        "python-py-key-value"
+        "python-lupa"
       ],
       "count": 1
     }
