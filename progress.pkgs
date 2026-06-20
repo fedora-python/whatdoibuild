@@ -52,7 +52,6 @@ python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
-bout++
 python-bytecode
 python-cartopy
 python-catkin_tools
@@ -106,7 +105,6 @@ python-qudida
 python-readchar
 python-rstr
 python-SALib
-python-sphinx-argparse-cli
 python-sphinx-kr-theme
 python-tilestache
 python-toml-cli
