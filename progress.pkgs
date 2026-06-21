@@ -21,7 +21,6 @@ python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-accelerate
 certbot
-ansible-lint
 python-apipkg
 python-astroquery
 python-avocado
@@ -59,7 +58,6 @@ python-cerberus
 python-chai
 python-einops
 python-eth-event
-python-exceptiongroup
 python-exiv2
 python-fields
 python-geopmpy
@@ -109,7 +107,6 @@ python-sphinx-kr-theme
 python-tilestache
 python-toml-cli
 python-translitcodec
-python-triton
 usd
 python-vascpy
 python-vcstool

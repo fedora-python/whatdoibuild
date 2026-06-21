@@ -174,10 +174,6 @@
       "count": 1
     },
     {
-      "component": "python-exceptiongroup",
-      "count": 1
-    },
-    {
       "component": "python-pydocket",
       "count": 1,
       "blocked_by": [
@@ -226,6 +222,10 @@
     },
     {
       "component": "python-toml-cli",
+      "count": 1
+    },
+    {
+      "component": "python-pandas-datareader",
       "count": 1
     }
   ],
@@ -346,7 +346,6 @@
     },
     {
       "components": [
-        "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
         "python-pydocket"
