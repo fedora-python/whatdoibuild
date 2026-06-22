@@ -1,13 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "conda",
-      "count": 6,
-      "blocked_by": [
-        "conda"
-      ]
-    },
-    {
       "component": "python-lazr-delegates",
       "count": 3
     },
@@ -157,13 +150,6 @@
       "count": 1
     },
     {
-      "component": "conda-build",
-      "count": 1,
-      "blocked_by": [
-        "conda"
-      ]
-    },
-    {
       "component": "python-pytest-cases",
       "count": 1
     },
@@ -228,16 +214,17 @@
       "blocked_by": [
         "python-questionary"
       ]
+    },
+    {
+      "component": "python-sphinx-kr-theme",
+      "count": 1
+    },
+    {
+      "component": "qtile",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "conda",
-      "count": 5,
-      "blocked_by": [
-        "conda"
-      ]
-    },
     {
       "component": "python-pytest-subtests",
       "count": 3
@@ -316,6 +303,10 @@
       "blocked_by": [
         "python-toml-cli"
       ]
+    },
+    {
+      "component": "python-toml-cli",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -330,13 +321,6 @@
       "components": [
         "python-geotiler",
         "python-sport-activities-features"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "conda",
-        "conda-build"
       ],
       "count": 1
     },
