@@ -1,10 +1,10 @@
 Io-language
-OpenLP
 bodhi-server
 dnf-plugin-diff
 hddfancontrol
 kitty
 kmymoney
+mailman3
 monkeytype
 ocrmypdf
 pyp2rpm
@@ -68,7 +68,6 @@ python-grpc-google-iam-v1
 python-hypothesmith
 emacs-jedi
 python-kaptan
-python-lazr-config
 qtile
 librealsense
 python-linuxdoc

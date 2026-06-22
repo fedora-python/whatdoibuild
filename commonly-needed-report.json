@@ -13,10 +13,6 @@
       "count": 2
     },
     {
-      "component": "python-lazr-config",
-      "count": 2
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -172,10 +168,7 @@
     },
     {
       "component": "mailman3",
-      "count": 1,
-      "blocked_by": [
-        "python-lazr-config"
-      ]
+      "count": 1
     },
     {
       "component": "python-mathics-scanner",
@@ -234,10 +227,6 @@
       "count": 2
     },
     {
-      "component": "python-lazr-config",
-      "count": 1
-    },
-    {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
@@ -282,6 +271,10 @@
       "count": 1
     },
     {
+      "component": "mailman3",
+      "count": 1
+    },
+    {
       "component": "python-mathics-scanner",
       "count": 1
     },
@@ -314,13 +307,6 @@
         "python-fakeredis",
         "python-lupa",
         "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "mailman3",
-        "python-lazr-config"
       ],
       "count": 1
     },
