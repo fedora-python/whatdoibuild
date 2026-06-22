@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-lazr-delegates",
-      "count": 3
-    },
-    {
       "component": "python-pytest-subtests",
       "count": 3
     },
@@ -18,10 +14,7 @@
     },
     {
       "component": "python-lazr-config",
-      "count": 2,
-      "blocked_by": [
-        "python-lazr-delegates"
-      ]
+      "count": 2
     },
     {
       "component": "python-geotiler",
@@ -41,10 +34,6 @@
     {
       "component": "xapian-bindings",
       "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
     },
     {
       "component": "python-azure-data-tables",
@@ -185,8 +174,7 @@
       "component": "mailman3",
       "count": 1,
       "blocked_by": [
-        "python-lazr-config",
-        "python-lazr-delegates"
+        "python-lazr-config"
       ]
     },
     {
@@ -222,6 +210,10 @@
     {
       "component": "qtile",
       "count": 1
+    },
+    {
+      "component": "python-rstr",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -242,7 +234,7 @@
       "count": 2
     },
     {
-      "component": "pyqtwebengine",
+      "component": "python-lazr-config",
       "count": 1
     },
     {
@@ -282,10 +274,6 @@
       "count": 1
     },
     {
-      "component": "python-lazr-delegates",
-      "count": 1
-    },
-    {
       "component": "python-hypothesmith",
       "count": 1
     },
@@ -307,16 +295,13 @@
     {
       "component": "python-toml-cli",
       "count": 1
+    },
+    {
+      "component": "python-pandas-datareader",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-lazr-config",
-        "python-lazr-delegates"
-      ],
-      "count": 1
-    },
     {
       "components": [
         "python-geotiler",
@@ -335,8 +320,7 @@
     {
       "components": [
         "mailman3",
-        "python-lazr-config",
-        "python-lazr-delegates"
+        "python-lazr-config"
       ],
       "count": 1
     },

@@ -1,4 +1,5 @@
 Io-language
+OpenLP
 bodhi-server
 dnf-plugin-diff
 hddfancontrol
@@ -67,7 +68,7 @@ python-grpc-google-iam-v1
 python-hypothesmith
 emacs-jedi
 python-kaptan
-python-lazr-delegates
+python-lazr-config
 qtile
 librealsense
 python-linuxdoc
@@ -97,7 +98,6 @@ python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
-pyqtwebengine
 python-qudida
 python-readchar
 python-rstr
