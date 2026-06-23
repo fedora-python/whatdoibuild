@@ -128,10 +128,6 @@
       "count": 1
     },
     {
-      "component": "python-pydocket",
-      "count": 1
-    },
-    {
       "component": "python-astroquery",
       "count": 1
     },
@@ -228,10 +224,6 @@
       "count": 1
     },
     {
-      "component": "python-pydocket",
-      "count": 1
-    },
-    {
       "component": "python-astroquery",
       "count": 1
     },
@@ -276,6 +268,10 @@
       "blocked_by": [
         "python-questionary"
       ]
+    },
+    {
+      "component": "python-geotiler",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [

@@ -59,6 +59,7 @@ python-chai
 python-einops
 python-eth-event
 python-exiv2
+python-fastmcp
 python-fields
 python-geopmpy
 python-geotiler
@@ -86,7 +87,6 @@ python-opfunu
 python-pandas-datareader
 roca-detect
 python-poetry-plugin-export
-python-pydocket
 python-pyglet
 python-pygtkspellcheck
 python-jnius
