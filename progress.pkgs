@@ -26,14 +26,12 @@ python-astroquery
 python-avocado
 python-azure-data-tables
 python-azure-loganalytics
-python-azure-mgmt-advisor
 python-azure-mgmt-applicationinsights
 python-azure-mgmt-batchai
 python-azure-mgmt-billing
 python-azure-mgmt-cdn
 python-azure-mgmt-consumption
 python-azure-mgmt-databoxedge
-python-azure-mgmt-datamigration
 python-azure-mgmt-devtestlabs
 python-azure-mgmt-dns
 python-azure-mgmt-eventgrid
@@ -100,7 +98,7 @@ python-qudida
 python-readchar
 python-rstr
 python-SALib
-python-sphinx-kr-theme
+python-TestSlide
 python-tilestache
 python-toml-cli
 python-translitcodec
