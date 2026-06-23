@@ -59,6 +59,7 @@ python-chai
 python-einops
 python-eth-event
 python-exiv2
+python-fakeredis
 python-fields
 python-geopmpy
 python-geotiler
@@ -71,7 +72,6 @@ qtile
 librealsense
 python-linuxdoc
 python-lsp-black
-python-lupa
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
