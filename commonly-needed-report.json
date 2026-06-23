@@ -167,10 +167,6 @@
       "count": 1
     },
     {
-      "component": "mailman3",
-      "count": 1
-    },
-    {
       "component": "python-mathics-scanner",
       "count": 1
     },
@@ -271,10 +267,6 @@
       "count": 1
     },
     {
-      "component": "mailman3",
-      "count": 1
-    },
-    {
       "component": "python-mathics-scanner",
       "count": 1
     },
@@ -292,6 +284,13 @@
     {
       "component": "python-pandas-datareader",
       "count": 1
+    },
+    {
+      "component": "python-questionary",
+      "count": 1,
+      "blocked_by": [
+        "python-questionary"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [

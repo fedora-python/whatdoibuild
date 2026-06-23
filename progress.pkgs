@@ -4,7 +4,6 @@ dnf-plugin-diff
 hddfancontrol
 kitty
 kmymoney
-mailman3
 monkeytype
 ocrmypdf
 pyp2rpm
@@ -73,6 +72,7 @@ librealsense
 python-linuxdoc
 python-lsp-black
 python-lupa
+python-mailman-hyperkitty
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
