@@ -13,10 +13,6 @@
       "count": 2
     },
     {
-      "component": "python-fakeredis",
-      "count": 2
-    },
-    {
       "component": "python-cartopy",
       "count": 2
     },
@@ -133,10 +129,7 @@
     },
     {
       "component": "python-pydocket",
-      "count": 1,
-      "blocked_by": [
-        "python-fakeredis"
-      ]
+      "count": 1
     },
     {
       "component": "python-astroquery",
@@ -235,6 +228,10 @@
       "count": 1
     },
     {
+      "component": "python-pydocket",
+      "count": 1
+    },
+    {
       "component": "python-astroquery",
       "count": 1
     },
@@ -274,10 +271,6 @@
       "count": 1
     },
     {
-      "component": "python-fakeredis",
-      "count": 1
-    },
-    {
       "component": "python-questionary",
       "count": 1,
       "blocked_by": [
@@ -290,13 +283,6 @@
       "components": [
         "python-geotiler",
         "python-sport-activities-features"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-fakeredis",
-        "python-pydocket"
       ],
       "count": 1
     }
