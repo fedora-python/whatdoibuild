@@ -24,7 +24,6 @@ certbot
 python-apipkg
 python-astroquery
 python-avocado
-python-azure-data-tables
 python-azure-loganalytics
 python-azure-mgmt-applicationinsights
 python-azure-mgmt-batchai
@@ -41,7 +40,6 @@ python-azure-mgmt-managementgroups
 python-azure-mgmt-maps
 python-azure-mgmt-marketplaceordering
 python-azure-mgmt-media
-python-azure-mgmt-privatedns
 python-azure-mgmt-support
 python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
@@ -64,7 +62,6 @@ python-hypothesmith
 emacs-jedi
 python-kaptan
 qtile
-librealsense
 python-linuxdoc
 python-lsp-black
 python3-mallard-ducktype
