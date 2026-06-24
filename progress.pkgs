@@ -28,10 +28,7 @@ python-azure-data-tables
 python-azure-loganalytics
 python-azure-mgmt-applicationinsights
 python-azure-mgmt-batchai
-python-azure-mgmt-billing
 python-azure-mgmt-cdn
-python-azure-mgmt-consumption
-python-azure-mgmt-databoxedge
 python-azure-mgmt-devtestlabs
 python-azure-mgmt-dns
 python-azure-mgmt-eventgrid
