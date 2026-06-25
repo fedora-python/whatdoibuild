@@ -59,6 +59,7 @@ python-geotiler
 gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
+python-inquirer
 emacs-jedi
 python-kaptan
 qtile
@@ -79,7 +80,6 @@ python-opfunu
 python-pandas-datareader
 roca-detect
 python-poetry-plugin-export
-python-pyglet
 python-pygtkspellcheck
 python-jnius
 python-pysdl2
@@ -89,7 +89,6 @@ python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
 python-qudida
-python-readchar
 python-rstr
 python-SALib
 python-tilestache
