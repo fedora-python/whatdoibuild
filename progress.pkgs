@@ -61,7 +61,6 @@ gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
 python-inquirer
-emacs-jedi
 python-kaptan
 qtile
 python-linuxdoc
