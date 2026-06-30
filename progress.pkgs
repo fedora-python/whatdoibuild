@@ -79,7 +79,6 @@ python-more-executors
 python-mplcairo
 python-numpoly
 python-opfunu
-python-pandas-datareader
 python-persist-queue
 roca-detect
 python-poetry-plugin-export
