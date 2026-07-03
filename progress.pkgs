@@ -24,7 +24,6 @@ python-astroquery
 atomic-reactor
 python-avocado
 python-azure-loganalytics
-python-azure-mgmt-applicationinsights
 python-azure-mgmt-batchai
 python-azure-mgmt-cdn
 python-azure-mgmt-devtestlabs
@@ -75,7 +74,6 @@ python-more-executors
 python-mplcairo
 python-numpoly
 python-opfunu
-python-persist-queue
 roca-detect
 python-poetry-plugin-export
 python-pygtkspellcheck
