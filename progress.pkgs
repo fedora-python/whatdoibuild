@@ -78,7 +78,6 @@ usd
 python-vcstool
 xapian-bindings
 python-zarr-checksum
-reprotest
 sugar
 sugar-toolkit-gtk3
 thefuck
