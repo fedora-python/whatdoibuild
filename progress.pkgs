@@ -41,7 +41,6 @@ python-inquirer
 python-kaptan
 qtile
 python-linuxdoc
-python-lsp-black
 python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
@@ -76,9 +75,9 @@ python-toml-cli
 python-translitcodec
 usd
 python-vcstool
-xapian-bindings
 python-zarr-checksum
 sugar
+sugar-datastore
 sugar-toolkit-gtk3
 thefuck
 ubertooth
