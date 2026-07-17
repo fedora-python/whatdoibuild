@@ -48,7 +48,6 @@ Mayavi
 python-mbstrdecoder
 python-memray
 python-meshio
-python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
 moose
 python-more-executors
@@ -77,7 +76,6 @@ usd
 python-vcstool
 python-zarr-checksum
 sugar
-sugar-datastore
 sugar-toolkit-gtk3
 thefuck
 ubertooth
