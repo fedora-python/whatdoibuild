@@ -135,7 +135,7 @@ def submit_koji_build(repopath, target=None):
     """
     target = target or CONFIG['koji']['target']
     result = run('fedpkg', 'build', '--fail-fast', '--nowait',
-        '--background', '--target', target, cwd=repopath)
+        '--target', target, cwd=repopath)  # XXX '--background', 
     log(result.stdout)
 
 
