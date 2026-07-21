@@ -1,0 +1,860 @@
+
+=== WAVE 1 (176 packages) ===
+     1. PyGreSQL
+     2. asahi-installer
+     3. audit
+     4. b43-tools
+     5. babeltrace
+     6. babeltrace2
+     7. coccinelle
+     8. cryptlib
+     9. deltarpm
+    10. eggdrop
+    11. evemu
+    12. freeradius
+    13. gammastep
+    14. ganglia
+    15. gensio
+    16. globus-net-manager
+    17. gpgmepy
+    18. graphviz
+    19. hivex
+    20. i2c-tools
+    21. insight
+    22. isomd5sum
+    23. ldns
+    24. libcaca
+    25. libcap-ng
+    26. libesedb
+    27. liblinear
+    28. libpfm
+    29. libpwquality
+    30. libsearpc
+    31. libselinux
+    32. libsemanage
+    33. libsigrokdecode
+    34. libsmbios
+    35. libtalloc
+    36. libtdb
+    37. libucl
+    38. link-grammar
+    39. livecd-tools
+    40. lorax
+    41. lttng-ust
+    42. mercurial
+    43. mininet
+    44. mirage
+    45. mpich
+    46. nagios-plugins-systemd
+    47. net-snmp
+    48. newt
+    49. ninja-build::bootstrap:::  (with bootstrap)
+    50. nordugrid-arc
+    51. ntpsec
+    52. omniORB
+    53. otf2
+    54. pcapy
+    55. perl-Inline-Python
+    56. postgresql16
+    57. postgresql17
+    58. postgresql18
+    59. py-radix
+    60. py-spidev
+    61. pyaudio
+    62. pybox2d
+    63. pyhunspell
+    64. pyicu
+    65. pylibacl
+    66. pyodbc
+    67. pyparted
+    68. pyscard
+    69. pythia8
+    70. python-GeoIP
+    71. python-alsa
+    72. python-apsw
+    73. python-apt
+    74. python-atpublic
+    75. python-axolotl-curve25519
+    76. python-bcrypt
+    77. python-berkeleydb
+    78. python-bitarray
+    79. python-bsddb3
+    80. python-cccolutils
+    81. python-cheetah
+    82. python-chm
+    83. python-ciso8601
+    84. python-ckzg
+    85. python-confluent-kafka
+    86. python-coverage
+    87. python-crc32c
+    88. python-crypt-r
+    89. python-crypto
+    90. python-ethtool
+    91. python-evdev
+    92. python-exiv2
+    93. python-fastrand
+    94. python-genshi
+    95. python-google-crc32c
+    96. python-hiredis
+    97. python-immutables
+    98. python-isal
+    99. python-kadmin
+   100. python-kerberos
+   101. python-kiwisolver
+   102. python-lazy-object-proxy
+   103. python-ldap
+   104. python-lmdb
+   105. python-lru-dict
+   106. python-markupsafe
+   107. python-maxminddb
+   108. python-msgspec
+   109. python-mutf8
+   110. python-netifaces
+   111. python-patiencediff
+   112. python-posix-ipc
+   113. python-protobuf
+   114. python-psutil
+   115. python-ptrace
+   116. python-pyasn
+   117. python-pycdio
+   118. python-pycosat
+   119. python-pyev
+   120. python-pyliblzfse
+   121. python-pylibmc
+   122. python-pylsqpack
+   123. python-pyqt5-sip
+   124. python-pyqt6-sip
+   125. python-pysingular
+   126. python-pyzstd
+   127. python-rcssmin
+   128. python-regex
+   129. python-rpds-py
+   130. python-schedutils
+   131. python-scrypt
+   132. python-setproctitle
+   133. python-smbc
+   134. python-smbpasswd
+   135. python-sqlalchemy1.3
+   136. python-sqlalchemy1.4
+   137. python-sqlglot
+   138. python-sysv_ipc
+   139. python-time-machine
+   140. python-tomli
+   141. python-tornado
+   142. python-uinput
+   143. python-ujson
+   144. python-unicode-segmentation-rs
+   145. python-unicodedata2
+   146. python-uptime
+   147. python-utmp
+   148. python-webrtcvad
+   149. python-websockets
+   150. python-wrapt
+   151. python-xxhash
+   152. python-zlib-ng
+   153. python-zope-hookable
+   154. python-zopfli
+   155. python-zstd
+   156. python3-lxc
+   157. pyxattr
+   158. rdiff-backup
+   159. realtime-tests
+   160. redhat-internal-test-package
+   161. redshift
+   162. retis
+   163. rhythmbox-ampache
+   164. rrdtool
+   165. sip
+   166. skf
+   167. speech-dispatcher
+   168. sudo
+   169. swift-lang
+   170. tcl-snack
+   171. tre
+   172. unbound
+   173. usbrelay
+   174. util-linux
+   175. vdr-epg2vdr
+   176. volume_key
+
+=== WAVE 2 (112 packages) ===
+   177. COPASI
+   178. Cython:tests::::  (without tests)
+   179. HepMC3
+   180. Io-language
+   181. PyX
+   182. amdsmi
+   183. apk-tools
+   184. brotli
+   185. btrfs-progs
+   186. createrepo-agent
+   187. createrepo_c
+   188. criu
+   189. dnf5
+   190. dtc
+   191. gdcm
+   192. getdp
+   193. inn
+   194. iscsi-initiator-utils
+   195. jsonnet
+   196. lensfun
+   197. libCombine
+   198. libarcus
+   199. libbatch
+   200. libcec
+   201. libcomps
+   202. libiio
+   203. libkdtree++
+   204. libnbd
+   205. libnuml
+   206. libnvme
+   207. libpkgmanifest
+   208. libpoly
+   209. librepo
+   210. libsavitar
+   211. libsbml
+   212. libsedml
+   213. libsolv
+   214. libtevent
+   215. libwignernj
+   216. libxml2
+   217. lilv
+   218. lttng-tools
+   219. mapserver
+   220. marisa
+   221. med
+   222. miniupnpc
+   223. mod_wsgi
+   224. mrchem
+   225. mysql-connector-python
+   226. nordugrid-arc-nagios-plugins
+   227. omniORBpy
+   228. openmpi
+   229. openscap
+   230. opensips
+   231. pam_wrapper
+   232. partio
+   233. powerline
+   234. proxmark3
+   235. pybind11:optional_tests::::  (without optional_tests)
+   236. pycairo
+   237. pylibgamerzilla
+   238. pyotherside
+   239. pysvn
+   240. python-awscrt
+   241. python-beancount
+   242. python-bitstruct
+   243. python-cbor2
+   244. python-cffi
+   245. python-crcmod
+   246. python-cups
+   247. python-cvxopt
+   248. python-drgn
+   249. python-ephem
+   250. python-fastar
+   251. python-gmpy2:tests::::  (without tests)
+   252. python-greenlet
+   253. python-libsass
+   254. python-llvmlite
+   255. python-lz4
+   256. python-mwparserfromhell
+   257. python-mysqlclient
+   258. python-pendulum
+   259. python-psycopg2
+   260. python-pyahocorasick
+   261. python-pycryptodomex
+   262. python-pykcs11
+   263. python-sane
+   264. python-simplejson
+   265. python-systemd
+   266. python-tkrzw
+   267. python-yara
+   268. python-zope-interface:docs::::  (without docs)
+   269. re2
+   270. renderdoc
+   271. rpm
+   272. seadrive-daemon
+   273. sentencepiece
+   274. sssd
+   275. subscription-manager
+   276. subversion
+   277. superlu_dist
+   278. sword
+   279. tbb
+   280. tlsh
+   281. ubertooth
+   282. unicorn
+   283. units-llnl
+   284. vdr-epg-daemon
+   285. volk
+   286. weechat
+   287. xapian-bindings
+   288. xen
+
+=== WAVE 3 (101 packages) ===
+   289. PyYAML
+   290. afflib
+   291. clingo
+   292. cvc5
+   293. dftd4
+   294. dionaea
+   295. fapolicy-analyzer
+   296. hplip
+   297. lhapdf
+   298. libcpuid
+   299. libdnet
+   300. libimobiledevice
+   301. libmamba
+   302. libolm
+   303. libplist
+   304. libxslt
+   305. lrcalc
+   306. mpi4py
+   307. netplan
+   308. numpy
+   309. nwchem
+   310. openvswitch
+   311. orocos-kdl
+   312. pocketsphinx
+   313. portmidi
+   314. printrun
+   315. pystatgrab
+   316. python-admesh
+   317. python-aioquic
+   318. python-ansible-pylibssh
+   319. python-argon2-cffi-bindings
+   320. python-asyncmy
+   321. python-augeas
+   322. python-biscuits
+   323. python-cmarkgfm
+   324. python-coincurve
+   325. python-cwcwidth
+   326. python-cyseq
+   327. python-cytoolz
+   328. python-dmidecode
+   329. python-falcon
+   330. python-fastbencode
+   331. python-fastrlock
+   332. python-fontconfig
+   333. python-frozenlist
+   334. python-gbinder
+   335. python-gevent
+   336. python-giacpy
+   337. python-gssapi
+   338. python-hidapi
+   339. python-httptools
+   340. python-intbitset
+   341. python-ipcqueue
+   342. python-kmod
+   343. python-libdiscid
+   344. python-llfuse
+   345. python-lupa
+   346. python-lxml:extras::::  (without extras)
+   347. python-msgpack
+   348. python-multidict
+   349. python-murmurhash
+   350. python-openstep-plist
+   351. python-pillow
+   352. python-propcache
+   353. python-psycopg3
+   354. python-pycares
+   355. python-pyclipper
+   356. python-pykdumpfile
+   357. python-pyliblo3
+   358. python-pynacl
+   359. python-pyroaring
+   360. python-pysam
+   361. python-pytaglib
+   362. python-pywayland
+   363. python-pyxdameraulevenshtein
+   364. python-reedsolo
+   365. python-reflink
+   366. python-rencode
+   367. python-ssdeep
+   368. python-ssh-python
+   369. python-symengine
+   370. python-timelib
+   371. python-uharfbuzz
+   372. python-ukkonen
+   373. python-xattr
+   374. python-xeddsa
+   375. python-xkbcommon
+   376. python-xkbregistry
+   377. python-zeroconf
+   378. python-zope-i18nmessageid
+   379. python-zstandard
+   380. python3-cangjie
+   381. qpid-proton
+   382. rdma-core
+   383. rpy
+   384. setools
+   385. sugar-datastore
+   386. syndication-domination
+   387. vapoursynth
+   388. virtme-ng
+   389. zxing-cpp
+
+=== WAVE 4 (93 packages) ===
+   390. MUSIC
+   391. SoapySDR
+   392. aubio
+   393. boost
+   394. borgbackup
+   395. buildstream
+   396. catalyst
+   397. duplicity
+   398. flann
+   399. gobject-introspection
+   400. h5py
+   401. lammps
+   402. lasso
+   403. libbytesize
+   404. libdnf
+   405. libiptcdata
+   406. libstoragemgmt
+   407. libuser
+   408. libxc
+   409. llvm
+   410. llvm21
+   411. moose
+   412. nml
+   413. nmstate
+   414. onnx
+   415. openwsman
+   416. osbuild
+   417. petsc
+   418. pygsl
+   419. pyinstrument
+   420. pyproj
+   421. python-Bottleneck
+   422. python-Traits::bootstrap:::  (with bootstrap)
+   423. python-asyncpg
+   424. python-biopython
+   425. python-blosc
+   426. python-calcephpy
+   427. python-cftime
+   428. python-contourpy::bootstrap:::  (with bootstrap)
+   429. python-cramjam
+   430. python-ducc0
+   431. python-eccodes
+   432. python-embreex
+   433. python-eth-event
+   434. python-fast-simplification
+   435. python-fisx
+   436. python-fitsio
+   437. python-gsd
+   438. python-html5-parser
+   439. python-indexed_gzip
+   440. python-jnius
+   441. python-lap
+   442. python-mapbox-earcut
+   443. python-memray
+   444. python-ndindex
+   445. python-numcodecs
+   446. python-numexpr
+   447. python-numpoly
+   448. python-openslide
+   449. python-orjson
+   450. python-pikepdf
+   451. python-pillow-jxl-plugin
+   452. python-pycurl
+   453. python-pyerfa
+   454. python-pyjson5
+   455. python-pykdtree
+   456. python-pymilter
+   457. python-pymongo
+   458. python-pymssql:tests::::  (without tests)
+   459. python-pypillowfight
+   460. python-pyscipopt
+   461. python-pystemd
+   462. python-python-fcl
+   463. python-rjsmin
+   464. python-sgp4
+   465. python-torch
+   466. python-tpm2-pytss
+   467. python-triton
+   468. python-vhacdx
+   469. python-xmlsec
+   470. python-yarl
+   471. python-zmq
+   472. pywhispercpp
+   473. rpm-head-signing
+   474. samba
+   475. scancode-toolkit
+   476. scipy:pooch-pythran-tests::::  (without pythran,pooch,tests)
+   477. spglib
+   478. sundials
+   479. syslog-ng
+   480. xcfun
+   481. xrootd
+   482. zinnia
+
+=== WAVE 5 (59 packages) ===
+   483. at-spi2-core
+   484. botan
+   485. ceph
+   486. coin-or-HiGHS
+   487. collectd
+   488. condor
+   489. cryptominisat
+   490. csdiff
+   491. dee
+   492. dnf-plugin-diff
+   493. espresso
+   494. fonts-tweak-tool
+   495. fonttools:graphite_extra-interpolatable_extra-plot_extra-symfont_extra-tests-ufo_extra-woff_extra::::  (without tests,plot_extra,symfont_extra,ufo_extra,woff_extra,graphite_extra,interpolatable_extra)
+   496. gdb
+   497. hamlib
+   498. imath
+   499. kea
+   500. libblockdev
+   501. libftdi
+   502. libgpiod
+   503. libixion
+   504. libkml
+   505. libkolabxml
+   506. liborcus
+   507. libpst
+   508. mupdf
+   509. nbdkit
+   510. nest
+   511. netcdf4-python
+   512. opentrep
+   513. pymilia
+   514. python-aiohttp
+   515. python-blosc2
+   516. python-cattrs
+   517. python-crick
+   518. python-gattlib
+   519. python-jupymake
+   520. python-llama-cpp-python
+   521. python-ovirt-engine-sdk4
+   522. python-peewee
+   523. python-piper-tts
+   524. python-pynest2d
+   525. python-pyopencl
+   526. python-pyscf
+   527. python-pyspike
+   528. python-scikit-learn
+   529. python-sqlalchemy
+   530. python-torchtext
+   531. python-tvb-gdist
+   532. pythran
+   533. rmol
+   534. seafile
+   535. systemtap
+   536. thrift
+   537. tpm2-pkcs11
+   538. trademgen
+   539. trellis
+   540. uhd
+   541. uwsgi
+
+=== WAVE 6 (66 packages) ===
+   542. NLopt
+   543. Silo
+   544. audiotube
+   545. avogadro2-libs
+   546. bluefish
+   547. brltty
+   548. bubblemail
+   549. calamares
+   550. cantor
+   551. compizconfig-python
+   552. distcc
+   553. fontforge
+   554. glaxnimate
+   555. gnucash
+   556. hexchat
+   557. hugin
+   558. kig
+   559. kitty
+   560. kmymoney
+   561. kopeninghours
+   562. libcamera
+   563. libguestfs
+   564. librealsense
+   565. libreoffice
+   566. libreport
+   567. libsvm
+   568. lirc
+   569. mathgl
+   570. nextpnr
+   571. notcurses
+   572. notmuch
+   573. obs-studio
+   574. openbabel
+   575. openmeeg
+   576. openvdb
+   577. pitivi
+   578. pl
+   579. profanity
+   580. pybluez
+   581. pygame
+   582. pygobject3
+   583. python-PyMuPDF
+   584. python-compreffor
+   585. python-dulwich
+   586. python-imagecodecs
+   587. python-logbook
+   588. python-mapnik
+   589. python-matplotlib
+   590. python-pari-jupyter
+   591. python-pyside6
+   592. python-slixmpp
+   593. python-tables
+   594. python-torchaudio
+   595. python-torchvision
+   596. python-wxpython4
+   597. recoll
+   598. remmina
+   599. root
+   600. satyr
+   601. sigil
+   602. texworks
+   603. tiled
+   604. urjtag
+   605. ustreamer
+   606. vigra
+   607. vtk::bootstrap:::  (with bootstrap)
+
+=== WAVE 7 (73 packages) ===
+   608. Macaulay2
+   609. OpenColorIO
+   610. YafaRay
+   611. abiword
+   612. breezy
+   613. claws-mail
+   614. dbus-python
+   615. diffoscope
+   616. f3d
+   617. gdl
+   618. geopmd
+   619. glade
+   620. gnofract4d
+   621. gnome-browser-connector
+   622. gnumeric
+   623. gom
+   624. gpaw
+   625. gplugin
+   626. gpsd
+   627. gst-editing-services
+   628. ibus
+   629. jack-mixer
+   630. kf6-kcalendarcore
+   631. kf6-kcoreaddons
+   632. kf6-kguiaddons
+   633. kf6-kjobwidgets
+   634. kf6-knotifications
+   635. kf6-kstatusnotifieritem
+   636. kf6-kunitconversion
+   637. kf6-kwidgetsaddons
+   638. kf6-kxmlgui
+   639. libaccounts-glib
+   640. libfreenect
+   641. libgexiv2_0.14
+   642. libgit2-glib
+   643. libmodulemd
+   644. libopenshot
+   645. libpeas
+   646. libsonata
+   647. libunity
+   648. mlt
+   649. morphio
+   650. nautilus-python
+   651. netgen-mesher
+   652. opencv
+   653. paraview
+   654. python-annarchy
+   655. python-basemap
+   656. python-caja
+   657. python-dbus-fast
+   658. python-deap
+   659. python-geomdl
+   660. python-graph-tool
+   661. python-gstreamer1
+   662. python-janus-swi
+   663. python-mplcairo
+   664. python-nitime
+   665. python-oracledb
+   666. python-pygraphviz
+   667. python-pyopengl
+   668. python-pywt
+   669. python-shapely
+   670. python-steps
+   671. python-wordcloud
+   672. quisk
+   673. setroubleshoot
+   674. smoldyn
+   675. sugar-toolkit-gtk3
+   676. vimiv
+   677. whipper
+   678. xapps
+   679. xpra
+   680. zbar
+
+=== WAVE 8 (24 packages) ===
+   681. OpenImageIO
+   682. ProDy
+   683. abrt
+   684. anaconda
+   685. blueman
+   686. bout++
+   687. cambalache
+   688. copr-rpmbuild
+   689. gitg
+   690. glusterfs
+   691. gnome-abrt
+   692. initial-setup
+   693. libpeas1
+   694. lutris
+   695. materialx
+   696. nemo-extensions
+   697. openshadinglanguage
+   698. pyosmium
+   699. python-fiona
+   700. python-pyqt6
+   701. python-qt5
+   702. python-rasterio
+   703. python-scikit-image
+   704. qtile
+
+=== WAVE 9 (28 packages) ===
+   705. Mayavi
+   706. PyMca
+   707. gnuradio
+   708. krita
+   709. libffado
+   710. nfs-ganesha
+   711. nut
+   712. picard
+   713. plplot
+   714. pymol
+   715. pyqtwebengine
+   716. python-astropy
+   717. python-cartopy
+   718. python-ezdxf
+   719. python-numpy-stl
+   720. python-pandas::bootstrap:::  (with bootstrap)
+   721. python-pyqt6-charts
+   722. python-pyqt6-webengine
+   723. python-qcustomplot-pyqt
+   724. python3-poppler-qt5
+   725. qhexedit2
+   726. qscintilla
+   727. scidavis
+   728. scribus
+   729. urh
+   730. usd
+   731. veusz
+   732. vimiv-qt
+
+=== WAVE 10 (27 packages) ===
+   733. astrometry
+   734. blender
+   735. calibre
+   736. gr-air-modes
+   737. gr-funcube
+   738. gr-hpsdr
+   739. gr-iqbal
+   740. gr-rds
+   741. libarrow
+   742. mlpack
+   743. openms
+   744. python-astropy-healpix
+   745. python-astroscrappy
+   746. python-contextualbandits
+   747. python-fastavro
+   748. python-geopmpy
+   749. python-gsw
+   750. python-healpy
+   751. python-igraph
+   752. python-photutils
+   753. python-pybbi
+   754. python-pyregion
+   755. python-rapidfuzz
+   756. python-sep
+   757. python-statsmodels
+   758. qgis
+   759. spec2nii
+
+=== WAVE 11 (8 packages) ===
+   760. gr-osmosdr
+   761. nanopb
+   762. pcp
+   763. python-Levenshtein
+   764. python-datasets
+   765. python-pyogrio::bootstrap:::  (with bootstrap)
+   766. python-reproject
+   767. python-trimesh::bootstrap:::  (with bootstrap)
+
+=== WAVE 12 (3 packages) ===
+   768. manifold
+   769. python-cascadio
+   770. python-tokenizers
+
+=== REBUILDS without bconds (15 packages) ===
+   771. Cython
+   772. fonttools
+   773. ninja-build
+   774. pybind11
+   775. python-Traits
+   776. python-contourpy
+   777. python-gmpy2
+   778. python-lxml
+   779. python-pandas
+   780. python-pymssql
+   781. python-pyogrio
+   782. python-trimesh
+   783. python-zope-interface
+   784. scipy
+   785. vtk
+
+=== UNRESOLVED CYCLES (1 packages) ===
+  python-ruamel-yaml-clib -> python-ruamel-yaml-clib
+
+=== UNRESOLVABLE (37 packages) ===
+  apbs
+  arbor
+  gdal
+  grpc
+  kicad
+  kvirc
+  libloc
+  libvirt-python
+  libyui
+  matrix-synapse
+  maturin
+  onnxruntime
+  openvino
+  pygrib
+  python-cryptography
+  python-fastuuid
+  python-jiter
+  python-jq
+  python-krb5
+  python-libcst
+  python-nh3
+  python-pivy
+  python-pydantic-core
+  python-pygit2
+  python-pyshtools
+  python-pysubnettree
+  python-qutepart
+  python-rignore
+  python-safetensors
+  python-tiktoken
+  python-uv-build
+  python-watchfiles
+  rb_libtorrent
+  wesnoth
+  xmms2
+  zfp
+  znc
+
+=== SUMMARY ===
+  Arched packages: 808
+  Ordered:         770 in 12 waves
+  Bcond builds:    15 (need rebuild without bcond later)
+  Stuck in cycles: 1
+  Unresolvable:    37
