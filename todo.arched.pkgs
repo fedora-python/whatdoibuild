@@ -49,7 +49,6 @@ cryptlib
 cryptominisat
 csdiff
 cvc5
-Cython
 dbus-python
 dee
 deltarpm
