@@ -32,14 +32,14 @@
 # do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
 
 [koji]
-target = 'rawhide'
+target = 'f45-build-side-144323'
 # target = 'f45-python'
-bootstrap_target = 'f45-python-bootstrap'
+bootstrap_target = 'f45-build-side-144337'
 
 [distgit]
 branch = "rawhide"
-commit_message = "Rebuilt for Python 3.15"
-bootstrap_commit_message = "Bootstrap for Python 3.15"
+commit_message = "Rebuilt for Python 3.15.0b4 ABI change"
+bootstrap_commit_message = "Bootstrap for Python 3.15.0b4 ABI change"
 author = "Python Maint <python-maint@redhat.com>"
 
 [architectures]
