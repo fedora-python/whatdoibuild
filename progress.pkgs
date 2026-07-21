@@ -20,7 +20,6 @@ abiword
 certbot
 python-apipkg
 python-argparse-dataclass
-python-astroquery
 atomic-reactor
 python-avocado
 python-azure-loganalytics
@@ -40,6 +39,7 @@ python-fields
 python-ftputil
 python-geopmpy
 python-geotiler
+ginga
 gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
