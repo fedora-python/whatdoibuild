@@ -21,17 +21,14 @@ openvdb
 openvino
 openvswitch
 pcp
-pygrib
 PyMca
 pyosmium
 python-annarchy
 python-astropy
 python-astropy-healpix
 python-astroscrappy
-python-basemap
 python-blosc2
 python-contextualbandits
-python-crick
 python-cupy-rocm
 python-datasets
 python-fiona
@@ -43,8 +40,6 @@ python-imagecodecs
 python-jq
 python-krb5
 python-Levenshtein
-python-logbook
-python-nitime
 python-obspy
 python-pari-jupyter
 python-peewee
@@ -73,7 +68,6 @@ qgis
 qpid-proton
 root
 satyr
-spec2nii
 superlu_dist
 swift-lang
 thrift
