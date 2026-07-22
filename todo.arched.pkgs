@@ -37,7 +37,6 @@ python-datasets
 python-fastavro
 python-fiona
 python-fontconfig
-python-geomdl
 python-graph-tool
 python-healpy
 python-igraph
@@ -45,7 +44,6 @@ python-imagecodecs
 python-jq
 python-krb5
 python-Levenshtein
-python-llama-cpp-python
 python-logbook
 python-nitime
 python-obspy
