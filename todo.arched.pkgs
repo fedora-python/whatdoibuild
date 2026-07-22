@@ -12,7 +12,6 @@ gpaw
 hexchat
 kernel
 kvirc
-lammps
 libarrow
 libsonata
 llvm
@@ -20,7 +19,6 @@ llvm21
 mlpack
 morphio
 mysql-connector-python
-nbdkit
 openvdb
 openvino
 openvswitch
@@ -28,9 +26,7 @@ pcp
 pygrib
 PyMca
 pyosmium
-pyproj
 python-annarchy
-python-argon2-cffi-bindings
 python-astropy
 python-astropy-healpix
 python-astroscrappy
@@ -40,7 +36,6 @@ python-contextualbandits
 python-crick
 python-datasets
 python-deap
-python-ducc0
 python-dulwich
 python-ezdxf
 python-fastavro
@@ -92,7 +87,6 @@ qgis
 qpid-proton
 root
 satyr
-scancode-toolkit
 scipy
 smoldyn
 spec2nii
