@@ -32,6 +32,7 @@ python-basemap
 python-blosc2
 python-contextualbandits
 python-crick
+python-cupy-rocm
 python-datasets
 python-fiona
 python-fontconfig

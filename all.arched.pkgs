@@ -416,6 +416,7 @@ python-crypto
 python-cryptography
 python-crypt-r
 python-cups
+python-cupy-rocm
 python-cvxopt
 python-cwcwidth
 python-cyseq
