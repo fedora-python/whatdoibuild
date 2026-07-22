@@ -76,13 +76,10 @@ gitg
 glade
 glaxnimate
 globus-net-manager
-glusterfs
-gnofract4d
 gnome-abrt
 gnome-browser-connector
 gnumeric
 gnuradio
-gobject-introspection
 gom
 gpaw
 gpgmepy
@@ -160,7 +157,6 @@ libplist
 libpoly
 librealsense
 libreoffice
-librepo
 libreport
 libsavitar
 libsbml
@@ -169,16 +165,13 @@ libsedml
 libselinux
 libsemanage
 libsigrokdecode
-libsolv
 libsonata
 libstoragemgmt
-libtalloc
 libtdb
 libunity
 libuser
 libwignernj
 libxc
-libxslt
 lirc
 livecd-tools
 llvm
@@ -187,7 +180,6 @@ lrcalc
 lttng-tools
 lttng-ust
 Macaulay2
-mapserver
 mariadb-connector-python
 marisa
 mathgl
@@ -218,11 +210,9 @@ openmeeg
 openmpi
 openms
 openscap
-opensips
 openvdb
 openvino
 openvswitch
-openwsman
 pam_wrapper
 paraview
 pcapy
@@ -234,7 +224,6 @@ plplot
 pocketsphinx
 postgresql17
 postgresql18
-postgresql19
 pybind11
 pybox2d
 pygrib
@@ -377,7 +366,6 @@ python-torch
 python-tpm2-pytss
 python-trimesh
 python-tvb-gdist
-python-ukkonen
 python-unicode-segmentation-rs
 python-uv-build
 python-websockets
@@ -390,7 +378,6 @@ python-zmq
 pythran
 qgis
 qpid-proton
-rdma-core
 root
 satyr
 scancode-toolkit
