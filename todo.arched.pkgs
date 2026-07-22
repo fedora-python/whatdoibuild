@@ -1,9 +1,7 @@
 boost
-borgbackup
 bout++
 ceph
 condor
-COPASI
 dftd4
 diffoscope
 espresso
@@ -27,7 +25,6 @@ morphio
 mysql-connector-python
 nbdkit
 net-snmp
-nwchem
 openbabel
 openvdb
 openvino
@@ -59,8 +56,6 @@ python-datasets
 python-deap
 python-ducc0
 python-dulwich
-python-eccodes
-python-eth-event
 python-ezdxf
 python-fastavro
 python-fast-simplification
@@ -95,7 +90,6 @@ python-psycopg3
 python-pybbi
 python-pydantic-core
 python-pygit2
-python-pykdtree
 python-pykdumpfile
 python-pyogrio
 python-pyopengl
