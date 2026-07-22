@@ -33,7 +33,6 @@ python-blosc2
 python-contextualbandits
 python-crick
 python-datasets
-python-fastavro
 python-fiona
 python-fontconfig
 python-graph-tool
@@ -46,7 +45,6 @@ python-Levenshtein
 python-logbook
 python-nitime
 python-obspy
-python-orjson
 python-pari-jupyter
 python-peewee
 python-photutils
@@ -55,7 +53,6 @@ python-psycopg3
 python-pyogrio
 python-pyregion
 python-pyspike
-python-rapidfuzz
 python-rasterio
 python-reproject
 python-safetensors
@@ -75,7 +72,6 @@ qgis
 qpid-proton
 root
 satyr
-smoldyn
 spec2nii
 superlu_dist
 swift-lang
