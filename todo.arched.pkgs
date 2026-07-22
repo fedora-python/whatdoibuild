@@ -12,7 +12,6 @@ fontforge
 gdal
 gensio
 getdp
-gnome-abrt
 gpaw
 h5py
 hexchat
@@ -27,7 +26,6 @@ libsonata
 llvm
 llvm21
 lrcalc
-mathgl
 mlpack
 morphio
 mysql-connector-python
@@ -37,7 +35,6 @@ net-snmp
 nwchem
 onnx
 openbabel
-openmeeg
 openvdb
 openvino
 openvswitch
@@ -66,7 +63,6 @@ python-contextualbandits
 python-cramjam
 python-crick
 python-datasets
-python-dbus-fast
 python-deap
 python-ducc0
 python-dulwich
@@ -81,7 +77,6 @@ python-fontconfig
 python-geomdl
 python-gevent
 python-graph-tool
-python-gsd
 python-gsw
 python-healpy
 python-igraph
@@ -99,7 +94,6 @@ python-nitime
 python-numcodecs
 python-obspy
 python-orjson
-python-pandas
 python-pari-jupyter
 python-peewee
 python-photutils
