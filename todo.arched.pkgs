@@ -35,7 +35,6 @@ python-blosc2
 python-contextualbandits
 python-crick
 python-datasets
-python-deap
 python-dulwich
 python-ezdxf
 python-fastavro
@@ -43,7 +42,6 @@ python-fiona
 python-fontconfig
 python-geomdl
 python-graph-tool
-python-gsw
 python-healpy
 python-igraph
 python-imagecodecs
@@ -87,7 +85,6 @@ qgis
 qpid-proton
 root
 satyr
-scipy
 smoldyn
 spec2nii
 sundials
