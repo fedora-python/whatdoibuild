@@ -3,7 +3,6 @@ ceph
 condor
 dftd4
 diffoscope
-espresso
 fontforge
 gensio
 getdp
@@ -78,12 +77,9 @@ root
 satyr
 smoldyn
 spec2nii
-sundials
 superlu_dist
 swift-lang
 thrift
-veusz
 vtk
-xrootd
 zbar
 znc
