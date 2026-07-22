@@ -1,0 +1,9 @@
+diff --git a/python-aiohttp.spec b/python-aiohttp.spec
+index cbd0be3..6312e73 100644
+--- a/python-aiohttp.spec
++++ b/python-aiohttp.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %bcond tests 1
+ # Build dependencies gunicorn and uvloop are required only for integration
+ # tests, which can be omitted if they are not available.
