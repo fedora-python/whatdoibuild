@@ -1,4 +1,3 @@
-boost
 bout++
 ceph
 condor
@@ -35,8 +34,6 @@ python-blosc2
 python-contextualbandits
 python-crick
 python-datasets
-python-dulwich
-python-ezdxf
 python-fastavro
 python-fiona
 python-fontconfig
@@ -58,12 +55,9 @@ python-peewee
 python-photutils
 python-pivy
 python-psycopg3
-python-pybbi
-python-pydantic-core
 python-pyogrio
 python-pyregion
 python-pyspike
-python-pywt
 python-rapidfuzz
 python-rasterio
 python-reproject
@@ -78,7 +72,6 @@ python-trimesh
 python-tvb-gdist
 python-uv-build
 python-websockets
-python-wordcloud
 python-xmlsec
 pythran
 qgis
