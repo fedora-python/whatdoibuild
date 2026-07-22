@@ -5,9 +5,7 @@ condor
 dftd4
 diffoscope
 espresso
-flann
 fontforge
-gdal
 gensio
 getdp
 gpaw
@@ -23,13 +21,11 @@ mlpack
 morphio
 mysql-connector-python
 nbdkit
-openbabel
 openvdb
 openvino
 openvswitch
 pcp
 pygrib
-pygsl
 PyMca
 pyosmium
 pyproj
@@ -39,10 +35,8 @@ python-astropy
 python-astropy-healpix
 python-astroscrappy
 python-basemap
-python-biopython
 python-blosc2
 python-contextualbandits
-python-cramjam
 python-crick
 python-datasets
 python-deap
@@ -58,14 +52,12 @@ python-gsw
 python-healpy
 python-igraph
 python-imagecodecs
-python-indexed_gzip
 python-jq
 python-krb5
 python-Levenshtein
 python-llama-cpp-python
 python-logbook
 python-nitime
-python-numcodecs
 python-obspy
 python-orjson
 python-pari-jupyter
@@ -86,7 +78,6 @@ python-safetensors
 python-scikit-image
 python-scikit-learn
 python-shapely
-python-sqlalchemy1.4
 python-tables
 python-tokenizers
 python-tpm2-pytss
