@@ -9,7 +9,6 @@ mysql-connector-python
 openvdb
 openvino
 openvswitch
-python-blosc2
 python-contextualbandits
 python-fontconfig
 python-imagecodecs
