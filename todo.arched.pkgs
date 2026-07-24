@@ -24,6 +24,7 @@ python-xmlsec
 pythran
 qpid-proton
 satyr
+sugar-toolkit-gtk3
 thrift
 zbar
 znc

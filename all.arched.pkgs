@@ -738,6 +738,7 @@ subscription-manager
 subversion
 sudo
 sugar-datastore
+sugar-toolkit-gtk3
 sundials
 superlu_dist
 swift-lang
