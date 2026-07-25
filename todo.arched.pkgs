@@ -18,10 +18,7 @@ python-photutils
 python-pivy
 python-scikit-learn
 python-tpm2-pytss
-python-trimesh
-python-uv-build
 python-xmlsec
-pythran
 qpid-proton
 satyr
 sugar-toolkit-gtk3
