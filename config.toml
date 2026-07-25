@@ -32,7 +32,7 @@
 # do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
 
 [koji]
-target = 'f45-build-side-144323'
+target = 'rawhide'
 # target = 'f45-python'
 bootstrap_target = 'f45-build-side-144337'
 
