@@ -39,7 +39,6 @@ python-fields
 python-ftputil
 python-geopmpy
 python-geotiler
-ginga
 gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
@@ -66,10 +65,8 @@ python-poetry-plugin-export
 python-pulp
 python-py-tes
 python-pygtkspellcheck
-python-jnius
 python-pyjwkest
 python-pysdl2
-python-pytest-cases
 python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
@@ -89,7 +86,5 @@ usd
 python-vcstool
 libyui
 python-zarr-checksum
-sugar
-sugar-toolkit-gtk3
 thefuck
 ubertooth
