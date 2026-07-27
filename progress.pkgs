@@ -18,7 +18,6 @@ python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 certbot
-python-apipkg
 python-argparse-dataclass
 atomic-reactor
 python-avocado
@@ -57,7 +56,6 @@ python-meshio
 python-mkdocs-git-revision-date-localized-plugin
 moose
 python-more-executors
-python-mplcairo
 python-numpoly
 python-opfunu
 roca-detect
@@ -71,7 +69,6 @@ python-pytest-subtests
 python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
-python-qudida
 python-reretry
 python-retryz
 python-SALib
