@@ -37,7 +37,6 @@ python-fastmcp
 python-fields
 python-ftputil
 python-geopmpy
-python-geotiler
 gnulib
 python-grpc-google-iam-v1
 python-hypothesmith
@@ -51,7 +50,6 @@ python-markdown-callouts
 python-mathics-scanner
 Mayavi
 python-mbstrdecoder
-python-memray
 python-meshio
 python-mkdocs-git-revision-date-localized-plugin
 moose
@@ -74,6 +72,7 @@ python-retryz
 python-SALib
 python-schedutils
 python-smart_open
+python-sport-activities-features
 python-sysrsync
 python-throttler
 python-tilestache
