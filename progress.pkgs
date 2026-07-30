@@ -26,7 +26,6 @@ python-azure-mgmt-support
 python-bytecode
 python-cartopy
 python-catkin_tools
-python-cerberus
 python-chai
 python-conda-inject
 python-connection_pool
@@ -43,9 +42,9 @@ python-hypothesmith
 python-inquirer
 python-irodsclient
 python-kaptan
+kiwi-boxed-plugin
 qtile
 python-linuxdoc
-python3-mallard-ducktype
 python-markdown-callouts
 python-mathics-scanner
 Mayavi
@@ -65,7 +64,6 @@ python-pyjwkest
 python-pysdl2
 python-pytest-subtests
 python-pytest-tldr
-python-pytest-tornado
 python-pyvmomi
 python-reretry
 python-retryz
