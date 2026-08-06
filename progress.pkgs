@@ -45,7 +45,6 @@ Mayavi
 python-mbstrdecoder
 python-meshio
 python-mkdocs-git-revision-date-localized-plugin
-python-mkdocs-macros-plugin
 moose
 python-more-executors
 roca-detect
