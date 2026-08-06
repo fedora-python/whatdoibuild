@@ -271,10 +271,6 @@
       "count": 1
     },
     {
-      "component": "python-mkdocs-test",
-      "count": 1
-    },
-    {
       "component": "python-questionary",
       "count": 1,
       "blocked_by": [
@@ -386,10 +382,6 @@
     },
     {
       "component": "python-mathics-scanner",
-      "count": 1
-    },
-    {
-      "component": "python-mkdocs-test",
       "count": 1
     },
     {

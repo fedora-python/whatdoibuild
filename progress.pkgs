@@ -18,14 +18,12 @@ python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 certbot
 python-argparse-dataclass
-python-ast-monitor
 atomic-reactor
 python-avocado
 python-azure-loganalytics
 python-azure-mgmt-support
 python-bytecode
 python-chai
-python-chaospy
 python-conda-inject
 python-connection_pool
 python-docker-squash
@@ -47,7 +45,7 @@ Mayavi
 python-mbstrdecoder
 python-meshio
 python-mkdocs-git-revision-date-localized-plugin
-python-mkdocs-test
+python-mkdocs-macros-plugin
 moose
 python-more-executors
 roca-detect
