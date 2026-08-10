@@ -5,7 +5,6 @@ dnfdaemon
 hddfancontrol
 kitty
 kmymoney
-monkeytype
 pyp2rpm
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -21,7 +20,6 @@ atomic-reactor
 python-avocado
 python-azure-loganalytics
 python-azure-mgmt-support
-python-certbot-dns-plesk
 python-chai
 python-conda-inject
 python-connection_pool
@@ -59,5 +57,3 @@ python-sysrsync
 python-throttler
 libyui
 python-zarr-checksum
-thefuck
-ubertooth
