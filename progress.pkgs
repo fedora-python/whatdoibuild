@@ -33,7 +33,6 @@ python-geopmpy
 python-grpc-google-iam-v1
 python-hypothesmith
 python-irodsclient
-qtile
 python-linuxdoc
 python-markdown-callouts
 Mayavi
@@ -57,3 +56,4 @@ python-sysrsync
 python-throttler
 libyui
 python-zarr-checksum
+qtile-extras
