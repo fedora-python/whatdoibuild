@@ -24,8 +24,6 @@ python-conda-inject
 python-connection_pool
 python-docker-squash
 python-dpath
-python-exiv2
-python-fastmcp
 python-fields
 python-ftputil
 python-geopmpy
@@ -36,7 +34,6 @@ python-linuxdoc
 Mayavi
 python-mbstrdecoder
 python-meshio
-python-more-executors
 roca-detect
 python-poetry-plugin-export
 python-pulp
