@@ -24,7 +24,6 @@ python-conda-inject
 python-connection_pool
 python-docker-squash
 python-dpath
-python-fastmcp
 python-fields
 python-ftputil
 python-geopmpy
@@ -32,7 +31,6 @@ python-grpc-google-iam-v1
 python-hypothesmith
 python-irodsclient
 python-linuxdoc
-Mayavi
 python-mbstrdecoder
 python-meshio
 roca-detect
