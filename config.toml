@@ -35,12 +35,20 @@
 target = 'rawhide'
 # target = 'f45-python'
 bootstrap_target = 'f45-python-bootstrap'
+builds_after = '2026-06-03'
+bootstrap_marker = '~bootstrap'
 
 [distgit]
 branch = "rawhide"
 commit_message = "Rebuilt for Python 3.15"
 bootstrap_commit_message = "Bootstrap for Python 3.15"
 author = "Python Maint <python-maint@redhat.com>"
+clone_depth = 10
+clone_retries = 3
+
+[todo]
+path = "todo.pkgs"
+max_age_minutes = 60
 
 [architectures]
 repoquery = "x86_64" # used for repository querying
@@ -95,12 +103,6 @@ withouts = ["check"]
 
 [[bconds.python-setuptools_scm]]
 withouts = ["tests"]
-
-[[bconds.python-py]]
-withouts = ["docs", "tests"]
-
-[[bconds.python-chardet]]
-withouts = ["doc"]
 
 [[bconds.python-pbr]]
 withs = ["bootstrap"]
@@ -163,9 +165,6 @@ withs = ["bootstrap"]
 [[bconds.python-jinja2]]
 withouts = ["docs", "asyncio_tests"]
 
-[[bconds.python-sphinx_rtd_theme]]
-withs = ["bootstrap"]
-
 [[bconds.python-sphinx-basic-ng]]
 withs = ["bootstrap"]
 
@@ -202,20 +201,11 @@ withouts = ["tests"]
 [[bconds.python-flit-core]]
 withs = ["bootstrap"]
 
-[[bconds.python-async-timeout]]
-withouts = ["tests"]
-
-[[bconds.python-jupyter-client]]
-withs = ["bootstrap"]
-
 [[bconds.python-jupyter-server]]
 withs = ["bootstrap"]
 
 [[bconds.python-matplotlib]]
 withouts = ["check"]
-
-[[bconds.ipython]]
-withouts = ["check","doc"]
 
 [[bconds.python-ipykernel]]
 withs = ["bootstrap"]
@@ -226,22 +216,10 @@ withouts = ["optional_tests"]
 [[bconds.python-nbconvert]]
 withouts = ["check", "doc"]
 
-[[bconds.python-nbclient]]
-withs = ["bootstrap"]
-
-[[bconds.python-pyquery]]
-withouts = ["tests"]
-
-[[bconds.python-cherrypy]]
-withouts = ["tests"]
-
 [[bconds.freeipa-healthcheck]]
 withouts = ["tests"]
 
 [[bconds.python-Traits]]
-withs = ["bootstrap"]
-
-[[bconds.python-pcodedmp]]
 withs = ["bootstrap"]
 
 [[bconds.python-libcst]]
@@ -278,15 +256,6 @@ withs = ["bootstrap"]
 [[bconds.python-astropy]]
 withouts = ["check"]
 
-[[bconds.python-pyerfa]]
-withouts = ["tests"]
-
-[[bconds.python-aiohttp]]
-withouts = ["tests"]
-
-[[bconds.python-azure-core]]
-withouts = ["tests"]
-
 # this bcond is disabled in spec on purpose
 # it might be enabled in the future, so leaving this here, commend out
 #[[bconds.python-azure-common]]
@@ -294,9 +263,6 @@ withouts = ["tests"]
 
 [[bconds.python-subprocess-tee]]
 withouts = ["tests"]
-
-[[bconds.python-typeguard]]
-withs = ["bootstrap"]
 
 [[bconds.python-tox]]
 withs = ["bootstrap"]
@@ -310,23 +276,14 @@ withs = ["bootstrap"]
 [[bconds.python-contourpy]]
 withs = ["bootstrap"]
 
-[[bconds.python-msrest]]
-withouts = ["tests"]
-
 [[bconds.python-oletools]]
 withs = ["bootstrap"]
-
-[[bconds.python-google-api-core]]
-withouts = ["tests"]
 
 [[bconds.fonttools]]
 withouts = ["tests", "plot_extra", "symfont_extra", "ufo_extra", "woff_extra", "graphite_extra", "interpolatable_extra"]
 
 [[bconds.conda]]
 withs = ["bootstrap"]
-
-[[bconds.python-conda-libmamba-solver]]
-withouts = ["tests"]
 
 [[bconds.python-conda-index]]
 withs = ["bootstrap"]
@@ -361,17 +318,11 @@ withs = ["bootstrap"]
 [[bconds.python-pysocks]]
 replacements = {with_python3_tests = "0"}
 
-[[bconds.ara]]
-replacements = {with_docs = "0"}
-
 [[bconds.python-httpretty]]
 replacements = {run_tests = "0"}
 
 [[bconds.python-ruamel-yaml]]
 withs = ["bootstrap"]
-
-[[bconds.python-rq]]
-withouts = ["tests"]
 
 [[bconds.python-markdown-it-py]]
 withouts = ["plugins"]
@@ -388,9 +339,6 @@ withouts = ["docs", "tests"]
 [[bconds.python-executing]]
 withs = ["bootstrap"]
 
-[[bconds.python-editables]]
-withouts = ["doc"]
-
 [[bconds.python-jsonschema-specifications]]
 replacements = {with_doc = "0"}
 
@@ -399,12 +347,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-oslo-config]]
 withs = ["bootstrap"]
-
-[[bconds.python-neutronclient]]
-replacements = {with_doc = "0"}
-
-[[bconds.python-glanceclient]]
-replacements = {with_doc = "0"}
 
 [[bconds.python-domdf-python-tools]]
 withouts = ["tests"]
@@ -460,9 +402,6 @@ withouts = ["check"]
 [[bconds.python-tabulate]]
 withs = ["bootstrap"]
 
-[[bconds.python-repoze-sphinx-autointerface]]
-withouts = ["tests"]
-
 [[bconds.python-zope-exceptions]]
 withouts = ["tests"]
 
@@ -487,15 +426,6 @@ withouts = ["tests"]
 [[bconds.python-humanfriendly]]
 withs = ["bootstrap"]
 
-[[bconds.python-cascadio]]
-withs = ["bootstrap"]
-
-[[bconds.python-pint]]
-withs = ["bootstrap"]
-
-[[bconds.python-qcengine]]
-withouts = ["tests"]
-
 [[bconds.python-astropy-iers-data]]
 withouts = ["tests"]
 
@@ -510,9 +440,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-pydantic-core]]
 withouts = ["inline_snapshot_tests"]
-
-[[bconds.python-optking]]
-withouts = ["tests"]
 
 [[bconds.python-django5]]
 withouts = ["tests"]
@@ -544,9 +471,6 @@ withs = ["bootstrap"]
 [[bconds.python-mkdocs-material-extensions]]
 withouts = ["tests"]
 
-[[bconds.python-zope-testing]]
-withouts = ["tests"]
-
 [[bconds.python-xnat]]
 withs = ["bootstrap"]
 
@@ -554,9 +478,6 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.llvm]]
-withouts = ["pgo"]
-
-[[bconds.llvm21 ]]
 withouts = ["pgo"]
 
 [[bconds.python-pathspec]]
@@ -622,9 +543,6 @@ withouts = ["tests"]
 [[bconds.pyproj]]
 withouts = ["xarray"]
 
-[[bconds.python-distlib]]
-withouts = ["check"]
-
 [[bconds.python-flit]]
 withouts = ["tests"]
 
@@ -655,9 +573,6 @@ withs = ["bootstrap"]
 [[bconds.python-versioningit]]
 withouts = ["pydantic_tests"]
 
-[[bconds.python-scikit-image]]
-withouts = ["check"]
-
 [[bconds.python-semantic_version]]
 withs = ["bootstrap"]
 
@@ -665,9 +580,6 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-trimesh]]
-withs = ["bootstrap"]
-
-[[bconds.python-scikit-image]]
 withs = ["bootstrap"]
 
 [[bconds.python-xarray]]
