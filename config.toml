@@ -123,9 +123,6 @@ withouts = ["docs", "tests"]
 [[bconds.python-hypothesis]]
 withouts = ["doc", "tests"]
 
-[[bconds.python-hypothesmith]]
-withouts = ["tests"]
-
 [[bconds.python-pygments]]
 withouts = ["docs", "tests"]
 
@@ -360,18 +357,6 @@ withouts = ["docs"]
 [[bconds.python-dirty-equals]]
 withs = ["bootstrap"]
 
-[[bconds.python-snakemake-interface-storage-plugins]]
-withs = ["bootstrap"]
-
-[[bconds.python-snakemake-interface-executor-plugins]]
-withs = ["bootstrap"]
-
-[[bconds.python-snakemake-interface-report-plugins]]
-withs = ["bootstrap"]
-
-[[bconds.snakemake]]
-withs = ["bootstrap"]
-
 [[bconds.python-sphinx-theme-builder]]
 withs = ["bootstrap"]
 
@@ -491,15 +476,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-trove-classifiers]]
 withouts = ["tests"]
-
-[[bconds.python-snakemake-interface-common]]
-withs = ["bootstrap"]
-
-[[bconds.python-snakemake-interface-scheduler-plugins]]
-withs = ["bootstrap"]
-
-[[bconds.python-snakemake-interface-logger-plugins]]
-withs = ["bootstrap"]
 
 [[bconds.python-azure-mgmt-core]]
 withouts = ["tests"]
