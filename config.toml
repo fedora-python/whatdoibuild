@@ -80,6 +80,7 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 [[repos.target]]
 repoid = "python3.16"
 baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.16/fedora-rawhide-$basearch/"]
+metadata_expire = 60
 
 # comment this section out to stop checking for prerel-abi
 [prerel]
