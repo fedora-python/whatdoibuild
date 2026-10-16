@@ -9,10 +9,8 @@
         "python-hatchling",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-roman-numerals",
@@ -22,26 +20,6 @@
         "python-urllib3",
         "python-wcag-contrast-ratio",
         "snowball"
-      ]
-    },
-    {
-      "component": "python-pluggy",
-      "count": 2214,
-      "blocked_by": [
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
-      ]
-    },
-    {
-      "component": "python-iniconfig",
-      "count": 2013,
-      "blocked_by": [
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
       ]
     },
     {
@@ -63,11 +41,9 @@
         "python-hypothesis",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
         "python-pexpect",
-        "python-pluggy",
         "python-ptyprocess",
         "python-pygments",
         "python-pygments-pytest",
@@ -96,8 +72,6 @@
       "blocked_by": [
         "pytest",
         "python-hypothesis",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -127,12 +101,10 @@
         "python-hypercorn",
         "python-hyperframe",
         "python-idna",
-        "python-iniconfig",
         "python-itsdangerous",
         "python-jinja2",
         "python-markupsafe",
         "python-outcome",
-        "python-pluggy",
         "python-priority",
         "python-pygments",
         "python-pytest-timeout",
@@ -151,8 +123,6 @@
       "count": 1212,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -172,11 +142,9 @@
         "python-greenlet",
         "python-httpbin",
         "python-idna",
-        "python-iniconfig",
         "python-itsdangerous",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-httpbin",
         "python-pytest-mock",
@@ -191,8 +159,6 @@
       "count": 893,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -206,11 +172,9 @@
         "python-charset-normalizer",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
         "python-outcome",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-roman-numerals",
@@ -236,8 +200,6 @@
         "pytest",
         "python-hatch-vcs",
         "python-hatchling",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-mock",
         "python-tomlkit"
@@ -255,8 +217,6 @@
       "count": 570,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -265,8 +225,6 @@
       "count": 570,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -281,16 +239,13 @@
       "component": "python-sphinx",
       "count": 569,
       "blocked_by": [
-        "dblatex",
         "pytest",
         "python-charset-normalizer",
         "python-execnet",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-psutil",
         "python-pygments",
         "python-pytest-xdist",
@@ -313,8 +268,6 @@
       "count": 518,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -326,8 +279,6 @@
         "python-charset-normalizer",
         "python-flit",
         "python-idna",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-tomli-w",
@@ -340,8 +291,6 @@
       "blocked_by": [
         "PyYAML",
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -350,7 +299,6 @@
       "count": 485,
       "blocked_by": [
         "meson",
-        "ninja-build",
         "python-meson-python",
         "python-pyproject-metadata"
       ]
@@ -366,10 +314,8 @@
         "python-hypothesis",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-roman-numerals",
@@ -389,10 +335,8 @@
         "python-charset-normalizer",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-roman-numerals",
@@ -403,20 +347,10 @@
       ]
     },
     {
-      "component": "ninja-build",
-      "count": 413,
-      "blocked_by": [
-        "asciidoc",
-        "ninja-build"
-      ]
-    },
-    {
       "component": "python-six",
       "count": 396,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -426,8 +360,6 @@
       "blocked_by": [
         "pytest",
         "python-flit-core3",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -447,11 +379,9 @@
         "python-hatchling",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
         "python-platformdirs",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-asyncio",
         "python-pytest-mock",
@@ -481,8 +411,6 @@
         "python-hatch-vcs",
         "python-hatchling",
         "python-hypothesis",
-        "python-iniconfig",
-        "python-pluggy",
         "python-psutil",
         "python-pygments",
         "python-pytest-xdist",
@@ -495,8 +423,6 @@
       "blocked_by": [
         "pytest",
         "python-flit-core3",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-randomly"
       ]
@@ -505,7 +431,6 @@
       "component": "python-hatchling",
       "count": 346,
       "blocked_by": [
-        "python-pluggy",
         "python-tomlkit"
       ]
     },
@@ -514,8 +439,6 @@
       "count": 335,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-wheel"
       ]
@@ -526,8 +449,6 @@
       "blocked_by": [
         "pytest",
         "python-hatchling",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-tomlkit"
       ]
@@ -544,9 +465,7 @@
         "python-cpuinfo",
         "python-execnet",
         "python-hypothesis",
-        "python-iniconfig",
         "python-iso8601",
-        "python-pluggy",
         "python-pretend",
         "python-pygments",
         "python-pytest-benchmark",
@@ -563,8 +482,6 @@
         "python-filelock",
         "python-hatch-vcs",
         "python-hatchling",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-mock",
         "python-tomlkit",
@@ -584,9 +501,7 @@
         "python-flaky",
         "python-hatch-vcs",
         "python-hatchling",
-        "python-iniconfig",
         "python-platformdirs",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-env",
         "python-pytest-mock",
@@ -601,8 +516,6 @@
       "count": 297,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -613,8 +526,6 @@
         "pytest",
         "python-hatch-vcs",
         "python-hatchling",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-mock",
         "python-tomlkit"
@@ -638,10 +549,8 @@
         "python-flaky",
         "python-hatch-vcs",
         "python-hatchling",
-        "python-iniconfig",
         "python-pdm-backend",
         "python-platformdirs",
-        "python-pluggy",
         "python-psutil",
         "python-pygments",
         "python-pyproject-api",
@@ -669,9 +578,7 @@
         "python-distlib",
         "python-execnet",
         "python-filelock",
-        "python-iniconfig",
         "python-platformdirs",
-        "python-pluggy",
         "python-pygments",
         "python-pyproject-api",
         "python-pytest-xdist",
@@ -688,7 +595,6 @@
         "gi-docgen",
         "gobject-introspection",
         "meson",
-        "ninja-build",
         "python-charset-normalizer",
         "python-idna",
         "python-imagesize",
@@ -713,8 +619,6 @@
       "blocked_by": [
         "pytest",
         "python-execnet",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-xdist"
       ]
@@ -744,10 +648,7 @@
       "count": 213,
       "blocked_by": [
         "meson",
-        "ninja-build",
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -755,11 +656,8 @@
       "component": "python-pillow",
       "count": 211,
       "blocked_by": [
-        "ninja-build",
         "pybind11",
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -768,8 +666,6 @@
       "count": 199,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -779,8 +675,6 @@
       "blocked_by": [
         "pytest",
         "python-flit-core3",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-randomly"
       ]
@@ -794,12 +688,10 @@
         "python-charset-normalizer",
         "python-flit-core3",
         "python-idna",
-        "python-iniconfig",
         "python-linkify-it-py",
         "python-markdown-it-py",
         "python-mdit-py-plugins",
         "python-mdurl",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-datadir",
         "python-pytest-regressions",
@@ -813,8 +705,6 @@
       "count": 191,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -823,8 +713,6 @@
       "count": 184,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
@@ -837,35 +725,80 @@
         "python-distlib",
         "python-fastjsonschema",
         "python-filelock",
-        "python-iniconfig",
         "python-platformdirs",
-        "python-pluggy",
         "python-pygments",
         "python-pytest-mock",
         "python-tomli-w",
         "python-virtualenv"
       ]
+    },
+    {
+      "component": "python-soupsieve",
+      "count": 161,
+      "blocked_by": [
+        "pytest",
+        "python-beautifulsoup4",
+        "python-hatchling",
+        "python-html5lib",
+        "python-mypy_extensions",
+        "python-pygments",
+        "python-six",
+        "python-soupsieve",
+        "python-tomlkit",
+        "python-typing-extensions",
+        "python-webencodings",
+        "python3-mypy"
+      ]
+    },
+    {
+      "component": "python-beautifulsoup4",
+      "count": 160,
+      "blocked_by": [
+        "pytest",
+        "python-cachetools",
+        "python-colorama",
+        "python-discovery",
+        "python-distlib",
+        "python-filelock",
+        "python-hatchling",
+        "python-html5lib",
+        "python-platformdirs",
+        "python-pygments",
+        "python-pyproject-api",
+        "python-six",
+        "python-soupsieve",
+        "python-tomli-w",
+        "python-tomlkit",
+        "python-tox",
+        "python-tox-current-env",
+        "python-typing-extensions",
+        "python-virtualenv",
+        "python-webencodings"
+      ]
+    },
+    {
+      "component": "python-rich",
+      "count": 156,
+      "blocked_by": [
+        "pytest",
+        "python-attrs",
+        "python-fastjsonschema",
+        "python-markdown-it-py",
+        "python-mdurl",
+        "python-poetry-core",
+        "python-pygments"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "ninja-build",
-      "count": 51,
-      "blocked_by": [
-        "asciidoc",
-        "ninja-build"
-      ]
-    },
-    {
       "component": "python-wheel",
-      "count": 44,
+      "count": 47,
       "blocked_by": [
         "pytest",
         "python-charset-normalizer",
         "python-flit",
         "python-idna",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-tomli-w",
@@ -873,112 +806,12 @@
       ]
     },
     {
-      "component": "python-pygments",
-      "count": 13,
-      "blocked_by": [
-        "pytest",
-        "python-charset-normalizer",
-        "python-hatchling",
-        "python-idna",
-        "python-imagesize",
-        "python-iniconfig",
-        "python-jinja2",
-        "python-markupsafe",
-        "python-pluggy",
-        "python-pygments",
-        "python-requests",
-        "python-roman-numerals",
-        "python-sphinx",
-        "python-sphinx-theme-alabaster",
-        "python-tomlkit",
-        "python-urllib3",
-        "python-wcag-contrast-ratio",
-        "snowball"
-      ]
-    },
-    {
-      "component": "python-flit-core3",
-      "count": 12,
-      "blocked_by": [
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments",
-        "python-testpath"
-      ]
-    },
-    {
-      "component": "python-six",
-      "count": 9,
-      "blocked_by": [
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
-      ]
-    },
-    {
-      "component": "PyYAML",
-      "count": 7,
-      "blocked_by": [
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
-      ]
-    },
-    {
-      "component": "numpy",
-      "count": 6,
-      "blocked_by": [
-        "meson",
-        "ninja-build",
-        "python-meson-python",
-        "python-pyproject-metadata"
-      ]
-    },
-    {
-      "component": "libxml2",
-      "count": 5,
-      "blocked_by": [
-        "meson",
-        "ninja-build"
-      ]
-    },
-    {
-      "component": "python-dateutil",
-      "count": 5,
-      "blocked_by": [
-        "pytest",
-        "python-charset-normalizer",
-        "python-dateutil",
-        "python-freezegun",
-        "python-hypothesis",
-        "python-idna",
-        "python-imagesize",
-        "python-iniconfig",
-        "python-jinja2",
-        "python-markupsafe",
-        "python-pluggy",
-        "python-pygments",
-        "python-requests",
-        "python-roman-numerals",
-        "python-sphinx",
-        "python-sphinx-theme-alabaster",
-        "python-sphinx_rtd_theme",
-        "python-sphinxcontrib-jquery",
-        "python-urllib3",
-        "snowball"
-      ]
-    },
-    {
       "component": "at-spi2-core",
-      "count": 4,
+      "count": 16,
       "blocked_by": [
         "gi-docgen",
         "gobject-introspection",
         "meson",
-        "ninja-build",
         "python-charset-normalizer",
         "python-idna",
         "python-imagesize",
@@ -998,10 +831,130 @@
       ]
     },
     {
-      "component": "asciidoc",
+      "component": "python-pygments",
+      "count": 15,
+      "blocked_by": [
+        "pytest",
+        "python-charset-normalizer",
+        "python-hatchling",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-tomlkit",
+        "python-urllib3",
+        "python-wcag-contrast-ratio",
+        "snowball"
+      ]
+    },
+    {
+      "component": "python-flit-core3",
+      "count": 12,
+      "blocked_by": [
+        "pytest",
+        "python-pygments",
+        "python-testpath"
+      ]
+    },
+    {
+      "component": "numpy",
+      "count": 10,
+      "blocked_by": [
+        "meson",
+        "python-meson-python",
+        "python-pyproject-metadata"
+      ]
+    },
+    {
+      "component": "meson",
+      "count": 10,
+      "blocked_by": [
+        "PyYAML",
+        "at-spi2-core",
+        "boost",
+        "gcovr",
+        "gobject-introspection",
+        "libxml2",
+        "numpy",
+        "pygobject3",
+        "python-colorlog",
+        "python-fastjsonschema",
+        "python-jinja2",
+        "python-mako",
+        "python-markdown",
+        "python-markupsafe",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-six",
+      "count": 9,
+      "blocked_by": [
+        "pytest",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "PyYAML",
+      "count": 8,
+      "blocked_by": [
+        "pytest",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-dateutil",
+      "count": 6,
+      "blocked_by": [
+        "pytest",
+        "python-charset-normalizer",
+        "python-dateutil",
+        "python-freezegun",
+        "python-hypothesis",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery",
+        "python-urllib3",
+        "snowball"
+      ]
+    },
+    {
+      "component": "libxml2",
+      "count": 5,
+      "blocked_by": [
+        "meson"
+      ]
+    },
+    {
+      "component": "python-cffi",
       "count": 4,
       "blocked_by": [
-        "dblatex"
+        "pytest",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-urllib3",
+        "snowball"
       ]
     },
     {
@@ -1012,10 +965,8 @@
         "python-charset-normalizer",
         "python-idna",
         "python-imagesize",
-        "python-iniconfig",
         "python-jinja2",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "python-requests",
         "python-roman-numerals",
@@ -1026,21 +977,28 @@
       ]
     },
     {
+      "component": "python-psutil",
+      "count": 3,
+      "blocked_by": [
+        "pytest",
+        "python-execnet",
+        "python-pygments",
+        "python-pytest-xdist"
+      ]
+    },
+    {
       "component": "pygobject3",
       "count": 3,
       "blocked_by": [
         "at-spi2-core",
         "gobject-introspection",
         "meson",
-        "ninja-build",
         "pycairo",
         "pytest",
         "python-argcomplete",
-        "python-iniconfig",
         "python-mako",
         "python-markdown",
         "python-markupsafe",
-        "python-pluggy",
         "python-pygments",
         "xwayland-run"
       ]
@@ -1051,30 +1009,15 @@
       "blocked_by": [
         "pytest",
         "python-flit-core3",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ]
     },
     {
-      "component": "python-cffi",
+      "component": "cargo2rpm",
       "count": 3,
       "blocked_by": [
         "pytest",
-        "python-charset-normalizer",
-        "python-idna",
-        "python-imagesize",
-        "python-iniconfig",
-        "python-jinja2",
-        "python-markupsafe",
-        "python-pluggy",
-        "python-pygments",
-        "python-requests",
-        "python-roman-numerals",
-        "python-sphinx",
-        "python-sphinx-theme-alabaster",
-        "python-urllib3",
-        "snowball"
+        "python-pygments"
       ]
     },
     {
@@ -1082,18 +1025,9 @@
       "count": 2,
       "blocked_by": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-ruamel-yaml",
         "python-ruamel-yaml-clib"
-      ]
-    },
-    {
-      "component": "dblatex",
-      "count": 2,
-      "blocked_by": [
-        "dblatex"
       ]
     },
     {
@@ -1101,13 +1035,12 @@
       "count": 2,
       "blocked_by": [
         "meson",
-        "ninja-build",
         "pycairo",
         "pygobject3"
       ]
     },
     {
-      "component": "python-pycryptodomex",
+      "component": "openmpi",
       "count": 2,
       "blocked_by": [
         "python-charset-normalizer",
@@ -1119,7 +1052,6 @@
         "python-requests",
         "python-roman-numerals",
         "python-sphinx",
-        "python-sphinx-autodoc-typehints",
         "python-sphinx-theme-alabaster",
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
@@ -1128,25 +1060,17 @@
       ]
     },
     {
-      "component": "python-chardet",
-      "count": 2,
-      "blocked_by": [
-        "python-hatch-vcs",
-        "python-hatchling",
-        "python-pluggy",
-        "python-tomlkit"
-      ]
+      "component": "protobuf3",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ],
-      "count": 254
+      "count": 263
     },
     {
       "components": [
@@ -1164,8 +1088,6 @@
     {
       "components": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-wheel"
       ],
@@ -1173,10 +1095,15 @@
     },
     {
       "components": [
+        "boost",
+        "numpy"
+      ],
+      "count": 26
+    },
+    {
+      "components": [
         "pytest",
         "python-hatchling",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-tomlkit"
       ],
@@ -1209,8 +1136,6 @@
       "components": [
         "pytest",
         "python-fastjsonschema",
-        "python-iniconfig",
-        "python-pluggy",
         "python-poetry-core",
         "python-pygments"
       ],
@@ -1218,17 +1143,7 @@
     },
     {
       "components": [
-        "boost",
-        "ninja-build",
-        "numpy"
-      ],
-      "count": 12
-    },
-    {
-      "components": [
         "pytest",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments",
         "python-six"
       ],
@@ -1236,9 +1151,24 @@
     },
     {
       "components": [
+        "numpy",
+        "pytest",
+        "python-pygments"
+      ],
+      "count": 12
+    },
+    {
+      "components": [
         "python-hatchling",
-        "python-pluggy",
         "python-tomlkit"
+      ],
+      "count": 11
+    },
+    {
+      "components": [
+        "PyYAML",
+        "pytest",
+        "python-pygments"
       ],
       "count": 11
     },
@@ -1251,53 +1181,11 @@
     },
     {
       "components": [
-        "meson",
-        "ninja-build"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
-        "PyYAML",
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
-        "at-spi2-core",
-        "ninja-build"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
-        "numpy",
-        "pytest",
-        "python-iniconfig",
-        "python-pluggy",
-        "python-pygments"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
-        "boost",
-        "numpy"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
         "python-hatch-vcs",
         "python-hatchling",
-        "python-pluggy",
         "python-tomlkit"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "components": [
@@ -1315,8 +1203,6 @@
       "components": [
         "pytest",
         "python-hypothesis",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ],
       "count": 8
@@ -1325,33 +1211,58 @@
       "components": [
         "pytest",
         "python-flit-core3",
-        "python-iniconfig",
-        "python-pluggy",
         "python-pygments"
       ],
       "count": 8
+    },
+    {
+      "components": [
+        "at-spi2-core",
+        "python-pyside6",
+        "python-wheel"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "pytest",
+        "python-cffi",
+        "python-pygments"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "pytest",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-pygments",
+        "python-requests",
+        "python-urllib3"
+      ],
+      "count": 7
     }
   ],
   "dependency_loops": [
     [
-      "python-itemadapter",
-      "python-itemadapter"
+      "python-ipywidgets",
+      "python-notebook",
+      "python-nbclient",
+      "python-ipywidgets"
     ],
     [
-      "python-dogpile-cache",
-      "python-mako",
-      "python-dogpile-cache"
+      "python-jupyter-client",
+      "python-jupyter-client"
+    ],
+    [
+      "python-manilaclient",
+      "python-manilaclient"
     ],
     [
       "jupyterlab",
-      "python-jupyterlab-server",
+      "python-notebook-shim",
       "python-nbclient",
       "jupyterlab"
-    ],
-    [
-      "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
     ],
     [
       "conda-build",
@@ -1360,31 +1271,16 @@
     ],
     [
       "python-ipywidgets",
-      "python-notebook",
       "python-nbclient",
       "python-ipywidgets"
     ],
     [
-      "python-nbclient",
-      "python-nbclient"
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
     ],
     [
-      "python-manilaclient",
-      "python-manilaclient"
-    ],
-    [
-      "jupyterlab",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-jupyter-client",
-      "python-pytest-jupyter",
-      "python-jupyter-client"
-    ],
-    [
-      "python-jupyter-client",
-      "python-jupyter-client"
+      "python-itemadapter",
+      "python-itemadapter"
     ],
     [
       "python-mako",
@@ -1397,13 +1293,33 @@
       "jupyterlab"
     ],
     [
-      "python-ipywidgets",
-      "python-nbclient",
-      "python-ipywidgets"
+      "python-jupyter-client",
+      "python-pytest-jupyter",
+      "python-jupyter-client"
     ],
     [
-      "dblatex",
-      "dblatex"
+      "python-nbclient",
+      "python-nbclient"
+    ],
+    [
+      "python-itemadapter",
+      "python-scrapy",
+      "python-itemadapter"
+    ],
+    [
+      "jupyterlab",
+      "python-nbclient",
+      "jupyterlab"
+    ],
+    [
+      "python-pcodedmp",
+      "python-pcodedmp"
+    ],
+    [
+      "jupyterlab",
+      "python-jupyterlab-server",
+      "python-nbclient",
+      "jupyterlab"
     ],
     [
       "python-itemadapter",
@@ -1411,18 +1327,9 @@
       "python-itemadapter"
     ],
     [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "jupyterlab",
-      "python-notebook-shim",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
+      "python-dogpile-cache",
+      "python-mako",
+      "python-dogpile-cache"
     ]
   ]
 }
