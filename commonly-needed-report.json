@@ -6,7 +6,6 @@
       "blocked_by": [
         "pytest",
         "python-charset-normalizer",
-        "python-hatchling",
         "python-idna",
         "python-imagesize",
         "python-jinja2",
@@ -16,7 +15,6 @@
         "python-roman-numerals",
         "python-sphinx",
         "python-sphinx-theme-alabaster",
-        "python-tomlkit",
         "python-urllib3",
         "python-wcag-contrast-ratio",
         "snowball"
@@ -79,7 +77,6 @@
       "component": "python-urllib3",
       "count": 1229,
       "blocked_by": [
-        "brotli",
         "pyOpenSSL",
         "pytest",
         "python-aiofiles",
@@ -94,7 +91,6 @@
         "python-h11",
         "python-h2",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-hpack",
         "python-httpcore",
         "python-httpx",
@@ -111,7 +107,6 @@
         "python-quart",
         "python-quart-trio",
         "python-sniffio",
-        "python-tomlkit",
         "python-trio",
         "python-trustme",
         "python-werkzeug",
@@ -130,7 +125,6 @@
       "component": "python-requests",
       "count": 1197,
       "blocked_by": [
-        "brotli",
         "pytest",
         "python-blinker",
         "python-cffi",
@@ -199,10 +193,8 @@
       "blocked_by": [
         "pytest",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-pygments",
-        "python-pytest-mock",
-        "python-tomlkit"
+        "python-pytest-mock"
       ]
     },
     {
@@ -283,15 +275,6 @@
         "python-requests",
         "python-tomli-w",
         "python-urllib3"
-      ]
-    },
-    {
-      "component": "python-tomlkit",
-      "count": 486,
-      "blocked_by": [
-        "PyYAML",
-        "pytest",
-        "python-pygments"
       ]
     },
     {
@@ -376,7 +359,6 @@
         "python-filelock",
         "python-furo",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-idna",
         "python-imagesize",
         "python-jinja2",
@@ -393,7 +375,6 @@
         "python-sphinx-autodoc-typehints",
         "python-sphinx-basic-ng",
         "python-sphinx-theme-alabaster",
-        "python-tomlkit",
         "python-typing-extensions",
         "python-urllib3",
         "python-virtualenv",
@@ -409,12 +390,10 @@
         "python-execnet",
         "python-hatch-fancy-pypi-readme",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-hypothesis",
         "python-psutil",
         "python-pygments",
-        "python-pytest-xdist",
-        "python-tomlkit"
+        "python-pytest-xdist"
       ]
     },
     {
@@ -425,13 +404,6 @@
         "python-flit-core3",
         "python-pygments",
         "python-pytest-randomly"
-      ]
-    },
-    {
-      "component": "python-hatchling",
-      "count": 346,
-      "blocked_by": [
-        "python-tomlkit"
       ]
     },
     {
@@ -448,9 +420,7 @@
       "count": 332,
       "blocked_by": [
         "pytest",
-        "python-hatchling",
-        "python-pygments",
-        "python-tomlkit"
+        "python-pygments"
       ]
     },
     {
@@ -481,10 +451,8 @@
         "pytest",
         "python-filelock",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-pygments",
         "python-pytest-mock",
-        "python-tomlkit",
         "python-typing-extensions"
       ]
     },
@@ -500,15 +468,13 @@
         "python-filelock",
         "python-flaky",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-platformdirs",
         "python-pygments",
         "python-pytest-env",
         "python-pytest-mock",
         "python-pytest-randomly",
         "python-pytest-timeout",
-        "python-time-machine",
-        "python-tomlkit"
+        "python-time-machine"
       ]
     },
     {
@@ -525,10 +491,8 @@
       "blocked_by": [
         "pytest",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-pygments",
-        "python-pytest-mock",
-        "python-tomlkit"
+        "python-pytest-mock"
       ]
     },
     {
@@ -548,7 +512,6 @@
         "python-filelock",
         "python-flaky",
         "python-hatch-vcs",
-        "python-hatchling",
         "python-pdm-backend",
         "python-platformdirs",
         "python-psutil",
@@ -562,7 +525,6 @@
         "python-regex",
         "python-time-machine",
         "python-tomli-w",
-        "python-tomlkit",
         "python-virtualenv",
         "python-wheel"
       ]
@@ -738,13 +700,11 @@
       "blocked_by": [
         "pytest",
         "python-beautifulsoup4",
-        "python-hatchling",
         "python-html5lib",
         "python-mypy_extensions",
         "python-pygments",
         "python-six",
         "python-soupsieve",
-        "python-tomlkit",
         "python-typing-extensions",
         "python-webencodings",
         "python3-mypy"
@@ -760,7 +720,6 @@
         "python-discovery",
         "python-distlib",
         "python-filelock",
-        "python-hatchling",
         "python-html5lib",
         "python-platformdirs",
         "python-pygments",
@@ -768,7 +727,6 @@
         "python-six",
         "python-soupsieve",
         "python-tomli-w",
-        "python-tomlkit",
         "python-tox",
         "python-tox-current-env",
         "python-typing-extensions",
@@ -787,6 +745,42 @@
         "python-mdurl",
         "python-poetry-core",
         "python-pygments"
+      ]
+    },
+    {
+      "component": "python-sphinxcontrib-jquery",
+      "count": 148,
+      "blocked_by": [
+        "pytest",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-imagesize",
+        "python-jinja2",
+        "python-markupsafe",
+        "python-pygments",
+        "python-requests",
+        "python-roman-numerals",
+        "python-sphinx",
+        "python-sphinx-theme-alabaster",
+        "python-urllib3",
+        "snowball"
+      ]
+    },
+    {
+      "component": "pygobject3",
+      "count": 146,
+      "blocked_by": [
+        "at-spi2-core",
+        "gobject-introspection",
+        "meson",
+        "pycairo",
+        "pytest",
+        "python-argcomplete",
+        "python-mako",
+        "python-markdown",
+        "python-markupsafe",
+        "python-pygments",
+        "xwayland-run"
       ]
     }
   ],
@@ -836,7 +830,6 @@
       "blocked_by": [
         "pytest",
         "python-charset-normalizer",
-        "python-hatchling",
         "python-idna",
         "python-imagesize",
         "python-jinja2",
@@ -846,7 +839,6 @@
         "python-roman-numerals",
         "python-sphinx",
         "python-sphinx-theme-alabaster",
-        "python-tomlkit",
         "python-urllib3",
         "python-wcag-contrast-ratio",
         "snowball"
@@ -892,7 +884,7 @@
       ]
     },
     {
-      "component": "python-six",
+      "component": "PyYAML",
       "count": 9,
       "blocked_by": [
         "pytest",
@@ -900,8 +892,16 @@
       ]
     },
     {
-      "component": "PyYAML",
-      "count": 8,
+      "component": "python-hatch-vcs",
+      "count": 9,
+      "blocked_by": [
+        "pytest",
+        "python-pygments"
+      ]
+    },
+    {
+      "component": "python-six",
+      "count": 9,
       "blocked_by": [
         "pytest",
         "python-pygments"
@@ -1058,10 +1058,6 @@
         "python-urllib3",
         "snowball"
       ]
-    },
-    {
-      "component": "protobuf3",
-      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -1070,7 +1066,7 @@
         "pytest",
         "python-pygments"
       ],
-      "count": 263
+      "count": 288
     },
     {
       "components": [
@@ -1091,7 +1087,7 @@
         "python-pygments",
         "python-wheel"
       ],
-      "count": 27
+      "count": 29
     },
     {
       "components": [
@@ -1099,15 +1095,6 @@
         "numpy"
       ],
       "count": 26
-    },
-    {
-      "components": [
-        "pytest",
-        "python-hatchling",
-        "python-pygments",
-        "python-tomlkit"
-      ],
-      "count": 24
     },
     {
       "components": [
@@ -1130,7 +1117,7 @@
         "python-requests",
         "python-urllib3"
       ],
-      "count": 19
+      "count": 20
     },
     {
       "components": [
@@ -1147,7 +1134,7 @@
         "python-pygments",
         "python-six"
       ],
-      "count": 12
+      "count": 13
     },
     {
       "components": [
@@ -1156,13 +1143,6 @@
         "python-pygments"
       ],
       "count": 12
-    },
-    {
-      "components": [
-        "python-hatchling",
-        "python-tomlkit"
-      ],
-      "count": 11
     },
     {
       "components": [
@@ -1181,9 +1161,9 @@
     },
     {
       "components": [
-        "python-hatch-vcs",
-        "python-hatchling",
-        "python-tomlkit"
+        "pytest",
+        "python-hypothesis",
+        "python-pygments"
       ],
       "count": 9
     },
@@ -1202,8 +1182,11 @@
     {
       "components": [
         "pytest",
-        "python-hypothesis",
-        "python-pygments"
+        "python-charset-normalizer",
+        "python-idna",
+        "python-pygments",
+        "python-requests",
+        "python-urllib3"
       ],
       "count": 8
     },
@@ -1234,58 +1217,29 @@
     {
       "components": [
         "pytest",
-        "python-charset-normalizer",
-        "python-idna",
-        "python-pygments",
-        "python-requests",
-        "python-urllib3"
+        "python-colcon-core",
+        "python-distlib",
+        "python-pygments"
       ],
       "count": 7
+    },
+    {
+      "components": [
+        "pytest",
+        "python-pygments",
+        "python-pytest-cov"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "dnf5",
+        "python-distro"
+      ],
+      "count": 6
     }
   ],
   "dependency_loops": [
-    [
-      "python-ipywidgets",
-      "python-notebook",
-      "python-nbclient",
-      "python-ipywidgets"
-    ],
-    [
-      "python-jupyter-client",
-      "python-jupyter-client"
-    ],
-    [
-      "python-manilaclient",
-      "python-manilaclient"
-    ],
-    [
-      "jupyterlab",
-      "python-notebook-shim",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
-    ],
-    [
-      "python-ipywidgets",
-      "python-nbclient",
-      "python-ipywidgets"
-    ],
-    [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
-      "python-mako",
-      "python-mako"
-    ],
     [
       "jupyterlab",
       "python-jupyter-lsp",
@@ -1293,27 +1247,27 @@
       "jupyterlab"
     ],
     [
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
+    ],
+    [
       "python-jupyter-client",
       "python-pytest-jupyter",
       "python-jupyter-client"
     ],
     [
-      "python-nbclient",
-      "python-nbclient"
+      "python-jupyter-client",
+      "python-jupyter-client"
     ],
     [
-      "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
+      "conda-build",
+      "python-conda-libmamba-solver",
+      "conda-build"
     ],
     [
-      "jupyterlab",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
+      "python-dogpile-cache",
+      "python-mako",
+      "python-dogpile-cache"
     ],
     [
       "jupyterlab",
@@ -1322,14 +1276,56 @@
       "jupyterlab"
     ],
     [
+      "jupyterlab",
+      "python-nbclient",
+      "jupyterlab"
+    ],
+    [
+      "python-ipywidgets",
+      "python-nbclient",
+      "python-ipywidgets"
+    ],
+    [
+      "python-pcodedmp",
+      "python-pcodedmp"
+    ],
+    [
+      "python-itemadapter",
+      "python-scrapy",
+      "python-itemadapter"
+    ],
+    [
+      "python-mako",
+      "python-mako"
+    ],
+    [
+      "python-manilaclient",
+      "python-manilaclient"
+    ],
+    [
       "python-itemadapter",
       "python-itemloaders",
       "python-itemadapter"
     ],
     [
-      "python-dogpile-cache",
-      "python-mako",
-      "python-dogpile-cache"
+      "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
+      "python-nbclient",
+      "python-nbclient"
+    ],
+    [
+      "jupyterlab",
+      "python-notebook-shim",
+      "python-nbclient",
+      "jupyterlab"
+    ],
+    [
+      "python-ipywidgets",
+      "python-notebook",
+      "python-nbclient",
+      "python-ipywidgets"
     ]
   ]
 }
