@@ -93,18 +93,6 @@
       ]
     },
     {
-      "component": "python-wheel",
-      "count": 487,
-      "blocked_by": [
-        "python-charset-normalizer",
-        "python-flit",
-        "python-idna",
-        "python-requests",
-        "python-tomli-w",
-        "python-urllib3"
-      ]
-    },
-    {
       "component": "numpy",
       "count": 484,
       "blocked_by": [
@@ -151,7 +139,6 @@
       "blocked_by": [
         "python-cloudpickle",
         "python-execnet",
-        "python-hatch-fancy-pypi-readme",
         "python-hypothesis",
         "python-pytest-xdist"
       ]
@@ -165,19 +152,11 @@
       ]
     },
     {
-      "component": "python-distlib",
-      "count": 336,
-      "blocked_by": [
-        "python-wheel"
-      ]
-    },
-    {
       "component": "python-cryptography",
       "count": 329,
       "blocked_by": [
         "maturin",
         "python-cffi",
-        "python-cpuinfo",
         "python-execnet",
         "python-hypothesis",
         "python-iso8601",
@@ -200,7 +179,6 @@
       "blocked_by": [
         "python-dateutil",
         "python-discovery",
-        "python-distlib",
         "python-dotenv",
         "python-platformdirs",
         "python-pytest-env",
@@ -221,11 +199,9 @@
       "component": "python-tox",
       "count": 283,
       "blocked_by": [
-        "python-argcomplete",
         "python-build",
         "python-dateutil",
         "python-discovery",
-        "python-distlib",
         "python-execnet",
         "python-pdm-backend",
         "python-platformdirs",
@@ -235,8 +211,7 @@
         "python-pytest-xdist",
         "python-time-machine",
         "python-tomli-w",
-        "python-virtualenv",
-        "python-wheel"
+        "python-virtualenv"
       ]
     },
     {
@@ -244,15 +219,13 @@
       "count": 269,
       "blocked_by": [
         "python-discovery",
-        "python-distlib",
         "python-execnet",
         "python-platformdirs",
         "python-pyproject-api",
         "python-pytest-xdist",
         "python-tomli-w",
         "python-tox",
-        "python-virtualenv",
-        "python-wheel"
+        "python-virtualenv"
       ]
     },
     {
@@ -315,7 +288,6 @@
       "count": 160,
       "blocked_by": [
         "python-discovery",
-        "python-distlib",
         "python-html5lib",
         "python-platformdirs",
         "python-pyproject-api",
@@ -353,7 +325,6 @@
       "blocked_by": [
         "at-spi2-core",
         "gobject-introspection",
-        "python-argcomplete",
         "python-mako"
       ]
     },
@@ -416,7 +387,6 @@
         "python-Automat",
         "python-attrs",
         "python-constantly",
-        "python-hatch-fancy-pypi-readme",
         "python-hyperlink",
         "python-idna",
         "python-jsonpath-ng",
@@ -452,7 +422,6 @@
         "python-openstep-plist",
         "python-platformdirs",
         "python-pooch",
-        "python-pyclipper",
         "python-pytest-randomly",
         "python-requests",
         "python-ufo2ft",
@@ -484,7 +453,6 @@
       "blocked_by": [
         "python-charset-normalizer",
         "python-discovery",
-        "python-distlib",
         "python-gevent",
         "python-idna",
         "python-platformdirs",
@@ -497,7 +465,6 @@
         "python-tox-current-env",
         "python-urllib3",
         "python-virtualenv",
-        "python-zope-event",
         "python-zope-interface"
       ]
     },
@@ -518,10 +485,8 @@
         "python-pytest-httpserver",
         "python-pytest-localftpserver",
         "python-requests",
-        "python-tqdm",
         "python-urllib3",
-        "python-werkzeug",
-        "python-wheel"
+        "python-werkzeug"
       ]
     },
     {
@@ -555,9 +520,7 @@
       "count": 125,
       "blocked_by": [
         "python-discovery",
-        "python-distlib",
         "python-execnet",
-        "python-hatch-fancy-pypi-readme",
         "python-platformdirs",
         "python-pytest-xdist",
         "python-virtualenv"
@@ -568,7 +531,6 @@
       "count": 123,
       "blocked_by": [
         "python-discovery",
-        "python-distlib",
         "python-execnet",
         "python-platformdirs",
         "python-pyproject-api",
@@ -613,7 +575,6 @@
         "python-contourpy",
         "python-dateutil",
         "python-discovery",
-        "python-distlib",
         "python-execnet",
         "python-identify",
         "python-kiwisolver",
@@ -689,8 +650,7 @@
         "python-idna",
         "python-requests",
         "python-typing-extensions",
-        "python-urllib3",
-        "python-wheel"
+        "python-urllib3"
       ]
     },
     {
@@ -699,38 +659,33 @@
       "blocked_by": [
         "python-pytest-asyncio"
       ]
+    },
+    {
+      "component": "boost",
+      "count": 109,
+      "blocked_by": [
+        "numpy"
+      ]
+    },
+    {
+      "component": "python-typing-inspection",
+      "count": 106,
+      "blocked_by": [
+        "python-typing-extensions"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-wheel",
-      "count": 93,
-      "blocked_by": [
-        "python-charset-normalizer",
-        "python-flit",
-        "python-idna",
-        "python-requests",
-        "python-tomli-w",
-        "python-urllib3"
-      ]
-    },
-    {
       "component": "numpy",
-      "count": 31,
+      "count": 43,
       "blocked_by": [
         "python-meson-python"
       ]
     },
     {
-      "component": "python-flit-core3",
-      "count": 22,
-      "blocked_by": [
-        "python-testpath"
-      ]
-    },
-    {
       "component": "at-spi2-core",
-      "count": 21,
+      "count": 22,
       "blocked_by": [
         "gi-docgen",
         "gobject-introspection",
@@ -745,8 +700,22 @@
       ]
     },
     {
+      "component": "python-flit-core3",
+      "count": 22,
+      "blocked_by": [
+        "python-testpath"
+      ]
+    },
+    {
+      "component": "python-click",
+      "count": 21,
+      "blocked_by": [
+        "python-flit-core3"
+      ]
+    },
+    {
       "component": "python-cffi",
-      "count": 15,
+      "count": 19,
       "blocked_by": [
         "python-charset-normalizer",
         "python-idna",
@@ -756,17 +725,22 @@
       ]
     },
     {
-      "component": "python-click",
-      "count": 15,
-      "blocked_by": [
-        "python-flit-core3"
-      ]
+      "component": "python-hypothesis",
+      "count": 17
     },
     {
-      "component": "python-hypothesis",
-      "count": 15,
+      "component": "python-typing-extensions",
+      "count": 14
+    },
+    {
+      "component": "python-pytest-cov",
+      "count": 12,
       "blocked_by": [
-        "python-wheel"
+        "python-discovery",
+        "python-execnet",
+        "python-platformdirs",
+        "python-pytest-xdist",
+        "python-virtualenv"
       ]
     },
     {
@@ -775,22 +749,12 @@
       "blocked_by": [
         "at-spi2-core",
         "gobject-introspection",
-        "python-argcomplete",
         "python-mako"
       ]
     },
     {
-      "component": "python-pytest-cov",
-      "count": 11,
-      "blocked_by": [
-        "python-discovery",
-        "python-distlib",
-        "python-execnet",
-        "python-hatch-fancy-pypi-readme",
-        "python-platformdirs",
-        "python-pytest-xdist",
-        "python-virtualenv"
-      ]
+      "component": "python-colcon-core",
+      "count": 11
     },
     {
       "component": "python-dateutil",
@@ -809,8 +773,13 @@
       ]
     },
     {
-      "component": "python-typing-extensions",
-      "count": 9
+      "component": "python-pytest-asyncio",
+      "count": 8,
+      "blocked_by": [
+        "python-click",
+        "python-hypothesis",
+        "tomcli"
+      ]
     },
     {
       "component": "dnf5",
@@ -830,7 +799,7 @@
     },
     {
       "component": "python-olefile",
-      "count": 6,
+      "count": 7,
       "blocked_by": [
         "python-charset-normalizer",
         "python-idna",
@@ -842,11 +811,18 @@
       ]
     },
     {
-      "component": "python-pytest-asyncio",
+      "component": "python-pytest-mock",
+      "count": 7,
+      "blocked_by": [
+        "python-pytest-asyncio"
+      ]
+    },
+    {
+      "component": "maturin",
       "count": 6,
       "blocked_by": [
         "python-click",
-        "python-hypothesis",
+        "python-setuptools-rust",
         "tomcli"
       ]
     },
@@ -860,31 +836,8 @@
       ]
     },
     {
-      "component": "maturin",
-      "count": 5,
-      "blocked_by": [
-        "python-click",
-        "python-setuptools-rust",
-        "tomcli"
-      ]
-    },
-    {
-      "component": "python-pytest-mock",
-      "count": 5,
-      "blocked_by": [
-        "python-pytest-asyncio"
-      ]
-    },
-    {
-      "component": "dbus-python",
-      "count": 4,
-      "blocked_by": [
-        "pygobject3"
-      ]
-    },
-    {
       "component": "fonttools",
-      "count": 4,
+      "count": 5,
       "blocked_by": [
         "fonttools",
         "numpy",
@@ -906,7 +859,6 @@
         "python-openstep-plist",
         "python-platformdirs",
         "python-pooch",
-        "python-pyclipper",
         "python-pytest-randomly",
         "python-requests",
         "python-ufo2ft",
@@ -919,8 +871,22 @@
       ]
     },
     {
-      "component": "python-tornado",
-      "count": 4
+      "component": "python-pyasn1",
+      "count": 5,
+      "blocked_by": [
+        "python-charset-normalizer",
+        "python-idna",
+        "python-requests",
+        "python-sphinx",
+        "python-urllib3"
+      ]
+    },
+    {
+      "component": "dbus-python",
+      "count": 4,
+      "blocked_by": [
+        "pygobject3"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -932,29 +898,7 @@
         "python-sphinx",
         "python-urllib3"
       ],
-      "count": 84
-    },
-    {
-      "components": [
-        "python-charset-normalizer",
-        "python-idna",
-        "python-requests",
-        "python-urllib3"
-      ],
-      "count": 38
-    },
-    {
-      "components": [
-        "python-discovery",
-        "python-distlib",
-        "python-platformdirs",
-        "python-pyproject-api",
-        "python-tomli-w",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
-      ],
-      "count": 33
+      "count": 90
     },
     {
       "components": [
@@ -966,14 +910,28 @@
         "python-typing-extensions",
         "python-urllib3"
       ],
-      "count": 33
+      "count": 55
     },
     {
       "components": [
-        "boost",
-        "numpy"
+        "python-discovery",
+        "python-platformdirs",
+        "python-pyproject-api",
+        "python-tomli-w",
+        "python-tox",
+        "python-tox-current-env",
+        "python-virtualenv"
       ],
-      "count": 29
+      "count": 46
+    },
+    {
+      "components": [
+        "python-charset-normalizer",
+        "python-idna",
+        "python-requests",
+        "python-urllib3"
+      ],
+      "count": 43
     },
     {
       "components": [
@@ -985,20 +943,14 @@
         "python-sphinxcontrib-jquery",
         "python-urllib3"
       ],
-      "count": 29
+      "count": 35
     },
     {
       "components": [
-        "python-azure-core",
-        "python-azure-mgmt-core",
-        "python-charset-normalizer",
-        "python-idna",
-        "python-requests",
-        "python-typing-extensions",
-        "python-urllib3",
-        "python-wheel"
+        "boost",
+        "numpy"
       ],
-      "count": 22
+      "count": 31
     },
     {
       "components": [
@@ -1009,29 +961,21 @@
     },
     {
       "components": [
-        "python-discovery",
-        "python-distlib",
-        "python-platformdirs",
-        "python-pyproject-api",
-        "python-tomli-w",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv",
-        "python-wheel"
-      ],
-      "count": 13
-    },
-    {
-      "components": [
-        "numpy",
-        "python-wheel"
+        "python-click",
+        "tomcli"
       ],
       "count": 11
     },
     {
       "components": [
-        "python-colcon-core",
-        "python-distlib"
+        "python-discovery",
+        "python-platformdirs",
+        "python-pyproject-api",
+        "python-pytest-cov",
+        "python-tomli-w",
+        "python-tox",
+        "python-tox-current-env",
+        "python-virtualenv"
       ],
       "count": 11
     },
@@ -1044,15 +988,8 @@
     },
     {
       "components": [
-        "python-discovery",
-        "python-distlib",
-        "python-platformdirs",
-        "python-pyproject-api",
-        "python-pytest-cov",
-        "python-tomli-w",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
+        "at-spi2-core",
+        "python-pyside6"
       ],
       "count": 10
     },
@@ -1093,14 +1030,7 @@
         "python-platformdirs",
         "python-watchdog"
       ],
-      "count": 8
-    },
-    {
-      "components": [
-        "python-click",
-        "tomcli"
-      ],
-      "count": 8
+      "count": 9
     },
     {
       "components": [
@@ -1115,11 +1045,43 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "python-pyside6",
-        "python-wheel"
+        "numpy",
+        "python-charset-normalizer",
+        "python-idna",
+        "python-platformdirs",
+        "python-pooch",
+        "python-requests",
+        "python-urllib3",
+        "scipy"
       ],
       "count": 8
+    },
+    {
+      "components": [
+        "dbus-python",
+        "python-qt5"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "at-spi2-core",
+        "gobject-introspection",
+        "pygobject3",
+        "python-mako"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "gi-docgen",
+        "gobject-introspection",
+        "pygobject3",
+        "python-mako",
+        "python-smartypants",
+        "python-typogrify"
+      ],
+      "count": 7
     }
   ],
   "dependency_loops": [
@@ -1129,21 +1091,11 @@
       "python-dogpile-cache"
     ],
     [
-      "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
-    ],
-    [
       "python-conda-libmamba-solver",
       "python-conda-libmamba-solver"
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
       "python-itemadapter"
     ],
     [
@@ -1151,17 +1103,27 @@
       "python-pcodedmp"
     ],
     [
-      "python-manilaclient",
-      "python-manilaclient"
+      "python-itemadapter",
+      "python-scrapy",
+      "python-itemadapter"
+    ],
+    [
+      "conda-build",
+      "python-conda-libmamba-solver",
+      "conda-build"
+    ],
+    [
+      "python-itemadapter",
+      "python-itemloaders",
+      "python-itemadapter"
     ],
     [
       "python-mako",
       "python-mako"
     ],
     [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
+      "python-manilaclient",
+      "python-manilaclient"
     ]
   ]
 }
