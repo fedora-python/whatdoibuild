@@ -68,7 +68,7 @@
     },
     {
       "component": "python-platformdirs",
-      "count": 574,
+      "count": 575,
       "blocked_by": [
         "python-pytest-mock"
       ]
@@ -113,7 +113,7 @@
     },
     {
       "component": "python-dateutil",
-      "count": 459,
+      "count": 460,
       "blocked_by": [
         "python-charset-normalizer",
         "python-dateutil",
@@ -1124,34 +1124,22 @@
   ],
   "dependency_loops": [
     [
+      "python-dogpile-cache",
+      "python-mako",
+      "python-dogpile-cache"
+    ],
+    [
+      "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
       "python-itemadapter",
       "python-scrapy",
       "python-itemadapter"
     ],
     [
-      "python-jupyter-client",
-      "python-jupyter-client"
-    ],
-    [
-      "python-mako",
-      "python-mako"
-    ],
-    [
-      "python-manilaclient",
-      "python-manilaclient"
-    ],
-    [
-      "conda-build",
       "python-conda-libmamba-solver",
-      "conda-build"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
+      "python-conda-libmamba-solver"
     ],
     [
       "python-itemadapter",
@@ -1159,18 +1147,21 @@
       "python-itemadapter"
     ],
     [
-      "python-jupyter-client",
-      "python-pytest-jupyter",
-      "python-jupyter-client"
+      "python-pcodedmp",
+      "python-pcodedmp"
     ],
     [
-      "python-dogpile-cache",
+      "python-manilaclient",
+      "python-manilaclient"
+    ],
+    [
       "python-mako",
-      "python-dogpile-cache"
+      "python-mako"
     ],
     [
+      "conda-build",
       "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
+      "conda-build"
     ]
   ]
 }

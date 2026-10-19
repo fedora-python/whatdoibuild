@@ -8,6 +8,7 @@ inn
 link-grammar
 pylibgamerzilla
 pyotherside
+antlr4-project
 python-backrefs
 bmap-tools
 python-charset-normalizer
@@ -42,4 +43,3 @@ superlu_dist
 python-svgwrite
 python-tornado
 python-typing-extensions
-swift-lang
