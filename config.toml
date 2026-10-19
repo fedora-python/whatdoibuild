@@ -564,3 +564,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-jupyter-client]]
 withs = ["bootstrap"]
+
+[[bconds.python-wheel]]
+withs = ["bootstrap"]

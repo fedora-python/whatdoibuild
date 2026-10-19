@@ -3145,6 +3145,25 @@
           "python3dist(traitlets) >= 5.3"
         ]
       }
+    ],
+    "python-wheel": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-wheel::bootstrap:::",
+        "srpm_filename": "python-wheel-0.48.0-3.fc46~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 5~~ with python3dist(flit-core) >= 3.11)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-setuptools",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24",
+          "python3dist(pip) >= 19"
+        ]
+      }
     ]
   }
 }
