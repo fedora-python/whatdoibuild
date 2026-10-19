@@ -561,3 +561,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-nbclient]]
 withs = ["bootstrap"]
+
+[[bconds.python-jupyter-client]]
+withs = ["bootstrap"]

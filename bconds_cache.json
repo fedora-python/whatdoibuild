@@ -3123,6 +3123,28 @@
           "python3dist(traitlets) >= 5.13"
         ]
       }
+    ],
+    "python-jupyter-client": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-jupyter-client::bootstrap:::",
+        "srpm_filename": "python-jupyter-client-8.8.0-5.fc46.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 1.5",
+          "python3dist(jupyter-core) >= 5.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(python-dateutil) >= 2.8.2",
+          "python3dist(pyzmq) >= 25",
+          "python3dist(tornado) >= 6.4.1",
+          "python3dist(traitlets) >= 5.3"
+        ]
+      }
     ]
   }
 }
