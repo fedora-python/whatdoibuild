@@ -68,7 +68,7 @@
     },
     {
       "component": "python-platformdirs",
-      "count": 573,
+      "count": 574,
       "blocked_by": [
         "python-pytest-mock"
       ]
@@ -113,7 +113,7 @@
     },
     {
       "component": "python-dateutil",
-      "count": 458,
+      "count": 459,
       "blocked_by": [
         "python-charset-normalizer",
         "python-dateutil",
@@ -147,7 +147,7 @@
     },
     {
       "component": "python-attrs",
-      "count": 355,
+      "count": 356,
       "blocked_by": [
         "python-cloudpickle",
         "python-execnet",
@@ -371,7 +371,7 @@
     },
     {
       "component": "python-rpds-py",
-      "count": 141,
+      "count": 142,
       "blocked_by": [
         "maturin",
         "python-click",
@@ -380,7 +380,7 @@
     },
     {
       "component": "python-referencing",
-      "count": 140,
+      "count": 141,
       "blocked_by": [
         "python-attrs",
         "python-rpds-py"
@@ -388,7 +388,7 @@
     },
     {
       "component": "python-jsonschema-specifications",
-      "count": 137,
+      "count": 138,
       "blocked_by": [
         "python-accessible-pygments",
         "python-attrs",
@@ -407,6 +407,25 @@
         "python-sphinxext-opengraph",
         "python-typing-extensions",
         "python-urllib3"
+      ]
+    },
+    {
+      "component": "python-jsonschema",
+      "count": 136,
+      "blocked_by": [
+        "python-Automat",
+        "python-attrs",
+        "python-constantly",
+        "python-hatch-fancy-pypi-readme",
+        "python-hyperlink",
+        "python-idna",
+        "python-jsonpath-ng",
+        "python-jsonschema-specifications",
+        "python-referencing",
+        "python-rpds-py",
+        "python-twisted",
+        "python-typing-extensions",
+        "python-zope-interface"
       ]
     },
     {
@@ -443,25 +462,6 @@
         "python-urllib3",
         "scipy",
         "sympy"
-      ]
-    },
-    {
-      "component": "python-jsonschema",
-      "count": 135,
-      "blocked_by": [
-        "python-Automat",
-        "python-attrs",
-        "python-constantly",
-        "python-hatch-fancy-pypi-readme",
-        "python-hyperlink",
-        "python-idna",
-        "python-jsonpath-ng",
-        "python-jsonschema-specifications",
-        "python-referencing",
-        "python-rpds-py",
-        "python-twisted",
-        "python-typing-extensions",
-        "python-zope-interface"
       ]
     },
     {
@@ -1124,37 +1124,17 @@
   ],
   "dependency_loops": [
     [
-      "jupyterlab",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-ipywidgets",
-      "python-notebook",
-      "python-nbclient",
-      "python-ipywidgets"
-    ],
-    [
       "python-itemadapter",
       "python-scrapy",
       "python-itemadapter"
     ],
     [
+      "python-jupyter-client",
+      "python-jupyter-client"
+    ],
+    [
       "python-mako",
       "python-mako"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
-      "python-nbclient",
-      "python-nbclient"
-    ],
-    [
-      "python-dogpile-cache",
-      "python-mako",
-      "python-dogpile-cache"
     ],
     [
       "python-manilaclient",
@@ -1170,45 +1150,27 @@
       "python-pcodedmp"
     ],
     [
-      "python-jupyter-client",
-      "python-pytest-jupyter",
-      "python-jupyter-client"
-    ],
-    [
-      "jupyterlab",
-      "python-notebook-shim",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "jupyterlab",
-      "python-jupyterlab-server",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "jupyterlab",
-      "python-jupyter-lsp",
-      "python-nbclient",
-      "jupyterlab"
-    ],
-    [
-      "python-jupyter-client",
-      "python-jupyter-client"
-    ],
-    [
-      "python-ipywidgets",
-      "python-nbclient",
-      "python-ipywidgets"
+      "python-itemadapter",
+      "python-itemadapter"
     ],
     [
       "python-itemadapter",
       "python-itemloaders",
       "python-itemadapter"
+    ],
+    [
+      "python-jupyter-client",
+      "python-pytest-jupyter",
+      "python-jupyter-client"
+    ],
+    [
+      "python-dogpile-cache",
+      "python-mako",
+      "python-dogpile-cache"
+    ],
+    [
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
     ]
   ]
 }

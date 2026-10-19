@@ -4,8 +4,6 @@ criu
 ganglia
 getdp
 getmail6
-gphotoframe
-hstsparser
 inn
 link-grammar
 pylibgamerzilla
@@ -19,7 +17,6 @@ python-et_xmlfile
 python-exiv2
 python-extras
 python-gast
-gerrymander
 python-giacpy
 re2
 python-gpxpy
@@ -30,7 +27,6 @@ python-kajiki
 python-lmdb
 lttng-tools
 net-snmp
-python-owl_rl
 python-parso
 python-precis_i18n
 python-py-walk
