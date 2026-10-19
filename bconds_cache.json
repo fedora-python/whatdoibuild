@@ -3102,6 +3102,27 @@
           "python3dist(xxhash)"
         ]
       }
+    ],
+    "python-nbclient": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-nbclient::bootstrap:::",
+        "srpm_filename": "python-nbclient-0.11.0-3.fc46.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(hatchling) >= 1.10",
+          "python3dist(jupyter-client) >= 7",
+          "python3dist(jupyter-core) >= 5.4",
+          "python3dist(nbformat) >= 5.2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(traitlets) >= 5.13"
+        ]
+      }
     ]
   }
 }

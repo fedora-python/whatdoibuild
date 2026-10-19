@@ -558,3 +558,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-xarray]]
 withs = ["bootstrap"]
+
+[[bconds.python-nbclient]]
+withs = ["bootstrap"]
