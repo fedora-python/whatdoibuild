@@ -14,7 +14,6 @@
         "pyOpenSSL",
         "python-aiofiles",
         "python-anyio",
-        "python-attrs",
         "python-blinker",
         "python-cffi",
         "python-click",
@@ -134,16 +133,6 @@
       ]
     },
     {
-      "component": "python-attrs",
-      "count": 356,
-      "blocked_by": [
-        "python-cloudpickle",
-        "python-execnet",
-        "python-hypothesis",
-        "python-pytest-xdist"
-      ]
-    },
-    {
       "component": "python-tomli-w",
       "count": 349,
       "blocked_by": [
@@ -160,7 +149,6 @@
         "python-execnet",
         "python-hypothesis",
         "python-iso8601",
-        "python-pytest-benchmark",
         "python-pytest-xdist",
         "python-setuptools-rust"
       ]
@@ -303,7 +291,6 @@
       "component": "python-rich",
       "count": 156,
       "blocked_by": [
-        "python-attrs",
         "python-markdown-it-py",
         "python-mdurl"
       ]
@@ -353,7 +340,6 @@
       "component": "python-referencing",
       "count": 141,
       "blocked_by": [
-        "python-attrs",
         "python-rpds-py"
       ]
     },
@@ -362,7 +348,6 @@
       "count": 138,
       "blocked_by": [
         "python-accessible-pygments",
-        "python-attrs",
         "python-beautifulsoup4",
         "python-charset-normalizer",
         "python-enchant",
@@ -385,7 +370,6 @@
       "count": 136,
       "blocked_by": [
         "python-Automat",
-        "python-attrs",
         "python-constantly",
         "python-hyperlink",
         "python-idna",
@@ -394,8 +378,7 @@
         "python-referencing",
         "python-rpds-py",
         "python-twisted",
-        "python-typing-extensions",
-        "python-zope-interface"
+        "python-typing-extensions"
       ]
     },
     {
@@ -404,7 +387,6 @@
       "blocked_by": [
         "fonttools",
         "numpy",
-        "python-attrs",
         "python-booleanoperations",
         "python-cffsubr",
         "python-charset-normalizer",
@@ -464,8 +446,7 @@
         "python-tox",
         "python-tox-current-env",
         "python-urllib3",
-        "python-virtualenv",
-        "python-zope-interface"
+        "python-virtualenv"
       ]
     },
     {
@@ -516,17 +497,6 @@
       ]
     },
     {
-      "component": "python-pytest-cov",
-      "count": 125,
-      "blocked_by": [
-        "python-discovery",
-        "python-execnet",
-        "python-platformdirs",
-        "python-pytest-xdist",
-        "python-virtualenv"
-      ]
-    },
-    {
       "component": "python-pytest-xdist",
       "count": 123,
       "blocked_by": [
@@ -544,7 +514,6 @@
       "component": "python-anyio",
       "count": 120,
       "blocked_by": [
-        "python-attrs",
         "python-cffi",
         "python-click",
         "python-cryptography",
@@ -582,7 +551,6 @@
         "python-meson-python",
         "python-olefile",
         "python-platformdirs",
-        "python-pytest-cov",
         "python-pytest-rerunfailures",
         "python-pytest-xdist",
         "python-virtualenv"
@@ -673,12 +641,39 @@
       "blocked_by": [
         "python-typing-extensions"
       ]
+    },
+    {
+      "component": "python-pydantic-core",
+      "count": 104,
+      "blocked_by": [
+        "maturin",
+        "numpy",
+        "python-Bottleneck",
+        "python-asttokens",
+        "python-click",
+        "python-dateutil",
+        "python-hypothesis",
+        "python-inline-snapshot",
+        "python-markdown-it-py",
+        "python-mdurl",
+        "python-numexpr",
+        "python-pandas",
+        "python-pytest-mock",
+        "python-rich",
+        "python-typing-extensions",
+        "python-typing-inspection",
+        "tomcli"
+      ]
+    },
+    {
+      "component": "python-hypothesis",
+      "count": 104
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "numpy",
-      "count": 43,
+      "count": 44,
       "blocked_by": [
         "python-meson-python"
       ]
@@ -726,21 +721,19 @@
     },
     {
       "component": "python-hypothesis",
-      "count": 17
+      "count": 18
     },
     {
       "component": "python-typing-extensions",
       "count": 14
     },
     {
-      "component": "python-pytest-cov",
+      "component": "python-pytest-asyncio",
       "count": 12,
       "blocked_by": [
-        "python-discovery",
-        "python-execnet",
-        "python-platformdirs",
-        "python-pytest-xdist",
-        "python-virtualenv"
+        "python-click",
+        "python-hypothesis",
+        "tomcli"
       ]
     },
     {
@@ -753,12 +746,8 @@
       ]
     },
     {
-      "component": "python-colcon-core",
-      "count": 11
-    },
-    {
       "component": "python-dateutil",
-      "count": 9,
+      "count": 10,
       "blocked_by": [
         "python-charset-normalizer",
         "python-dateutil",
@@ -773,12 +762,23 @@
       ]
     },
     {
-      "component": "python-pytest-asyncio",
+      "component": "python-olefile",
       "count": 8,
       "blocked_by": [
-        "python-click",
-        "python-hypothesis",
-        "tomcli"
+        "python-charset-normalizer",
+        "python-idna",
+        "python-requests",
+        "python-sphinx",
+        "python-sphinx_rtd_theme",
+        "python-sphinxcontrib-jquery",
+        "python-urllib3"
+      ]
+    },
+    {
+      "component": "python-pytest-mock",
+      "count": 8,
+      "blocked_by": [
+        "python-pytest-asyncio"
       ]
     },
     {
@@ -795,26 +795,6 @@
         "python-sphinx_rtd_theme",
         "python-sphinxcontrib-jquery",
         "python-urllib3"
-      ]
-    },
-    {
-      "component": "python-olefile",
-      "count": 7,
-      "blocked_by": [
-        "python-charset-normalizer",
-        "python-idna",
-        "python-requests",
-        "python-sphinx",
-        "python-sphinx_rtd_theme",
-        "python-sphinxcontrib-jquery",
-        "python-urllib3"
-      ]
-    },
-    {
-      "component": "python-pytest-mock",
-      "count": 7,
-      "blocked_by": [
-        "python-pytest-asyncio"
       ]
     },
     {
@@ -841,7 +821,6 @@
       "blocked_by": [
         "fonttools",
         "numpy",
-        "python-attrs",
         "python-booleanoperations",
         "python-cffsubr",
         "python-charset-normalizer",
@@ -887,6 +866,24 @@
       "blocked_by": [
         "pygobject3"
       ]
+    },
+    {
+      "component": "python-tornado",
+      "count": 4
+    },
+    {
+      "component": "python-pytest-timeout",
+      "count": 4,
+      "blocked_by": [
+        "python-discovery",
+        "python-platformdirs",
+        "python-pyproject-api",
+        "python-pytest-github-actions-annotate-failures",
+        "python-tomli-w",
+        "python-tox",
+        "python-tox-current-env",
+        "python-virtualenv"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -898,7 +895,19 @@
         "python-sphinx",
         "python-urllib3"
       ],
-      "count": 90
+      "count": 91
+    },
+    {
+      "components": [
+        "python-discovery",
+        "python-platformdirs",
+        "python-pyproject-api",
+        "python-tomli-w",
+        "python-tox",
+        "python-tox-current-env",
+        "python-virtualenv"
+      ],
+      "count": 60
     },
     {
       "components": [
@@ -914,24 +923,12 @@
     },
     {
       "components": [
-        "python-discovery",
-        "python-platformdirs",
-        "python-pyproject-api",
-        "python-tomli-w",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
-      ],
-      "count": 46
-    },
-    {
-      "components": [
         "python-charset-normalizer",
         "python-idna",
         "python-requests",
         "python-urllib3"
       ],
-      "count": 43
+      "count": 45
     },
     {
       "components": [
@@ -950,7 +947,7 @@
         "boost",
         "numpy"
       ],
-      "count": 31
+      "count": 32
     },
     {
       "components": [
@@ -963,19 +960,6 @@
       "components": [
         "python-click",
         "tomcli"
-      ],
-      "count": 11
-    },
-    {
-      "components": [
-        "python-discovery",
-        "python-platformdirs",
-        "python-pyproject-api",
-        "python-pytest-cov",
-        "python-tomli-w",
-        "python-tox",
-        "python-tox-current-env",
-        "python-virtualenv"
       ],
       "count": 11
     },
@@ -1034,6 +1018,20 @@
     },
     {
       "components": [
+        "python-pdm-backend",
+        "python-tomli-w"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "python-cffi",
+        "python-cryptography"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
         "python-charset-normalizer",
         "python-flit-core3",
         "python-idna",
@@ -1058,45 +1056,32 @@
     },
     {
       "components": [
+        "python-flake8",
+        "python-pycodestyle"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
         "dbus-python",
         "python-qt5"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "at-spi2-core",
-        "gobject-introspection",
-        "pygobject3",
-        "python-mako"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "gi-docgen",
-        "gobject-introspection",
-        "pygobject3",
-        "python-mako",
-        "python-smartypants",
-        "python-typogrify"
       ],
       "count": 7
     }
   ],
   "dependency_loops": [
     [
+      "python-manilaclient",
+      "python-manilaclient"
+    ],
+    [
       "python-dogpile-cache",
       "python-mako",
       "python-dogpile-cache"
     ],
     [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
+      "python-mako",
+      "python-mako"
     ],
     [
       "python-pcodedmp",
@@ -1104,7 +1089,7 @@
     ],
     [
       "python-itemadapter",
-      "python-scrapy",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
@@ -1114,16 +1099,16 @@
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
       "python-itemadapter"
     ],
     [
-      "python-mako",
-      "python-mako"
+      "python-itemadapter",
+      "python-scrapy",
+      "python-itemadapter"
     ],
     [
-      "python-manilaclient",
-      "python-manilaclient"
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
     ]
   ]
 }
