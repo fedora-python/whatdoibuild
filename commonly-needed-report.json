@@ -916,7 +916,7 @@
         "python-charset-normalizer",
         "python-requests"
       ],
-      "count": 53
+      "count": 54
     },
     {
       "components": [
@@ -1062,21 +1062,12 @@
   "dependency_loops": [
     [
       "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
       "python-mako",
       "python-mako"
-    ],
-    [
-      "python-dogpile-cache",
-      "python-mako",
-      "python-dogpile-cache"
     ],
     [
       "conda-build",
@@ -1085,12 +1076,12 @@
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
+      "python-scrapy",
       "python-itemadapter"
     ],
     [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
+      "python-itemadapter",
+      "python-itemadapter"
     ],
     [
       "python-manilaclient",
@@ -1099,6 +1090,15 @@
     [
       "python-pcodedmp",
       "python-pcodedmp"
+    ],
+    [
+      "python-dogpile-cache",
+      "python-mako",
+      "python-dogpile-cache"
+    ],
+    [
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
     ]
   ]
 }

@@ -9,7 +9,6 @@ link-grammar
 nordugrid-arc
 pylibgamerzilla
 pyotherside
-python-advisory-parser
 python-aiounittest
 antlr4-project
 python-backrefs
@@ -18,7 +17,6 @@ python-boltons
 python-charset-normalizer
 python-construct-classes
 python-demjson
-python-doxytag2zealdb
 python-et_xmlfile
 python-exiv2
 python-extras
@@ -36,11 +34,8 @@ koan
 lensfun
 python-lmdb
 lttng-tools
-python-markdown-callouts
-python-micawber
 python-nest-asyncio
 net-snmp
-python-ofxparse
 python-parso
 python-precis_i18n
 python-py-walk
@@ -50,6 +45,7 @@ python-pytest-asyncio
 python-pytest-github-actions-annotate-failures
 python-pytest-rerunfailures
 python-rfc3339-validator
+python-routes
 python-rstr
 python-scour
 python-sentry-sdk
@@ -62,9 +58,3 @@ python-stdlibs
 superlu_dist
 python-svgwrite
 python-tornado
-python-urwid-readline
-python-webtest:tests::::
-s-tui
-urlscan
-virt-lightning
-vit
