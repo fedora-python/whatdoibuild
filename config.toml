@@ -567,3 +567,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-wheel]]
 withs = ["bootstrap"]
+
+[[bconds.python-flit-core3]]
+withs = ["bootstrap"]

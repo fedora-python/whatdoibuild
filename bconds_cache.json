@@ -3164,6 +3164,18 @@
           "python3dist(pip) >= 19"
         ]
       }
+    ],
+    "python-flit-core3": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-flit-core3::bootstrap:::",
+        "srpm_filename": "python-flit-core3-3.12.0-3.fc46~bootstrap.src.rpm",
+        "buildrequires": [
+          "python3-devel"
+        ]
+      }
     ]
   }
 }
