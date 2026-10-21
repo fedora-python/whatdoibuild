@@ -75,7 +75,6 @@
         "gi-docgen",
         "gobject-introspection",
         "python-charset-normalizer",
-        "python-mako",
         "python-requests",
         "python-smartypants",
         "python-sphinx",
@@ -136,8 +135,7 @@
       "count": 146,
       "blocked_by": [
         "at-spi2-core",
-        "gobject-introspection",
-        "python-mako"
+        "gobject-introspection"
       ]
     },
     {
@@ -218,20 +216,6 @@
         "python-ufoLib2",
         "python-unicodedata2",
         "sympy"
-      ]
-    },
-    {
-      "component": "python-mako",
-      "count": 130,
-      "blocked_by": [
-        "pyOpenSSL",
-        "python-beaker",
-        "python-cffi",
-        "python-cryptography",
-        "python-dogpile-cache",
-        "python-junitparser",
-        "python-mako",
-        "python-paste"
       ]
     },
     {
@@ -610,6 +594,15 @@
         "python-sphinxcontrib-log-cabinet",
         "python-werkzeug"
       ]
+    },
+    {
+      "component": "python-webencodings",
+      "count": 63,
+      "blocked_by": [
+        "python-charset-normalizer",
+        "python-requests",
+        "python-sphinx"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -624,7 +617,6 @@
         "gi-docgen",
         "gobject-introspection",
         "python-charset-normalizer",
-        "python-mako",
         "python-requests",
         "python-smartypants",
         "python-sphinx",
@@ -658,8 +650,7 @@
       "count": 14,
       "blocked_by": [
         "at-spi2-core",
-        "gobject-introspection",
-        "python-mako"
+        "gobject-introspection"
       ]
     },
     {
@@ -714,6 +705,10 @@
       "blocked_by": [
         "python-pytest-github-actions-annotate-failures"
       ]
+    },
+    {
+      "component": "gobject-introspection",
+      "count": 9
     },
     {
       "component": "fonttools",
@@ -815,20 +810,6 @@
       ]
     },
     {
-      "component": "python-mako",
-      "count": 4,
-      "blocked_by": [
-        "pyOpenSSL",
-        "python-beaker",
-        "python-cffi",
-        "python-cryptography",
-        "python-dogpile-cache",
-        "python-junitparser",
-        "python-mako",
-        "python-paste"
-      ]
-    },
-    {
       "component": "dbus-python",
       "count": 4,
       "blocked_by": [
@@ -857,7 +838,7 @@
         "python-charset-normalizer",
         "python-requests"
       ],
-      "count": 58
+      "count": 59
     },
     {
       "components": [
@@ -945,15 +926,16 @@
     },
     {
       "components": [
-        "at-spi2-core",
-        "boost"
+        "python-flask",
+        "python-itsdangerous",
+        "python-werkzeug"
       ],
-      "count": 9
+      "count": 10
     },
     {
       "components": [
-        "gobject-introspection",
-        "python-mako"
+        "at-spi2-core",
+        "boost"
       ],
       "count": 9
     },
@@ -962,16 +944,7 @@
         "mkdocs",
         "python-dateutil",
         "python-ghp-import",
-        "python-mkdocs-get-deps",
         "python-watchdog"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
-        "python-flask",
-        "python-itsdangerous",
-        "python-werkzeug"
       ],
       "count": 9
     },
@@ -987,6 +960,17 @@
         "python-Bottleneck",
         "python-dateutil",
         "python-pandas"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "fonttools",
+        "python-contourpy",
+        "python-dateutil",
+        "python-kiwisolver",
+        "python-matplotlib",
+        "python-olefile"
       ],
       "count": 8
     },
@@ -1008,15 +992,8 @@
   "dependency_loops": [
     [
       "python-itemadapter",
+      "python-scrapy",
       "python-itemadapter"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
-    ],
-    [
-      "python-mako",
-      "python-mako"
     ],
     [
       "python-itemadapter",
@@ -1024,27 +1001,25 @@
       "python-itemadapter"
     ],
     [
-      "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
-    ],
-    [
       "python-manilaclient",
       "python-manilaclient"
+    ],
+    [
+      "conda-build",
+      "python-conda-libmamba-solver",
+      "conda-build"
     ],
     [
       "python-conda-libmamba-solver",
       "python-conda-libmamba-solver"
     ],
     [
-      "python-dogpile-cache",
-      "python-mako",
-      "python-dogpile-cache"
+      "python-itemadapter",
+      "python-itemadapter"
     ],
     [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
+      "python-pcodedmp",
+      "python-pcodedmp"
     ]
   ]
 }
