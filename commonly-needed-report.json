@@ -73,7 +73,6 @@
       "count": 259,
       "blocked_by": [
         "gi-docgen",
-        "gobject-introspection",
         "python-charset-normalizer",
         "python-requests",
         "python-smartypants",
@@ -134,8 +133,7 @@
       "component": "pygobject3",
       "count": 146,
       "blocked_by": [
-        "at-spi2-core",
-        "gobject-introspection"
+        "at-spi2-core"
       ]
     },
     {
@@ -612,10 +610,9 @@
     },
     {
       "component": "at-spi2-core",
-      "count": 26,
+      "count": 30,
       "blocked_by": [
         "gi-docgen",
-        "gobject-introspection",
         "python-charset-normalizer",
         "python-requests",
         "python-smartypants",
@@ -647,10 +644,9 @@
     },
     {
       "component": "pygobject3",
-      "count": 14,
+      "count": 19,
       "blocked_by": [
-        "at-spi2-core",
-        "gobject-introspection"
+        "at-spi2-core"
       ]
     },
     {
@@ -705,10 +701,6 @@
       "blocked_by": [
         "python-pytest-github-actions-annotate-failures"
       ]
-    },
-    {
-      "component": "gobject-introspection",
-      "count": 9
     },
     {
       "component": "fonttools",
@@ -822,6 +814,10 @@
       "blocked_by": [
         "python-cffi"
       ]
+    },
+    {
+      "component": "python-tornado",
+      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -861,6 +857,13 @@
     },
     {
       "components": [
+        "at-spi2-core",
+        "pygobject3"
+      ],
+      "count": 24
+    },
+    {
+      "components": [
         "python-azure-core",
         "python-azure-mgmt-core",
         "python-charset-normalizer",
@@ -870,13 +873,6 @@
         "python-requests-oauthlib"
       ],
       "count": 19
-    },
-    {
-      "components": [
-        "at-spi2-core",
-        "pygobject3"
-      ],
-      "count": 15
     },
     {
       "components": [
@@ -898,6 +894,13 @@
         "python-jsonschema-specifications",
         "python-referencing",
         "python-rpds-py"
+      ],
+      "count": 10
+    },
+    {
+      "components": [
+        "at-spi2-core",
+        "boost"
       ],
       "count": 10
     },
@@ -931,13 +934,6 @@
         "python-werkzeug"
       ],
       "count": 10
-    },
-    {
-      "components": [
-        "at-spi2-core",
-        "boost"
-      ],
-      "count": 9
     },
     {
       "components": [
@@ -992,7 +988,6 @@
   "dependency_loops": [
     [
       "python-itemadapter",
-      "python-scrapy",
       "python-itemadapter"
     ],
     [
@@ -1001,13 +996,12 @@
       "python-itemadapter"
     ],
     [
-      "python-manilaclient",
-      "python-manilaclient"
+      "python-pcodedmp",
+      "python-pcodedmp"
     ],
     [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
+      "python-manilaclient",
+      "python-manilaclient"
     ],
     [
       "python-conda-libmamba-solver",
@@ -1015,11 +1009,13 @@
     ],
     [
       "python-itemadapter",
+      "python-scrapy",
       "python-itemadapter"
     ],
     [
-      "python-pcodedmp",
-      "python-pcodedmp"
+      "conda-build",
+      "python-conda-libmamba-solver",
+      "conda-build"
     ]
   ]
 }

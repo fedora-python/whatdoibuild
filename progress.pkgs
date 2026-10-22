@@ -1,11 +1,11 @@
 Io-language
 boost
 llvm
+collectd
 criu
 ganglia
 getdp
 getmail6
-gobject-introspection
 inn
 link-grammar
 nordugrid-arc
@@ -24,7 +24,6 @@ python-circuitbreaker
 python-colcon-bundle
 python-construct-classes
 python-demjson
-python-dogpile-cache
 python-et_xmlfile
 python-exiv2
 python-exrex
@@ -49,7 +48,6 @@ net-snmp
 openvino
 python-parsel
 python-parso
-python-pecan
 python-precis_i18n
 python-py-walk
 python-pyliblo3
@@ -74,4 +72,3 @@ python-tornado
 python-triton
 vapoursynth
 python-xmlschema
-volk
