@@ -537,6 +537,20 @@
       ]
     },
     {
+      "component": "python-pooch",
+      "count": 16,
+      "blocked_by": [
+        "pyOpenSSL",
+        "python-bcrypt",
+        "python-cffi",
+        "python-cryptography",
+        "python-paramiko",
+        "python-pyftpdlib",
+        "python-pynacl",
+        "python-pytest-localftpserver"
+      ]
+    },
+    {
       "component": "maturin",
       "count": 15,
       "blocked_by": [
@@ -564,20 +578,6 @@
         "python-httpx",
         "python-pynacl",
         "python-service-identity"
-      ]
-    },
-    {
-      "component": "python-pooch",
-      "count": 11,
-      "blocked_by": [
-        "pyOpenSSL",
-        "python-bcrypt",
-        "python-cffi",
-        "python-cryptography",
-        "python-paramiko",
-        "python-pyftpdlib",
-        "python-pynacl",
-        "python-pytest-localftpserver"
       ]
     },
     {
@@ -694,7 +694,6 @@
       "count": 6,
       "blocked_by": [
         "python-execnet",
-        "python-factory-boy",
         "python-pytest-xdist"
       ]
     }
@@ -729,7 +728,7 @@
         "python-execnet",
         "python-pytest-xdist"
       ],
-      "count": 16
+      "count": 17
     },
     {
       "components": [
@@ -777,6 +776,13 @@
     },
     {
       "components": [
+        "dbus-python",
+        "python-pyqt6"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
         "python-bcrypt",
         "python-cffi",
         "python-cryptography",
@@ -787,8 +793,10 @@
     },
     {
       "components": [
-        "dbus-python",
-        "python-pyqt6"
+        "fonttools",
+        "python-contourpy",
+        "python-matplotlib",
+        "python-pooch"
       ],
       "count": 6
     },
@@ -833,13 +841,6 @@
     },
     {
       "components": [
-        "h5py",
-        "python-pooch"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
@@ -873,21 +874,13 @@
   ],
   "dependency_loops": [
     [
-      "python-pcodedmp",
-      "python-pcodedmp"
-    ],
-    [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
       "conda-build",
       "python-conda-libmamba-solver",
       "conda-build"
+    ],
+    [
+      "python-manilaclient",
+      "python-manilaclient"
     ],
     [
       "python-itemadapter",
@@ -895,8 +888,16 @@
       "python-itemadapter"
     ],
     [
-      "python-manilaclient",
-      "python-manilaclient"
+      "python-pcodedmp",
+      "python-pcodedmp"
+    ],
+    [
+      "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
+      "python-conda-libmamba-solver",
+      "python-conda-libmamba-solver"
     ],
     [
       "python-itemadapter",
