@@ -2,14 +2,14 @@
   "most_commonly_needed": [
     {
       "component": "python-mdurl",
-      "count": 196,
+      "count": 198,
       "blocked_by": [
         "python-pytest-randomly"
       ]
     },
     {
       "component": "python-markdown-it-py",
-      "count": 195,
+      "count": 197,
       "blocked_by": [
         "python-linkify-it-py",
         "python-markdown-it-py",
@@ -29,7 +29,7 @@
     },
     {
       "component": "fonttools",
-      "count": 135,
+      "count": 134,
       "blocked_by": [
         "fonttools",
         "python-booleanoperations",
@@ -50,14 +50,14 @@
     },
     {
       "component": "python-execnet",
-      "count": 130,
+      "count": 131,
       "blocked_by": [
         "python-pytest-timeout"
       ]
     },
     {
       "component": "python-pooch",
-      "count": 128,
+      "count": 127,
       "blocked_by": [
         "pyOpenSSL",
         "python-paramiko",
@@ -68,7 +68,7 @@
     },
     {
       "component": "python-pytest-xdist",
-      "count": 124,
+      "count": 125,
       "blocked_by": [
         "python-execnet"
       ]
@@ -83,7 +83,7 @@
     },
     {
       "component": "python-contourpy",
-      "count": 119,
+      "count": 118,
       "blocked_by": [
         "fonttools",
         "pre-commit",
@@ -97,7 +97,7 @@
     },
     {
       "component": "python-matplotlib",
-      "count": 116,
+      "count": 115,
       "blocked_by": [
         "fonttools",
         "python-contourpy",
@@ -105,10 +105,6 @@
         "python-scour",
         "python-wxpython4"
       ]
-    },
-    {
-      "component": "boost",
-      "count": 109
     },
     {
       "component": "python-pydantic-core",
@@ -377,7 +373,7 @@
     },
     {
       "component": "python-cloudpickle",
-      "count": 47,
+      "count": 46,
       "blocked_by": [
         "python-tornado"
       ]
@@ -421,7 +417,7 @@
     },
     {
       "component": "python-mdit-py-plugins",
-      "count": 44,
+      "count": 45,
       "blocked_by": [
         "python-markdown-it-py",
         "python-mdurl",
@@ -485,16 +481,16 @@
       "blocked_by": [
         "python-sphinx-design"
       ]
+    },
+    {
+      "component": "python-nest-asyncio",
+      "count": 37
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "boost",
-      "count": 52
-    },
-    {
       "component": "python-django6",
-      "count": 23,
+      "count": 24,
       "blocked_by": [
         "python-aiohappyeyeballs",
         "python-aiohttp",
@@ -511,7 +507,7 @@
     },
     {
       "component": "python-pooch",
-      "count": 17,
+      "count": 19,
       "blocked_by": [
         "pyOpenSSL",
         "python-paramiko",
@@ -528,19 +524,19 @@
       ]
     },
     {
-      "component": "python-flask",
-      "count": 15,
-      "blocked_by": [
-        "python-sphinx-tabs"
-      ]
-    },
-    {
       "component": "dnf5",
-      "count": 15,
+      "count": 16,
       "blocked_by": [
         "python-astroid",
         "python-breathe",
         "python-sphinx-autoapi"
+      ]
+    },
+    {
+      "component": "python-flask",
+      "count": 15,
+      "blocked_by": [
+        "python-sphinx-tabs"
       ]
     },
     {
@@ -556,6 +552,13 @@
       ]
     },
     {
+      "component": "python-Bottleneck",
+      "count": 11,
+      "blocked_by": [
+        "python-numpydoc"
+      ]
+    },
+    {
       "component": "python-sqlalchemy",
       "count": 11,
       "blocked_by": [
@@ -563,13 +566,6 @@
         "python-aiomysql",
         "python-execnet",
         "python-pytest-xdist"
-      ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 10,
-      "blocked_by": [
-        "python-numpydoc"
       ]
     },
     {
@@ -602,10 +598,6 @@
       ]
     },
     {
-      "component": "python-uv-build",
-      "count": 8
-    },
-    {
       "component": "python-furo",
       "count": 8,
       "blocked_by": [
@@ -624,6 +616,14 @@
     {
       "component": "glade",
       "count": 7
+    },
+    {
+      "component": "vtk",
+      "count": 7,
+      "blocked_by": [
+        "imath",
+        "vtk"
+      ]
     },
     {
       "component": "python-redis",
@@ -673,9 +673,24 @@
         "python-manuel",
         "python-sphinxcontrib-programoutput"
       ]
+    },
+    {
+      "component": "python-pytest-randomly",
+      "count": 6,
+      "blocked_by": [
+        "python-execnet",
+        "python-pytest-xdist"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
+    {
+      "components": [
+        "python-execnet",
+        "python-pytest-xdist"
+      ],
+      "count": 26
+    },
     {
       "components": [
         "python-msrest",
@@ -685,18 +700,11 @@
     },
     {
       "components": [
-        "python-execnet",
-        "python-pytest-xdist"
-      ],
-      "count": 24
-    },
-    {
-      "components": [
         "fonttools",
         "python-contourpy",
         "python-matplotlib"
       ],
-      "count": 13
+      "count": 14
     },
     {
       "components": [
@@ -705,7 +713,7 @@
         "python-propcache",
         "python-yarl"
       ],
-      "count": 12
+      "count": 13
     },
     {
       "components": [
@@ -720,6 +728,15 @@
         "python-watchdog"
       ],
       "count": 10
+    },
+    {
+      "components": [
+        "fonttools",
+        "python-contourpy",
+        "python-matplotlib",
+        "python-pooch"
+      ],
+      "count": 8
     },
     {
       "components": [
@@ -751,15 +768,6 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-contourpy",
-        "python-matplotlib",
-        "python-pooch"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
         "fedora-messaging",
         "pyOpenSSL",
         "python-crochet",
@@ -770,7 +778,6 @@
     },
     {
       "components": [
-        "boost",
         "imath",
         "vtk"
       ],
@@ -785,14 +792,11 @@
     },
     {
       "components": [
-        "boost",
         "gnuradio",
         "python-pooch",
         "python-pyopengl",
         "python-pyqtgraph",
-        "python-zmq",
-        "thrift",
-        "uhd"
+        "python-zmq"
       ],
       "count": 5
     },
@@ -833,13 +837,6 @@
     },
     {
       "components": [
-        "boost",
-        "imath"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-cytoolz",
         "python-eth-utils",
         "python-pydantic",
@@ -847,30 +844,35 @@
         "python-toolz"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-fsspec",
+        "python-mpmath",
+        "python-torch",
+        "sympy"
+      ],
+      "count": 4
     }
   ],
   "dependency_loops": [
-    [
-      "python-itemadapter",
-      "python-itemloaders",
-      "python-itemadapter"
-    ],
     [
       "conda-build",
       "python-conda-libmamba-solver",
       "conda-build"
     ],
     [
+      "python-manilaclient",
+      "python-manilaclient"
+    ],
+    [
       "python-itemadapter",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
-      "python-conda-libmamba-solver",
-      "python-conda-libmamba-solver"
-    ],
-    [
-      "python-manilaclient",
-      "python-manilaclient"
+      "python-itemadapter",
+      "python-itemadapter"
     ],
     [
       "python-itemadapter",
