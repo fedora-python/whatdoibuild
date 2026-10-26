@@ -1684,11 +1684,11 @@
     ],
     "python-markdown-it-py": [
       {
-        "withouts": [
-          "plugins"
+        "withs": [
+          "bootstrap"
         ],
-        "id": "python-markdown-it-py:plugins::::",
-        "srpm_filename": "python-markdown-it-py-4.2.0-3.fc46.src.rpm",
+        "id": "python-markdown-it-py::bootstrap:::",
+        "srpm_filename": "python-markdown-it-py-4.2.0-3.fc46~bootstrap.src.rpm",
         "buildrequires": [
           "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.4)",
           "(python3dist(linkify-it-py) < 3~~ with python3dist(linkify-it-py) >= 1)",
@@ -1699,9 +1699,57 @@
           "python3dist(packaging)",
           "python3dist(pip) >= 19",
           "python3dist(pytest)",
-          "python3dist(pytest-regressions)",
           "python3dist(pytest-timeout)",
           "python3dist(requests)"
+        ]
+      }
+    ],
+    "python-mdit-py-plugins": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-mdit-py-plugins::bootstrap:::",
+        "srpm_filename": "python-mdit-py-plugins-0.6.1-3.fc46~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.4)",
+          "(python3dist(markdown-it-py) < 5~~ with python3dist(markdown-it-py) >= 2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)"
+        ]
+      }
+    ],
+    "python-myst-parser": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-myst-parser::bootstrap:::",
+        "srpm_filename": "python-myst-parser-5.1.0-4.fc46~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.4)",
+          "(python3dist(markdown-it-py) >= 4.2 with python3dist(markdown-it-py) < 5)",
+          "(python3dist(mdit-py-plugins) >= 0.6.1 with (python3dist(mdit-py-plugins) >= 0.6 with python3dist(mdit-py-plugins) < 1))",
+          "(python3dist(sphinx) < 10~~ with python3dist(sphinx) >= 8)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-beautifulsoup4",
+          "python3-devel",
+          "python3-docutils",
+          "python3-linkify-it-py",
+          "python3-pytest",
+          "python3-pytest-param-files",
+          "python3-soupsieve",
+          "python3-sphinx-pytest",
+          "python3dist(docutils) >= 0.20",
+          "python3dist(jinja2)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyyaml)"
         ]
       }
     ],

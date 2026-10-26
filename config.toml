@@ -320,7 +320,13 @@ replacements = {run_tests = "0"}
 withs = ["bootstrap"]
 
 [[bconds.python-markdown-it-py]]
-withouts = ["plugins"]
+withs = ["bootstrap"]
+
+[[bconds.python-mdit-py-plugins]]
+withs = ["bootstrap"]
+
+[[bconds.python-myst-parser]]
+withs = ["bootstrap"]
 
 [[bconds.python-factory-boy]]
 withouts = ["tests"]
