@@ -55,10 +55,7 @@ gpsd
 python-gpxpy
 python-gsd
 python-html5-parser
-python-importlib-metadata
-python-importlib-resources
 python-inquirer
-python-irc
 jc
 python-kajiki
 koan
@@ -81,6 +78,7 @@ opentrep
 openvino
 python-parsel
 python-parso
+python-pcodedmp::bootstrap:::
 python-persist-queue
 python-plugincode
 python-precis_i18n
@@ -127,6 +125,7 @@ vapoursynth
 xapps
 python-xeddsa
 python-xmlschema
+python-yapf
 rb_libtorrent
 remmina
 retext

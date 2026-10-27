@@ -168,7 +168,7 @@
     },
     {
       "component": "python-cliff",
-      "count": 55,
+      "count": 56,
       "blocked_by": [
         "python-autopage",
         "python-cliff",
@@ -177,9 +177,18 @@
     },
     {
       "component": "python-autopage",
-      "count": 55,
+      "count": 56,
       "blocked_by": [
         "python-fixtures"
+      ]
+    },
+    {
+      "component": "python-stestr",
+      "count": 52,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-ddt"
       ]
     },
     {
@@ -199,15 +208,6 @@
         "python-aiohappyeyeballs",
         "python-aiohttp",
         "python-yarl"
-      ]
-    },
-    {
-      "component": "python-stestr",
-      "count": 51,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-ddt"
       ]
     },
     {
@@ -278,7 +278,7 @@
     },
     {
       "component": "python-requests-mock",
-      "count": 39,
+      "count": 40,
       "blocked_by": [
         "python-requests-futures"
       ]
@@ -291,6 +291,17 @@
       ]
     },
     {
+      "component": "python-oslo-i18n",
+      "count": 37,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-stestr"
+      ]
+    },
+    {
       "component": "python-nest-asyncio",
       "count": 37
     },
@@ -299,17 +310,6 @@
       "count": 37,
       "blocked_by": [
         "python-dulwich"
-      ]
-    },
-    {
-      "component": "python-oslo-i18n",
-      "count": 36,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-dulwich",
-        "python-openstackdocstheme",
-        "python-stestr"
       ]
     },
     {
@@ -463,17 +463,8 @@
       ]
     },
     {
-      "component": "python-furo",
-      "count": 32,
-      "blocked_by": [
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
-      ]
-    },
-    {
       "component": "python-oslo-utils",
-      "count": 31,
+      "count": 32,
       "blocked_by": [
         "python-autopage",
         "python-cliff",
@@ -486,15 +477,17 @@
       ]
     },
     {
-      "component": "python-watchdog",
-      "count": 31,
+      "component": "python-furo",
+      "count": 32,
       "blocked_by": [
-        "python-pytest-rerunfailures"
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs"
       ]
     },
     {
       "component": "python-keystoneauth1",
-      "count": 30,
+      "count": 31,
       "blocked_by": [
         "python-autopage",
         "python-cliff",
@@ -505,6 +498,13 @@
         "python-oslo-utils",
         "python-requests-mock",
         "python-stestr"
+      ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 31,
+      "blocked_by": [
+        "python-pytest-rerunfailures"
       ]
     }
   ],
@@ -632,10 +632,6 @@
       ]
     },
     {
-      "component": "python-importlib-metadata",
-      "count": 5
-    },
-    {
       "component": "python-reportlab",
       "count": 5
     },
@@ -657,6 +653,15 @@
         "dnf5",
         "python-requests_ntlm",
         "python-winrm"
+      ]
+    },
+    {
+      "component": "python-requests-oauthlib",
+      "count": 4,
+      "blocked_by": [
+        "python-requests-mock",
+        "python-selenium",
+        "python-trio-websocket"
       ]
     }
   ],
@@ -823,11 +828,8 @@
     },
     {
       "components": [
-        "python-contourpy",
-        "python-matplotlib",
-        "python-mpmath",
-        "python-pooch",
-        "sympy"
+        "python-progressbar2",
+        "python-utils"
       ],
       "count": 3
     }
@@ -835,29 +837,16 @@
   "dependency_loops": [
     [
       "python-itemadapter",
-      "python-itemloaders",
-      "python-itemadapter"
-    ],
-    [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
-    ],
-    [
-      "python-manilaclient",
-      "python-manilaclient"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
       "python-scrapy",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
+      "python-itemloaders",
       "python-itemadapter"
     ]
   ]
