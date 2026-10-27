@@ -842,11 +842,11 @@
     ],
     [
       "python-itemadapter",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
       "python-itemadapter"
     ]
   ]

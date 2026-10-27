@@ -78,7 +78,6 @@ opentrep
 openvino
 python-parsel
 python-parso
-python-pcodedmp::bootstrap:::
 python-persist-queue
 python-plugincode
 python-precis_i18n
