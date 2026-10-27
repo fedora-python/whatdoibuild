@@ -576,3 +576,12 @@ withs = ["bootstrap"]
 
 [[bconds.python-flit-core3]]
 withs = ["bootstrap"]
+
+[[bconds.conda-build]]
+withouts = ["tests"]
+
+[[bconds.python-manilaclient]]
+replacements = {with_doc = "0"}
+
+[[bconds.python-pcodedmp]]
+withs = ["bootstrap"]
