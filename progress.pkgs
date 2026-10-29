@@ -26,7 +26,6 @@ python-aiostream
 python-aiounittest
 antlr4-project
 python-astroid
-python-augeas
 python-autodocsumm
 python-backrefs
 python-beartype
@@ -132,3 +131,4 @@ rpmlint
 scribus
 systemtap
 urh
+yt-dlp
