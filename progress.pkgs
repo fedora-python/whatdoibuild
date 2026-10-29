@@ -1,4 +1,5 @@
 Io-language
+audiotube
 awscli2
 btrfs-backup-ng
 cantor
@@ -131,4 +132,3 @@ rpmlint
 scribus
 systemtap
 urh
-yt-dlp
