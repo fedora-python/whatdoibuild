@@ -6,8 +6,10 @@ cantor
 catalyst
 llvm
 collectd
+cr2rpm
 criu
 cutter-re
+dupeguru
 quodlibet
 ganglia
 getdp
@@ -53,7 +55,6 @@ python-gast
 python-giacpy
 gpsd
 python-gpxpy
-python-gsd
 python-html5-parser
 python-inquirer
 jc
@@ -74,6 +75,7 @@ net-snmp
 notmuch
 onnx
 onnxruntime
+python-opentelemetry-semantic-conventions
 opentrep
 openvino
 python-parsel
@@ -115,6 +117,7 @@ python-sphinxygen
 python-stdlibs
 python-svgwrite
 python-time-machine
+python-tmuxp
 python-tornado
 trademgen
 python-triton
