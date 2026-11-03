@@ -14,7 +14,6 @@ gnumeric
 kdevelop-python
 kvirc
 lammps
-lirc
 mock
 nordugrid-arc
 obs-studio
@@ -93,7 +92,6 @@ python-requests-download
 python-rfc3339-validator
 rmol
 root
-rpmdeplint
 python-rstr
 python-scour
 python-sentry-sdk
@@ -109,7 +107,6 @@ python-tornado
 trademgen
 python-triton
 python-ukkonen
-urjtag
 uwsgi
 vapoursynth
 xapps
