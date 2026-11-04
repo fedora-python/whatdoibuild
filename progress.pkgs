@@ -43,6 +43,8 @@ dionaea
 python-et_xmlfile
 python-exiv2
 python-exrex
+python-extractcode-7z
+python-extractcode-libarchive
 python-extras
 python-gast
 python-giacpy
@@ -69,7 +71,6 @@ openvino
 python-parsel
 python-parso
 python-persist-queue
-python-plugincode
 python-precis_i18n
 python-py-walk
 python-pyface::bootstrap:::
@@ -106,6 +107,7 @@ python-time-machine
 python-tornado
 trademgen
 python-triton
+python-typecode-libmagic
 python-ukkonen
 uwsgi
 vapoursynth
