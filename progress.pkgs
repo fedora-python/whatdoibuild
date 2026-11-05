@@ -43,8 +43,6 @@ dionaea
 python-et_xmlfile
 python-exiv2
 python-exrex
-python-extractcode-7z
-python-extractcode-libarchive
 python-extras
 python-gast
 python-giacpy
@@ -107,7 +105,7 @@ python-time-machine
 python-tornado
 trademgen
 python-triton
-python-typecode-libmagic
+python-typing-validation
 python-ukkonen
 uwsgi
 vapoursynth
