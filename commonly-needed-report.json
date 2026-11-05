@@ -780,6 +780,16 @@
     },
     {
       "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-toolz"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "breezy",
         "python-dulwich"
       ],
@@ -796,16 +806,6 @@
       "components": [
         "python-pyramid",
         "python-zope-deprecation"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-cytoolz",
-        "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core",
-        "python-toolz"
       ],
       "count": 4
     },
@@ -828,16 +828,16 @@
   "dependency_loops": [
     [
       "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
       "python-scrapy",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
       "python-itemloaders",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
       "python-itemadapter"
     ]
   ]

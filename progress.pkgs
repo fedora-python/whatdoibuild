@@ -12,7 +12,6 @@ getdp
 glade
 gns3-gui
 gnumeric
-ipsilon
 kdevelop-python
 kvirc
 lammps
@@ -29,7 +28,6 @@ python-astroid
 python-asyncssh
 python-autodocsumm
 python-backrefs
-python-beaker
 python-beartype
 python-behave
 bmap-tools
@@ -46,13 +44,12 @@ python-deepl
 python-demjson
 dftd4
 dionaea
-python-django-configurations
+python-django-cacheops
 python-et_xmlfile
 python-exiv2
 python-exrex
 python-extras
 python-fakeredis
-python-flask-openid
 python-gast
 python-giacpy
 gpsd
@@ -78,7 +75,6 @@ opentrep
 openvino
 python-parsel
 python-parso
-python-paste-script
 python-persist-queue
 python-precis_i18n
 python-py-walk
