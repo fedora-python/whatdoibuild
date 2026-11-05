@@ -12,7 +12,6 @@ getdp
 glade
 gns3-gui
 gnumeric
-kdevelop-python
 kvirc
 lammps
 mock
@@ -21,7 +20,6 @@ nordugrid-arc
 obs-studio
 pyotherside
 python-aiohappyeyeballs
-python-aiostream
 python-aiounittest
 antlr4-project
 python-astroid
@@ -51,7 +49,6 @@ python-exrex
 python-extras
 python-fakeredis
 python-gast
-python-giacpy
 gpsd
 python-gpxpy
 python-html5-parser
@@ -62,13 +59,11 @@ python-kajiki
 koan
 libpst
 python-lmdb
-lttng-tools
 python-mirrors-countme
 mod_wsgi
 python-multiprocess
 python-nest-asyncio
 net-snmp
-notmuch
 onnx
 onnxruntime
 opentrep

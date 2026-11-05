@@ -535,20 +535,20 @@
       ]
     },
     {
+      "component": "python-twisted",
+      "count": 17,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
       "component": "python-furo",
       "count": 16,
       "blocked_by": [
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
         "python-sphinx-tabs"
-      ]
-    },
-    {
-      "component": "python-twisted",
-      "count": 16,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -828,16 +828,16 @@
   "dependency_loops": [
     [
       "python-itemadapter",
+      "python-itemloaders",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
       "python-scrapy",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
-      "python-itemloaders",
       "python-itemadapter"
     ]
   ]
