@@ -3324,6 +3324,25 @@
           "python3dist(setuptools) >= 40.8"
         ]
       }
+    ],
+    "python-mako": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-mako::bootstrap:::",
+        "srpm_filename": "python-mako-1.4.1-4.fc46~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3dist(markupsafe) >= 2",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77"
+        ]
+      }
     ]
   }
 }

@@ -585,3 +585,6 @@ replacements = {with_doc = "0"}
 
 [[bconds.python-pcodedmp]]
 withs = ["bootstrap"]
+
+[[bconds.python-mako]]
+withs = ["bootstrap"]
