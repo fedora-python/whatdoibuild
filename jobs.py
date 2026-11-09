@@ -66,6 +66,7 @@ class RebuildContext:
     missing_packages: dict = field(default_factory=lambda: collections.defaultdict(set))
     unresolvable_components: set = field(default_factory=set)
     prerel_abi_blocked_components: set = field(default_factory=set)
+    component_availability: dict = field(default_factory=dict)
 
 
 def _query_packages_by_deps(sack_getter, deps, excluded_components):
@@ -208,7 +209,15 @@ def _update_blocker_statistics(blocking_components, blocker_counter, loop_detect
         blocker_counter['single'][next(iter(blocking_components))] += 1
     elif 1 < len(blocking_components) < 10:  # this is an arbitrarily chosen number to avoid cruft
         blocker_counter['combinations'][tuple(sorted(blocking_components))] += 1
-    loop_detector[component] = sorted(blocking_components)
+    known_blocking_components = set(loop_detector.get(component, []))
+    if not known_blocking_components:
+        loop_detector[component] = sorted(blocking_components)
+    else:
+        if blocking_components <= known_blocking_components:
+            pass
+        else:
+            # can this ever happen?
+            loop_detector[component] = sorted(known_blocking_components | blocking_components)
 
 
 def are_all_done(component, packages_to_check, ctx):
@@ -488,31 +497,45 @@ def check_bcond_build(component, bcond_config, number_of_resolved, ctx):
     return ready_to_rebuild
 
 
+def extract_bcond_identifier(s):
+    non_empty_parts = [p for p in s.split(':') if p]
+    return non_empty_parts[1] if len(non_empty_parts) >= 2 else None
+
+
 def check_bcond_builds(component, number_of_resolved, ctx):
     """
     Check all bcond builds for a component that isn't ready for regular build.
-    
+
     Args:
         component: Name of the component to check
         number_of_resolved: Number of packages in regular build (for comparison)
         ctx: RebuildContext with shared data and state
-    
+
     Prints any bcond build identifiers that are ready to rebuild.
+
+    Returns:
+        tuple: (buildable_bconds, non_buildable_bconds)
     """
     from bconds import bcond_cache_identifier
-    
-    if component not in CONFIG['bconds']:
-        return
-    
-    for bcond_config in CONFIG['bconds'][component]:
-        bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
-        log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
-        
-        ready_to_rebuild = check_bcond_build(component, bcond_config, number_of_resolved, ctx)
-        
-        if ready_to_rebuild:
-            if should_print_component(component, ctx.components_done):
-                print(bcond_config['id'])
+
+    buildable_bconds = []
+    non_buildable_bconds = []
+
+    if component in CONFIG['bconds']:
+        for bcond_config in CONFIG['bconds'][component]:
+            bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
+            log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
+
+            ready_to_rebuild = check_bcond_build(component, bcond_config, number_of_resolved, ctx)
+
+            if ready_to_rebuild:
+                if should_print_component(component, ctx.components_done):
+                    print(bcond_config['id'])
+                buildable_bconds.append(extract_bcond_identifier(bcond_config['id']))
+            else:
+                non_buildable_bconds.append(extract_bcond_identifier(bcond_config['id']))
+
+    return sorted(buildable_bconds), sorted(non_buildable_bconds)
 
 
 def should_print_component(component, components_done):
@@ -528,20 +551,30 @@ def should_print_component(component, components_done):
 def process_component(component, ctx):
     """
     Process a single component: check regular build and bcond builds if needed.
-    
+    Stores availability data in ctx.component_availability.
+
     Args:
         component: Name of the component to process
         ctx: RebuildContext with shared data and state
-    
+
     Prints the component or bcond identifier if ready to rebuild.
     """
     ready_to_rebuild, number_of_resolved = check_regular_build(component, ctx)
-    
+    availability = {
+        'can_build_regular': ready_to_rebuild,
+        'buildable_bconds': [],
+        'non_buildable_bconds': [],
+    }
+
     if ready_to_rebuild:
         if should_print_component(component, ctx.components_done):
             print(component)
     else:
-        check_bcond_builds(component, number_of_resolved, ctx)
+        buildable_bconds, non_buildable_bconds = check_bcond_builds(component, number_of_resolved, ctx)
+        availability['buildable_bconds'] = buildable_bconds
+        availability['non_buildable_bconds'] = non_buildable_bconds
+
+    ctx.component_availability[component] = availability
 
 
 def assemble_component_info(component, count, ctx):
@@ -598,7 +631,6 @@ def generate_reports(ctx):
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
     for components_tuple, count in ctx.blocker_counter['combinations'].most_common(20):
         log(f'{count:>5} {", ".join(components_tuple)}')
-
         report_data['most_commonly_last_blocking_combinations'].append({
             'components': list(components_tuple),
             'count': count
@@ -610,6 +642,35 @@ def generate_reports(ctx):
     with open('commonly-needed-report.json', 'w') as f:
         json.dump(report_data, f, indent=2)
     log('\nReport saved to commonly-needed-report.json')
+
+
+def generate_component_availability_report(ctx):
+    """
+    Generate and save full component availability report.
+    Creates component-availability-report.json with per-component data.
+
+    Args:
+        ctx: RebuildContext with component availability data
+    """
+
+    report_data = {}
+    for component in ctx.components:
+        availability = ctx.component_availability.get(component, {})
+
+        report_data[component] = {
+            'was_already_built': component in ctx.components_done,
+            'is_resolvable': component not in ctx.unresolvable_components,
+            'prerel_abi_compatible': component not in ctx.prerel_abi_blocked_components,
+            'can_build_regular': availability.get('can_build_regular', False),
+            'buildable_bconds': availability.get('buildable_bconds'),
+            'non_buildable_bconds': availability.get('non_buildable_bconds'),
+            'blocked_by': sorted(ctx.loop_detector.get(component, [])),
+            'blocks_count': ctx.blocker_counter['general'].get(component, 0)
+        }
+
+    with open('component-availability-report.json', 'w') as f:
+        json.dump(report_data, f, indent=2, sort_keys=True)
+    log('Full component availability report saved to component-availability-report.json')
 
 
 def main():
@@ -640,8 +701,9 @@ def main():
     
     for component in components_to_process:
         process_component(component, ctx)
-    
+
     generate_reports(ctx)
+    generate_component_availability_report(ctx)
 
 
 if __name__ == '__main__':
