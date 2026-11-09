@@ -19,7 +19,6 @@ monkeytype
 nordugrid-arc
 obs-studio
 pyotherside
-python-aiohappyeyeballs
 python-aiounittest
 antlr4-project
 python-astroid
@@ -114,6 +113,7 @@ xapps
 python-xeddsa
 python-xmlschema
 python-yapf
+raysession
 rb_libtorrent
 remmina
 retext
