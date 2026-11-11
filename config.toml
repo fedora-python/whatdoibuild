@@ -84,7 +84,7 @@ metadata_expire = 60
 
 # comment this section out to stop checking for prerel-abi
 [prerel]
-current_version = "3.16.0~alpha1"
+current_version = "3.16.0~alpha2"
 
 [bconds]
 [[bconds.python-setuptools]]
