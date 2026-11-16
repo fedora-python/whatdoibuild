@@ -25,7 +25,6 @@ bmap-tools
 python-boltons
 python-botocore
 python-cffi
-python-chameleon
 python-circuitbreaker
 llvm21
 llvm22
@@ -45,7 +44,6 @@ python-gpxpy
 python-html5-parser
 python-indexed_gzip
 python-inquirer
-python-isort
 jc
 python-kajiki
 kf6-kjobwidgets
