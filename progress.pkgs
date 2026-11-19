@@ -44,7 +44,6 @@ python-et_xmlfile
 python-exiv2
 python-exrex
 python-extras
-python-filecheck
 python-formerly
 python-gast
 python-gpxpy
@@ -106,7 +105,6 @@ python-svgwrite
 python-time-machine
 python-tornado
 trademgen
-python-traitsui
 python-triton
 python-ukkonen
 uwsgi
