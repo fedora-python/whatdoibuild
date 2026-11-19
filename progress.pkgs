@@ -1,7 +1,6 @@
 awscli2
 btrfs-backup-ng
 cantor
-llvm
 collectd
 criu
 cutter-re
@@ -16,7 +15,6 @@ monkeytype
 nordugrid-arc
 obs-studio
 pyotherside
-python-aioquic
 python-aiounittest
 akonadi-calendar
 akonadi-server
@@ -46,6 +44,8 @@ python-et_xmlfile
 python-exiv2
 python-exrex
 python-extras
+python-filecheck
+python-formerly
 python-gast
 python-gpxpy
 python-html5-parser
@@ -67,15 +67,13 @@ python-msgspec
 python-multiprocess
 python-nest-asyncio
 notmuch
-python-omemo-dr
 onnxruntime
 opentrep
 openvino
-openvswitch
 python-parsel
 python-parso
 python-persist-queue
-python-pillow
+python-pikepdf
 python-precis_i18n
 python-py-walk
 pygame
@@ -91,6 +89,7 @@ python-pytools
 python-pyvlx
 python-qcustomplot-pyqt
 python-recommonmark
+python-reportlab
 python-requests-download
 python-rfc3339-validator
 rmol
@@ -106,8 +105,8 @@ python-stdlibs
 python-svgwrite
 python-time-machine
 python-tornado
-python-tpm2-pytss
 trademgen
+python-traitsui
 python-triton
 python-ukkonen
 uwsgi
@@ -119,4 +118,5 @@ python-yapf
 rb_libtorrent
 remmina
 rpmlint
+scribus
 systemtap
