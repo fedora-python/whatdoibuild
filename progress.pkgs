@@ -5,7 +5,6 @@ collectd
 criu
 cutter-re
 quodlibet
-ganglia
 getdp
 glade
 gnumeric
@@ -20,9 +19,7 @@ akonadi-calendar
 akonadi-server
 antlr4-project
 python-astroid
-python-asyncpg
 python-asyncssh
-python-autodocsumm
 python-backrefs
 python-beartype
 python-behave
@@ -52,8 +49,6 @@ python-indexed_gzip
 python-inquirer
 jc
 python-kajiki
-kf6-kjobwidgets
-kf6-kxmlgui
 koan
 lasso
 libloc
@@ -63,16 +58,15 @@ python-lupa
 python-mirrors-countme
 mod_wsgi
 python-msgspec
-python-multiprocess
 python-nest-asyncio
 notmuch
+python-odfdo
 onnxruntime
 opentrep
 openvino
 python-parsel
 python-parso
 python-persist-queue
-python-pikepdf
 python-precis_i18n
 python-py-walk
 pygame
@@ -93,11 +87,9 @@ python-requests-download
 python-rfc3339-validator
 rmol
 root
-python-rstr
 python-scour
 python-sentry-sdk
 python-serpent
-python-simpleeval
 python-socksio
 python-sphinxygen
 python-stdlibs
@@ -113,7 +105,6 @@ xapps
 python-xeddsa
 python-xmlschema
 python-yapf
-rb_libtorrent
 remmina
 rpmlint
 scribus
