@@ -13,7 +13,6 @@ glade
 gnumeric
 httpie
 kicad
-krita
 lammps
 libarrow
 mlpack
@@ -42,7 +41,6 @@ llvm21
 llvm22
 cmake
 python-construct-classes
-python-croniter
 python-deepl
 python-demjson
 dftd4
@@ -135,6 +133,5 @@ remmina
 rpm-head-signing
 rpmlint
 scribus
-setzer
 systemtap
 tito

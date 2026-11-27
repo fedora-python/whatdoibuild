@@ -817,16 +817,16 @@
   "dependency_loops": [
     [
       "python-itemadapter",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
       "python-itemloaders",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
       "python-scrapy",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
       "python-itemadapter"
     ]
   ]
